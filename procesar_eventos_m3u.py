@@ -11,46 +11,6 @@ M3U_URL = "https://superflash.ovh:8080/get.php?username=Bzcarlosdelap160323&pass
 OUTPUT_JSON = "agenda.json"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"
 
-# Clase para diccionarios insensibles a mayúsculas y acentos
-class CaseInsensitiveDict(dict):
-    def __init__(self, data=None, **kwargs):
-        super().__init__()
-        if data:
-            self.update(data)
-        if kwargs:
-            self.update(kwargs)
-
-    def _normalize(self, key):
-        if not isinstance(key, str):
-            return key
-        texto = unicodedata.normalize('NFD', key)
-        texto = texto.encode('ascii', 'ignore').decode('utf-8')
-        return texto.strip().lower()
-
-    def __setitem__(self, key, value):
-        super().__setitem__(self._normalize(key), value)
-
-    def __getitem__(self, key):
-        return super().__getitem__(self._normalize(key))
-
-    def __contains__(self, key):
-        return super().__contains__(self._normalize(key))
-
-    def get(self, key, default=None):
-        return super().get(self._normalize(key), default)
-        
-    def update(self, E=None, **F):
-        if E is not None:
-            if hasattr(E, 'keys'):
-                for k in E:
-                    super().__setitem__(self._normalize(k), E[k])
-            else:
-                for k, v in E:
-                    super().__setitem__(self._normalize(k), v)
-            for k in F:
-                super().__setitem__(self._normalize(k), F[k])
-
-# Mapeo actualizado basado en las categorías reales de tu M3U (vistas en la imagen)
 MAPEO_DEPORTES = {
     "futbol": {"id": "football", "name": "Football", "icon": "⚽"},
     "fútbol": {"id": "football", "name": "Football", "icon": "⚽"},
@@ -71,23 +31,32 @@ def clasificar_deporte(group_title):
     for key, val in MAPEO_DEPORTES.items():
         if key in gt_lower:
             return val
-    # Por defecto a Football si no coincide con ninguno
     return {"id": "football", "name": "Football", "icon": "⚽"}
 
 def generar_agenda_m3u():
     print(f"Descargando lista M3U desde Xtream Codes...")
+    
+    # Cabeceras para evitar bloqueos por parte del panel IPTV
+    headers = {
+        "User-Agent": "VLC/3.0.16 LibVLC/3.0.16"
+    }
+    
     try:
-        response = requests.get(M3U_URL, timeout=25)
+        response = requests.get(M3U_URL, headers=headers, timeout=30)
+        print(f"Status Code recibido: {response.status_code}")
+        
         if response.status_code != 200:
-            print(f"Error al descargar la lista M3U: Status {response.status_code}")
+            print(f"Error: El servidor respondió con el código {response.status_code}")
             return
         
         content = response.text
         lines = content.split("\n")
+        print(f"Líneas descargadas del M3U: {len(lines)}")
         
         sports_map = {}
         current_extinf = None
         order_counter = 1
+        canales_procesados = 0
 
         for line in lines:
             line_str = line.strip()
@@ -99,20 +68,20 @@ def generar_agenda_m3u():
                 
                 # Filtrar VOD, películas y series
                 if not any(k in upper_extinf for k in ['VOD', 'PELICULA', 'SERIE', 'MOVIE']):
+                    canales_procesados += 1
                     
-                    # Extraer group-title (Categoría de la M3U)
+                    # Extraer group-title
                     group_match = re.search(r'group-title="([^"]*)"', current_extinf)
                     group_title = group_match.group(1) if group_match else "General"
                     
-                    # Extraer logo del canal (tvg-logo)
+                    # Extraer logo
                     logo_match = re.search(r'tvg-logo="([^"]*)"', current_extinf)
                     channel_logo = logo_match.group(1) if logo_match else ""
 
-                    # Extraer nombre del canal / evento
+                    # Extraer nombre del canal
                     parts = current_extinf.split(',')
                     channel_name = parts[-1].strip() if len(parts) > 1 else "Evento"
 
-                    # Separar equipos si el nombre contiene " vs "
                     home_team, away_team = channel_name, ""
                     image_mode = "banner"
                     if " vs " in channel_name.lower():
@@ -122,7 +91,6 @@ def generar_agenda_m3u():
                             away_team = teams[1].strip()
                             image_mode = "teams"
 
-                    # Determinar deporte y liga basándose en tu M3U
                     info_deporte = clasificar_deporte(group_title)
                     sport_id = info_deporte["id"]
                     sport_name = info_deporte["name"]
@@ -198,6 +166,8 @@ def generar_agenda_m3u():
 
                 current_extinf = None
 
+        print(f"Total de canales en vivo procesados: {canales_procesados}")
+
         final_sports_list = []
         for sport_id, sport_data in sports_map.items():
             leagues_list = list(sport_data["leagues_dict"].values())
@@ -216,10 +186,10 @@ def generar_agenda_m3u():
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
             json.dump(output_data, f, ensure_ascii=False, indent=4)
 
-        print(f"¡Archivo {OUTPUT_JSON} generado correctamente capturando tus categorías M3U!")
+        print(f"¡Archivo {OUTPUT_JSON} creado y guardado exitosamente!")
 
     except Exception as e:
-        print(f"Error procesando la lista M3U: {e}")
+        print(f"Excepción crítica procesando la lista M3U: {e}")
 
 if __name__ == "__main__":
     generar_agenda_m3u()
