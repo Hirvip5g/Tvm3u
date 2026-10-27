@@ -1,7 +1,6 @@
 import os
 import json
 import re
-import urllib.parse
 import requests
 import unicodedata
 from datetime import datetime
@@ -10,6 +9,13 @@ from datetime import datetime
 M3U_URL = "http://superflash.ovh:8080/get.php?username=Bzcarlosdelap160323&password=zN9Kn8FM9zHH&type=m3u_plus"
 OUTPUT_JSON = "agenda.json"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"
+
+# Palabras clave permitidas: Solo procesará grupos/categorías que contengan estos términos
+CATEGORIAS_PERMITIDAS = [
+    "evento", "agenda", "fútbol", "futbol", "nba", "mlb", "nhl", "nfl", 
+    "baloncesto", "fiba", "tennis", "tenis", "golf", "deportes", 
+    "espn", "directv", "fox sports", "ufc", "combate"
+]
 
 MAPEO_DEPORTES = {
     "futbol": {"id": "football", "name": "Football", "icon": "⚽"},
@@ -26,6 +32,10 @@ MAPEO_DEPORTES = {
     "f1": {"id": "motor", "name": "Motor", "icon": "🏎️"}
 }
 
+def es_categoria_deportiva(group_title):
+    gt_lower = group_title.lower()
+    return any(keyword in gt_lower for keyword in CATEGORIAS_PERMITIDAS)
+
 def clasificar_deporte(group_title):
     gt_lower = group_title.lower()
     for key, val in MAPEO_DEPORTES.items():
@@ -34,15 +44,14 @@ def clasificar_deporte(group_title):
     return {"id": "football", "name": "Football", "icon": "⚽"}
 
 def generar_agenda_m3u():
-    print(f"Descargando lista M3U desde Xtream Codes...")
+    print(f"Descargando lista M3U mediante HTTP...")
     
-    # Cabeceras para evitar bloqueos por parte del panel IPTV
     headers = {
         "User-Agent": "VLC/3.0.16 LibVLC/3.0.16"
     }
     
     try:
-        response = requests.get(M3U_URL, headers=headers, timeout=30)
+        response = requests.get(M3U_URL, headers=headers, timeout=40)
         print(f"Status Code recibido: {response.status_code}")
         
         if response.status_code != 200:
@@ -51,7 +60,7 @@ def generar_agenda_m3u():
         
         content = response.text
         lines = content.split("\n")
-        print(f"Líneas descargadas del M3U: {len(lines)}")
+        print(f"Líneas totales leídas del M3U: {len(lines)}")
         
         sports_map = {}
         current_extinf = None
@@ -60,25 +69,30 @@ def generar_agenda_m3u():
 
         for line in lines:
             line_str = line.strip()
+            if not line_str:
+                continue
+            
             if line_str.startswith("#EXTINF:"):
                 current_extinf = line_str
-            elif current_extinf and line_str and not line_str.startswith("#"):
+            elif line_str.startswith("#"):
+                continue
+            elif current_extinf:
                 stream_url = line_str
                 upper_extinf = current_extinf.upper()
                 
-                # Filtrar VOD, películas y series
-                if not any(k in upper_extinf for k in ['VOD', 'PELICULA', 'SERIE', 'MOVIE']):
+                # Extraer group-title
+                group_match = re.search(r'group-title="([^"]*)"', current_extinf)
+                group_title = group_match.group(1) if group_match else "General"
+                
+                # FILTRAR: Solo procesar si es VOD/películas/series SE DESCARTA, y si el grupo es de deportes/eventos
+                es_vod = any(k in upper_extinf for k in ['VOD', 'PELICULA', 'SERIE', 'MOVIE'])
+                
+                if not es_vod and es_categoria_deportiva(group_title):
                     canales_procesados += 1
                     
-                    # Extraer group-title
-                    group_match = re.search(r'group-title="([^"]*)"', current_extinf)
-                    group_title = group_match.group(1) if group_match else "General"
-                    
-                    # Extraer logo
                     logo_match = re.search(r'tvg-logo="([^"]*)"', current_extinf)
                     channel_logo = logo_match.group(1) if logo_match else ""
 
-                    # Extraer nombre del canal
                     parts = current_extinf.split(',')
                     channel_name = parts[-1].strip() if len(parts) > 1 else "Evento"
 
@@ -163,10 +177,10 @@ def generar_agenda_m3u():
 
                     sports_map[sport_id]["leagues_dict"][league_id]["events"].append(event_obj)
                     order_counter += 1
-
+                
                 current_extinf = None
 
-        print(f"Total de canales en vivo procesados: {canales_procesados}")
+        print(f"Total de canales deportivos/eventos procesados: {canales_procesados}")
 
         final_sports_list = []
         for sport_id, sport_data in sports_map.items():
@@ -186,7 +200,7 @@ def generar_agenda_m3u():
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
             json.dump(output_data, f, ensure_ascii=False, indent=4)
 
-        print(f"¡Archivo {OUTPUT_JSON} creado y guardado exitosamente!")
+        print(f"¡Archivo {OUTPUT_JSON} optimizado y guardado con éxito!")
 
     except Exception as e:
         print(f"Excepción crítica procesando la lista M3U: {e}")
