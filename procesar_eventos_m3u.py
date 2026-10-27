@@ -10,7 +10,7 @@ M3U_URL = "http://superflash.ovh:8080/get.php?username=Bzcarlosdelap160323&passw
 OUTPUT_JSON = "agenda.json"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"
 
-# Palabras clave permitidas: Solo procesará grupos/categorías que contengan estos términos
+# Palabras clave permitidas para filtrar solo deportes y eventos
 CATEGORIAS_PERMITIDAS = [
     "evento", "agenda", "fútbol", "futbol", "nba", "mlb", "nhl", "nfl", 
     "baloncesto", "fiba", "tennis", "tenis", "golf", "deportes", 
@@ -42,6 +42,20 @@ def clasificar_deporte(group_title):
         if key in gt_lower:
             return val
     return {"id": "football", "name": "Football", "icon": "⚽"}
+
+def transformar_a_m3u8(url):
+    """Fuerza o adapta el enlace para que utilice m3u8 si viene en formato ts u otro compatible"""
+    if not url:
+        return url
+    
+    # Si termina en .ts, lo reemplazamos por .m3u8 o adaptamos la estructura de Xtream si aplica
+    if url.endswith(".ts"):
+        url = url[:-3] + ".m3u8"
+    elif "/live/" in url and not url.endswith((".m3u8", ".mpd")):
+        # Si es un enlace de live de Xtream que no especifica extensión, se puede asegurar el formato m3u8
+        pass
+        
+    return url
 
 def generar_agenda_m3u():
     print(f"Descargando lista M3U mediante HTTP...")
@@ -77,14 +91,12 @@ def generar_agenda_m3u():
             elif line_str.startswith("#"):
                 continue
             elif current_extinf:
-                stream_url = line_str
+                stream_url = transformar_a_m3u8(line_str)
                 upper_extinf = current_extinf.upper()
                 
-                # Extraer group-title
                 group_match = re.search(r'group-title="([^"]*)"', current_extinf)
                 group_title = group_match.group(1) if group_match else "General"
                 
-                # FILTRAR: Solo procesar si es VOD/películas/series SE DESCARTA, y si el grupo es de deportes/eventos
                 es_vod = any(k in upper_extinf for k in ['VOD', 'PELICULA', 'SERIE', 'MOVIE'])
                 
                 if not es_vod and es_categoria_deportiva(group_title):
@@ -155,7 +167,7 @@ def generar_agenda_m3u():
                             {
                                 "name": channel_name,
                                 "url": stream_url,
-                                "type": "m3u8" if ".m3u8" in stream_url else "clearkey",
+                                "type": "m3u8",
                                 "quality": "",
                                 "active": True,
                                 "languages": [],
@@ -180,7 +192,7 @@ def generar_agenda_m3u():
                 
                 current_extinf = None
 
-        print(f"Total de canales deportivos/eventos procesados: {canales_procesados}")
+        print(f"Total de canales deportivos procesados con formato m3u8: {canales_procesados}")
 
         final_sports_list = []
         for sport_id, sport_data in sports_map.items():
@@ -200,7 +212,7 @@ def generar_agenda_m3u():
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
             json.dump(output_data, f, ensure_ascii=False, indent=4)
 
-        print(f"¡Archivo {OUTPUT_JSON} optimizado y guardado con éxito!")
+        print(f"¡Archivo {OUTPUT_JSON} optimizado correctamente!")
 
     except Exception as e:
         print(f"Excepción crítica procesando la lista M3U: {e}")
