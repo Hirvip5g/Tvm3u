@@ -7,7 +7,7 @@ import unicodedata
 from datetime import datetime
 
 # Configuración de URLs y archivos
-M3U_URL = "https://superflash.ovh:8080/get.php?username=Bzcarlosdelap160323&password=zN9Kn8FM9zHH&type=m3u_plus"
+M3U_URL = "http://superflash.ovh:8080/get.php?username=Bzcarlosdelap160323&password=zN9Kn8FM9zHH&type=m3u_plus"
 OUTPUT_JSON = "agenda.json"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"
 
