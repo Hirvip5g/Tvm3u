@@ -1,0 +1,75 @@
+name: Auto Update Sports Playlist
+
+on:
+  schedule:
+    # Ejecutar cada 30 minutos
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Permitir ejecución manual
+  push:
+    branches: [ main ]
+    paths: 
+      - 'pelota_builder.py'
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install Chrome and ChromeDriver
+      run: |
+        # Install Chrome (modern signing; apt-key removed from Ubuntu runners)
+        sudo apt-get update
+        sudo apt-get install -y wget gnupg xvfb
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/googlechrome-linux-keyring.gpg
+        echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        google-chrome --version
+        
+    - name: Install Python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install requests beautifulsoup4 GitPython selenium-wire==5.1.0 blinker==1.7.0 webdriver-manager cryptography==41.0.7 pyOpenSSL==23.2.0
+        
+    - name: Configure git
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        
+    - name: Run playlist updater
+      env:
+        DISPLAY: :99
+      run: |
+        # Start virtual display
+        export DISPLAY=:99
+        Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+        sleep 3
+        
+        # Install ChromeDriver using webdriver-manager and put it on PATH
+        python3 -c "import shutil; from webdriver_manager.chrome import ChromeDriverManager; p=ChromeDriverManager().install(); shutil.copy(p, '/usr/local/bin/chromedriver'); print('chromedriver at', p)"
+        sudo chmod +x /usr/local/bin/chromedriver
+        
+        # Run the script
+        python3 pelota_builder.py
+        
+    - name: Commit and push changes
+      run: |
+        git add eventos.m3u playlist.m3u sources.json
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "AutoScraper update playlist - $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
+          git push
+        fi
