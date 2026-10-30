@@ -5,6 +5,9 @@ on:
     - cron: '0 */4 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write  # <--- IMPORTANTE: Con esto le das permiso de escritura al workflow
+
 jobs:
   build:
     runs-on: ubuntu-latest
