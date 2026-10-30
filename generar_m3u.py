@@ -8,7 +8,7 @@ URL_EVENTOS = "https://streamxhd.sbs/eventos.json"
 URL_CANALES = "https://streamxhd.sbs/canales/canales.json"
 
 # Tu URL base del proxy (cuando lo subas a Render o Railway)
-BASE_URL = "https://tu-app.onrender.com/stream.php?stream="
+BASE_URL = "http://hirviptv.hirvip-5g.store/stream.php?stream="
 URL_PARAMS = "&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8"
 
 
