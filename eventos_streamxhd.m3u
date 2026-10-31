@@ -19,85 +19,127 @@ http://hirviptv.hirvip-5g.store/stream2.php?stream=nba7&key=FUERZA.SV&secreto=XT
 http://hirviptv.hirvip-5g.store/stream2.php?stream=nba8&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/phx.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/den.png" group-title="Agenda Deportiva",Phoenix Suns vs Denver Nuggets [05:00] - NBA League Pass
 http://hirviptv.hirvip-5g.store/stream2.php?stream=nba9&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/874.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9169.png" group-title="Agenda Deportiva",Corinthians vs Mirassol [05:00] - L1 MAX
-http://hirviptv.hirvip-5g.store/stream2.php?stream=l1max&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/874.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9169.png" group-title="Agenda Deportiva",Corinthians vs Mirassol [05:00] - SporTV 1
-http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/874.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9169.png" group-title="Agenda Deportiva",Corinthians vs Mirassol [05:00] - Premiere 1
-http://hirviptv.hirvip-5g.store/stream2.php?stream=premiere1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/5486.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10309.png" group-title="Agenda Deportiva",Deportivo Pereira vs Jaguares de Córdoba [05:00] - Win Sports +
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/uta.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/por.png" group-title="Agenda Deportiva",Utah Jazz vs Portland Trail Blazers [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/cha.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/phi.png" group-title="Agenda Deportiva",Charlotte Hornets vs Philadelphia 76ers [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/no.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/atl.png" group-title="Agenda Deportiva",New Orleans Pelicans vs Atlanta Hawks [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/sa.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/min.png" group-title="Agenda Deportiva",San Antonio Spurs vs Minnesota Timberwolves [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney6&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/sa.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/min.png" group-title="Agenda Deportiva",San Antonio Spurs vs Minnesota Timberwolves [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/mil.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/cle.png" group-title="Agenda Deportiva",Milwaukee Bucks vs Cleveland Cavaliers [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/mem.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/sac.png" group-title="Agenda Deportiva",Memphis Grizzlies vs Sacramento Kings [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba6&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/hou.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/okc.png" group-title="Agenda Deportiva",Houston Rockets vs Oklahoma City Thunder [05:00] - NBA League Pass
+http://hirviptv.hirvip-5g.store/stream2.php?stream=nba7&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3456.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/3457.png" group-title="Agenda Deportiva",Coritiba vs Vitória [05:00] - Win Sports +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=winplus&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/5486.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10309.png" group-title="Agenda Deportiva",Deportivo Pereira vs Jaguares de Córdoba [05:00] - Win Sports
-http://hirviptv.hirvip-5g.store/stream2.php?stream=winsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3456.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/3457.png" group-title="Agenda Deportiva",Coritiba vs Vitória [05:00] - Premiere 1
+http://hirviptv.hirvip-5g.store/stream2.php?stream=premiere1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/6137.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/5485.png" group-title="Agenda Deportiva",Atlético Bucaramanga vs Deportivo Pasto [05:00] - Win Sports +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=winplus&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/6137.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/5485.png" group-title="Agenda Deportiva",Atlético Bucaramanga vs Deportivo Pasto [05:00] - Win Sports
 http://hirviptv.hirvip-5g.store/stream2.php?stream=winsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/8931.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10124.png" group-title="Agenda Deportiva",Correcaminos UAT vs Venados [05:00] - Disney +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=disney16&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/21833.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2276.png" group-title="Agenda Deportiva",Abha vs Al Ittihad [05:00] - Fox Deportes USA
-http://hirviptv.hirvip-5g.store/stream2.php?stream=fox_deportes_usa&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/21833.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2276.png" group-title="Agenda Deportiva",Abha vs Al Ittihad [05:00] - SporTV 3
-http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/793.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/8346.png" group-title="Agenda Deportiva",Al Shabab vs Al-Ahli [05:00] - M Liga Campeones
-http://hirviptv.hirvip-5g.store/stream2.php?stream=mligacampeones&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/7648.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/432.png" group-title="Agenda Deportiva",Konyaspor vs Galatasaray [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/123.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/121.png" group-title="Agenda Deportiva",Energie Cottbus vs Bochum [05:00] - FOX Sports 3 AR
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/929.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/13033.png" group-title="Agenda Deportiva",Al Hilal vs Al Fateh [05:00] - Eventos 1
+http://hirviptv.hirvip-5g.store/stream2.php?stream=evento1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/789.png" group-title="Agenda Deportiva",Fenerbahçe vs Göztepe [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney18&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/436.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/789.png" group-title="Agenda Deportiva",Fenerbahçe vs Göztepe [05:00] - FOX Sports 3 AR
 http://hirviptv.hirvip-5g.store/stream2.php?stream=fox3ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3236.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" group-title="Agenda Deportiva",Le Havre vs PSG [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3236.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" group-title="Agenda Deportiva",Le Havre vs PSG [05:00] - ESPN 2
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espn2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3236.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/160.png" group-title="Agenda Deportiva",Le Havre vs PSG [05:00] - ESPN 2 AR
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espn2ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2502.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/169.png" group-title="Agenda Deportiva",Nice vs Rennes [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/166.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/175.png" group-title="Agenda Deportiva",Lille vs Lens [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney8&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/166.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/175.png" group-title="Agenda Deportiva",Lille vs Lens [05:00] - ESPN 2
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espn2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10388.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2950.png" group-title="Agenda Deportiva",Elversberg vs Mainz 05 [05:00] - Universo
-http://hirviptv.hirvip-5g.store/stream2.php?stream=universo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10388.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2950.png" group-title="Agenda Deportiva",Elversberg vs Mainz 05 [05:00] - Disney +
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/130.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/129.png" group-title="Agenda Deportiva",Kaiserslautern vs Hertha BSC [05:00] - FOX Sports 1 AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=fox1ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/4471.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/6418.png" group-title="Agenda Deportiva",Karlsruher SC vs Heidenheim [05:00] - FOX Sports 3 AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=fox3ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/170.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2697.png" group-title="Agenda Deportiva",Troyes vs Le Mans [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney29&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/137.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/7911.png" group-title="Agenda Deportiva",Werder Bremen vs Hoffenheim [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/133.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/11420.png" group-title="Agenda Deportiva",Schalke 04 vs RB Leipzig [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/268.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/3307.png" group-title="Agenda Deportiva",Borussia M'gladbach vs Paderborn [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney6&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/131.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/134.png" group-title="Agenda Deportiva",Bayer Leverkusen vs Stuttgart [05:00] - Disney +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=disney7&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10388.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2950.png" group-title="Agenda Deportiva",Elversberg vs Mainz 05 [05:00] - SporTV 3
-http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/17086.png" group-title="Agenda Deportiva",Manchester City vs Independiente del Valle [05:00] - ESPN 5
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/131.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/134.png" group-title="Agenda Deportiva",Bayer Leverkusen vs Stuttgart [05:00] - ESPN 5
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espn5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/20232.png" tvg-logo2="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/330px-FC_Internazionale_Milano_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="Agenda Deportiva",Inter Miami vs Inter [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney9&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/819.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" group-title="Agenda Deportiva",Flamengo vs Barcelona [05:00] - ESPN 5
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espn5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/131.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/134.png" group-title="Agenda Deportiva",Bayer Leverkusen vs Stuttgart [05:00] - Telemundo
+http://hirviptv.hirvip-5g.store/stream2.php?stream=telemundo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3841.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/126.png" group-title="Agenda Deportiva",Augsburg vs Freiburg [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney8&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" group-title="Agenda Deportiva",Bayern München vs Borussia Dortmund [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney21&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" group-title="Agenda Deportiva",Bayern München vs Borussia Dortmund [05:00] - ESPN
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" group-title="Agenda Deportiva",Bayern München vs Borussia Dortmund [05:00] - ESPN AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/132.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/124.png" group-title="Agenda Deportiva",Bayern München vs Borussia Dortmund [05:00] - Telemundo
+http://hirviptv.hirvip-5g.store/stream2.php?stream=telemundo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/1929.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/5.png" group-title="Agenda Deportiva",Benfica vs Boca Juniors [05:00] - Disney +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=disney13&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/102.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/88.png" group-title="Agenda Deportiva",Villarreal vs Espanyol [05:00] - DSports
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/1538.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" group-title="Agenda Deportiva",Levante vs Atlético Madrid [05:00] - DSports
 http://hirviptv.hirvip-5g.store/stream2.php?stream=dsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/102.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/88.png" group-title="Agenda Deportiva",Villarreal vs Espanyol [05:00] - ESPN +
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/1538.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" group-title="Agenda Deportiva",Levante vs Atlético Madrid [05:00] - ESPN +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espnplus1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/102.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/88.png" group-title="Agenda Deportiva",Villarreal vs Espanyol [05:00] - ESPN Deportes
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/1538.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/1068.png" group-title="Agenda Deportiva",Levante vs Atlético Madrid [05:00] - ESPN Deportes
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espndeportes&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/398.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/352.png" group-title="Agenda Deportiva",Sheffield United vs Wrexham [05:00] - FOX Sports 3 AR
-http://hirviptv.hirvip-5g.store/stream2.php?stream=fox3ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/21581.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2250.png" group-title="Agenda Deportiva",Casa Pia vs Sporting CP [05:00] - DSports 2
-http://hirviptv.hirvip-5g.store/stream2.php?stream=dsports2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/7767.png" group-title="Agenda Deportiva",Huracán vs Tigre [05:00] - ESPN Premium
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espnpremium&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/7767.png" group-title="Agenda Deportiva",Huracán vs Tigre [05:00] - ESPN AR
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/101.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/85.png" group-title="Agenda Deportiva",Rayo Vallecano vs Celta de Vigo [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney15&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/101.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/85.png" group-title="Agenda Deportiva",Rayo Vallecano vs Celta de Vigo [05:00] - ESPN 3
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/101.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/85.png" group-title="Agenda Deportiva",Rayo Vallecano vs Celta de Vigo [05:00] - ESPN +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnplus2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/101.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/85.png" group-title="Agenda Deportiva",Rayo Vallecano vs Celta de Vigo [05:00] - ESPN Deportes
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espndeportes&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/99.png" group-title="Agenda Deportiva",Real Betis vs Málaga [05:00] - DSports
+http://hirviptv.hirvip-5g.store/stream2.php?stream=dsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/99.png" group-title="Agenda Deportiva",Real Betis vs Málaga [05:00] - DAZN LaLiga
+http://hirviptv.hirvip-5g.store/stream2.php?stream=daznlaliga&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/99.png" group-title="Agenda Deportiva",Real Betis vs Málaga [05:00] - ESPN +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnplus3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/244.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/99.png" group-title="Agenda Deportiva",Real Betis vs Málaga [05:00] - ESPN Deportes
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espndeportes&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" group-title="Agenda Deportiva",Barcelona vs Deportivo Alavés [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" group-title="Agenda Deportiva",Barcelona vs Deportivo Alavés [05:00] - ESPN AR
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espnar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/19685.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9.png" group-title="Agenda Deportiva",Estudiantes Río Cuarto vs Gimnasia La Plata [05:00] - TNT Sports
-http://hirviptv.hirvip-5g.store/stream2.php?stream=tntsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" group-title="Agenda Deportiva",Barcelona vs Deportivo Alavés [05:00] - ESPN +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnplus4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" group-title="Agenda Deportiva",Barcelona vs Deportivo Alavés [05:00] - ESPN
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" group-title="Agenda Deportiva",Barcelona vs Deportivo Alavés [05:00] - ESPN Deportes
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espndeportes&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/96.png" group-title="Agenda Deportiva",Barcelona vs Deportivo Alavés [05:00] - M LaLiga
+http://hirviptv.hirvip-5g.store/stream2.php?stream=mlaliga&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/336.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/394.png" group-title="Agenda Deportiva",Stoke City vs Preston North End [05:00] - FOX Sports 3 AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=fox3ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/391.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/374.png" group-title="Agenda Deportiva",Millwall vs Derby County [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney14&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/437.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/12216.png" group-title="Agenda Deportiva",Porto vs Estoril [05:00] - DSports
+http://hirviptv.hirvip-5g.store/stream2.php?stream=dsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/15.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9739.png" group-title="Agenda Deportiva",Racing Club vs Aldosivi [05:00] - ESPN Premium
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espnpremium&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/15.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9739.png" group-title="Agenda Deportiva",Racing Club vs Aldosivi [05:00] - Disney +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=disney14&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/10158.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/17.png" group-title="Agenda Deportiva",Sarmiento vs Rosario Central [05:00] - TNT Sports
 http://hirviptv.hirvip-5g.store/stream2.php?stream=tntsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/8186.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10144.png" group-title="Agenda Deportiva",Coquimbo Unido vs Unión La Calera [05:00] - HBO Max 2
-http://hirviptv.hirvip-5g.store/stream2.php?stream=max2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/7385.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/6097.png" group-title="Agenda Deportiva",Guaraní vs 2 de Mayo [05:00] - Tigo Sports
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/17702.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/19.png" group-title="Agenda Deportiva",Deportivo Riestra vs Talleres Córdoba [05:00] - ESPN Premium
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnpremium&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/21.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/18.png" group-title="Agenda Deportiva",Vélez Sarsfield vs San Lorenzo [05:00] - TNT Sports
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tntsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/8.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2975.png" group-title="Agenda Deportiva",Estudiantes vs Instituto [05:00] - ESPN Premium
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnpremium&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/6072.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/7427.png" group-title="Agenda Deportiva",O'Higgins vs Ñublense [05:00] - TNT Sports Chile
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tntsportschile&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/22517.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/21313.png" group-title="Agenda Deportiva",Deportivo Recoleta vs Sportivo Ameliano [05:00] - Tigo Sports
 http://hirviptv.hirvip-5g.store/stream2.php?stream=tigo1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/7466.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10080.png" group-title="Agenda Deportiva",Sportivo Trinidense vs Rubio Ñú [05:00] - Tigo Sports 2
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/5583.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/5584.png" group-title="Agenda Deportiva",Sportivo Luqueño vs Nacional Asunción [05:00] - Tigo Sports
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tigo1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/17671.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2670.png" group-title="Agenda Deportiva",Sportivo San Lorenzo vs Libertad [05:00] - Tigo Sports 2
 http://hirviptv.hirvip-5g.store/stream2.php?stream=tigo2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/15720.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/216.png" group-title="Agenda Deportiva",Atlético San Luis vs Atlas [05:00] - Disney +
 http://hirviptv.hirvip-5g.store/stream2.php?stream=disney15&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
@@ -115,44 +157,176 @@ http://hirviptv.hirvip-5g.store/stream2.php?stream=disney17&key=FUERZA.SV&secret
 http://hirviptv.hirvip-5g.store/stream2.php?stream=tudn_usa&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/231.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/233.png" group-title="Agenda Deportiva",Puebla vs Pumas UNAM [05:00] - Azteca 7
 http://hirviptv.hirvip-5g.store/stream2.php?stream=azteca7&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - On Board Antonelli [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney6&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 2 [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney10&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 2 [05:00] - ESPN 2
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espn2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 2 [05:00] - FOX Sports 1 AR
-http://hirviptv.hirvip-5g.store/stream2.php?stream=fox1ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 2 [05:00] - DAZN F1
-http://hirviptv.hirvip-5g.store/stream2.php?stream=daznf1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 2 [05:00] - Canal 5 MX
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/234.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/232.png" group-title="Agenda Deportiva",Pachuca vs Tigres UANL [05:00] - FOX One
+http://hirviptv.hirvip-5g.store/stream2.php?stream=foxone&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/234.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/232.png" group-title="Agenda Deportiva",Pachuca vs Tigres UANL [05:00] - TUDN USA
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tudn_usa&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/220.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10125.png" group-title="Agenda Deportiva",Monterrey vs Tijuana [05:00] - TUDN MX
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tudnmx&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/220.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10125.png" group-title="Agenda Deportiva",Monterrey vs Tijuana [05:00] - Canal 5 MX
 http://hirviptv.hirvip-5g.store/stream2.php?stream=canal5mx&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 2 [05:00] - SporTV 3
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/220.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10125.png" group-title="Agenda Deportiva",Monterrey vs Tijuana [05:00] - TUDN USA
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tudn_usa&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/219.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/226.png" group-title="Agenda Deportiva",Guadalajara vs Atlante [05:00] - Telemundo
+http://hirviptv.hirvip-5g.store/stream2.php?stream=telemundo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/219.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/226.png" group-title="Agenda Deportiva",Guadalajara vs Atlante [05:00] - Universo
+http://hirviptv.hirvip-5g.store/stream2.php?stream=universo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/219.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/226.png" group-title="Agenda Deportiva",Guadalajara vs Atlante [05:00] - Prime Video
+http://hirviptv.hirvip-5g.store/stream2.php?stream=amazon1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/227.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/223.png" group-title="Agenda Deportiva",América vs Toluca [05:00] - TUDN MX
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tudnmx&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/227.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/223.png" group-title="Agenda Deportiva",América vs Toluca [05:00] - Canal 5 MX
+http://hirviptv.hirvip-5g.store/stream2.php?stream=canal5mx&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/227.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/223.png" group-title="Agenda Deportiva",América vs Toluca [05:00] - TUDN USA
+http://hirviptv.hirvip-5g.store/stream2.php?stream=tudn_usa&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" group-title="Agenda Deportiva",Chelsea vs Manchester United [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" group-title="Agenda Deportiva",Chelsea vs Manchester United [05:00] - ESPN
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" group-title="Agenda Deportiva",Chelsea vs Manchester United [05:00] - ESPN AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" group-title="Agenda Deportiva",Chelsea vs Manchester United [05:00] - Telemundo
+http://hirviptv.hirvip-5g.store/stream2.php?stream=telemundo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/363.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/360.png" group-title="Agenda Deportiva",Chelsea vs Manchester United [05:00] - HBO Max 1
+http://hirviptv.hirvip-5g.store/stream2.php?stream=max1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" group-title="Agenda Deportiva",Manchester City vs Brighton & Hove Albion [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney9&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" group-title="Agenda Deportiva",Manchester City vs Brighton & Hove Albion [05:00] - ESPN
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/382.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/331.png" group-title="Agenda Deportiva",Manchester City vs Brighton & Hove Albion [05:00] - ESPN AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espnar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/306.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/373.png" group-title="Agenda Deportiva",Hull City vs Ipswich Town [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney10&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/366.png" group-title="Agenda Deportiva",Coventry City vs Sunderland [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney11&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/388.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/366.png" group-title="Agenda Deportiva",Coventry City vs Sunderland [05:00] - HBO Max 3
+http://hirviptv.hirvip-5g.store/stream2.php?stream=max3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/337.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" group-title="Agenda Deportiva",Brentford vs Nottingham Forest [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney12&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/337.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" group-title="Agenda Deportiva",Brentford vs Nottingham Forest [05:00] - Universo
+http://hirviptv.hirvip-5g.store/stream2.php?stream=universo&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/337.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/393.png" group-title="Agenda Deportiva",Brentford vs Nottingham Forest [05:00] - HBO Max 2
+http://hirviptv.hirvip-5g.store/stream2.php?stream=max2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/349.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/357.png" group-title="Agenda Deportiva",AFC Bournemouth vs Leeds United [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney13&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/367.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/384.png" group-title="Agenda Deportiva",Tottenham Hotspur vs Crystal Palace [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney20&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/367.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/384.png" group-title="Agenda Deportiva",Tottenham Hotspur vs Crystal Palace [05:00] - HBO Max 4
+http://hirviptv.hirvip-5g.store/stream2.php?stream=max4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/362.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/370.png" group-title="Agenda Deportiva",Aston Villa vs Fulham [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney30&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/9903.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9902.png" group-title="Agenda Deportiva",Racing vs Cerro Largo [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/5490.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/131688.png" group-title="Agenda Deportiva",Cerro vs Central Español [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney17&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2683.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/5501.png" group-title="Agenda Deportiva",Peñarol vs Wanderers [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney27&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/20983.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9812.png" group-title="Agenda Deportiva",Real Sociedad II vs Girona [05:00] - LaLiga Hypermotion
+http://hirviptv.hirvip-5g.store/stream2.php?stream=laligahypermotion&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/3752.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/6832.png" group-title="Agenda Deportiva",Eibar vs Almería [05:00] - LaLiga Hypermotion
+http://hirviptv.hirvip-5g.store/stream2.php?stream=laligahypermotion&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/131858.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/8447.png" group-title="Agenda Deportiva",Celta de Vigo II vs Córdoba [05:00] - LaLiga Hypermotion
+http://hirviptv.hirvip-5g.store/stream2.php?stream=laligahypermotion&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2737.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/11487.png" group-title="Agenda Deportiva",Albacete vs Sabadell [05:00] - LaLiga Hypermotion
+http://hirviptv.hirvip-5g.store/stream2.php?stream=laligahypermotion&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/107.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/4007.png" group-title="Agenda Deportiva",Bologna vs Monza [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/107.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/4007.png" group-title="Agenda Deportiva",Bologna vs Monza [05:00] - ESPN 2
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/118.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/104.png" group-title="Agenda Deportiva",Udinese vs Roma [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney19&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/118.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/104.png" group-title="Agenda Deportiva",Udinese vs Roma [05:00] - ESPN 5
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/110.png" group-title="Agenda Deportiva",Milan vs Internazionale [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney28&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/103.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/110.png" group-title="Agenda Deportiva",Milan vs Internazionale [05:00] - ESPN 3
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/142.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/143.png" group-title="Agenda Deportiva",Feyenoord vs Fortuna Sittard [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney16&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/148.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/156.png" group-title="Agenda Deportiva",PSV Eindhoven vs Willem II [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney25&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/146.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/147.png" group-title="Agenda Deportiva",Heerenveen vs NEC [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney26&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/139.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/140.png" group-title="Agenda Deportiva",Ajax vs AZ Alkmaar [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/1011.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/4812.png" group-title="Agenda Deportiva",Delfín vs Deportivo Cuenca [05:00] - Zapping EC
+http://hirviptv.hirvip-5g.store/stream2.php?stream=zapping_ec&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2668.png" tvg-logo2="https://upload.wikimedia.org/wikipedia/lt/5/52/Leones_F%C3%BAtbol_Club_emblema.png?utm_source=lt.wikipedia.org&utm_campaign=api&utm_content=original" group-title="Agenda Deportiva",Emelec vs Leones del Norte [05:00] - Zapping EC
+http://hirviptv.hirvip-5g.store/stream2.php?stream=zapping_ec&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/18439.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/2686.png" group-title="Agenda Deportiva",Macará vs Barcelona [05:00] - Zapping EC
+http://hirviptv.hirvip-5g.store/stream2.php?stream=zapping_ec&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/21300.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/12011.png" group-title="Agenda Deportiva",Charlotte vs Orlando City SC [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/18267.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/10739.png" group-title="Agenda Deportiva",Cincinnati vs Philadelphia Union [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/183.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/193.png" group-title="Agenda Deportiva",Columbus Crew vs DC United [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/17606.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/9720.png" group-title="Agenda Deportiva",New York City vs CF Montréal [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/186.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/185.png" group-title="Agenda Deportiva",Sporting KC vs Dallas [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/21812.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/22529.png" group-title="Agenda Deportiva",St. Louis City vs San Diego [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv6&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/187.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/20906.png" group-title="Agenda Deportiva",LA Galaxy vs Austin [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv7&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/191.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/4771.png" group-title="Agenda Deportiva",SJ Earthquakes vs Real Salt Lake [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv8&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/184.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/182.png" group-title="Agenda Deportiva",Colorado Rapids vs Chicago Fire [05:00] - Apple TV Español
+http://hirviptv.hirvip-5g.store/stream2.php?stream=appletv9&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/Club_Olimpia_logo.svg" tvg-logo2="https://upload.wikimedia.org/wikipedia/commons/4/43/Independiente_Santa_Fe_logo.svg" group-title="Agenda Deportiva",Olimpia vs Santa Fe [05:00] - Win Sports
+http://hirviptv.hirvip-5g.store/stream2.php?stream=winsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg" tvg-logo2="https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png" group-title="Agenda Deportiva",Cruzeiro vs Corinthians [05:00] - Win Sports
+http://hirviptv.hirvip-5g.store/stream2.php?stream=winsports&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg" tvg-logo2="https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png" group-title="Agenda Deportiva",Cruzeiro vs Corinthians [05:00] - SporTV 1
+http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/5267.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/soccer/500/22534.png" group-title="Agenda Deportiva",Alianza Atlético vs Juan Pablo II College [05:00] - L1 Max
+http://hirviptv.hirvip-5g.store/stream2.php?stream=l1max&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 3 [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney22&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 3 [05:00] - ESPN 3
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 3 [05:00] - FOX Sports 1 AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=fox1ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 3 [05:00] - DAZN F1
+http://hirviptv.hirvip-5g.store/stream2.php?stream=daznf1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 3 [05:00] - SporTV 3
 http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - On Board Colapinto [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney11&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney23&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - On Board Antonelli [05:00] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney12&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney24&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Clasificación [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Clasificación [05:00] - ESPN 2
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Clasificación [05:00] - FOX Sports 1 AR
+http://hirviptv.hirvip-5g.store/stream2.php?stream=fox1ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Clasificación [05:00] - DAZN F1
+http://hirviptv.hirvip-5g.store/stream2.php?stream=daznf1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Clasificación [05:00] - SporTV 3
+http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - On Board Colapinto [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - On Board Antonelli [05:00] - Disney +
+http://hirviptv.hirvip-5g.store/stream2.php?stream=disney5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",GP Malasia - Clasificación [05:00] - ESPN 4
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espn4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",GP Malasia - Carrera Moto3, Moto2 y MotoGP [05:00] - ESPN
+http://hirviptv.hirvip-5g.store/stream2.php?stream=espn&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Ansar Khamzaev vs Juliano Prescendo [05:00] - ESPN 3
 http://hirviptv.hirvip-5g.store/stream2.php?stream=espn3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 1 [13:30] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney4&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 1 [13:30] - ESPN 3
-http://hirviptv.hirvip-5g.store/stream2.php?stream=espn3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 1 [13:30] - FOX Sports 1 AR
-http://hirviptv.hirvip-5g.store/stream2.php?stream=fox1ar&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 1 [13:30] - DAZN F1
-http://hirviptv.hirvip-5g.store/stream2.php?stream=daznf1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 1 [13:30] - Canal 5 MX
-http://hirviptv.hirvip-5g.store/stream2.php?stream=canal5mx&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - Práctica 1 [13:30] - SporTV 3
-http://hirviptv.hirvip-5g.store/stream2.php?stream=sporttvbr3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/jiqa741556460666.png/medium" tvg-logo2="" group-title="Agenda Deportiva",GP México - On Board Colapinto [13:30] - Disney +
-http://hirviptv.hirvip-5g.store/stream2.php?stream=disney5&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
-#EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/soccer/500/2688.png" tvg-logo2="https://r2.thesportsdb.com/images/media/team/badge/fyj9u51602187758.png/medium" group-title="Agenda Deportiva",Colo-Colo vs Univ. Concepción [17:00] - HBO Max 1
-http://hirviptv.hirvip-5g.store/stream2.php?stream=max1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Preliminares [05:00] - Paramount+
+http://hirviptv.hirvip-5g.store/stream2.php?stream=paramount1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Preliminares [05:00] - Paramount+
+http://hirviptv.hirvip-5g.store/stream2.php?stream=paramount2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Preliminares [05:00] - Paramount+
+http://hirviptv.hirvip-5g.store/stream2.php?stream=paramount3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Renato Moicano vs Tom Nolan [19:00] - Paramount+
+http://hirviptv.hirvip-5g.store/stream2.php?stream=paramount1&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Renato Moicano vs Tom Nolan [19:00] - Paramount+
+http://hirviptv.hirvip-5g.store/stream2.php?stream=paramount2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
+#EXTINF:-1 tvg-logo="" tvg-logo2="" group-title="Agenda Deportiva",Renato Moicano vs Tom Nolan [19:00] - Paramount+
+http://hirviptv.hirvip-5g.store/stream2.php?stream=paramount3&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/gs.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/lal.png" group-title="Agenda Deportiva",Golden State Warriors vs Los Angeles Lakers [21:00] - Prime Video
 http://hirviptv.hirvip-5g.store/stream2.php?stream=amazon2&key=FUERZA.SV&secreto=XTREAM.VIDEX.m3u8
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/i/teamlogos/nba/500/gs.png" tvg-logo2="https://a.espncdn.com/i/teamlogos/nba/500/lal.png" group-title="Agenda Deportiva",Golden State Warriors vs Los Angeles Lakers [21:00] - NBA League Pass
