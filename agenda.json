@@ -329,7 +329,7 @@
                             "time": "2026-11-01T11:15:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 22,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/t6xftc1754808765.jpg",
                             "logo": "",
                             "homeTeam": "Olympique Lyonnais",
                             "awayTeam": "Angers SCO",
@@ -366,7 +366,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": ""
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489543-angers-vs-nice"
                         },
                         {
                             "title": "Olympique Marseille vs Toulouse",
@@ -522,7 +522,7 @@
                             "time": "2026-11-01T11:30:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 24,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/cpnr4d1783076766.jpg",
                             "logo": "",
                             "homeTeam": "Eintracht Frankfurt",
                             "awayTeam": "Hamburger SV",
@@ -603,7 +603,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": ""
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2508412-paderborn-vs-eintracht-frankfurt"
                         }
                     ],
                     "flagCode": "",
@@ -1847,7 +1847,7 @@
                             "time": "2026-11-01T13:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 30,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/c4oh0h1784759886.jpg",
                             "logo": "",
                             "homeTeam": "Ravens",
                             "awayTeam": "Bills",
@@ -1908,7 +1908,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": ""
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475495-baltimore-ravens-vs-jacksonville-jaguars"
                         },
                         {
                             "title": "Cardinals vs Cowboys",
@@ -2354,7 +2354,7 @@
                             "time": "2026-11-01T15:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 38,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/fes6lr1787424638.jpg",
                             "logo": "",
                             "homeTeam": "",
                             "awayTeam": "",
@@ -2469,7 +2469,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": ""
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2408206-mexico-city-grand-prix"
                         },
                         {
                             "title": "GP de México: Cámara On Board - Colapinto",
@@ -2478,7 +2478,7 @@
                             "time": "2026-11-01T15:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 39,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/fes6lr1787424638.jpg",
                             "logo": "",
                             "homeTeam": "",
                             "awayTeam": "",
@@ -2505,7 +2505,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": ""
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2408206-mexico-city-grand-prix"
                         }
                     ],
                     "flagCode": "",
@@ -2883,5 +2883,5 @@
             ]
         }
     ],
-    "updated": "2026-11-02 02:24:28"
+    "updated": "2026-11-02 02:31:36"
 }
