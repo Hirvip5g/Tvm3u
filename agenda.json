@@ -2342,15 +2342,15 @@
                     "leagueId": ""
                 },
                 {
-                    "name": "F1 | GP de México",
-                    "logo": "",
+                    "name": "F1",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/g8cofl1513623681.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/f1.jpg",
                     "events": [
                         {
-                            "title": "Carrera",
-                            "league": "F1 | GP de México",
-                            "code": "FUT",
+                            "title": "GP de México: Carrera",
+                            "league": "F1",
+                            "code": "F1",
                             "time": "2026-11-01T15:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 38,
@@ -2472,9 +2472,9 @@
                             "sourceEventUrl": ""
                         },
                         {
-                            "title": "Cámara On Board - Colapinto",
-                            "league": "F1 | GP de México",
-                            "code": "FUT",
+                            "title": "GP de México: Cámara On Board - Colapinto",
+                            "league": "F1",
+                            "code": "F1",
                             "time": "2026-11-01T15:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 39,
@@ -2510,7 +2510,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "f1"
                 },
                 {
                     "name": "Primeira Liga",
@@ -2883,5 +2883,5 @@
             ]
         }
     ],
-    "updated": "2026-11-02 02:05:00"
+    "updated": "2026-11-02 02:15:37"
 }
