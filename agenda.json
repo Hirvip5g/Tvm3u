@@ -2649,7 +2649,7 @@
                             "homeTeam": "New England",
                             "awayTeam": "Inter Miami",
                             "homeLogo": "",
-                            "awayLogo": "",
+                            "awayLogo": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm/8636.png",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -2883,5 +2883,5 @@
             ]
         }
     ],
-    "updated": "2026-11-02 02:31:36"
+    "updated": "2026-11-02 02:39:59"
 }
