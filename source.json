@@ -1,0 +1,110 @@
+{
+    "F1": {
+        "url": "https://www.thesportsdb.com/league/4370-formula-1",
+        "aliases": ["f1", "formula 1", "formula one"]
+    },
+    "Premier League": {
+        "url": "https://www.thesportsdb.com/league/4328-english-premier-league",
+        "aliases": ["premier league", "inglaterra - premier league", "premier league (uk)"]
+    },
+    "LaLiga": {
+        "url": "https://www.thesportsdb.com/league/4335-spanish-laliga",
+        "aliases": ["Spanish La Liga", "españa - laliga", "laliga ea sports", "liga española", "spanish primera division"]
+    },
+    "UFC": {
+        "url": "https://www.thesportsdb.com/league/4443-ufc",
+        "aliases": ["ufc", "UFC"]
+    },
+    "Liga MX": {
+        "url": "https://www.thesportsdb.com/league/4350-mexican-primera-league",
+        "aliases": ["Mexican Primera League"]
+    },
+    "Super Lig": {
+        "url": "https://www.thesportsdb.com/league/4339-turkish-super-lig",
+        "aliases": ["Turkish Super Lig"]
+    },
+    "Bundesliga": {
+        "url": "https://www.thesportsdb.com/league/4331-german-bundesliga",
+        "aliases": ["German Bundesliga"]
+    },
+    "Bundesliga 2": {
+        "url": "https://www.thesportsdb.com/league/4399-german-2.-bundesliga",
+        "aliases": ["German Bundesliga"]
+    },
+    "NBA": {
+        "url": "https://www.thesportsdb.com/league/4387-nba",
+        "aliases": ["NBA"]
+    },
+    "MLS": {
+        "url": "https://www.thesportsdb.com/league/4346-american-major-league-soccer",
+        "aliases": ["American Major League Soccer"]
+    },
+    "Primera División": {
+        "url": "https://www.thesportsdb.com/league/4432-uruguayan-primera-division",
+        "aliases": ["Uruguayan Primera Division"]
+    },
+    "Ligue 1": {
+        "url": "https://www.thesportsdb.com/league/4334-french-ligue-1",
+        "aliases": ["French Ligue 1"]
+    },
+    "Serie A": {
+        "url": "https://www.thesportsdb.com/league/4332-italian-serie-a",
+        "aliases": ["Italian Serie A"]
+    },
+    "MotoGP": {
+        "url": "https://www.thesportsdb.com/league/4407-motogp",
+        "aliases": ["MotoGP"]
+    },
+    "NHL": {
+        "url": "https://www.thesportsdb.com/league/4380-nhl",
+        "aliases": ["NHL"]
+    },
+    "NFL": {
+        "url": "https://www.thesportsdb.com/league/4391-nfl",
+        "aliases": ["NFL"]
+    },
+    "Liga Profesional": {
+        "url": "https://www.thesportsdb.com/league/4406-argentinian-primera-division",
+        "aliases": ["Argentinian Primera Division"]
+    },
+    "Liga Ecuador": {
+        "url": "https://www.thesportsdb.com/league/4686-ecuadorian-serie-a",
+        "aliases": ["Ecuadorian Serie A"]
+    },
+    "Liga 1": {
+        "url": "https://www.thesportsdb.com/league/4688-peruvian-primera-division",
+        "aliases": ["Peruvian Primera Division"]
+    },
+    "Liga Chile": {
+        "url": "https://www.thesportsdb.com/league/4627-chile-primera-division",
+        "aliases": ["Chile Primera Division"]
+    },
+    "Primera B": {
+        "url": "https://www.thesportsdb.com/team/141071-tigres-fc",
+        "aliases": ["Colombian Categoría Primera B"]
+    },
+    "Liga Paraguay": {
+        "url": "https://www.thesportsdb.com/league/4687-paraguayan-primera-division",
+        "aliases": ["Paraguayan Primera Division"]
+    },
+    "Copa Colombia": {
+        "url": "https://www.thesportsdb.com/league/4497-colombian-liga-dimayor",
+        "aliases": ["Colombian Liga DIMAYOR"]
+    },
+    "Copa Mundial Femenina Sub-17": {
+        "url": "https://www.thesportsdb.com/league/5712-fifa-womens-u17-world-cup",
+        "aliases": ["FIFA Womens U17 World Cup"]
+    },
+    "Copa de Brasil": {
+        "url": "https://www.thesportsdb.com/league/4725-copa-do-brasil",
+        "aliases": ["Copa do Brasil"]
+    },
+    "Liga Colombia": {
+        "url": "https://www.thesportsdb.com/league/4497-colombia-categoría-primera-a",
+        "aliases": ["Colombian Liga DIMAYOR"]
+    },
+    "ATP": {
+        "url": "https://www.thesportsdb.com/league/4464-atp-world-tour",
+        "aliases": ["ATP World Tour"]
+    }
+}
