@@ -14,6 +14,20 @@ OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm"
 
+MAPEO_DEPORTES = {
+    "Fútbol": {"id": "football", "name": "Football", "icon": "⚽"},
+    "Baloncesto": {"id": "basketball", "name": "Basketball", "icon": "🏀"},
+    "NBA": {"id": "basketball", "name": "Basketball", "icon": "🏀"},
+    "Motor": {"id": "motor", "name": "Motor", "icon": "🏎️"},
+    "F1": {"id": "motor", "name": "Motor", "icon": "🏎️"},
+    "Tenis": {"id": "tennis", "name": "Tennis", "icon": "🎾"},
+    "ATP": {"id": "tennis", "name": "Tennis", "icon": "🎾"},
+    "NFL": {"id": "nfl", "name": "American Football", "icon": "🏈"},
+    "Hockey": {"id": "hockey", "name": "Hockey", "icon": "🏒"},
+    "NHL": {"id": "hockey", "name": "Hockey", "icon": "🏒"},
+    "MLB": {"id": "baseball", "name": "Baseball", "icon": "⚾"},
+}
+
 class CaseInsensitiveDict(dict):
     def __init__(self, data=None, **kwargs):
         super().__init__()
@@ -218,7 +232,7 @@ def procesar_agenda():
         except Exception as e:
             print(f"Error al leer {LOCAL_CHANNELS_JSON}: {e}")
 
-    print(f"Descargando JSON plano desde {AGENDA_URL}...")
+    print(f"Descargando JSON desde {AGENDA_URL}...")
     try:
         response = requests.get(AGENDA_URL, timeout=10)
         if response.status_code != 200:
@@ -228,96 +242,6 @@ def procesar_agenda():
     except Exception as e:
         print(f"Error: {e}")
         return
-
-    # Convertir el JSON plano de agenda888.json a la estructura anidada de deportes/ligas/eventos/servidores
-    sports_dict = {}
-    for item in items_planos:
-        sport_name = item.get("category", "Fútbol")
-        raw_title = item.get("title", "")
-        link = item.get("link", "")
-        time_str = item.get("time", "")
-        date_str = item.get("date", "")
-        status_str = item.get("status", "En vivo")
-
-        # Separar la liga y el título del evento usando el formato "Liga: Equipo1 vs Equipo2" o "Liga | Evento"
-        league_name = "Otros"
-        event_title = raw_title
-        if ":" in raw_title:
-            parts = raw_title.split(":", 1)
-            league_name = parts[0].strip()
-            event_title = parts[1].strip()
-        elif "|" in raw_title:
-            parts = raw_title.split("|", 1)
-            league_name = parts[0].strip()
-            event_title = parts[1].strip()
-
-        if sport_name not in sports_dict:
-            sports_dict[sport_name] = {}
-        
-        if league_name not in sports_dict[sport_name]:
-            sports_dict[sport_name][league_name] = {}
-
-        # Agrupar por evento único basado en el título, hora y fecha para juntar múltiples servidores
-        event_key = f"{event_title}_{time_str}_{date_str}"
-        if event_key not in sports_dict[sport_name][league_name]:
-            # Intentar detectar si es un partido con equipos (home vs away)
-            home_team = ""
-            away_team = ""
-            if " vs " in event_title.lower():
-                teams = re.split(r'\s+vs\s+', event_title, flags=re.IGNORECASE)
-                if len(teams) == 2:
-                    home_team = teams[0].strip()
-                    away_team = teams[1].strip()
-
-            sports_dict[sport_name][league_name][event_key] = {
-                "title": event_title,
-                "time": time_str,
-                "date": date_str,
-                "status": status_str,
-                "homeTeam": home_team,
-                "awayTeam": away_team,
-                "servers": []
-            }
-        
-        # Agregar el servidor/enlace a este evento
-        if link:
-            # Extraer nombre del canal o servidor basándose en la URL o parámetro
-            parsed_link = urllib.parse.urlparse(link)
-            q_params = urllib.parse.parse_qs(parsed_link.query)
-            server_name = q_params.get("channel", [""])[0] or q_params.get("stream", [""])[0]
-            if not server_name:
-                server_name = parsed_link.path.split("/")[-1].replace(".html", "")
-            
-            sports_dict[sport_name][league_name][event_key]["servers"].append({
-                "name": server_name.upper(),
-                "url": link,
-                "quality": "HD"
-            })
-
-    # Construir la estructura final que espera tu app
-    formatted_sports_list = []
-    for sport_name, leagues in sports_dict.items():
-        leagues_list = []
-        for league_name, events_map in leagues.items():
-            league_id = MAPEO_LIGAS.get(league_name, "")
-            league_obj = {
-                "name": league_name,
-                "leagueId": league_id,
-                "background": f"{BASE_LEAGUE_IMG_URL}/{league_id}.jpg" if league_id else "",
-                "logo": "",
-                "events": list(events_map.values())
-            }
-            leagues_list.append(league_obj)
-        
-        formatted_sports_list.append({
-            "name": sport_name,
-            "leagues": leagues_list
-        })
-
-    agenda_data = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "sports": formatted_sports_list
-    }
 
     sources_ligas = {}
     if os.path.exists(SOURCE_JSON):
@@ -339,7 +263,7 @@ def procesar_agenda():
             aliases = [league_key.lower()]
 
         if league_url:
-            print(f"Obteniendo eventos y logo web de TheSportsDB para la liga '{league_key}'...")
+            print(f"Obteniendo eventos de TheSportsDB para '{league_key}'...")
             eventos_remotos, league_logo = obtener_datos_liga_thesportsdb(league_url)
             
             for alias in aliases:
@@ -351,110 +275,191 @@ def procesar_agenda():
             web_events_por_liga[league_key_clean] = eventos_remotos
             logos_liga_por_liga[league_key_clean] = league_logo
 
-    for sport in agenda_data["sports"]:
-        for league in sport.get("leagues", []):
-            league_name = league.get("name", "")
-            league_id = league.get("leagueId", "")
+    sports_dict = {}
+    agenda_order_counter = 10
 
-            web_events = {}
-            league_logo_web = ""
-            league_name_lower = league_name.lower().strip()
-            
-            if league_name_lower in web_events_por_liga:
-                web_events = web_events_por_liga[league_name_lower]
-                league_logo_web = logos_liga_por_liga.get(league_name_lower, "")
+    for item in items_planos:
+        raw_sport = item.get("category", "Fútbol").strip()
+        sport_info = MAPEO_DEPORTES.get(raw_sport, {"id": "football", "name": "Football", "icon": "⚽"})
+        
+        sport_id = sport_info["id"]
+        if sport_id not in sports_dict:
+            sports_dict[sport_id] = {
+                "id": sport_id,
+                "name": sport_info["name"],
+                "icon": sport_info["icon"],
+                "leagues": {}
+            }
+
+        raw_title = item.get("title", "")
+        link = item.get("link", "")
+        time_str = item.get("time", "")
+        date_str = item.get("date", "")
+
+        league_name = "Otros"
+        event_title = raw_title
+        if ":" in raw_title:
+            parts = raw_title.split(":", 1)
+            league_name = parts[0].strip()
+            event_title = parts[1].strip()
+        elif "|" in raw_title:
+            parts = raw_title.split("|", 1)
+            league_name = parts[0].strip()
+            event_title = parts[1].strip()
+
+        if league_name not in sports_dict[sport_id]["leagues"]:
+            league_id = MAPEO_LIGAS.get(league_name, "")
+            sports_dict[sport_id]["leagues"][league_name] = {
+                "name": league_name,
+                "logo": "",
+                "image": "",
+                "background": f"{BASE_LEAGUE_IMG_URL}/{league_id}.jpg" if league_id else "",
+                "events": {},
+                "flagCode": "",
+                "flagUrl": "",
+                "leagueId": league_id
+            }
+
+        league_obj = sports_dict[sport_id]["leagues"][league_name]
+
+        # Formato ISO de tiempo como en tu ejemplo (e.g. 2026-11-01T13:00:00-05:00)
+        formatted_time = f"{date_str}T{time_str}:00-05:00" if date_str and time_str else time_str
+
+        event_key = f"{event_title}_{time_str}_{date_str}"
+        if event_key not in league_obj["events"]:
+            home_team = ""
+            away_team = ""
+            if " vs " in event_title.lower():
+                teams = re.split(r'\s+vs\s+', event_title, flags=re.IGNORECASE)
+                if len(teams) == 2:
+                    home_team = teams[0].strip()
+                    away_team = teams[1].strip()
+
+            is_motor = league_name.upper() in ["F1", "MOTOGP"] or "GP " in home_team or "Práctica" in away_team
+            is_match = bool(home_team and away_team) and not is_motor
+
+            if is_match:
+                home_team = limpiar_nombre_equipo(home_team, league_name)
+                away_team = limpiar_nombre_equipo(away_team, league_name)
+                title_final = f"{home_team} vs {away_team}"
+                home_logo = buscar_imagen(home_team)
+                away_logo = buscar_imagen(away_team)
             else:
-                for alias_key, w_events in web_events_por_liga.items():
-                    if alias_key in league_name_lower or league_name_lower in alias_key:
-                        web_events = w_events
-                        league_logo_web = logos_liga_por_liga.get(alias_key, "")
-                        break
+                title_final = event_title
+                home_team = ""
+                away_team = ""
+                home_logo = ""
+                away_logo = ""
 
-            if league_logo_web:
-                league["logo"] = league_logo_web
+            agenda_order_counter += 1
 
-            for event in league.get("events", []):
-                home_raw = event.get("homeTeam", "")
-                away_raw = event.get("awayTeam", "")
-                original_title = event.get("title", "")
-                
-                is_motor = league_name.upper() in ["F1", "MOTOGP"] or "GP " in home_raw or "Práctica" in away_raw or "Clasificación" in away_raw
-                is_match = bool(home_raw and away_raw) and not is_motor
+            # Buscar imagen/banner de evento desde TheSportsDB
+            event_thumb = ""
+            source_event_url = ""
+            league_name_lower = league_name.lower().strip()
+            web_events = web_events_por_liga.get(league_name_lower, {})
 
-                if is_match:
-                    home_team = limpiar_nombre_equipo(home_raw, league_name)
-                    away_team = limpiar_nombre_equipo(away_raw, league_name)
-                    event["homeTeam"] = home_team
-                    event["awayTeam"] = away_team
-                    event["title"] = f"{home_team} vs {away_team}"
-                    event["homeLogo"] = buscar_imagen(home_team)
-                    event["awayLogo"] = buscar_imagen(away_team)
-                else:
-                    home_team = ""
-                    away_team = ""
-                    event["title"] = original_title
-                    event["homeTeam"] = ""
-                    event["awayTeam"] = ""
-                    event["homeLogo"] = ""
-                    event["awayLogo"] = ""
+            if web_events:
+                encontrado_url = buscar_evento_web(league_name, event_title, home_team, away_team, web_events)
+                if encontrado_url:
+                    source_event_url = encontrado_url
+                    imagen_web = obtener_thumb_de_evento_web(encontrado_url)
+                    if imagen_web and "android-icon" not in imagen_web and "/ico/" not in imagen_web:
+                        event_thumb = imagen_web
 
-                # --- GESTIÓN DE IMÁGENES DE EVENTOS ---
-                event_thumb = ""
-                if web_events:
-                    encontrado_url = buscar_evento_web(league_name, original_title, home_team, away_team, web_events)
-                    if encontrado_url:
-                        event["sourceEventUrl"] = encontrado_url
-                        imagen_web = obtener_thumb_de_evento_web(encontrado_url)
-                        if imagen_web and "android-icon" not in imagen_web and "/ico/" not in imagen_web:
-                            event_thumb = imagen_web
+            league_code = league_obj["leagueId"].upper() if league_obj["leagueId"] else "FUT"
 
-                if event_thumb:
-                    event["image"] = event_thumb
-                    event["imageMode"] = "banner"
-                else:
-                    event["image"] = ""
-                    event["imageMode"] = ""
+            league_obj["events"][event_key] = {
+                "title": title_final,
+                "league": league_name,
+                "code": league_code,
+                "time": formatted_time,
+                "timezone": "America/Lima",
+                "agendaOrder": agenda_order_counter,
+                "image": event_thumb,
+                "logo": "",
+                "homeTeam": home_team,
+                "awayTeam": away_team,
+                "homeLogo": home_logo,
+                "awayLogo": away_logo,
+                "imageMode": "banner",
+                "duration": 130,
+                "extraTime": 0,
+                "status": "",
+                "note": "",
+                "servers": [],
+                "flagCode": "",
+                "flagUrl": "",
+                "homeCountryCode": "",
+                "awayCountryCode": "",
+                "sourceEventUrl": source_event_url
+            }
 
-                # Procesar servidores y enlazarlos con el archivo 04.json
-                nuevos_servidores = []
-                for server in event.get("servers", []):
-                    server_url = server.get("url", "")
-                    parsed_url = urllib.parse.urlparse(server_url)
-                    query_params = urllib.parse.parse_qs(parsed_url.query)
-                    
-                    channel_param = query_params.get("channel", [""])[0].strip().lower()
-                    if not channel_param:
-                        channel_param = query_params.get("stream", [""])[0].strip().lower()
+        # Procesar Servidores respetando exactamente tu formato completo de servidor
+        if link:
+            parsed_link = urllib.parse.urlparse(link)
+            q_params = urllib.parse.parse_qs(parsed_link.query)
+            channel_param = q_params.get("channel", [""])[0].strip().lower()
+            if not channel_param:
+                channel_param = q_params.get("stream", [""])[0].strip().lower()
 
-                    iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
-                    server_copy = dict(server)
-                    server_copy["url"] = iframe_url
-                    server_copy["type"] = "iframe"
-                    nuevos_servidores.append(server_copy)
+            server_name = channel_param.upper() if channel_param else parsed_link.path.split("/")[-1].replace(".html", "")
+            iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
 
-                    if channel_param and channel_param in canales_04_dict:
-                        for canal_info in canales_04_dict[channel_param]:
-                            nuevos_servidores.append({
-                                "name": canal_info.get("canal", server.get("name", channel_param.upper())),
-                                "url": canal_info.get("url", ""),
-                                "type": canal_info.get("tipo", "clearkey"),
-                                "quality": server.get("quality", ""),
-                                "active": True,
-                                "languages": server.get("languages", []),
-                                "customLanguages": server.get("customLanguages", ""),
-                                "channelLogo": canal_info.get("logo", server.get("channelLogo", "")),
-                                "clearkey": canal_info.get("clearkey", None),
-                                "referer": canal_info.get("referer", ""),
-                                "origin": canal_info.get("origin", ""),
-                                "userAgent": canal_info.get("userAgent", "")
-                            })
+            # Agregar iframe por defecto
+            league_obj["events"][event_key]["servers"].append({
+                "name": server_name,
+                "url": iframe_url,
+                "type": "iframe",
+                "quality": "",
+                "active": True,
+                "languages": [],
+                "customLanguages": "",
+                "channelLogo": ""
+            })
 
-                event["servers"] = nuevos_servidores
+            # Reemplazar/Añadir mapeos desde 04.json si coincide el nombre del canal
+            if channel_param and channel_param in canales_04_dict:
+                for canal_info in canales_04_dict[channel_param]:
+                    league_obj["events"][event_key]["servers"].append({
+                        "name": canal_info.get("canal", server_name),
+                        "url": canal_info.get("url", ""),
+                        "type": canal_info.get("tipo", "clearkey"),
+                        "quality": canal_info.get("quality", ""),
+                        "active": True,
+                        "languages": [],
+                        "customLanguages": "",
+                        "channelLogo": canal_info.get("logo", ""),
+                        "clearkey": canal_info.get("clearkey", None),
+                        "referer": canal_info.get("referer", ""),
+                        "origin": canal_info.get("origin", ""),
+                        "userAgent": canal_info.get("userAgent", "")
+                    })
+
+    # Armar lista final de deportes y ligas convirtiendo los diccionarios internos en listas
+    formatted_sports = []
+    for s_id, s_data in sports_dict.items():
+        formatted_leagues = []
+        for l_name, l_data in s_data["leagues"].items():
+            l_data["events"] = list(l_data["events"].values())
+            # Asignar logo de la liga si se encontró en TheSportsDB
+            l_name_lower = l_name.lower().strip()
+            if l_name_lower in logos_liga_por_liga and logos_liga_por_liga[l_name_lower]:
+                l_data["logo"] = logos_liga_por_liga[l_name_lower]
+            formatted_leagues.append(l_data)
+        
+        s_data["leagues"] = formatted_leagues
+        formatted_sports.append(s_data)
+
+    resultado_final = {
+        "sports": formatted_sports,
+        "updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(agenda_data, f, ensure_ascii=False, indent=4)
+        json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"Agenda procesada correctamente en {OUTPUT_JSON} con la estructura solicitada.")
+    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} en el formato 100% exacto que tu app requiere!")
 
 if __name__ == "__main__":
     procesar_agenda()
