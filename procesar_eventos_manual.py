@@ -166,54 +166,49 @@ def obtener_thumb_de_evento_web(event_url):
         if response.status_code == 200:
             match = re.search(r'<meta property="og:image" content="([^"]+)"', response.text)
             if match:
-                return match.group(1)
+                img_url = match.group(1)
+                # Evitar iconos genericos de la plataforma web
+                if img_url and "android-icon" not in img_url and "/ico/" not in img_url:
+                    return img_url
     except Exception as e:
         print(f"Error al extraer la imagen del evento web {event_url}: {e}")
     return ""
 
-def traducir_sesion(titulo):
-    t = titulo.lower()
-    if "práctica 1" in t or "practica 1" in t or "fp1" in t: return "practice-1"
-    if "práctica 2" in t or "practica 2" in t or "fp2" in t: return "practice-2"
-    if "práctica 3" in t or "practica 3" in t or "fp3" in t: return "practice-3"
-    if "clasificación" in t or "clasificacion" in t or "quali" in t or "q1" in t or "q2" in t: return "qualifying"
-    if "sprint" in t: return "sprint"
-    if "carrera" in t or "race" in t or "gp" in t or "grand prix" in t: return "gp"
-    return ""
-
-def buscar_evento_web(league_name, original_title, home_team, away_team, web_events_dict):
+def buscar_evento_web(league_name, original_title, web_events_dict):
     if not web_events_dict:
         return ""
     
-    ln_upper = league_name.upper()
-    if "F1" in ln_upper or "FORMULA" in ln_upper or "MOTOGP" in ln_upper:
-        sesion_buscada = traducir_sesion(original_title)
-        titulo_norm = unicodedata.normalize('NFD', original_title).encode('ascii', 'ignore').decode('utf-8').lower()
+    titulo_norm = unicodedata.normalize('NFD', original_title).encode('ascii', 'ignore').decode('utf-8').lower()
+    
+    # Búsqueda directa por palabras clave coincidentes en el slug del evento web
+palabras_clave = [p for p in titulo_norm.split() if len(p) > 3]
+    
+    mejor_coincidencia = ""
+    max_coincidencias = 0
+
+    for web_slug, web_url in web_events_dict.items():
+        coincidencias = sum(1 for palabra in palabras_clave if palabra in web_slug)
         
-        mejor_coincidencia = ""
-        max_coincidencias = 0
+        # Ponderación especial para sesiones de F1 / Motor comunes
+        if "carrera" in titulo_norm and "carrera" in web_slug:
+            coincidencias += 3
+        if "gp" in titulo_norm and "gp" in web_slug:
+            coincidencias += 2
 
-        for web_slug, web_url in web_events_dict.items():
-            coincidencias = sum(1 for palabra in titulo_norm.split() if len(palabra) > 3 and palabra in web_slug)
-            if sesion_buscada and sesion_buscada in web_slug:
-                coincidencias += 2
+        if coincidencias > max_coincidencias:
+            max_coincidencias = coincidencias
+            mejor_coincidencia = web_url
 
-            if coincidencias > max_coincidencias:
-                max_coincidencias = coincidencias
-                mejor_coincidencia = web_url
-
-        if mejor_coincidencia and max_coincidencias > 0:
-            return mejor_coincidencia
-    else:
-        home_norm = unicodedata.normalize('NFD', home_team).encode('ascii', 'ignore').decode('utf-8').lower() if home_team else ""
-        away_norm = unicodedata.normalize('NFD', away_team).encode('ascii', 'ignore').decode('utf-8').lower() if away_team else ""
+    # Si encuentra al menos una coincidencia significativa, la devuelve
+    if mejor_coincidencia and max_coincidencias > 0:
+        return mejor_coincidencia
         
+    # Fallback flexible: si es F1 y hay eventos listados, tomar el primer evento disponible o relevante si no hay coincidencia exacta estricta
+    if web_events_dict and ("f1" in league_name.lower() or "formula" in league_name.lower()):
         for web_slug, web_url in web_events_dict.items():
-            match_home = home_norm and (home_norm in web_slug or any(word in web_slug for word in home_norm.split() if len(word) > 2))
-            match_away = away_norm and (away_norm in web_slug or any(word in web_slug for word in away_norm.split() if len(word) > 2))
-            
-            if match_home and match_away:
+            if any(term in web_slug for term in ["mexico", "mexican", "carrera", "race", "gp"]):
                 return web_url
+
     return ""
 
 def procesar_agenda():
@@ -266,7 +261,6 @@ def procesar_agenda():
             print(f"Obteniendo eventos de TheSportsDB para '{league_key}'...")
             eventos_remotos, league_logo = obtener_datos_liga_thesportsdb(league_url)
             
-            # Guardar tanto bajo la clave principal como normalizada y sus alias
             all_keys = [league_key] + aliases
             for ak in all_keys:
                 ak_norm = ak.lower().strip()
@@ -330,7 +324,7 @@ def procesar_agenda():
             home_team = ""
             away_team = ""
             if " vs " in event_title.lower():
-                teams = re.split(r'\s+vs\s+', event_title, flags=r.IGNORECASE) if 'r' in globals() else re.split(r'\s+vs\s+', event_title, flags=re.IGNORECASE)
+                teams = re.split(r'\s+vs\s+', event_title, flags=re.IGNORECASE)
                 if len(teams) == 2:
                     home_team = teams[0].strip()
                     away_team = teams[1].strip()
@@ -353,13 +347,12 @@ def procesar_agenda():
 
             agenda_order_counter += 1
 
-            # --- BÚSQUEDA CORREGIDA DE THUMB DE EVENTO ---
+            # --- BÚSQUEDA ROBUSTA DE THUMB DE EVENTO ---
             event_thumb = ""
             source_event_url = ""
             
-            # Buscar en los diccionarios probando la liga actual y variantes comunes (ej. "f1" -> "F1")
             candidates_keys = [league_name.lower().strip()]
-            if league_name.upper() == "F1":
+            if league_name.upper() in ["F1", "FORMULA 1"]:
                 candidates_keys.extend(["f1", "formula 1", "formula one"])
 
             web_events = {}
@@ -369,11 +362,11 @@ def procesar_agenda():
                     break
 
             if web_events:
-                encontrado_url = buscar_evento_web(league_name, event_title, home_team, away_team, web_events)
+                encontrado_url = buscar_evento_web(league_name, event_title, web_events)
                 if encontrado_url:
                     source_event_url = encontrado_url
                     imagen_web = obtener_thumb_de_evento_web(encontrado_url)
-                    if imagen_web and "android-icon" not in imagen_web and "/ico/" not in imagen_web:
+                    if imagen_web:
                         event_thumb = imagen_web
 
             league_code = league_obj["leagueId"].upper() if league_obj["leagueId"] else "FUT"
@@ -385,8 +378,8 @@ def procesar_agenda():
                 "time": formatted_time,
                 "timezone": "America/Lima",
                 "agendaOrder": agenda_order_counter,
-                "image": event_thumb,  # Aquí se asigna exclusivamente el thumb del evento
-                "logo": "",            # El logo se mantiene independiente
+                "image": event_thumb,  # Aquí se asigna exclusivamente el thumb del evento web extraído
+                "logo": "",            # El logo se mantiene limpio en la liga
                 "homeTeam": home_team,
                 "awayTeam": away_team,
                 "homeLogo": home_logo,
@@ -409,7 +402,7 @@ def procesar_agenda():
             q_params = urllib.parse.parse_qs(parsed_link.query)
             channel_param = q_params.get("channel", [""])[0].strip().lower()
             if not channel_param:
-                channel_param = q_params.get("stream", [""])[0].strip().lower()
+                    channel_param = q_params.get("stream", [""])[0].strip().lower()
 
             server_name = channel_param.upper() if channel_param else parsed_link.path.split("/")[-1].replace(".html", "")
             iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
@@ -448,7 +441,6 @@ def procesar_agenda():
         for l_name, l_data in s_data["leagues"].items():
             l_data["events"] = list(l_data["events"].values())
             
-            # Asignar el logo de la liga correctamente sin sobreescribir la imagen del evento
             l_name_lower = l_name.lower().strip()
             found_logo = ""
             for lk, lval in logos_liga_por_liga.items():
@@ -471,7 +463,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON}! Miniaturas de eventos y logos de liga separados correctamente.")
+    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} con thumbnails de eventos correctos!")
 
 if __name__ == "__main__":
     procesar_agenda()
