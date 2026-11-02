@@ -167,7 +167,6 @@ def obtener_thumb_de_evento_web(event_url):
             match = re.search(r'<meta property="og:image" content="([^"]+)"', response.text)
             if match:
                 img_url = match.group(1)
-                # Evitar iconos genericos de la plataforma web
                 if img_url and "android-icon" not in img_url and "/ico/" not in img_url:
                     return img_url
     except Exception as e:
@@ -179,9 +178,7 @@ def buscar_evento_web(league_name, original_title, web_events_dict):
         return ""
     
     titulo_norm = unicodedata.normalize('NFD', original_title).encode('ascii', 'ignore').decode('utf-8').lower()
-    
-    # Búsqueda directa por palabras clave coincidentes en el slug del evento web
-palabras_clave = [p for p in titulo_norm.split() if len(p) > 3]
+    palabras_clave = [p for p in titulo_norm.split() if len(p) > 3]
     
     mejor_coincidencia = ""
     max_coincidencias = 0
@@ -189,7 +186,6 @@ palabras_clave = [p for p in titulo_norm.split() if len(p) > 3]
     for web_slug, web_url in web_events_dict.items():
         coincidencias = sum(1 for palabra in palabras_clave if palabra in web_slug)
         
-        # Ponderación especial para sesiones de F1 / Motor comunes
         if "carrera" in titulo_norm and "carrera" in web_slug:
             coincidencias += 3
         if "gp" in titulo_norm and "gp" in web_slug:
@@ -199,11 +195,9 @@ palabras_clave = [p for p in titulo_norm.split() if len(p) > 3]
             max_coincidencias = coincidencias
             mejor_coincidencia = web_url
 
-    # Si encuentra al menos una coincidencia significativa, la devuelve
     if mejor_coincidencia and max_coincidencias > 0:
         return mejor_coincidencia
         
-    # Fallback flexible: si es F1 y hay eventos listados, tomar el primer evento disponible o relevante si no hay coincidencia exacta estricta
     if web_events_dict and ("f1" in league_name.lower() or "formula" in league_name.lower()):
         for web_slug, web_url in web_events_dict.items():
             if any(term in web_slug for term in ["mexico", "mexican", "carrera", "race", "gp"]):
@@ -347,7 +341,6 @@ def procesar_agenda():
 
             agenda_order_counter += 1
 
-            # --- BÚSQUEDA ROBUSTA DE THUMB DE EVENTO ---
             event_thumb = ""
             source_event_url = ""
             
@@ -378,8 +371,8 @@ def procesar_agenda():
                 "time": formatted_time,
                 "timezone": "America/Lima",
                 "agendaOrder": agenda_order_counter,
-                "image": event_thumb,  # Aquí se asigna exclusivamente el thumb del evento web extraído
-                "logo": "",            # El logo se mantiene limpio en la liga
+                "image": event_thumb,
+                "logo": "",
                 "homeTeam": home_team,
                 "awayTeam": away_team,
                 "homeLogo": home_logo,
@@ -402,7 +395,7 @@ def procesar_agenda():
             q_params = urllib.parse.parse_qs(parsed_link.query)
             channel_param = q_params.get("channel", [""])[0].strip().lower()
             if not channel_param:
-                    channel_param = q_params.get("stream", [""])[0].strip().lower()
+                channel_param = q_params.get("stream", [""])[0].strip().lower()
 
             server_name = channel_param.upper() if channel_param else parsed_link.path.split("/")[-1].replace(".html", "")
             iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
@@ -463,7 +456,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} con thumbnails de eventos correctos!")
+    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON}!")
 
 if __name__ == "__main__":
     procesar_agenda()
