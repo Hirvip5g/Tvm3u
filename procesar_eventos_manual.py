@@ -266,14 +266,13 @@ def procesar_agenda():
             print(f"Obteniendo eventos de TheSportsDB para '{league_key}'...")
             eventos_remotos, league_logo = obtener_datos_liga_thesportsdb(league_url)
             
-            for alias in aliases:
-                alias_clean = alias.lower().strip()
-                web_events_por_liga[alias_clean] = eventos_remotos
-                logos_liga_por_liga[alias_clean] = league_logo
-                
-            league_key_clean = league_key.lower().strip()
-            web_events_por_liga[league_key_clean] = eventos_remotos
-            logos_liga_por_liga[league_key_clean] = league_logo
+            # Guardar tanto bajo la clave principal como normalizada y sus alias
+            all_keys = [league_key] + aliases
+            for ak in all_keys:
+                ak_norm = ak.lower().strip()
+                web_events_por_liga[ak_norm] = eventos_remotos
+                if league_logo:
+                    logos_liga_por_liga[ak_norm] = league_logo
 
     sports_dict = {}
     agenda_order_counter = 10
@@ -296,7 +295,6 @@ def procesar_agenda():
         time_str = item.get("time", "")
         date_str = item.get("date", "")
 
-        # --- EXTRACCIÓN LIMPIA DE LIGA Y TÍTULO ---
         league_name = "Otros"
         event_title = raw_title
 
@@ -307,7 +305,6 @@ def procesar_agenda():
         elif ":" in raw_title:
             parts = raw_title.split(":", 1)
             possible_league = parts[0].strip()
-            # Validar si el texto antes de los dos puntos es una liga corta (ej. F1) o un equipo largo
             if len(possible_league) <= 20 and not any(w in possible_league.lower() for w in [" vs ", " vs"]):
                 league_name = possible_league
                 event_title = parts[1].strip()
@@ -326,7 +323,6 @@ def procesar_agenda():
             }
 
         league_obj = sports_dict[sport_id]["leagues"][league_name]
-
         formatted_time = f"{date_str}T{time_str}:00-05:00" if date_str and time_str else time_str
 
         event_key = f"{event_title}_{time_str}_{date_str}"
@@ -334,12 +330,12 @@ def procesar_agenda():
             home_team = ""
             away_team = ""
             if " vs " in event_title.lower():
-                teams = re.split(r'\s+vs\s+', event_title, flags=re.IGNORECASE)
+                teams = re.split(r'\s+vs\s+', event_title, flags=r.IGNORECASE) if 'r' in globals() else re.split(r'\s+vs\s+', event_title, flags=re.IGNORECASE)
                 if len(teams) == 2:
                     home_team = teams[0].strip()
                     away_team = teams[1].strip()
 
-            is_motor = league_name.upper() in ["F1", "MOTOGP"] or "GP " in home_team or "Práctica" in away_team
+            is_motor = league_name.upper() in ["F1", "FORMULA 1", "MOTOGP"] or "GP " in event_title or "Práctica" in event_title or "Clasificación" in event_title
             is_match = bool(home_team and away_team) and not is_motor
 
             if is_match:
@@ -357,10 +353,20 @@ def procesar_agenda():
 
             agenda_order_counter += 1
 
+            # --- BÚSQUEDA CORREGIDA DE THUMB DE EVENTO ---
             event_thumb = ""
             source_event_url = ""
-            league_name_lower = league_name.lower().strip()
-            web_events = web_events_por_liga.get(league_name_lower, {})
+            
+            # Buscar en los diccionarios probando la liga actual y variantes comunes (ej. "f1" -> "F1")
+            candidates_keys = [league_name.lower().strip()]
+            if league_name.upper() == "F1":
+                candidates_keys.extend(["f1", "formula 1", "formula one"])
+
+            web_events = {}
+            for ck in candidates_keys:
+                if ck in web_events_por_liga and web_events_por_liga[ck]:
+                    web_events = web_events_por_liga[ck]
+                    break
 
             if web_events:
                 encontrado_url = buscar_evento_web(league_name, event_title, home_team, away_team, web_events)
@@ -379,8 +385,8 @@ def procesar_agenda():
                 "time": formatted_time,
                 "timezone": "America/Lima",
                 "agendaOrder": agenda_order_counter,
-                "image": event_thumb,
-                "logo": "",
+                "image": event_thumb,  # Aquí se asigna exclusivamente el thumb del evento
+                "logo": "",            # El logo se mantiene independiente
                 "homeTeam": home_team,
                 "awayTeam": away_team,
                 "homeLogo": home_logo,
@@ -441,9 +447,17 @@ def procesar_agenda():
         formatted_leagues = []
         for l_name, l_data in s_data["leagues"].items():
             l_data["events"] = list(l_data["events"].values())
+            
+            # Asignar el logo de la liga correctamente sin sobreescribir la imagen del evento
             l_name_lower = l_name.lower().strip()
-            if l_name_lower in logos_liga_por_liga and logos_liga_por_liga[l_name_lower]:
-                l_data["logo"] = logos_liga_por_liga[l_name_lower]
+            found_logo = ""
+            for lk, lval in logos_liga_por_liga.items():
+                if lk in l_name_lower or l_name_lower in lk:
+                    found_logo = lval
+                    break
+            if found_logo:
+                l_data["logo"] = found_logo
+
             formatted_leagues.append(l_data)
         
         s_data["leagues"] = formatted_leagues
@@ -457,7 +471,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} con nombres de liga limpios!")
+    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON}! Miniaturas de eventos y logos de liga separados correctamente.")
 
 if __name__ == "__main__":
     procesar_agenda()
