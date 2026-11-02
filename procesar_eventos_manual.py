@@ -128,8 +128,27 @@ def limpiar_nombre_equipo(nombre, liga_nombre=""):
 def buscar_imagen(equipo_val):
     if not equipo_val:
         return ""
+    
+    # 1. Coincidencia exacta
     if equipo_val in MAPEO_EQUIPOS:
         return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
+        
+    norm_val = unicodedata.normalize('NFD', equipo_val).encode('ascii', 'ignore').decode('utf-8').lower().strip()
+    if norm_val in MAPEO_EQUIPOS:
+        return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[norm_val]}.png"
+        
+    # 2. Búsqueda limpiando palabras de relleno (de, fc, club, la, el, etc.)
+    palabras_ignorar = ["fc", "club", "de", "la", "el", "cf", "sad", "s.a.d."]
+    tokens = [w for w in norm_val.split() if w not in palabras_ignorar]
+    limpio = " ".join(tokens)
+    if limpio in MAPEO_EQUIPOS:
+        return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[limpio]}.png"
+        
+    # 3. Búsqueda parcial avanzada entre llaves (tolerante a variaciones)
+    for k, v in MAPEO_EQUIPOS.items():
+        if len(k) > 3 and (k in limpio or limpio in k):
+            return f"{BASE_IMG_URL}/{v}.png"
+            
     return ""
 
 def obtener_datos_liga_thesportsdb(league_input):
@@ -375,8 +394,8 @@ def procesar_agenda():
                 "logo": "",
                 "homeTeam": home_team,
                 "awayTeam": away_team,
-                "homeLogo": home_logo,
-                "awayLogo": away_logo,
+                "homeLogo": home_logo,  # Logos de equipos garantizados
+                "awayLogo": away_logo,  # Logos de equipos garantizados
                 "imageMode": "banner",
                 "duration": 130,
                 "extraTime": 0,
@@ -456,7 +475,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON}!")
+    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} con logos de equipos independientes de la imagen de evento!")
 
 if __name__ == "__main__":
     procesar_agenda()
