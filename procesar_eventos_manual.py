@@ -117,7 +117,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
     "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
     "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia",
+    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "F1": "f1",
 })
 
 def limpiar_nombre_equipo(nombre, liga_nombre=""):
@@ -296,16 +296,21 @@ def procesar_agenda():
         time_str = item.get("time", "")
         date_str = item.get("date", "")
 
+        # --- EXTRACCIÓN LIMPIA DE LIGA Y TÍTULO ---
         league_name = "Otros"
         event_title = raw_title
-        if ":" in raw_title:
-            parts = raw_title.split(":", 1)
-            league_name = parts[0].strip()
-            event_title = parts[1].strip()
-        elif "|" in raw_title:
+
+        if "|" in raw_title:
             parts = raw_title.split("|", 1)
             league_name = parts[0].strip()
             event_title = parts[1].strip()
+        elif ":" in raw_title:
+            parts = raw_title.split(":", 1)
+            possible_league = parts[0].strip()
+            # Validar si el texto antes de los dos puntos es una liga corta (ej. F1) o un equipo largo
+            if len(possible_league) <= 20 and not any(w in possible_league.lower() for w in [" vs ", " vs"]):
+                league_name = possible_league
+                event_title = parts[1].strip()
 
         if league_name not in sports_dict[sport_id]["leagues"]:
             league_id = MAPEO_LIGAS.get(league_name, "")
@@ -322,7 +327,6 @@ def procesar_agenda():
 
         league_obj = sports_dict[sport_id]["leagues"][league_name]
 
-        # Formato ISO de tiempo como en tu ejemplo (e.g. 2026-11-01T13:00:00-05:00)
         formatted_time = f"{date_str}T{time_str}:00-05:00" if date_str and time_str else time_str
 
         event_key = f"{event_title}_{time_str}_{date_str}"
@@ -353,7 +357,6 @@ def procesar_agenda():
 
             agenda_order_counter += 1
 
-            # Buscar imagen/banner de evento desde TheSportsDB
             event_thumb = ""
             source_event_url = ""
             league_name_lower = league_name.lower().strip()
@@ -395,7 +398,6 @@ def procesar_agenda():
                 "sourceEventUrl": source_event_url
             }
 
-        # Procesar Servidores respetando exactamente tu formato completo de servidor
         if link:
             parsed_link = urllib.parse.urlparse(link)
             q_params = urllib.parse.parse_qs(parsed_link.query)
@@ -406,7 +408,6 @@ def procesar_agenda():
             server_name = channel_param.upper() if channel_param else parsed_link.path.split("/")[-1].replace(".html", "")
             iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(link, safe='')}"
 
-            # Agregar iframe por defecto
             league_obj["events"][event_key]["servers"].append({
                 "name": server_name,
                 "url": iframe_url,
@@ -418,7 +419,6 @@ def procesar_agenda():
                 "channelLogo": ""
             })
 
-            # Reemplazar/Añadir mapeos desde 04.json si coincide el nombre del canal
             if channel_param and channel_param in canales_04_dict:
                 for canal_info in canales_04_dict[channel_param]:
                     league_obj["events"][event_key]["servers"].append({
@@ -436,13 +436,11 @@ def procesar_agenda():
                         "userAgent": canal_info.get("userAgent", "")
                     })
 
-    # Armar lista final de deportes y ligas convirtiendo los diccionarios internos en listas
     formatted_sports = []
     for s_id, s_data in sports_dict.items():
         formatted_leagues = []
         for l_name, l_data in s_data["leagues"].items():
             l_data["events"] = list(l_data["events"].values())
-            # Asignar logo de la liga si se encontró en TheSportsDB
             l_name_lower = l_name.lower().strip()
             if l_name_lower in logos_liga_por_liga and logos_liga_por_liga[l_name_lower]:
                 l_data["logo"] = logos_liga_por_liga[l_name_lower]
@@ -459,7 +457,7 @@ def procesar_agenda():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(resultado_final, f, ensure_ascii=False, indent=4)
 
-    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} en el formato 100% exacto que tu app requiere!")
+    print(f"¡Agenda procesada con éxito en {OUTPUT_JSON} con nombres de liga limpios!")
 
 if __name__ == "__main__":
     procesar_agenda()
