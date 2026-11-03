@@ -1128,7 +1128,7 @@
                             "code": "FUT",
                             "time": "2026-11-02T20:15:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 35,
+                            "agendaOrder": 36,
                             "image": "",
                             "logo": "",
                             "homeTeam": "Atlético Bucaramanga",
@@ -1349,7 +1349,7 @@
                             "code": "LIGAPROFESIONAL",
                             "time": "2026-11-02T19:15:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 33,
+                            "agendaOrder": 34,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/sz71ca1769678221.jpg",
                             "logo": "",
                             "homeTeam": "Atlético Tucumán",
@@ -1426,7 +1426,7 @@
                             "code": "LIGAPROFESIONAL",
                             "time": "2026-11-02T19:15:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 34,
+                            "agendaOrder": 35,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/vqz55o1769678267.jpg",
                             "logo": "",
                             "homeTeam": "Independiente Rivadavia",
@@ -1526,6 +1526,89 @@
                     "leagueId": "brasileirão"
                 },
                 {
+                    "name": "NBA",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Configuracao/Vix/main/assets/ligas_fm/nba.jpg",
+                    "events": [
+                        {
+                            "title": "Cavaliers vs Thunder",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-02T19:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 33,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/361a9q1759233966.jpg",
+                            "logo": "",
+                            "homeTeam": "Cavaliers",
+                            "awayTeam": "Thunder",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "DISNEY8",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney8",
+                                    "type": "iframe",
+                                    "quality": "",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601757-cleveland-cavaliers-vs-oklahoma-city-thunder"
+                        },
+                        {
+                            "title": "Lakers vs Heat",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-02T22:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 38,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/xh0g241759233132.jpg",
+                            "logo": "",
+                            "homeTeam": "Lakers",
+                            "awayTeam": "Heat",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "DISNEY9",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney9",
+                                    "type": "iframe",
+                                    "quality": "",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601769-los-angeles-lakers-vs-miami-heat"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "nba"
+                },
+                {
                     "name": "NFL",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/g85fqz1662057187.png",
                     "image": "",
@@ -1537,7 +1620,7 @@
                             "code": "NFL",
                             "time": "2026-11-02T20:15:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 36,
+                            "agendaOrder": 37,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/3c5tys1784759884.jpg",
                             "logo": "",
                             "homeTeam": "Bears",
@@ -1630,5 +1713,5 @@
             ]
         }
     ],
-    "updated": "2026-11-02 15:16:35"
+    "updated": "2026-11-03 00:48:07"
 }
