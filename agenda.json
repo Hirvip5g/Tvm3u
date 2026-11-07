@@ -3931,7 +3931,7 @@
                             "time": "2026-11-07T13:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 48,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/3kvugc1784358790.jpg",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/je7zfi1603298076.jpg",
                             "logo": "",
                             "homeTeam": "ADT",
                             "awayTeam": "Sporting Cristal",
@@ -3972,7 +3972,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481754-adt-vs-sporting-cristal"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481758-sporting-cristal-vs-cienciano"
                         },
                         {
                             "title": "FC Cajamarca vs Alianza Atlético",
@@ -4188,7 +4188,7 @@
                             "time": "2026-11-07T14:45:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 53,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/vppauq1781249144.jpg",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/8opmav1781249148.jpg",
                             "logo": "",
                             "homeTeam": "PSG",
                             "awayTeam": "Troyes",
@@ -4269,7 +4269,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489544-paris-saint-germain-vs-troyes"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489558-troyes-vs-le-havre"
                         }
                     ],
                     "flagCode": "",
@@ -4533,7 +4533,7 @@
                             "time": "2026-11-07T19:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 74,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/vwf7lz1771753461.jpg",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/had4pj1771753466.jpg",
                             "logo": "",
                             "homeTeam": "San Diego",
                             "awayTeam": "Sporting KC",
@@ -4560,7 +4560,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2407198-st.-louis-city-sc-vs-san-diego-fc"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2407214-san-diego-fc-vs-sporting-kansas-city"
                         },
                         {
                             "title": "Seattle Sounders FC vs Los Angeles FC",
@@ -4747,5 +4747,5 @@
             ]
         }
     ],
-    "updated": "2026-11-07 12:44:21"
+    "updated": "2026-11-07 21:38:39"
 }
