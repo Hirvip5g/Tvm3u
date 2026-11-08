@@ -14,7 +14,7 @@
                         {
                             "title": "NFL: Bengals vs Falcons",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "15:30",
                             "timezone": "America/Lima",
                             "agendaOrder": 1,
@@ -83,7 +83,7 @@
                         {
                             "title": "NFL: Broncos vs Panthers",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "19:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 22,
@@ -189,7 +189,7 @@
                         {
                             "title": "NFL: Giants vs Eagles",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "19:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 23,
@@ -295,7 +295,7 @@
                         {
                             "title": "NFL: Cowboys vs Colts",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "19:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 24,
@@ -326,7 +326,7 @@
                         {
                             "title": "NFL: Jets vs Chiefs",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "19:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 25,
@@ -357,7 +357,7 @@
                         {
                             "title": "NFL: Raiders vs 49ers",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "22:25",
                             "timezone": "America/Lima",
                             "agendaOrder": 37,
@@ -463,7 +463,7 @@
                         {
                             "title": "NFL: Cardinals vs Seahawks",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "22:25",
                             "timezone": "America/Lima",
                             "agendaOrder": 38,
@@ -569,7 +569,7 @@
                         {
                             "title": "NFL: Packers vs Patriots",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "22:25",
                             "timezone": "America/Lima",
                             "agendaOrder": 39,
@@ -600,7 +600,7 @@
                         {
                             "title": "NFL: Buccaneers vs Bears",
                             "league": "NFL",
-                            "code": "",
+                            "code": "NFL",
                             "time": "02:20",
                             "timezone": "America/Lima",
                             "agendaOrder": 46,
@@ -2783,7 +2783,7 @@
                         {
                             "title": "F1 | GP de Brasil: Carrera",
                             "league": "F1",
-                            "code": "",
+                            "code": "F1",
                             "time": "18:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 11,
@@ -2892,7 +2892,7 @@
                         {
                             "title": "F1 | GP de Brasil: Cámara On Board - Colapinto",
                             "league": "F1",
-                            "code": "",
+                            "code": "F1",
                             "time": "18:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 12,
@@ -2928,5 +2928,5 @@
             ]
         }
     ],
-    "updated": "2026-11-08 17:52:50"
+    "updated": "2026-11-08 18:00:03"
 }
