@@ -259,9 +259,20 @@ def obtener_deporte_info(league_name):
     elif "nfl" in ln or "football americano" in ln:
         return "american-football", "American Football", "🏈"
     elif "f1" in ln or "formula" in ln or "motogp" in ln:
-        return "motorsport", "Motorsport", "🏎️"
+        return "motor", "Motor", "🏎️"
+    elif "nhl" in ln or "hockey" in ln:
+        return "hockey", "Hockey", "🏒"
     else:
         return "football", "Football", "⚽"
+
+def obtener_duracion_por_deporte(sport_id):
+    if sport_id in ["basketball", "american-football", "nfl", "nba"]:
+        return 180
+    elif sport_id in ["hockey", "nhl"]:
+        return 160
+    elif sport_id in ["motor", "f1", "motogp"]:
+        return 150
+    return 130
 
 def procesar_agenda():
     canales_04_dict = {}
@@ -332,7 +343,7 @@ def procesar_agenda():
                 potential_league = parts[0].strip()
                 potential_title = parts[1].strip()
                 
-                codes_directos = ["nfl", "f1", "motogp", "nba", "ufc"]
+                codes_directos = ["nfl", "f1", "motogp", "nba", "ufc", "nhl"]
                 if category.lower() in codes_directos:
                     league_name = category
                     event_title = potential_title
@@ -374,7 +385,7 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            full_time_str = f"{date} {time_val}".strip() if date and time_val else time_val
+            full_time_str = f"{date}T{time_val}:00-05:00" if (date and time_val and "T" not in time_val and len(time_val) == 5) else (f"{date} {time_val}".strip() if date and time_val else time_val)
 
             if event_key not in events_in_league:
                 events_in_league[event_key] = {
@@ -391,11 +402,15 @@ def procesar_agenda():
                     "homeLogo": "",
                     "awayLogo": "",
                     "imageMode": "",
-                    "duration": 130,
+                    "duration": obtener_duracion_por_deporte(sport_id),
                     "extraTime": 0,
                     "status": status,
                     "note": "",
-                    "servers": []
+                    "servers": [],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "homeCountryCode": "",
+                    "awayCountryCode": ""
                 }
                 order_counter += 1
 
