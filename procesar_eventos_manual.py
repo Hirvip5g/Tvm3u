@@ -12,7 +12,7 @@ AGENDA_JS_URL = "https://deportestvhd.me/eventos.js"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
 CLUB_JSON = "club.json"
-OUTPUT_JSON = "agenda1.json"
+OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
 
