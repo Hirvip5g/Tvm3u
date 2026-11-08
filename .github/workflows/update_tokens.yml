@@ -1,0 +1,44 @@
+name: Actualizar Tokens CDN Automáticamente
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Se ejecuta cada hora
+  workflow_dispatch:
+
+jobs:
+  update-tokens:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar entorno Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Ejecutar script de actualización
+        id: run-script
+        run: |
+          OUTPUT=$(python update_tokens.py)
+          echo "$OUTPUT"
+          if echo "$OUTPUT" | grep -q "CAMBIOS_DETECTADOS=true"; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Configurar credenciales de Git
+        if: steps.run-script.outputs.changes == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Hacer Commit y Push automático
+        if: steps.run-script.outputs.changes == 'true'
+        run: |
+          git add agenda.json 04.json
+          git commit -m "🤖 Actualización automática de tokens por cambio en tok.html [skip ci]"
+          git push
