@@ -10,7 +10,7 @@ from datetime import datetime
 AGENDA_URL = "https://streamx723.sbs/json/agenda888.json"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
-CLUB_JSON = "club.json"  # <-- Archivo para mapeo y alias de equipos
+CLUB_JSON = "club.json"
 OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
@@ -240,6 +240,19 @@ def buscar_evento_web(league_name, original_title, home_team, away_team, web_eve
                 return web_url
     return ""
 
+def obtener_deporte_info(league_name):
+    ln = league_name.lower()
+    if "nba" in ln or "basketball" in ln or "básquetbol" in ln:
+        return "basketball", "Basketball", "🏀"
+    elif "ufc" in ln or "box" in ln or "boxing" in ln or "knockout" in ln:
+        return "boxing", "Boxing", "🥊"
+    elif "nfl" in ln or "football americano" in ln:
+        return "american-football", "American Football", "🏈"
+    elif "f1" in ln or "formula" in ln or "motogp" in ln:
+        return "motorsport", "Motorsport", "🏎️"
+    else:
+        return "football", "Football", "⚽"
+
 def procesar_agenda():
     canales_04_dict = {}
     if os.path.exists(LOCAL_CHANNELS_JSON):
@@ -276,15 +289,15 @@ def procesar_agenda():
         print(f"Error: {e}")
         return
 
-    # Transformación exacta respetando el formato de estructura anidada original de la app
-    leagues_map = {}
-    
+    sports_map = {}
+    order_counter = 1
+
     if isinstance(raw_data, list):
         for item in raw_data:
             raw_title = item.get("title", "")
             date = item.get("date", "")
-            time = item.get("time", "")
-            status = item.get("status", "En vivo")
+            time_val = item.get("time", "")
+            status = item.get("status", "")
             category = item.get("category", "Fútbol")
             link = item.get("link", "")
             
@@ -315,47 +328,93 @@ def procesar_agenda():
                 home_team = h_a[0].strip()
                 away_team = h_a[1].strip()
 
-            if league_name not in leagues_map:
-                leagues_map[league_name] = {}
+            sport_id, sport_name, sport_icon = obtener_deporte_info(league_name)
+
+            if sport_id not in sports_map:
+                sports_map[sport_id] = {
+                    "id": sport_id,
+                    "name": sport_name,
+                    "icon": sport_icon,
+                    "leagues_map": {}
+                }
+
+            leagues_in_sport = sports_map[sport_id]["leagues_map"]
+            if league_name not in leagues_in_sport:
+                leagues_in_sport[league_name] = {
+                    "name": league_name,
+                    "logo": "",
+                    "image": "",
+                    "background": "",
+                    "events_map": {}
+                }
+
+            event_key = (event_title, date, time_val)
+            events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            event_key = (event_title, date, time)
-            if event_key not in leagues_map[league_name]:
-                leagues_map[league_name][event_key] = {
+            full_time_str = f"{date} {time_val}" if date and time_val else time_val
+
+            if event_key not in events_in_league:
+                events_in_league[event_key] = {
                     "title": event_title,
+                    "league": league_name,
+                    "code": "",
+                    "time": full_time_str,
+                    "timezone": "America/Lima",
+                    "agendaOrder": order_counter,
+                    "image": "",
+                    "logo": "",
                     "homeTeam": home_team,
                     "awayTeam": away_team,
-                    "time": time,
-                    "date": date,
+                    "homeLogo": "",
+                    "awayLogo": "",
+                    "imageMode": "",
+                    "duration": 130,
+                    "extraTime": 0,
                     "status": status,
+                    "note": "",
                     "servers": []
                 }
-            
+                order_counter += 1
+
             server_entry = {
-                "url": link,
                 "name": "",
+                "url": link,
+                "type": "iframe",
                 "quality": "",
-                "languages": [item.get("language", "es")] if item.get("language") else []
+                "active": True,
+                "languages": [],
+                "customLanguages": "",
+                "channelLogo": ""
             }
             if item.get("drm"):
                 server_entry["drm"] = True
 
-            leagues_map[league_name][event_key]["servers"].append(server_entry)
+            events_in_league[event_key]["servers"].append(server_entry)
 
-    formatted_leagues = []
-    for l_name, events_dict in leagues_map.items():
-        formatted_leagues.append({
-            "name": l_name,
-            "events": list(events_dict.values())
+    formatted_sports = []
+    for s_id, s_data in sports_map.items():
+        formatted_leagues = []
+        for l_name, l_data in s_data["leagues_map"].items():
+            formatted_leagues.append({
+                "name": l_data["name"],
+                "logo": l_data["logo"],
+                "image": l_data["image"],
+                "background": l_data["background"],
+                "events": list(l_data["events_map"].values()),
+                "flagCode": "",
+                "flagUrl": "",
+                "leagueId": ""
+            })
+        formatted_sports.append({
+            "id": s_data["id"],
+            "name": s_data["name"],
+            "icon": s_data["icon"],
+            "leagues": formatted_leagues
         })
 
     agenda_data = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "sports": [
-            {
-                "category": "Fútbol",
-                "leagues": formatted_leagues
-            }
-        ]
+        "sports": formatted_sports,
+        "updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
 
     sources_ligas = {}
