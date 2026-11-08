@@ -7,7 +7,7 @@
             "leagues": [
                 {
                     "name": "Liga BetPlay",
-                    "logo": "",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaco.jpg",
                     "events": [
@@ -18,13 +18,13 @@
                             "time": "2026-11-08T22:05:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 1,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/a1pfm11675412468.jpg",
                             "logo": "",
                             "homeTeam": "Jaguares de Córdoba",
                             "awayTeam": "Atlético Bucaramanga",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -68,7 +68,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481257-jaguares-de-c%c3%b3rdoba-vs-atl%c3%a9tico-bucaramanga"
                         },
                         {
                             "title": "Deportes Tolima vs Millonarios",
@@ -77,13 +78,13 @@
                             "time": "2026-11-08T00:10:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 8,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/mtek9h1754335364.jpg",
                             "logo": "",
                             "homeTeam": "Deportes Tolima",
                             "awayTeam": "Millonarios",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -117,7 +118,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481264-deportes-tolima-vs-millonarios"
                         },
                         {
                             "title": "Alianza vs Llaneros",
@@ -126,13 +128,13 @@
                             "time": "2026-11-08T02:15:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 10,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/80djdn1754335499.jpg",
                             "logo": "",
                             "homeTeam": "Alianza",
                             "awayTeam": "Llaneros",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -176,7 +178,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481263-alianza-de-valledupar-vs-llaneros"
                         }
                     ],
                     "flagCode": "",
@@ -196,13 +199,13 @@
                             "time": "2026-11-08T23:30:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 5,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/0d1gn81769678329.jpg",
                             "logo": "",
                             "homeTeam": "Central Córdoba SdE",
                             "awayTeam": "Lanús",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -222,7 +225,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398181-central-c%c3%b3rdoba-de-santiago-del-estero-vs-lan%c3%bas"
                         }
                     ],
                     "flagCode": "",
@@ -855,5 +859,5 @@
             ]
         }
     ],
-    "updated": "2026-11-08 22:50:55"
+    "updated": "2026-11-08 23:03:08"
 }
