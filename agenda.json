@@ -51,6 +51,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2489550-le-mans-vs-monaco"
                         },
                         {
@@ -83,6 +87,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2489549-le-havre-vs-lorient"
                         },
                         {
@@ -115,6 +123,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2489547-brest-vs-lyon"
                         },
                         {
@@ -146,7 +158,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Lens vs Olympique Marseille",
@@ -188,6 +204,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2489551-lens-vs-marseille"
                         }
                     ],
@@ -319,6 +339,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2494090-manchester-united-vs-aston-villa"
                         }
                     ],
@@ -372,6 +396,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2508405-freiburg-vs-union-berlin"
                         },
                         {
@@ -424,6 +452,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2508408-hoffenheim-vs-schalke-04"
                         }
                     ],
@@ -521,6 +553,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2482244-inter-milan-vs-como"
                         },
                         {
@@ -614,6 +650,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2482242-fiorentina-vs-juventus"
                         }
                     ],
@@ -657,6 +697,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2619567-oldham-athletic-vs-sheffield-wednesday"
                         }
                     ],
@@ -771,6 +815,10 @@
                                     "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2506281-villarreal-vs-getafe"
                         },
                         {
@@ -884,6 +932,10 @@
                                     "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2506284-celta-vigo-vs-levante"
                         },
                         {
@@ -1045,6 +1097,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2506279-atl%c3%a9tico-madrid-vs-barcelona"
                         }
                     ],
@@ -1087,7 +1143,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
@@ -1146,7 +1206,11 @@
                                     "origin": "",
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Estrela vs Benfica",
@@ -1195,6 +1259,10 @@
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2514032-estrela-amadora-vs-benfica"
                         }
                     ],
@@ -1237,7 +1305,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Universidad Chile vs Cobresal",
@@ -1268,7 +1340,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Unión La Calera vs Huachipato",
@@ -1299,7 +1375,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Univ. Concepción vs O'Higgins",
@@ -1330,7 +1410,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
@@ -1387,6 +1471,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2481753-los-chankas-vs-alianza-lima"
                         },
                         {
@@ -1432,7 +1520,11 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Deportivo Garcilaso vs Comerciantes Unidos",
@@ -1478,6 +1570,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2481755-deportivo-garcilaso-vs-comerciantes-unidos"
                         },
                         {
@@ -1524,6 +1620,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2481748-universitario-vs-deportivo-moquegua"
                         }
                     ],
@@ -1567,6 +1667,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2527814-be%c5%9fikta%c5%9f-vs-gen%c3%a7lerbirli%c4%9fi"
                         }
                     ],
@@ -1623,7 +1727,11 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Jaguares de Córdoba vs Atlético Bucaramanga",
@@ -1678,7 +1786,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Deportes Tolima vs Millonarios",
@@ -1723,7 +1835,11 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Alianza vs Llaneros",
@@ -1778,7 +1894,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
@@ -1830,7 +1950,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
@@ -1907,6 +2031,10 @@
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2599515-vasco-da-gama-vs-palmeiras"
                         }
                     ],
@@ -1949,7 +2077,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
@@ -2002,6 +2134,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2487594-quer%c3%a9taro-vs-puebla"
                         },
                         {
@@ -2044,6 +2180,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2487595-le%c3%b3n-vs-cd-guadalajara"
                         }
                     ],
@@ -2054,8 +2194,8 @@
             ]
         },
         {
-            "id": "motorsport",
-            "name": "Motorsport",
+            "id": "motor",
+            "name": "Motor",
             "icon": "🏎️",
             "leagues": [
                 {
@@ -2078,7 +2218,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "",
-                            "duration": 130,
+                            "duration": 150,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2171,7 +2311,11 @@
                                     "origin": "https://portal.app.flow.com.ar",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         },
                         {
                             "title": "Cámara On Board - Colapinto",
@@ -2187,7 +2331,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "",
-                            "duration": 130,
+                            "duration": 150,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2202,7 +2346,11 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
@@ -2236,7 +2384,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2327,6 +2475,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475503-carolina-panthers-vs-denver-broncos"
                         },
                         {
@@ -2343,7 +2495,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2434,6 +2586,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475501-philadelphia-eagles-vs-new-york-giants"
                         },
                         {
@@ -2450,7 +2606,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2466,6 +2622,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475497-indianapolis-colts-vs-dallas-cowboys"
                         },
                         {
@@ -2482,7 +2642,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2498,6 +2658,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475498-kansas-city-chiefs-vs-new-york-jets"
                         },
                         {
@@ -2514,7 +2678,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2605,6 +2769,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475505-san-francisco-49ers-vs-las-vegas-raiders"
                         },
                         {
@@ -2621,7 +2789,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2712,6 +2880,10 @@
                                     "userAgent": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475507-seattle-seahawks-vs-arizona-cardinals"
                         },
                         {
@@ -2728,7 +2900,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2744,6 +2916,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475506-new-england-patriots-vs-green-bay-packers"
                         },
                         {
@@ -2760,7 +2936,7 @@
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -2827,6 +3003,10 @@
                                     "channelLogo": ""
                                 }
                             ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
                             "sourceEventUrl": "https://www.thesportsdb.com/event/2475508-chicago-bears-vs-tampa-bay-buccaneers"
                         }
                     ],
@@ -2837,5 +3017,5 @@
             ]
         }
     ],
-    "updated": "2026-11-08 18:06:43"
+    "updated": "2026-11-08 18:19:11"
 }
