@@ -95,26 +95,35 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
 })
 
 MAPEO_LIGAS = CaseInsensitiveDict({
-    "LaLiga": "laliga", "Premier League": "premier", "Serie A": "seriea",
-    "Bundesliga": "bundesliga", "Ligue 1": "ligue1", "UEFA Champions League": "ucl",
-    "Copa Libertadores": "libertadores", "Championship": "championship", "Liga 1": "Liga1",
-    "LaLiga SmartBank": "smartbank", "Liga Ecuador": "ligaecuador", "Liga Profesional": "ligaprofesional",
+    "LaLiga": "laliga", "ES": "laliga", "LaLiga 2": "smartbank", "Premier League": "premier", "ENG": "premier",
+    "Serie A": "seriea", "IT": "seriea", "Bundesliga": "bundesliga", "ALE": "bundesliga",
+    "Ligue 1": "ligue1", "FRA": "ligue1", "UEFA Champions League": "ucl",
+    "Copa Libertadores": "libertadores", "Championship": "championship", "Liga 1": "Liga1", "PE": "Liga1",
+    "LaLiga SmartBank": "smartbank", "Liga Ecuador": "ligaecuador", "Liga Profesional": "ligaprofesional", "AR": "ligaprofesional",
     "Liga Uruguay": "ligauruguay", "MLB": "mlb", "Liga Paraguay": "ligaparaguay",
-    "Brasileirão": "brasileirão", "NBA Pretemporada": "nba", "Copa de la Liga": "copadelaliga",
-    "Liga MX": "ligamx", "Liga MX Femenil": "ligamx", "Liga de Expansión MX": "expamx", "MLS": "mls", "Super Lig": "superlig",
-    "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
-    "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
-    "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "demo": "demo",
+    "Brasileirão": "brasileirão", "Copa do Brasil": "copadebrasil", "BRA": "copadebrasil",
+    "NBA Pretemporada": "nba", "Copa de la Liga": "copadelaliga",
+    "Liga MX": "ligamx", "MEX": "ligamx", "Liga MX Femenil": "ligamx", "Liga de Expansión MX": "expamx", "MLS": "mls", 
+    "Super Lig": "superlig", "TUR": "superlig", "Eredivisie": "eredivisie", "HOL": "eredivisie", 
+    "Liga Colombia": "ligaco", "Liga BetPlay": "ligaco", "COL": "ligaco", "NFL": "nfl", "UFC": "ufc",
+    "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "POR": "primeiraligap", 
+    "NBA": "nba", "NHL": "nhl", "Liga Chile": "ligachile", "Primera División": "ligachile", "CHI": "ligachile",
+    "MotoGP": "motogp", "F1": "f1", "Superliga de Grecia": "superligagrecian", "GR": "superligagrecian",
+    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Messi Cup U16": "nessicupu16", 
+    "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", 
+    "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", 
+    "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "demo": "demo",
 })
 
 MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
-    "Liga MX": "LIGAMX", "Serie A": "IT", "Liga Profesional": "AR", "Copa do Brasil": "BRA",
-    "Liga Colombia": "COL", "Liga de Expansión MX": "MEX", "Eredivisie": "HOL", "FA Cup": "ENG",
-    "Bundesliga 2": "ALE", "Premier League": "ENG", "LaLiga": "ESP", "Ligue 1": "FRA",
-    "Bundesliga": "ALE", "Liga Chile": "CH", "Super Lig": "TUR", "NWSL": "NWSL",
-    "Primeira Liga": "POR", "Superliga Grecia": "GRE", "Liga Guatemala": "GUA",
-    "NBA": "NBA", "NHL": "NHL", "MotoGP": "MOTOGP", "F1": "F1", "NFL": "NFL"
+    "Liga MX": "LIGAMX", "MEX": "LIGAMX", "Serie A": "IT", "IT": "IT", "Liga Profesional": "AR", "AR": "AR",
+    "Copa do Brasil": "BRA", "BRA": "BRA", "Liga Colombia": "COL", "Liga BetPlay": "COL", "COL": "COL",
+    "Liga de Expansión MX": "MEX", "Eredivisie": "HOL", "HOL": "HOL", "FA Cup": "ENG",
+    "Bundesliga 2": "ALE", "Premier League": "ENG", "ENG": "ENG", "LaLiga": "ESP", "ES": "ESP",
+    "Ligue 1": "FRA", "FRA": "FRA", "Bundesliga": "ALE", "ALE": "ALE", "Liga Chile": "CH", "CHI": "CH",
+    "Primera División": "CH", "Super Lig": "TUR", "TUR": "TUR", "NWSL": "NWSL",
+    "Primeira Liga": "POR", "POR": "POR", "Superliga Grecia": "GRE", "Superliga de Grecia": "GRE", "GR": "GRE",
+    "Liga Guatemala": "GUA", "NBA": "NBA", "NHL": "NHL", "MotoGP": "MOTOGP", "F1": "F1", "NFL": "NFL"
 })
 
 def limpiar_para_comparar(texto):
@@ -325,13 +334,17 @@ def procesar_agenda():
 
     sports_map = {}
     order_counter = 1
+    fecha_actual_default = datetime.now().strftime("%Y-%m-%d")
 
     if isinstance(raw_data, list):
         for item in raw_data:
             category = item.get("clase", "Fútbol")
             raw_titulo = item.get("titulo", "")
             time_val = item.get("hora", "")
-            date = item.get("fecha", "")
+            date_val = item.get("fecha", "").strip()
+            
+            # Asignar fecha actual si no viene especificada en eventos.js
+            date = date_val if date_val else fecha_actual_default
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
             
@@ -385,17 +398,17 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            # Formato de fecha y hora ISO unificado de forma estricta
-            if date and time_val:
+            # Construcción estricta de formato ISO para tiempo
+            if time_val:
                 hora_limpia = time_val.strip()
-                if len(hora_limpia) == 5:  # Formato "HH:MM"
+                if len(hora_limpia) == 5:  # HH:MM
                     full_time_str = f"{date}T{hora_limpia}:00-05:00"
-                elif len(hora_limpia) == 8:  # Formato "HH:MM:SS"
+                elif len(hora_limpia) == 8:  # HH:MM:SS
                     full_time_str = f"{date}T{hora_limpia}-05:00"
                 else:
                     full_time_str = f"{date}T{hora_limpia}:00-05:00" if "T" not in hora_limpia else hora_limpia
             else:
-                full_time_str = time_val
+                full_time_str = f"{date}T00:00:00-05:00"
 
             if event_key not in events_in_league:
                 events_in_league[event_key] = {
