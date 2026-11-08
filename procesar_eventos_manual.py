@@ -327,12 +327,18 @@ def procesar_agenda():
             league_name = category
             event_title = raw_titulo
             
-            if ":" in raw_titulo and not league_name:
+            if ":" in raw_titulo:
                 parts = raw_titulo.split(":", 1)
                 potential_league = parts[0].strip()
-                if len(potential_league) < 30:
+                potential_title = parts[1].strip()
+                
+                codes_directos = ["nfl", "f1", "motogp", "nba", "ufc"]
+                if category.lower() in codes_directos:
+                    league_name = category
+                    event_title = potential_title
+                else:
                     league_name = potential_league
-                    event_title = parts[1].strip()
+                    event_title = potential_title
 
             home_team = ""
             away_team = ""
@@ -561,7 +567,6 @@ def procesar_agenda():
                         if not channel_param:
                             channel_param = query_params.get("stream", [""])[0].strip().lower()
 
-                        # Si el nombre del servidor viene vacío, intentar extraerlo de la URL o parámetros
                         server_name = server.get("name", "").strip()
                         if not server_name:
                             if channel_param:
