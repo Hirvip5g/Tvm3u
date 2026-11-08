@@ -4,10 +4,11 @@ import re
 import urllib.parse
 import requests
 import unicodedata
+import base64
 from datetime import datetime
 
 # Configuración de URLs y archivos locales
-AGENDA_URL = "https://streamx723.sbs/json/agenda888.json"
+AGENDA_JS_URL = "https://deportestvhd.me/eventos.js"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
 CLUB_JSON = "club.json"
@@ -278,15 +279,28 @@ def procesar_agenda():
         except Exception as e:
             print(f"Error al leer {CLUB_JSON}: {e}")
 
-    print(f"Descargando JSON manual desde {AGENDA_URL}...")
+    print(f"Descargando script de eventos desde {AGENDA_JS_URL}...")
     try:
-        response = requests.get(AGENDA_URL, timeout=10)
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(AGENDA_JS_URL, headers=headers, timeout=10)
         if response.status_code != 200:
-            print(f"Error al descargar la agenda. Código de estado: {response.status_code}")
+            print(f"Error al descargar el archivo JS. Código de estado: {response.status_code}")
             return
-        raw_data = response.json()
+        
+        js_content = response.text
+        match_json = re.search(r'const\s+EVENTOS_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|let|var|\Z)', js_content)
+        if not match_json:
+            match_json = re.search(r'=\s*(\[[\s\S]*\])\s*;?\s*$', js_content)
+            
+        if match_json:
+            json_str = match_json.group(1)
+            raw_data = json.loads(json_str)
+        else:
+            print("No se pudo extraer el arreglo JSON de eventos.js con expresiones regulares.")
+            return
+
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Error al procesar eventos.js: {e}")
         return
 
     sports_map = {}
@@ -294,24 +308,17 @@ def procesar_agenda():
 
     if isinstance(raw_data, list):
         for item in raw_data:
-            raw_title = item.get("title", "")
-            date = item.get("date", "")
-            time_val = item.get("time", "")
-            status = item.get("status", "")
-            category = item.get("category", "Fútbol")
-            link = item.get("link", "")
+            category = item.get("clase", "Fútbol")
+            raw_titulo = item.get("titulo", "")
+            time_val = item.get("hora", "")
+            date = ""  # eventos.js no suele proveer fecha explícita, se deja vacío o según formato
+            status = ""
             
             league_name = category
-            event_title = raw_title
+            event_title = raw_titulo
             
-            if ":" in raw_title:
-                parts = raw_title.split(":", 1)
-                potential_league = parts[0].strip()
-                if len(potential_league) < 30:
-                    league_name = potential_league
-                    event_title = parts[1].strip()
-            elif "|" in raw_title:
-                parts = raw_title.split("|", 1)
+            if ":" in raw_titulo and not league_name:
+                parts = raw_titulo.split(":", 1)
                 potential_league = parts[0].strip()
                 if len(potential_league) < 30:
                     league_name = potential_league
@@ -351,7 +358,7 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            full_time_str = f"{date} {time_val}" if date and time_val else time_val
+            full_time_str = f"{date} {time_val}".strip() if date and time_val else time_val
 
             if event_key not in events_in_league:
                 events_in_league[event_key] = {
@@ -376,20 +383,36 @@ def procesar_agenda():
                 }
                 order_counter += 1
 
-            server_entry = {
-                "name": "",
-                "url": link,
-                "type": "iframe",
-                "quality": "",
-                "active": True,
-                "languages": [],
-                "customLanguages": "",
-                "channelLogo": ""
-            }
-            if item.get("drm"):
-                server_entry["drm"] = True
+            canales_raw = item.get("canales", [])
+            for canal in canales_raw:
+                canal_nombre = canal.get("nombre", "")
+                canal_calidad = canal.get("calidad", "")
+                link_enc = canal.get("url", "")
+                
+                # Desencriptar enlace Base64 si contiene ?r=
+                link_limpio = link_enc
+                if "?r=" in link_enc:
+                    try:
+                        partes_url = link_enc.split("?r=")
+                        if len(partes_url) > 1:
+                            b64_encoded = partes_url[1].strip()
+                            padding = '=' * (-len(b64_encoded) % 4)
+                            decoded_bytes = base64.b64decode(b64_encoded + padding)
+                            link_limpio = decoded_bytes.decode('utf-8')
+                    except Exception as e:
+                        print(f"Error al decodificar Base64 de {link_enc}: {e}")
 
-            events_in_league[event_key]["servers"].append(server_entry)
+                server_entry = {
+                    "name": canal_nombre,
+                    "url": link_limpio,
+                    "type": "iframe",
+                    "quality": canal_calidad,
+                    "active": True,
+                    "languages": [],
+                    "customLanguages": "",
+                    "channelLogo": ""
+                }
+                events_in_league[event_key]["servers"].append(server_entry)
 
     formatted_sports = []
     for s_id, s_data in sports_map.items():
@@ -436,7 +459,7 @@ def procesar_agenda():
             league_url = data
             aliases = [league_key.lower()]
 
-        if league_url:
+        if league_url and league_url != "demo":
             print(f"Obteniendo eventos y logo web de TheSportsDB para la liga '{league_key}'...")
             eventos_remotos, league_logo = obtener_datos_liga_thesportsdb(league_url)
             
