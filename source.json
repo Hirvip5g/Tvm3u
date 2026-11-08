@@ -1,7 +1,7 @@
 {
     "F1": {
         "url": "https://www.thesportsdb.com/league/4370-formula-1",
-        "aliases": ["f1", "formula 1", "formula one"]
+        "aliases": ["f1", "formula 1", "formula one", "gp"]
     },
     "Premier League": {
         "url": "https://www.thesportsdb.com/league/4328-english-premier-league",
@@ -92,8 +92,8 @@
         "aliases": ["Colombian Liga DIMAYOR"]
     },
     "Copa Mundial Femenina Sub-17": {
-        "url": "https://www.thesportsdb.com/league/5712-fifa-womens-u17-world-cup",
-        "aliases": ["FIFA Womens U17 World Cup"]
+    "url": "https://www.thesportsdb.com/league/5712-fifa-womens-u17-world-cup",
+    "aliases": ["FIFA Womens U17 World Cup", "Copa Mundial Femenina Sub-17", "Mundial Femenino Sub-17"]
     },
     "Copa de Brasil": {
         "url": "https://www.thesportsdb.com/league/4725-copa-do-brasil",
@@ -106,5 +106,101 @@
     "ATP": {
         "url": "https://www.thesportsdb.com/league/4464-atp-world-tour",
         "aliases": ["ATP World Tour"]
+    },
+    "AFC Champions League Elite": {
+        "url": "https://www.thesportsdb.com/league/4719-afc-champions-league-elite",
+        "aliases": ["AFC Champions League Elite"]
+    },
+    "Torneo BetPlay": {
+        "url": "https://www.thesportsdb.com/league/4951-colombian-torneo-dimayor",
+        "aliases": ["Colombian Torneo DIMAYOR"]
+    },
+    "Primeira Liga": {
+        "url": "https://www.thesportsdb.com/league/4344-portuguese-primeira-liga",
+        "aliases": ["Portuguese Primeira Liga"]
+    },
+    "UEFA Champions League": {
+        "url": "https://www.thesportsdb.com/league/4480-uefa-champions-league",
+        "aliases": ["UEFA Champions League"]
+    },
+    "Brasileirão": {
+        "url": "https://www.thesportsdb.com/league/4351-brazilian-serie-a",
+        "aliases": ["Brazilian Serie A"]
+    },
+    "Championship": {
+        "url": "https://www.thesportsdb.com/league/4329-english-league-championship",
+        "aliases": ["English League Championship"]
+    },
+    "UEFA Europa League": {
+        "url": "https://www.thesportsdb.com/league/4481-uefa-europa-league",
+        "aliases": ["UEFA Europa League"]
+    },
+    "AFC Champions League Two": {
+        "url": "https://www.thesportsdb.com/league/4804-afc-champions-league-two",
+        "aliases": ["AFC Champions League Two"]
+    },
+    "Copa Uruguay": {
+        "url": "https://www.thesportsdb.com/league/5526-copa-auf-uruguay",
+        "aliases": ["Copa AUF Uruguay"]
+    },
+    "Liga de Expansión MX": {
+        "url": "https://www.thesportsdb.com/league/4654-mexican-liga-de-expansión-mx",
+        "aliases": ["Mexican Liga de Expansión MX"]
+    },
+    "UEFA Conference League": {
+        "url": "https://www.thesportsdb.com/league/5071-uefa-conference-league",
+        "aliases": ["UEFA Conference League"]
+    },
+    "Copa Chile": {
+        "url": "Copa Chile",
+        "aliases": ["Copa Chile"]
+    },
+    "Copa Ecuador": {
+        "url": "Copa Ecuador",
+        "aliases": ["Copa Ecuador"]
+    },
+    "FA Cup": {
+        "url": "https://www.thesportsdb.com/league/4482-fa-cup",
+        "aliases": ["FA Cup"]
+    },
+    "Liga MX Femenil": {
+        "url": "https://www.thesportsdb.com/league/5206-mexican-liga-femenil",
+        "aliases": ["Mexican Liga Femenil"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
+    },
+    "demo": {
+        "url": "demo",
+        "aliases": ["demo"]
     }
 }

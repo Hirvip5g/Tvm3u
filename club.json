@@ -1,0 +1,226 @@
+{
+    "Athletico-PR": {
+        "search_name": "Athletico Paranaense",
+        "aliases": ["athletico-pr", "athletico pr", "athletico paranaense"]
+    },
+    "Slavia Praha": {
+        "search_name": "Slavia Prague",
+        "aliases": ["slavia praha", "slavia prague", "slavia praga"]
+    },
+    "Sporting CP": {
+        "search_name": "Sporting Lisbon",
+        "aliases": ["sporting cp", "sporting lisbon", "sporting de lisboa"]
+    },
+    "Inter": {
+        "search_name": "Inter Milan",
+        "aliases": ["inter", "inter de milan", "inter milan"]
+    },
+    "Bayern München": {
+        "search_name": "Bayern Munich",
+        "aliases": ["bayern munchen", "bayern munich", "bayern de munich"]
+    },
+    "Brasil": {
+        "search_name": "Brazil U17 Women",
+        "aliases": ["Brazil"]
+    },
+    "Nigeria": {
+        "search_name": "Nigeria U17 Women",
+        "aliases": ["Nigeria U17"]
+    },
+    "Japón": {
+        "search_name": "Japan U17 Women",
+        "aliases": ["Japan U17"]
+    },
+    "Corea del Norte": {
+        "search_name": "North Korea U17 Women",
+        "aliases": ["North Korea U17"]
+    },
+    "Bayer Leverkusen": {
+        "search_name": "Bayer Leverkusen",
+        "aliases": ["Bayer Leverkusen"]
+    },
+    "Olympique Marseille": {
+        "search_name": "Marseille",
+        "aliases": ["Marseille"]
+    },
+    "Celta de Vigo": {
+        "search_name": "Celta Vigo",
+        "aliases": ["Celta Vigo"]
+    },
+    "Union Saint-Gilloise": {
+        "search_name": "Union Saint-Gilloise",
+        "aliases": ["DEMO2"]
+    },
+    "Sparta Praha": {
+        "search_name": "Sparta Prague",
+        "aliases": ["Sparta Prague"]
+    },
+    "AFC Bournemouth": {
+        "search_name": "Bournemouth",
+        "aliases": ["Bournemouth"]
+    },
+    "Olympique Lyonnais": {
+        "search_name": "Lyon",
+        "aliases": ["Lyon"]
+    },
+    "Gimnasia La Plata": {
+        "search_name": "Gimnasia y Esgrima de La Plata",
+        "aliases": ["Gimnasia y Esgrima de La Plata"]
+    },
+    "Belgrano": {
+        "search_name": "Belgrano",
+        "aliases": ["Belgrano"]
+    },
+    "GP Brasil - Práctica 1": {
+        "search_name": "São Paulo Grand Prix Practice 1",
+        "aliases": ["São Paulo Grand Prix Practice 1"]
+    },
+    "GP Brasil - Práctica 2": {
+        "search_name": "São Paulo Grand Prix Practice 2",
+        "aliases": ["São Paulo Grand Prix Practice 2"]
+    },
+    "Hamburger SV": {
+        "search_name": "Hamburg",
+        "aliases": ["Hamburg"]
+    },
+    "Borussia M'gladbach": {
+        "search_name": "Borussia Mönchengladbach",
+        "aliases": ["Borussia Mönchengladbach"]
+    },
+    "CD Castellón": {
+        "search_name": "Castellón",
+        "aliases": ["Castellón"]
+    },
+    "Atlético San Luis": {
+        "search_name": "Atlético de San Luis",
+        "aliases": ["Atlético de San Luis"]
+    },
+    "Juárez": {
+        "search_name": "Juárez",
+        "aliases": ["Juárez"]
+    },
+    "Unión Santa Fe": {
+        "search_name": "Unión",
+        "aliases": ["Unión"]
+    },
+    "Darmstadt 98": {
+        "search_name": "Darmstadt",
+        "aliases": ["Darmstadt"]
+    },
+    "Hertha BSC": {
+        "search_name": "Hertha",
+        "aliases": ["Hertha"]
+    },
+    "Racing Santander": {
+        "search_name": "Racing de Santander",
+        "aliases": ["Racing de Santander"]
+    },
+    "Deportivo La Coruña": {
+        "search_name": "Deportivo de A Coruña",
+        "aliases": ["Deportivo de A Coruña"]
+    },
+    "Athletic Club": {
+        "search_name": "Athletic Bilbao",
+        "aliases": ["Athletic Bilbao"]
+    },
+    "Mainz 05": {
+        "search_name": "Mainz",
+        "aliases": ["Mainz"]
+    },
+    "Altrincham": {
+        "search_name": "Altrincham",
+        "aliases": ["Altrincham"]
+    },
+    "Notts County": {
+        "search_name": "Notts County",
+        "aliases": ["Notts County"]
+    },
+    "Peterborough United": {
+        "search_name": "Peterborough United",
+        "aliases": ["Peterborough United"]
+    },
+    "Reading": {
+        "search_name": "Reading",
+        "aliases": ["Reading"]
+    },
+    "FC Cajamarca": {
+        "search_name": "Cajamarca",
+        "aliases": ["Cajamarca"]
+    },
+    "PSG": {
+        "search_name": "Paris Saint-Germain",
+        "aliases": ["Paris Saint-Germain"]
+    },
+    "Estudiantes Río Cuarto": {
+        "search_name": "Estudiantes de Río Cuarto",
+        "aliases": ["Estudiantes de Río Cuarto"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    }
+}
