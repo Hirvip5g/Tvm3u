@@ -271,15 +271,16 @@ def procesar_agenda():
         if response.status_code != 200:
             print(f"Error al descargar la agenda. Código de estado: {response.status_code}")
             return
-        agenda_data = response.json()
+        raw_data = response.json()
     except Exception as e:
         print(f"Error: {e}")
         return
 
-    # Adaptación para transformar la lista plana de agenda888.json al formato anidado con deportes/ligas/eventos/servidores
-    if isinstance(agenda_data, list):
-        leagues_dict = {}
-        for item in agenda_data:
+    # Transformación exacta respetando el formato de estructura anidada original de la app
+    leagues_map = {}
+    
+    if isinstance(raw_data, list):
+        for item in raw_data:
             raw_title = item.get("title", "")
             date = item.get("date", "")
             time = item.get("time", "")
@@ -314,19 +315,20 @@ def procesar_agenda():
                 home_team = h_a[0].strip()
                 away_team = h_a[1].strip()
 
-            key_liga = league_name.lower()
-            if key_liga not in leagues_dict:
-                leagues_dict[key_liga] = {
-                    "name": league_name,
-                    "events": []
-                }
+            if league_name not in leagues_map:
+                leagues_map[league_name] = {}
             
             event_key = (event_title, date, time)
-            existing_event = None
-            for ev in leagues_dict[key_liga]["events"]:
-                if ev.get("_event_key") == event_key:
-                    existing_event = ev
-                    break
+            if event_key not in leagues_map[league_name]:
+                leagues_map[league_name][event_key] = {
+                    "title": event_title,
+                    "homeTeam": home_team,
+                    "awayTeam": away_team,
+                    "time": time,
+                    "date": date,
+                    "status": status,
+                    "servers": []
+                }
             
             server_entry = {
                 "url": link,
@@ -337,29 +339,24 @@ def procesar_agenda():
             if item.get("drm"):
                 server_entry["drm"] = True
 
-            if existing_event:
-                existing_event["servers"].append(server_entry)
-            else:
-                new_event = {
-                    "_event_key": event_key,
-                    "title": event_title,
-                    "homeTeam": home_team,
-                    "awayTeam": away_team,
-                    "time": time,
-                    "date": date,
-                    "status": status,
-                    "servers": [server_entry]
-                }
-                leagues_dict[key_liga]["events"].append(new_event)
+            leagues_map[league_name][event_key]["servers"].append(server_entry)
 
-        agenda_data = {
-            "sports": [
-                {
-                    "category": "Fútbol",
-                    "leagues": list(leagues_dict.values())
-                }
-            ]
-        }
+    formatted_leagues = []
+    for l_name, events_dict in leagues_map.items():
+        formatted_leagues.append({
+            "name": l_name,
+            "events": list(events_dict.values())
+        })
+
+    agenda_data = {
+        "updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "sports": [
+            {
+                "category": "Fútbol",
+                "leagues": formatted_leagues
+            }
+        ]
+    }
 
     sources_ligas = {}
     if os.path.exists(SOURCE_JSON):
@@ -497,9 +494,6 @@ def procesar_agenda():
                                 })
 
                     event["servers"] = nuevos_servidores
-
-    if "updated" not in agenda_data or not agenda_data["updated"]:
-        agenda_data["updated"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(agenda_data, f, ensure_ascii=False, indent=4)
