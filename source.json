@@ -99,7 +99,7 @@
         "url": "https://www.thesportsdb.com/league/4725-copa-do-brasil",
         "aliases": ["Copa do Brasil"]
     },
-    "Liga Colombia": {
+    "Liga BetPlay": {
         "url": "https://www.thesportsdb.com/league/4497-colombia-categoría-primera-a",
         "aliases": ["Colombian Liga DIMAYOR"]
     },
@@ -167,9 +167,9 @@
         "url": "https://www.thesportsdb.com/league/5206-mexican-liga-femenil",
         "aliases": ["Mexican Liga Femenil"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Eredivisie": {
+        "url": "Dutch Eredivisie",
+        "aliases": ["Dutch Eredivisie"]
     },
     "demo": {
         "url": "demo",
