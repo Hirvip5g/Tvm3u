@@ -108,6 +108,15 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "demo": "demo",
 })
 
+MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
+    "Liga MX": "LIGAMX", "Serie A": "IT", "Liga Profesional": "AR", "Copa do Brasil": "BRA",
+    "Liga Colombia": "COL", "Liga de Expansión MX": "MEX", "Eredivisie": "HOL", "FA Cup": "ENG",
+    "Bundesliga 2": "ALE", "Premier League": "ENG", "LaLiga": "ESP", "Ligue 1": "FRA",
+    "Bundesliga": "ALE", "Liga Chile": "CH", "Super Lig": "TUR", "NWSL": "NWSL",
+    "Primeira Liga": "POR", "Superliga Grecia": "GRE", "Liga Guatemala": "GUA",
+    "NBA": "NBA", "NHL": "NHL", "MotoGP": "MOTOGP", "F1": "F1", "NFL": "NFL"
+})
+
 def limpiar_para_comparar(texto):
     if not texto:
         return ""
@@ -311,8 +320,9 @@ def procesar_agenda():
             category = item.get("clase", "Fútbol")
             raw_titulo = item.get("titulo", "")
             time_val = item.get("hora", "")
-            date = ""  # eventos.js no suele proveer fecha explícita, se deja vacío o según formato
-            status = ""
+            date = item.get("fecha", "")
+            status = item.get("status", item.get("estado", ""))
+            code_val = item.get("code", item.get("codigo", ""))
             
             league_name = category
             event_title = raw_titulo
@@ -364,7 +374,7 @@ def procesar_agenda():
                 events_in_league[event_key] = {
                     "title": event_title,
                     "league": league_name,
-                    "code": "",
+                    "code": code_val if code_val else MAPEO_CODIGOS_LIGA.get(league_name, ""),
                     "time": full_time_str,
                     "timezone": "America/Lima",
                     "agendaOrder": order_counter,
@@ -385,11 +395,10 @@ def procesar_agenda():
 
             canales_raw = item.get("canales", [])
             for canal in canales_raw:
-                canal_nombre = canal.get("nombre", "")
+                canal_nombre = canal.get("nombre", "").strip()
                 canal_calidad = canal.get("calidad", "")
                 link_enc = canal.get("url", "")
                 
-                # Desencriptar enlace Base64 si contiene ?r=
                 link_limpio = link_enc
                 if "?r=" in link_enc:
                     try:
@@ -552,8 +561,21 @@ def procesar_agenda():
                         if not channel_param:
                             channel_param = query_params.get("stream", [""])[0].strip().lower()
 
+                        # Si el nombre del servidor viene vacío, intentar extraerlo de la URL o parámetros
+                        server_name = server.get("name", "").strip()
+                        if not server_name:
+                            if channel_param:
+                                server_name = channel_param.replace("-", " ").upper()
+                            else:
+                                path_part = parsed_url.path.split("/")[-1].replace(".html", "").replace(".php", "")
+                                if path_part and path_part != "embedc":
+                                    server_name = path_part.replace("-", " ").upper()
+                                else:
+                                    server_name = "SERVIDOR"
+
                         iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
                         server_copy = dict(server)
+                        server_copy["name"] = server_name
                         server_copy["url"] = iframe_url
                         server_copy["type"] = "iframe"
                         nuevos_servidores.append(server_copy)
@@ -561,7 +583,7 @@ def procesar_agenda():
                         if channel_param and channel_param in canales_04_dict:
                             for canal_info in canales_04_dict[channel_param]:
                                 nuevos_servidores.append({
-                                    "name": canal_info.get("canal", server.get("name", channel_param.upper())),
+                                    "name": canal_info.get("canal", server_name),
                                     "url": canal_info.get("url", ""),
                                     "type": canal_info.get("tipo", "clearkey"),
                                     "quality": server.get("quality", ""),
