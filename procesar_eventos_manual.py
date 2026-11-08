@@ -12,7 +12,7 @@ AGENDA_JS_URL = "https://deportestvhd.me/eventos.js"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
 CLUB_JSON = "club.json"
-OUTPUT_JSON = "agenda.json"
+OUTPUT_JSON = "agenda1.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
 
@@ -385,7 +385,7 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            # Corrección aplicada para unificar y estructurar correctamente la fecha y hora con zona horaria
+            # Formato de fecha y hora ISO unificado con zona horaria para compatibilidad total con agenda.json
             if date and time_val:
                 hora_limpia = time_val.strip()
                 if len(hora_limpia) == 5:  # Formato "HH:MM"
