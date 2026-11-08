@@ -385,7 +385,15 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            full_time_str = f"{date}T{time_val}:00-05:00" if (date and time_val and "T" not in time_val and len(time_val) == 5) else (f"{date} {time_val}".strip() if date and time_val else time_val)
+            # Corrección aplicada para unificar y estructurar correctamente la fecha y hora con zona horaria
+            if date and time_val:
+                hora_limpia = time_val.strip()
+                if len(hora_limpia) == 5:  # Formato "HH:MM"
+                    full_time_str = f"{date}T{hora_limpia}:00-05:00"
+                else:
+                    full_time_str = f"{date} {hora_limpia}"
+            else:
+                full_time_str = time_val
 
             if event_key not in events_in_league:
                 events_in_league[event_key] = {
