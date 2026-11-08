@@ -1,789 +1,30 @@
 {
     "sports": [
         {
-            "id": "american-football",
-            "name": "American Football",
-            "icon": "🏈",
-            "leagues": [
-                {
-                    "name": "NFL",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/0z0j131793688031.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nfl.jpg",
-                    "events": [
-                        {
-                            "title": "NFL: Bengals vs Falcons",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "15:30",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 1,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Bengals",
-                            "awayTeam": "Falcons",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnmx",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN MX HD",
-                                    "url": "http://187.102.208.209:8000/play/a06a",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN Deportes",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despndeportes",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN DEPORTES HD",
-                                    "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free",
-                                    "type": "embed",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Broncos vs Panthers",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "19:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 22,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Broncos",
-                            "awayTeam": "Panthers",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 5",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
-                                    "clearkey": {
-                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
-                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 5 AR MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
-                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": {
-                                        "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
-                                        "key": "23129ab5572aeda7607c920655c0dbea"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Giants vs Eagles",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "19:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 23,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Giants",
-                            "awayTeam": "Eagles",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 7",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 7 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.ibb.co/LSQFzkw/espn-7B.png?",
-                                    "clearkey": {
-                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
-                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 7 AR MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
-                                    "clearkey": {
-                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
-                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox3ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
-                                    "clearkey": {
-                                        "keyId": "4629bd0ae30c0e72af111fb948fada1c",
-                                        "key": "7864154c679e769e7f164ba083c8fad3"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Cowboys vs Colts",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "19:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 24,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Cowboys",
-                            "awayTeam": "Colts",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone10",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Jets vs Chiefs",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "19:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 25,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Jets",
-                            "awayTeam": "Chiefs",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone11",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Raiders vs 49ers",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "22:25",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 37,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Raiders",
-                            "awayTeam": "49ers",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 5",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
-                                    "clearkey": {
-                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
-                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 5 AR MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
-                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": {
-                                        "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
-                                        "key": "23129ab5572aeda7607c920655c0dbea"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Cardinals vs Seahawks",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "22:25",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 38,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Cardinals",
-                            "awayTeam": "Seahawks",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 7",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 7 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.ibb.co/LSQFzkw/espn-7B.png?",
-                                    "clearkey": {
-                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
-                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 7 AR MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
-                                    "clearkey": {
-                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
-                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox3ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
-                                    "clearkey": {
-                                        "keyId": "4629bd0ae30c0e72af111fb948fada1c",
-                                        "key": "7864154c679e769e7f164ba083c8fad3"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Packers vs Patriots",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "22:25",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 39,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Packers",
-                            "awayTeam": "Patriots",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Canal 5 MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Fcanal5-mex.html",
-                                    "type": "iframe",
-                                    "quality": "FHD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "NFL: Buccaneers vs Bears",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "02:20",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 46,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "NFL: Buccaneers",
-                            "awayTeam": "Bears",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 2",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 2 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
-                                        "key": "6d15568e1dab59e7202ae12e71505185"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CO HD",
-                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Universo",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Duniverso",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "nfl"
-                }
-            ]
-        },
-        {
             "id": "football",
             "name": "Football",
             "icon": "⚽",
             "leagues": [
                 {
-                    "name": "HOL",
-                    "logo": "",
+                    "name": "Ligue 1",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligue1.jpg",
                     "events": [
                         {
-                            "title": "Eredivisie: Cambuur vs PSV",
-                            "league": "HOL",
-                            "code": "",
-                            "time": "16:45",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 2,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Eredivisie: Cambuur",
-                            "awayTeam": "PSV",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney18",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Eredivisie: AZ vs Groningen",
-                            "league": "HOL",
-                            "code": "",
-                            "time": "16:45",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 3,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Eredivisie: AZ",
-                            "awayTeam": "Groningen",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney19",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
-                {
-                    "name": "FRA",
-                    "logo": "",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Ligue 1: Le Mans vs Monaco",
-                            "league": "FRA",
-                            "code": "",
+                            "title": "Le Mans vs Monaco",
+                            "league": "Ligue 1",
+                            "code": "FRA",
                             "time": "17:15",
                             "timezone": "America/Lima",
-                            "agendaOrder": 4,
-                            "image": "",
+                            "agendaOrder": 1,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/1j0cuo1781249144.jpg",
                             "logo": "",
-                            "homeTeam": "Ligue 1: Le Mans",
+                            "homeTeam": "Le Mans",
                             "awayTeam": "Monaco",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8682.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9829.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -809,22 +50,23 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489550-le-mans-vs-monaco"
                         },
                         {
-                            "title": "Ligue 1: Le Havre vs Lorient",
-                            "league": "FRA",
-                            "code": "",
+                            "title": "Le Havre vs Lorient",
+                            "league": "Ligue 1",
+                            "code": "FRA",
                             "time": "17:15",
                             "timezone": "America/Lima",
-                            "agendaOrder": 5,
-                            "image": "",
+                            "agendaOrder": 2,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/jt0ac11754726865.jpg",
                             "logo": "",
-                            "homeTeam": "Ligue 1: Le Havre",
+                            "homeTeam": "Le Havre",
                             "awayTeam": "Lorient",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9746.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8689.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -840,22 +82,23 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489549-le-havre-vs-lorient"
                         },
                         {
-                            "title": "Ligue 1: Brest vs Olympique Lyonnais",
-                            "league": "FRA",
-                            "code": "",
+                            "title": "Brest vs Olympique Lyonnais",
+                            "league": "Ligue 1",
+                            "code": "FRA",
                             "time": "17:15",
                             "timezone": "America/Lima",
-                            "agendaOrder": 6,
-                            "image": "",
+                            "agendaOrder": 3,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/0c37hl1754727100.jpg",
                             "logo": "",
-                            "homeTeam": "Ligue 1: Brest",
+                            "homeTeam": "Brest",
                             "awayTeam": "Olympique Lyonnais",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8521.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9748.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -871,20 +114,21 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489547-brest-vs-lyon"
                         },
                         {
-                            "title": "Ligue 1: Angers SCO vs Nice",
-                            "league": "FRA",
-                            "code": "",
+                            "title": "Angers SCO vs Nice",
+                            "league": "Ligue 1",
+                            "code": "FRA",
                             "time": "17:15",
                             "timezone": "America/Lima",
-                            "agendaOrder": 7,
+                            "agendaOrder": 4,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Ligue 1: Angers SCO",
+                            "homeTeam": "Angers SCO",
                             "awayTeam": "Nice",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8121.png",
                             "awayLogo": "",
                             "imageMode": "",
                             "duration": 130,
@@ -905,19 +149,19 @@
                             ]
                         },
                         {
-                            "title": "Ligue 1: Lens vs Olympique Marseille",
-                            "league": "FRA",
-                            "code": "",
+                            "title": "Lens vs Olympique Marseille",
+                            "league": "Ligue 1",
+                            "code": "FRA",
                             "time": "20:45",
                             "timezone": "America/Lima",
-                            "agendaOrder": 30,
-                            "image": "",
+                            "agendaOrder": 27,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/bhrvjl1781249490.jpg",
                             "logo": "",
-                            "homeTeam": "Ligue 1: Lens",
+                            "homeTeam": "Lens",
                             "awayTeam": "Olympique Marseille",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8588.png",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -943,33 +187,34 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2489551-lens-vs-marseille"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "ligue1"
                 },
                 {
-                    "name": "ENG",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/ty5a681688770169.png",
+                    "name": "Premier League",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/gasy9d1737743125.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/premier.jpg",
                     "events": [
                         {
-                            "title": "Premier League: Manchester United vs Aston Villa",
-                            "league": "ENG",
-                            "code": "",
+                            "title": "Manchester United vs Aston Villa",
+                            "league": "Premier League",
+                            "code": "ENG",
                             "time": "17:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 8,
-                            "image": "",
+                            "agendaOrder": 5,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/hi8fte1787740860.jpg",
                             "logo": "",
-                            "homeTeam": "Premier League: Manchester United",
+                            "homeTeam": "Manchester United",
                             "awayTeam": "Aston Villa",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10260.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10252.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1073,64 +318,34 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
-                        },
-                        {
-                            "title": "FA Cup: Oldham Athletic vs Sheffield Wednesday",
-                            "league": "ENG",
-                            "code": "",
-                            "time": "18:15",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 13,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "FA Cup: Oldham Athletic",
-                            "awayTeam": "Sheffield Wednesday",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney9",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2494090-manchester-united-vs-aston-villa"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "premier"
                 },
                 {
-                    "name": "ALE",
-                    "logo": "",
+                    "name": "Bundesliga",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/teqh1b1679952008.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/bundesliga.jpg",
                     "events": [
                         {
-                            "title": "Bundesliga: Freiburg vs Union Berlin",
-                            "league": "ALE",
-                            "code": "",
+                            "title": "Freiburg vs Union Berlin",
+                            "league": "Bundesliga",
+                            "code": "ALE",
                             "time": "17:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 9,
-                            "image": "",
+                            "agendaOrder": 6,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/9gluby1754041724.jpg",
                             "logo": "",
-                            "homeTeam": "Bundesliga: Freiburg",
+                            "homeTeam": "Freiburg",
                             "awayTeam": "Union Berlin",
                             "homeLogo": "",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8149.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1156,22 +371,23 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2508405-freiburg-vs-union-berlin"
                         },
                         {
-                            "title": "Bundesliga: Hoffenheim vs Schalke 04",
-                            "league": "ALE",
-                            "code": "",
+                            "title": "Hoffenheim vs Schalke 04",
+                            "league": "Bundesliga",
+                            "code": "ALE",
                             "time": "19:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 26,
-                            "image": "",
+                            "agendaOrder": 23,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/whk8rt1655818074.jpg",
                             "logo": "",
-                            "homeTeam": "Bundesliga: Hoffenheim",
+                            "homeTeam": "Hoffenheim",
                             "awayTeam": "Schalke 04",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8226.png",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1207,33 +423,34 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2508408-hoffenheim-vs-schalke-04"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "bundesliga"
                 },
                 {
-                    "name": "IT",
+                    "name": "Serie A",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/67q3q21679951383.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/seriea.jpg",
                     "events": [
                         {
-                            "title": "Serie A: Inter vs Como",
-                            "league": "IT",
-                            "code": "",
+                            "title": "Inter vs Como",
+                            "league": "Serie A",
+                            "code": "IT",
                             "time": "18:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 10,
-                            "image": "",
+                            "agendaOrder": 7,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/heu9pd1755934214.jpg",
                             "logo": "",
-                            "homeTeam": "Serie A: Inter",
+                            "homeTeam": "Inter",
                             "awayTeam": "Como",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8636.png",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1303,22 +520,23 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2482244-inter-milan-vs-como"
                         },
                         {
-                            "title": "Serie A: Fiorentina vs Juventus",
-                            "league": "IT",
-                            "code": "",
+                            "title": "Fiorentina vs Juventus",
+                            "league": "Serie A",
+                            "code": "IT",
                             "time": "20:45",
                             "timezone": "America/Lima",
-                            "agendaOrder": 29,
-                            "image": "",
+                            "agendaOrder": 26,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/2ln65j1755934143.jpg",
                             "logo": "",
-                            "homeTeam": "Serie A: Fiorentina",
+                            "homeTeam": "Fiorentina",
                             "awayTeam": "Juventus",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8535.png",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1395,7 +613,51 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2482242-fiorentina-vs-juventus"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "seriea"
+                },
+                {
+                    "name": "FA Cup",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/vk7isd1598802862.png",
+                    "image": "",
+                    "background": "",
+                    "events": [
+                        {
+                            "title": "Oldham Athletic vs Sheffield Wednesday",
+                            "league": "FA Cup",
+                            "code": "ENG",
+                            "time": "18:15",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 10,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/63xgn71793224763.jpg",
+                            "logo": "",
+                            "homeTeam": "Oldham Athletic",
+                            "awayTeam": "Sheffield Wednesday",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney9",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2619567-oldham-athletic-vs-sheffield-wednesday"
                         }
                     ],
                     "flagCode": "",
@@ -1403,25 +665,25 @@
                     "leagueId": ""
                 },
                 {
-                    "name": "ES",
+                    "name": "LaLiga",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/laliga.jpg",
                     "events": [
                         {
-                            "title": "LaLiga: Villarreal vs Getafe",
-                            "league": "ES",
-                            "code": "",
+                            "title": "Villarreal vs Getafe",
+                            "league": "LaLiga",
+                            "code": "ESP",
                             "time": "18:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 14,
-                            "image": "",
+                            "agendaOrder": 11,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/p69a571784904566.jpg",
                             "logo": "",
-                            "homeTeam": "LaLiga: Villarreal",
+                            "homeTeam": "Villarreal",
                             "awayTeam": "Getafe",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10205.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8305.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1508,22 +770,23 @@
                                     "origin": "",
                                     "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2506281-villarreal-vs-getafe"
                         },
                         {
-                            "title": "LaLiga: Celta de Vigo vs Levante",
-                            "league": "ES",
-                            "code": "",
+                            "title": "Celta de Vigo vs Levante",
+                            "league": "LaLiga",
+                            "code": "ESP",
                             "time": "18:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 15,
-                            "image": "",
+                            "agendaOrder": 12,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/topqf61784904571.jpg",
                             "logo": "",
-                            "homeTeam": "LaLiga: Celta de Vigo",
+                            "homeTeam": "Celta de Vigo",
                             "awayTeam": "Levante",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9910.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8581.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1620,53 +883,23 @@
                                     "origin": "",
                                     "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2506284-celta-vigo-vs-levante"
                         },
                         {
-                            "title": "LaLiga 2: Sporting Gijón vs Real Valladolid",
-                            "league": "ES",
-                            "code": "",
-                            "time": "18:30",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 16,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "LaLiga 2: Sporting Gijón",
-                            "awayTeam": "Real Valladolid",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "LaLiga TV Hypermotion ES",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ]
-                        },
-                        {
-                            "title": "LaLiga: Atlético Madrid vs Barcelona",
-                            "league": "ES",
-                            "code": "",
+                            "title": "Atlético Madrid vs Barcelona",
+                            "league": "LaLiga",
+                            "code": "ESP",
                             "time": "21:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 31,
-                            "image": "",
+                            "agendaOrder": 28,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/241gj31784904563.jpg",
                             "logo": "",
-                            "homeTeam": "LaLiga: Atlético Madrid",
+                            "homeTeam": "Atlético Madrid",
                             "awayTeam": "Barcelona",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9906.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8634.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1811,6 +1044,49 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2506279-atl%c3%a9tico-madrid-vs-barcelona"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "laliga"
+                },
+                {
+                    "name": "LaLiga 2",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
+                    "image": "",
+                    "background": "",
+                    "events": [
+                        {
+                            "title": "Sporting Gijón vs Real Valladolid",
+                            "league": "LaLiga 2",
+                            "code": "",
+                            "time": "18:30",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 13,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Sporting Gijón",
+                            "awayTeam": "Real Valladolid",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "LaLiga TV Hypermotion ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
                             ]
                         }
                     ],
@@ -1819,21 +1095,21 @@
                     "leagueId": ""
                 },
                 {
-                    "name": "POR",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
+                    "name": "Primeira Liga",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/3tgdke1782689102.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/primeiraligap.jpg",
                     "events": [
                         {
-                            "title": "Primeira Liga: Vitória Guimarães vs Porto",
-                            "league": "POR",
-                            "code": "",
+                            "title": "Vitória Guimarães vs Porto",
+                            "league": "Primeira Liga",
+                            "code": "POR",
                             "time": "19:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 17,
+                            "agendaOrder": 14,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Primeira Liga: Vitória Guimarães",
+                            "homeTeam": "Vitória Guimarães",
                             "awayTeam": "Porto",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -1873,19 +1149,19 @@
                             ]
                         },
                         {
-                            "title": "Primeira Liga: Estrela vs Benfica",
-                            "league": "POR",
-                            "code": "",
+                            "title": "Estrela vs Benfica",
+                            "league": "Primeira Liga",
+                            "code": "POR",
                             "time": "21:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 33,
-                            "image": "",
+                            "agendaOrder": 30,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/qn46a31786719049.jpg",
                             "logo": "",
-                            "homeTeam": "Primeira Liga: Estrela",
+                            "homeTeam": "Estrela",
                             "awayTeam": "Benfica",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1918,29 +1194,30 @@
                                     "origin": "",
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2514032-estrela-amadora-vs-benfica"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "primeiraligap"
                 },
                 {
-                    "name": "CHI",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/x9m78e1768232019.png",
+                    "name": "Primera División",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/3p98xv1740672448.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/primeradivisión.jpg",
                     "events": [
                         {
-                            "title": "Primera División: Ñublense vs Colo-Colo",
-                            "league": "CHI",
+                            "title": "Ñublense vs Colo-Colo",
+                            "league": "Primera División",
                             "code": "",
                             "time": "19:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 18,
+                            "agendaOrder": 15,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Primera División: Ñublense",
+                            "homeTeam": "Ñublense",
                             "awayTeam": "Colo-Colo",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -1963,15 +1240,15 @@
                             ]
                         },
                         {
-                            "title": "Primera División: Universidad Chile vs Cobresal",
-                            "league": "CHI",
+                            "title": "Universidad Chile vs Cobresal",
+                            "league": "Primera División",
                             "code": "",
                             "time": "19:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 19,
+                            "agendaOrder": 16,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Primera División: Universidad Chile",
+                            "homeTeam": "Universidad Chile",
                             "awayTeam": "Cobresal",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -1994,15 +1271,15 @@
                             ]
                         },
                         {
-                            "title": "Primera División: Unión La Calera vs Huachipato",
-                            "league": "CHI",
+                            "title": "Unión La Calera vs Huachipato",
+                            "league": "Primera División",
                             "code": "",
                             "time": "21:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 34,
+                            "agendaOrder": 31,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Primera División: Unión La Calera",
+                            "homeTeam": "Unión La Calera",
                             "awayTeam": "Huachipato",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2025,15 +1302,15 @@
                             ]
                         },
                         {
-                            "title": "Primera División: Univ. Concepción vs O'Higgins",
-                            "league": "CHI",
+                            "title": "Univ. Concepción vs O'Higgins",
+                            "league": "Primera División",
                             "code": "",
                             "time": "00:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 41,
+                            "agendaOrder": 38,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Primera División: Univ. Concepción",
+                            "homeTeam": "Univ. Concepción",
                             "awayTeam": "O'Higgins",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2058,28 +1335,28 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "primeradivisión"
                 },
                 {
-                    "name": "PE",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/dikktz1785779891.png",
+                    "name": "Liga 1",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/Liga1.jpg",
                     "events": [
                         {
-                            "title": "Liga 1: Los Chankas vs Alianza Lima",
-                            "league": "PE",
+                            "title": "Los Chankas vs Alianza Lima",
+                            "league": "Liga 1",
                             "code": "",
                             "time": "19:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 20,
-                            "image": "",
+                            "agendaOrder": 17,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/mzj0881771925025.jpg",
                             "logo": "",
-                            "homeTeam": "Liga 1: Los Chankas",
+                            "homeTeam": "Los Chankas",
                             "awayTeam": "Alianza Lima",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -2109,18 +1386,19 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481753-los-chankas-vs-alianza-lima"
                         },
                         {
-                            "title": "Liga 1: Sport Boys vs UTC Cajamarca",
-                            "league": "PE",
+                            "title": "Sport Boys vs UTC Cajamarca",
+                            "league": "Liga 1",
                             "code": "",
                             "time": "21:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 35,
+                            "agendaOrder": 32,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Liga 1: Sport Boys",
+                            "homeTeam": "Sport Boys",
                             "awayTeam": "UTC Cajamarca",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2157,19 +1435,19 @@
                             ]
                         },
                         {
-                            "title": "Liga 1: Deportivo Garcilaso vs Comerciantes Unidos",
-                            "league": "PE",
+                            "title": "Deportivo Garcilaso vs Comerciantes Unidos",
+                            "league": "Liga 1",
                             "code": "",
                             "time": "00:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 42,
-                            "image": "",
+                            "agendaOrder": 39,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/g6a32k1784358791.jpg",
                             "logo": "",
-                            "homeTeam": "Liga 1: Deportivo Garcilaso",
+                            "homeTeam": "Deportivo Garcilaso",
                             "awayTeam": "Comerciantes Unidos",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -2199,22 +1477,23 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481755-deportivo-garcilaso-vs-comerciantes-unidos"
                         },
                         {
-                            "title": "Liga 1: Universitario vs Deportivo Moquegua",
-                            "league": "PE",
+                            "title": "Universitario vs Deportivo Moquegua",
+                            "league": "Liga 1",
                             "code": "",
                             "time": "02:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 47,
-                            "image": "",
+                            "agendaOrder": 44,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/vio05c1784358788.jpg",
                             "logo": "",
-                            "homeTeam": "Liga 1: Universitario",
+                            "homeTeam": "Universitario",
                             "awayTeam": "Deportivo Moquegua",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -2244,33 +1523,34 @@
                                     "origin": "",
                                     "userAgent": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481748-universitario-vs-deportivo-moquegua"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "Liga1"
                 },
                 {
-                    "name": "TUR",
+                    "name": "Super Lig",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/dikktz1785779891.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/superlig.jpg",
                     "events": [
                         {
-                            "title": "Super Lig: Beşiktaş vs Gençlerbirliği",
-                            "league": "TUR",
-                            "code": "",
+                            "title": "Beşiktaş vs Gençlerbirliği",
+                            "league": "Super Lig",
+                            "code": "TUR",
                             "time": "19:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 21,
-                            "image": "",
+                            "agendaOrder": 18,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/kqsvyi1786706427.jpg",
                             "logo": "",
-                            "homeTeam": "Super Lig: Beşiktaş",
+                            "homeTeam": "Beşiktaş",
                             "awayTeam": "Gençlerbirliği",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -2286,29 +1566,30 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2527814-be%c5%9fikta%c5%9f-vs-gen%c3%a7lerbirli%c4%9fi"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "superlig"
                 },
                 {
-                    "name": "COL",
-                    "logo": "https://r2.thesportsdb.com/images/media/team/badge/x6mzk41615832215.png",
+                    "name": "Liga BetPlay",
+                    "logo": "",
                     "image": "",
                     "background": "",
                     "events": [
                         {
-                            "title": "Liga BetPlay: Santa Fe vs Deportivo Pasto",
-                            "league": "COL",
+                            "title": "Santa Fe vs Deportivo Pasto",
+                            "league": "Liga BetPlay",
                             "code": "",
                             "time": "20:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 27,
+                            "agendaOrder": 24,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Liga BetPlay: Santa Fe",
+                            "homeTeam": "Santa Fe",
                             "awayTeam": "Deportivo Pasto",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2345,15 +1626,15 @@
                             ]
                         },
                         {
-                            "title": "Liga BetPlay: Jaguares de Córdoba vs Atlético Bucaramanga",
-                            "league": "COL",
+                            "title": "Jaguares de Córdoba vs Atlético Bucaramanga",
+                            "league": "Liga BetPlay",
                             "code": "",
                             "time": "22:05",
                             "timezone": "America/Lima",
-                            "agendaOrder": 36,
+                            "agendaOrder": 33,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Liga BetPlay: Jaguares de Córdoba",
+                            "homeTeam": "Jaguares de Córdoba",
                             "awayTeam": "Atlético Bucaramanga",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2400,15 +1681,15 @@
                             ]
                         },
                         {
-                            "title": "Liga BetPlay: Deportes Tolima vs Millonarios",
-                            "league": "COL",
+                            "title": "Deportes Tolima vs Millonarios",
+                            "league": "Liga BetPlay",
                             "code": "",
                             "time": "00:10",
                             "timezone": "America/Lima",
-                            "agendaOrder": 43,
+                            "agendaOrder": 40,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Liga BetPlay: Deportes Tolima",
+                            "homeTeam": "Deportes Tolima",
                             "awayTeam": "Millonarios",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2445,15 +1726,15 @@
                             ]
                         },
                         {
-                            "title": "Liga BetPlay: Alianza vs Llaneros",
-                            "league": "COL",
+                            "title": "Alianza vs Llaneros",
+                            "league": "Liga BetPlay",
                             "code": "",
                             "time": "02:15",
                             "timezone": "America/Lima",
-                            "agendaOrder": 45,
+                            "agendaOrder": 42,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Liga BetPlay: Alianza",
+                            "homeTeam": "Alianza",
                             "awayTeam": "Llaneros",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2505,21 +1786,21 @@
                     "leagueId": ""
                 },
                 {
-                    "name": "GR",
+                    "name": "Superliga de Grecia",
                     "logo": "",
                     "image": "",
                     "background": "",
                     "events": [
                         {
-                            "title": "Superliga de Grecia: Olympiakos Piraeus vs PAOK",
-                            "league": "GR",
+                            "title": "Olympiakos Piraeus vs PAOK",
+                            "league": "Superliga de Grecia",
                             "code": "",
                             "time": "20:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 28,
+                            "agendaOrder": 25,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Superliga de Grecia: Olympiakos Piraeus",
+                            "homeTeam": "Olympiakos Piraeus",
                             "awayTeam": "PAOK",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2557,23 +1838,23 @@
                     "leagueId": ""
                 },
                 {
-                    "name": "BRA",
+                    "name": "Copa do Brasil",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/h38dax1582151151.png",
                     "image": "",
                     "background": "",
                     "events": [
                         {
-                            "title": "Copa do Brasil: Vasco da Gama vs Palmeiras",
-                            "league": "BRA",
-                            "code": "",
+                            "title": "Vasco da Gama vs Palmeiras",
+                            "league": "Copa do Brasil",
+                            "code": "BRA",
                             "time": "21:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 32,
+                            "agendaOrder": 29,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Copa do Brasil: Vasco da Gama",
+                            "homeTeam": "Vasco da Gama",
                             "awayTeam": "Palmeiras",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10276.png",
                             "awayLogo": "",
                             "imageMode": "",
                             "duration": 130,
@@ -2625,7 +1906,8 @@
                                     "origin": "",
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2599515-vasco-da-gama-vs-palmeiras"
                         }
                     ],
                     "flagCode": "",
@@ -2633,21 +1915,21 @@
                     "leagueId": ""
                 },
                 {
-                    "name": "AR",
+                    "name": "Liga Profesional",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaprofesional.jpg",
                     "events": [
                         {
-                            "title": "Liga Profesional: Central Córdoba SdE vs Lanús",
-                            "league": "AR",
-                            "code": "",
+                            "title": "Central Córdoba SdE vs Lanús",
+                            "league": "Liga Profesional",
+                            "code": "AR",
                             "time": "23:30",
                             "timezone": "America/Lima",
-                            "agendaOrder": 40,
+                            "agendaOrder": 37,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Liga Profesional: Central Córdoba SdE",
+                            "homeTeam": "Central Córdoba SdE",
                             "awayTeam": "Lanús",
                             "homeLogo": "",
                             "awayLogo": "",
@@ -2672,28 +1954,28 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "ligaprofesional"
                 },
                 {
-                    "name": "MEX",
+                    "name": "Liga MX",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
                     "events": [
                         {
-                            "title": "Liga MX: Querétaro vs Puebla",
-                            "league": "MEX",
-                            "code": "",
+                            "title": "Querétaro vs Puebla",
+                            "league": "Liga MX",
+                            "code": "LIGAMX",
                             "time": "01:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 44,
-                            "image": "",
+                            "agendaOrder": 41,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/tg2fml1784407584.jpg",
                             "logo": "",
-                            "homeTeam": "Liga MX: Querétaro",
+                            "homeTeam": "Querétaro",
                             "awayTeam": "Puebla",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1943.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7847.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -2719,22 +2001,23 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487594-quer%c3%a9taro-vs-puebla"
                         },
                         {
-                            "title": "Liga MX: León vs Guadalajara",
-                            "league": "MEX",
-                            "code": "",
+                            "title": "León vs Guadalajara",
+                            "league": "Liga MX",
+                            "code": "LIGAMX",
                             "time": "03:10",
                             "timezone": "America/Lima",
-                            "agendaOrder": 48,
-                            "image": "",
+                            "agendaOrder": 45,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/buf5vu1784405105.jpg",
                             "logo": "",
-                            "homeTeam": "Liga MX: León",
+                            "homeTeam": "León",
                             "awayTeam": "Guadalajara",
-                            "homeLogo": "",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1841.png",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7807.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -2760,12 +2043,13 @@
                                     "customLanguages": "",
                                     "channelLogo": ""
                                 }
-                            ]
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487595-le%c3%b3n-vs-cd-guadalajara"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "ligamx"
                 }
             ]
         },
@@ -2781,12 +2065,12 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/f1.jpg",
                     "events": [
                         {
-                            "title": "F1 | GP de Brasil: Carrera",
+                            "title": "Carrera",
                             "league": "F1",
                             "code": "F1",
                             "time": "18:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 11,
+                            "agendaOrder": 8,
                             "image": "",
                             "logo": "",
                             "homeTeam": "",
@@ -2890,12 +2174,12 @@
                             ]
                         },
                         {
-                            "title": "F1 | GP de Brasil: Cámara On Board - Colapinto",
+                            "title": "Cámara On Board - Colapinto",
                             "league": "F1",
                             "code": "F1",
                             "time": "18:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 12,
+                            "agendaOrder": 9,
                             "image": "",
                             "logo": "",
                             "homeTeam": "",
@@ -2926,7 +2210,632 @@
                     "leagueId": "f1"
                 }
             ]
+        },
+        {
+            "id": "american-football",
+            "name": "American Football",
+            "icon": "🏈",
+            "leagues": [
+                {
+                    "name": "NFL",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/0z0j131793688031.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nfl.jpg",
+                    "events": [
+                        {
+                            "title": "Broncos vs Panthers",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "19:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 19,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/l3tg1w1784759899.jpg",
+                            "logo": "",
+                            "homeTeam": "Broncos",
+                            "awayTeam": "Panthers",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 5",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 5 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
+                                    "clearkey": {
+                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
+                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 5 AR MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
+                                    "clearkey": {
+                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
+                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 2 AR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2ar",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "FOX Sports 2 MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+                                    "clearkey": {
+                                        "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
+                                        "key": "23129ab5572aeda7607c920655c0dbea"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 2 HD",
+                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475503-carolina-panthers-vs-denver-broncos"
+                        },
+                        {
+                            "title": "Giants vs Eagles",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "19:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 20,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/2tc5p21784759895.jpg",
+                            "logo": "",
+                            "homeTeam": "Giants",
+                            "awayTeam": "Eagles",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 7",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 7 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/LSQFzkw/espn-7B.png?",
+                                    "clearkey": {
+                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
+                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 7 AR MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
+                                    "clearkey": {
+                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
+                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 3 AR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox3ar",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "FOX Sports 3 MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
+                                    "clearkey": {
+                                        "keyId": "4629bd0ae30c0e72af111fb948fada1c",
+                                        "key": "7864154c679e769e7f164ba083c8fad3"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 3 HD",
+                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475501-philadelphia-eagles-vs-new-york-giants"
+                        },
+                        {
+                            "title": "Cowboys vs Colts",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "19:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 21,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/emna0q1784759889.jpg",
+                            "logo": "",
+                            "homeTeam": "Cowboys",
+                            "awayTeam": "Colts",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone10",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475497-indianapolis-colts-vs-dallas-cowboys"
+                        },
+                        {
+                            "title": "Jets vs Chiefs",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "19:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 22,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/8h7zti1784759891.jpg",
+                            "logo": "",
+                            "homeTeam": "Jets",
+                            "awayTeam": "Chiefs",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone11",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475498-kansas-city-chiefs-vs-new-york-jets"
+                        },
+                        {
+                            "title": "Raiders vs 49ers",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "22:25",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 34,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/pcylsh1784759902.jpg",
+                            "logo": "",
+                            "homeTeam": "Raiders",
+                            "awayTeam": "49ers",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 5",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 5 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
+                                    "clearkey": {
+                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
+                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 5 AR MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
+                                    "clearkey": {
+                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
+                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 2 AR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2ar",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "FOX Sports 2 MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+                                    "clearkey": {
+                                        "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
+                                        "key": "23129ab5572aeda7607c920655c0dbea"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 2 HD",
+                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475505-san-francisco-49ers-vs-las-vegas-raiders"
+                        },
+                        {
+                            "title": "Cardinals vs Seahawks",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "22:25",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 35,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ztql8u1784759905.jpg",
+                            "logo": "",
+                            "homeTeam": "Cardinals",
+                            "awayTeam": "Seahawks",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 7",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 7 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/LSQFzkw/espn-7B.png?",
+                                    "clearkey": {
+                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
+                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 7 AR MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
+                                    "clearkey": {
+                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
+                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 3 AR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox3ar",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "FOX Sports 3 MUTICALIDAD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MTM5MTIzIiwic2lwIjoiNDUuMTgxLjEyOC4xNDgiLCJwYXRoIjoiL2xpdmUvYzdlZHMvQnJhdm9UVi9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjM1Y2RjNzljZTRiZGExN2UiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE4MS4xMi4zNi4xNTAiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.b7p0xg-X5EGA5kJVL8swhiUSfVUf6CtDZ8MEG45CleRnw93ry-0GzNTXqd5Uo_5fLofUV0dTCGpWgWB-_DXLFg==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
+                                    "clearkey": {
+                                        "keyId": "4629bd0ae30c0e72af111fb948fada1c",
+                                        "key": "7864154c679e769e7f164ba083c8fad3"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "FOX Sports 3 HD",
+                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475507-seattle-seahawks-vs-arizona-cardinals"
+                        },
+                        {
+                            "title": "Packers vs Patriots",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "22:25",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 36,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ysnbcw1784759904.jpg",
+                            "logo": "",
+                            "homeTeam": "Packers",
+                            "awayTeam": "Patriots",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Canal 5 MX",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Fcanal5-mex.html",
+                                    "type": "iframe",
+                                    "quality": "FHD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475506-new-england-patriots-vs-green-bay-packers"
+                        },
+                        {
+                            "title": "Buccaneers vs Bears",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "02:20",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 43,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/msv0va1784759906.jpg",
+                            "logo": "",
+                            "homeTeam": "Buccaneers",
+                            "awayTeam": "Bears",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 2",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 2 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
+                                        "key": "6d15568e1dab59e7202ae12e71505185"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 2 CO HD",
+                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 2 CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Universo",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Duniverso",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475508-chicago-bears-vs-tampa-bay-buccaneers"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "nfl"
+                }
+            ]
         }
     ],
-    "updated": "2026-11-08 18:00:03"
+    "updated": "2026-11-08 18:06:43"
 }
