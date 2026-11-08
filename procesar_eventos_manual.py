@@ -416,7 +416,7 @@ def procesar_agenda():
                     "league": league_name,
                     "code": code_val if code_val else MAPEO_CODIGOS_LIGA.get(league_name, ""),
                     "time": full_time_str,
-                    "timezone": "America/Lima",
+                    "timezone": "Europe/Madrid",
                     "agendaOrder": order_counter,
                     "image": "",
                     "logo": "",
