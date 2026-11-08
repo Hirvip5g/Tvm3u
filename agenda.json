@@ -1,4 +1,5 @@
 {
+    "updated": "2026-11-08 10:56:04",
     "sports": [
         {
             "category": "Fútbol",
@@ -7,11 +8,6 @@
                     "name": "NBA",
                     "events": [
                         {
-                            "_event_key": [
-                                "76ers vs Cavaliers",
-                                "2026-11-06",
-                                "19:30"
-                            ],
                             "title": "76ers vs Cavaliers",
                             "homeTeam": "76ers",
                             "awayTeam": "Cavaliers",
@@ -33,11 +29,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Trail Blazers vs Lakers",
-                                "2026-11-06",
-                                "22:00"
-                            ],
                             "title": "Trail Blazers vs Lakers",
                             "homeTeam": "Trail Blazers",
                             "awayTeam": "Lakers",
@@ -60,11 +51,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Nuggets vs Pacers",
-                                "2026-11-07",
-                                "17:00"
-                            ],
                             "title": "Nuggets vs Pacers",
                             "homeTeam": "Nuggets",
                             "awayTeam": "Pacers",
@@ -142,11 +128,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Nets vs Hawks",
-                                "2026-11-07",
-                                "19:30"
-                            ],
                             "title": "Nets vs Hawks",
                             "homeTeam": "Nets",
                             "awayTeam": "Hawks",
@@ -183,11 +164,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Spurs vs Trail Blazers",
-                                "2026-11-07",
-                                "22:00"
-                            ],
                             "title": "Spurs vs Trail Blazers",
                             "homeTeam": "Spurs",
                             "awayTeam": "Trail Blazers",
@@ -232,11 +208,6 @@
                     "name": "Liga Profesional",
                     "events": [
                         {
-                            "_event_key": [
-                                "Tigre vs Sarmiento",
-                                "2026-11-06",
-                                "20:00"
-                            ],
                             "title": "Tigre vs Sarmiento",
                             "homeTeam": "Tigre",
                             "awayTeam": "Sarmiento",
@@ -290,11 +261,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Banfield vs Atlético Tucumán",
-                                "2026-11-06",
-                                "20:00"
-                            ],
                             "title": "Banfield vs Atlético Tucumán",
                             "homeTeam": "Banfield",
                             "awayTeam": "Atlético Tucumán",
@@ -317,11 +283,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Talleres Córdoba vs Estudiantes LP",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "Talleres Córdoba vs Estudiantes LP",
                             "homeTeam": "Talleres Córdoba",
                             "awayTeam": "Estudiantes LP",
@@ -374,11 +335,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Gimnasia Mendoza vs Independiente Rivadavia",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "Gimnasia Mendoza vs Independiente Rivadavia",
                             "homeTeam": "Gimnasia Mendoza",
                             "awayTeam": "Independiente Rivadavia",
@@ -400,11 +356,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Boca Juniors vs Defensa y Justicia",
-                                "2026-11-07",
-                                "15:30"
-                            ],
                             "title": "Boca Juniors vs Defensa y Justicia",
                             "homeTeam": "Boca Juniors",
                             "awayTeam": "Defensa y Justicia",
@@ -527,11 +478,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Argentinos Juniors vs Huracán",
-                                "2026-11-07",
-                                "15:30"
-                            ],
                             "title": "Argentinos Juniors vs Huracán",
                             "homeTeam": "Argentinos Juniors",
                             "awayTeam": "Huracán",
@@ -554,11 +500,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Rosario Central vs Estudiantes Río Cuarto",
-                                "2026-11-07",
-                                "15:30"
-                            ],
                             "title": "Rosario Central vs Estudiantes Río Cuarto",
                             "homeTeam": "Rosario Central",
                             "awayTeam": "Estudiantes Río Cuarto",
@@ -639,11 +580,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Instituto vs Newell's Old Boys",
-                                "2026-11-07",
-                                "20:00"
-                            ],
                             "title": "Instituto vs Newell's Old Boys",
                             "homeTeam": "Instituto",
                             "awayTeam": "Newell's Old Boys",
@@ -697,11 +633,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Central Córdoba SdE vs Lanús",
-                                "2026-11-08",
-                                "17:30"
-                            ],
                             "title": "Central Córdoba SdE vs Lanús",
                             "homeTeam": "Central Córdoba SdE",
                             "awayTeam": "Lanús",
@@ -731,11 +662,6 @@
                     "name": "Liga BetPlay",
                     "events": [
                         {
-                            "_event_key": [
-                                "Fortaleza CEIF vs Medellín",
-                                "2026-11-06",
-                                "20:00"
-                            ],
                             "title": "Fortaleza CEIF vs Medellín",
                             "homeTeam": "Fortaleza CEIF",
                             "awayTeam": "Medellín",
@@ -771,11 +697,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Once Caldas vs Rionegro Águilas",
-                                "2026-11-07",
-                                "16:05"
-                            ],
                             "title": "Once Caldas vs Rionegro Águilas",
                             "homeTeam": "Once Caldas",
                             "awayTeam": "Rionegro Águilas",
@@ -811,11 +732,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Atlético Nacional vs Deportivo Pereira",
-                                "2026-11-07",
-                                "18:10"
-                            ],
                             "title": "Atlético Nacional vs Deportivo Pereira",
                             "homeTeam": "Atlético Nacional",
                             "awayTeam": "Deportivo Pereira",
@@ -851,11 +767,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "América de Cali vs Deportivo Cali",
-                                "2026-11-07",
-                                "20:15"
-                            ],
                             "title": "América de Cali vs Deportivo Cali",
                             "homeTeam": "América de Cali",
                             "awayTeam": "Deportivo Cali",
@@ -891,11 +802,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Santa Fe vs Deportivo Pasto",
-                                "2026-11-08",
-                                "14:00"
-                            ],
                             "title": "Santa Fe vs Deportivo Pasto",
                             "homeTeam": "Santa Fe",
                             "awayTeam": "Deportivo Pasto",
@@ -931,11 +837,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Jaguares de Córdoba vs Atlético Bucaramanga",
-                                "2026-11-08",
-                                "16:05"
-                            ],
                             "title": "Jaguares de Córdoba vs Atlético Bucaramanga",
                             "homeTeam": "Jaguares de Córdoba",
                             "awayTeam": "Atlético Bucaramanga",
@@ -978,11 +879,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Deportes Tolima vs Millonarios",
-                                "2026-11-08",
-                                "18:10"
-                            ],
                             "title": "Deportes Tolima vs Millonarios",
                             "homeTeam": "Deportes Tolima",
                             "awayTeam": "Millonarios",
@@ -1018,11 +914,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Alianza vs Llaneros",
-                                "2026-11-08",
-                                "20:15"
-                            ],
                             "title": "Alianza vs Llaneros",
                             "homeTeam": "Alianza",
                             "awayTeam": "Llaneros",
@@ -1071,11 +962,6 @@
                     "name": "Liga MX",
                     "events": [
                         {
-                            "_event_key": [
-                                "Atlético San Luis vs Juárez",
-                                "2026-11-06",
-                                "20:00"
-                            ],
                             "title": "Atlético San Luis vs Juárez",
                             "homeTeam": "Atlético San Luis",
                             "awayTeam": "Juárez",
@@ -1119,11 +1005,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Necaxa vs Tijuana",
-                                "2026-11-06",
-                                "20:00"
-                            ],
                             "title": "Necaxa vs Tijuana",
                             "homeTeam": "Necaxa",
                             "awayTeam": "Tijuana",
@@ -1153,11 +1034,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Atlante vs Santos Laguna",
-                                "2026-11-06",
-                                "22:00"
-                            ],
                             "title": "Atlante vs Santos Laguna",
                             "homeTeam": "Atlante",
                             "awayTeam": "Santos Laguna",
@@ -1201,11 +1077,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Atlas vs Pachuca",
-                                "2026-11-07",
-                                "18:00"
-                            ],
                             "title": "Atlas vs Pachuca",
                             "homeTeam": "Atlas",
                             "awayTeam": "Pachuca",
@@ -1228,11 +1099,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Tigres UANL vs Cruz Azul",
-                                "2026-11-07",
-                                "20:00"
-                            ],
                             "title": "Tigres UANL vs Cruz Azul",
                             "homeTeam": "Tigres UANL",
                             "awayTeam": "Cruz Azul",
@@ -1293,11 +1159,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Toluca vs Monterrey",
-                                "2026-11-07",
-                                "20:00"
-                            ],
                             "title": "Toluca vs Monterrey",
                             "homeTeam": "Toluca",
                             "awayTeam": "Monterrey",
@@ -1352,11 +1213,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Pumas UNAM vs América",
-                                "2026-11-07",
-                                "22:10"
-                            ],
                             "title": "Pumas UNAM vs América",
                             "homeTeam": "Pumas UNAM",
                             "awayTeam": "América",
@@ -1411,11 +1267,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Querétaro vs Puebla",
-                                "2026-11-08",
-                                "19:00"
-                            ],
                             "title": "Querétaro vs Puebla",
                             "homeTeam": "Querétaro",
                             "awayTeam": "Puebla",
@@ -1445,11 +1296,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "León vs Guadalajara",
-                                "2026-11-08",
-                                "21:10"
-                            ],
                             "title": "León vs Guadalajara",
                             "homeTeam": "León",
                             "awayTeam": "Guadalajara",
@@ -1487,11 +1333,6 @@
                     "name": "Premier League",
                     "events": [
                         {
-                            "_event_key": [
-                                "Leeds United vs Tottenham Hotspur",
-                                "2026-11-07",
-                                "07:30"
-                            ],
                             "title": "Leeds United vs Tottenham Hotspur",
                             "homeTeam": "Leeds United",
                             "awayTeam": "Tottenham Hotspur",
@@ -1590,11 +1431,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Arsenal vs Hull City",
-                                "2026-11-07",
-                                "10:00"
-                            ],
                             "title": "Arsenal vs Hull City",
                             "homeTeam": "Arsenal",
                             "awayTeam": "Hull City",
@@ -1703,11 +1539,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Fulham vs Newcastle United",
-                                "2026-11-07",
-                                "10:00"
-                            ],
                             "title": "Fulham vs Newcastle United",
                             "homeTeam": "Fulham",
                             "awayTeam": "Newcastle United",
@@ -1737,11 +1568,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Nottingham Forest vs Manchester City",
-                                "2026-11-07",
-                                "12:30"
-                            ],
                             "title": "Nottingham Forest vs Manchester City",
                             "homeTeam": "Nottingham Forest",
                             "awayTeam": "Manchester City",
@@ -1840,11 +1666,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Sunderland vs Chelsea",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Sunderland vs Chelsea",
                             "homeTeam": "Sunderland",
                             "awayTeam": "Chelsea",
@@ -1943,11 +1764,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Ipswich Town vs AFC Bournemouth",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Ipswich Town vs AFC Bournemouth",
                             "homeTeam": "Ipswich Town",
                             "awayTeam": "AFC Bournemouth",
@@ -1977,11 +1793,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Crystal Palace vs Liverpool",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Crystal Palace vs Liverpool",
                             "homeTeam": "Crystal Palace",
                             "awayTeam": "Liverpool",
@@ -2011,11 +1822,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Brighton & Hove Albion vs Brentford",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Brighton & Hove Albion vs Brentford",
                             "homeTeam": "Brighton & Hove Albion",
                             "awayTeam": "Brentford",
@@ -2044,11 +1850,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Manchester United vs Aston Villa",
-                                "2026-11-08",
-                                "11:30"
-                            ],
                             "title": "Manchester United vs Aston Villa",
                             "homeTeam": "Manchester United",
                             "awayTeam": "Aston Villa",
@@ -2155,11 +1956,6 @@
                     "name": "Championship",
                     "events": [
                         {
-                            "_event_key": [
-                                "Wrexham vs Wolverhampton Wanderers",
-                                "2026-11-07",
-                                "07:30"
-                            ],
                             "title": "Wrexham vs Wolverhampton Wanderers",
                             "homeTeam": "Wrexham",
                             "awayTeam": "Wolverhampton Wanderers",
@@ -2223,11 +2019,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Birmingham City vs Swansea City",
-                                "2026-11-07",
-                                "10:00"
-                            ],
                             "title": "Birmingham City vs Swansea City",
                             "homeTeam": "Birmingham City",
                             "awayTeam": "Swansea City",
@@ -2291,11 +2082,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Blackburn Rovers vs West Ham United",
-                                "2026-11-07",
-                                "10:00"
-                            ],
                             "title": "Blackburn Rovers vs West Ham United",
                             "homeTeam": "Blackburn Rovers",
                             "awayTeam": "West Ham United",
@@ -2326,11 +2112,6 @@
                     "name": "LaLiga",
                     "events": [
                         {
-                            "_event_key": [
-                                "Málaga vs Racing Santander",
-                                "2026-11-07",
-                                "08:00"
-                            ],
                             "title": "Málaga vs Racing Santander",
                             "homeTeam": "Málaga",
                             "awayTeam": "Racing Santander",
@@ -2439,11 +2220,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Espanyol vs Deportivo La Coruña",
-                                "2026-11-07",
-                                "10:15"
-                            ],
                             "title": "Espanyol vs Deportivo La Coruña",
                             "homeTeam": "Espanyol",
                             "awayTeam": "Deportivo La Coruña",
@@ -2552,11 +2328,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Osasuna vs Athletic Club",
-                                "2026-11-07",
-                                "12:30"
-                            ],
                             "title": "Osasuna vs Athletic Club",
                             "homeTeam": "Osasuna",
                             "awayTeam": "Athletic Club",
@@ -2672,11 +2443,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Valencia vs Real Madrid",
-                                "2026-11-07",
-                                "15:00"
-                            ],
                             "title": "Valencia vs Real Madrid",
                             "homeTeam": "Valencia",
                             "awayTeam": "Real Madrid",
@@ -2793,11 +2559,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Elche vs Real Betis",
-                                "2026-11-08",
-                                "08:00"
-                            ],
                             "title": "Elche vs Real Betis",
                             "homeTeam": "Elche",
                             "awayTeam": "Real Betis",
@@ -2899,11 +2660,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Real Sociedad vs Rayo Vallecano",
-                                "2026-11-08",
-                                "10:15"
-                            ],
                             "title": "Real Sociedad vs Rayo Vallecano",
                             "homeTeam": "Real Sociedad",
                             "awayTeam": "Rayo Vallecano",
@@ -2998,11 +2754,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Villarreal vs Getafe",
-                                "2026-11-08",
-                                "12:30"
-                            ],
                             "title": "Villarreal vs Getafe",
                             "homeTeam": "Villarreal",
                             "awayTeam": "Getafe",
@@ -3090,11 +2841,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Celta de Vigo vs Levante",
-                                "2026-11-08",
-                                "12:30"
-                            ],
                             "title": "Celta de Vigo vs Levante",
                             "homeTeam": "Celta de Vigo",
                             "awayTeam": "Levante",
@@ -3189,11 +2935,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Atlético Madrid vs Barcelona",
-                                "2026-11-08",
-                                "15:00"
-                            ],
                             "title": "Atlético Madrid vs Barcelona",
                             "homeTeam": "Atlético Madrid",
                             "awayTeam": "Barcelona",
@@ -3338,11 +3079,6 @@
                     "name": "LaLiga 2",
                     "events": [
                         {
-                            "_event_key": [
-                                "Burgos vs Celta de Vigo II",
-                                "2026-11-07",
-                                "08:00"
-                            ],
                             "title": "Burgos vs Celta de Vigo II",
                             "homeTeam": "Burgos",
                             "awayTeam": "Celta de Vigo II",
@@ -3364,11 +3100,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Cádiz vs Real Oviedo",
-                                "2026-11-07",
-                                "10:00"
-                            ],
                             "title": "Cádiz vs Real Oviedo",
                             "homeTeam": "Cádiz",
                             "awayTeam": "Real Oviedo",
@@ -3390,11 +3121,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Leganés vs Albacete",
-                                "2026-11-07",
-                                "12:30"
-                            ],
                             "title": "Leganés vs Albacete",
                             "homeTeam": "Leganés",
                             "awayTeam": "Albacete",
@@ -3416,11 +3142,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Córdoba vs Ceuta",
-                                "2026-11-07",
-                                "12:30"
-                            ],
                             "title": "Córdoba vs Ceuta",
                             "homeTeam": "Córdoba",
                             "awayTeam": "Ceuta",
@@ -3442,11 +3163,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Girona vs Almería",
-                                "2026-11-08",
-                                "10:15"
-                            ],
                             "title": "Girona vs Almería",
                             "homeTeam": "Girona",
                             "awayTeam": "Almería",
@@ -3468,11 +3184,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Sporting Gijón vs Real Valladolid",
-                                "2026-11-08",
-                                "12:30"
-                            ],
                             "title": "Sporting Gijón vs Real Valladolid",
                             "homeTeam": "Sporting Gijón",
                             "awayTeam": "Real Valladolid",
@@ -3494,11 +3205,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Las Palmas vs Eldense",
-                                "2026-11-08",
-                                "12:30"
-                            ],
                             "title": "Las Palmas vs Eldense",
                             "homeTeam": "Las Palmas",
                             "awayTeam": "Eldense",
@@ -3527,11 +3233,6 @@
                     "name": "Serie A",
                     "events": [
                         {
-                            "_event_key": [
-                                "Cagliari vs Frosinone",
-                                "2026-11-07",
-                                "09:00"
-                            ],
                             "title": "Cagliari vs Frosinone",
                             "homeTeam": "Cagliari",
                             "awayTeam": "Frosinone",
@@ -3554,11 +3255,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Torino vs Lecce",
-                                "2026-11-07",
-                                "09:00"
-                            ],
                             "title": "Torino vs Lecce",
                             "homeTeam": "Torino",
                             "awayTeam": "Lecce",
@@ -3602,11 +3298,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Parma vs Bologna",
-                                "2026-11-07",
-                                "12:00"
-                            ],
                             "title": "Parma vs Bologna",
                             "homeTeam": "Parma",
                             "awayTeam": "Bologna",
@@ -3684,11 +3375,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Roma vs Sassuolo",
-                                "2026-11-07",
-                                "14:45"
-                            ],
                             "title": "Roma vs Sassuolo",
                             "homeTeam": "Roma",
                             "awayTeam": "Sassuolo",
@@ -3718,11 +3404,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Napoli vs Lazio",
-                                "2026-11-08",
-                                "06:30"
-                            ],
                             "title": "Napoli vs Lazio",
                             "homeTeam": "Napoli",
                             "awayTeam": "Lazio",
@@ -3835,11 +3516,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Genoa vs Milan",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Genoa vs Milan",
                             "homeTeam": "Genoa",
                             "awayTeam": "Milan",
@@ -3869,11 +3545,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Monza vs Atalanta",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Monza vs Atalanta",
                             "homeTeam": "Monza",
                             "awayTeam": "Atalanta",
@@ -3903,11 +3574,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Inter vs Como",
-                                "2026-11-08",
-                                "12:00"
-                            ],
                             "title": "Inter vs Como",
                             "homeTeam": "Inter",
                             "awayTeam": "Como",
@@ -4002,11 +3668,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Fiorentina vs Juventus",
-                                "2026-11-08",
-                                "14:45"
-                            ],
                             "title": "Fiorentina vs Juventus",
                             "homeTeam": "Fiorentina",
                             "awayTeam": "Juventus",
@@ -4089,11 +3750,6 @@
                     "name": "Bundesliga",
                     "events": [
                         {
-                            "_event_key": [
-                                "Borussia Dortmund vs Elversberg",
-                                "2026-11-07",
-                                "09:30"
-                            ],
                             "title": "Borussia Dortmund vs Elversberg",
                             "homeTeam": "Borussia Dortmund",
                             "awayTeam": "Elversberg",
@@ -4171,11 +3827,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Mainz 05 vs Bayern München",
-                                "2026-11-07",
-                                "09:30"
-                            ],
                             "title": "Mainz 05 vs Bayern München",
                             "homeTeam": "Mainz 05",
                             "awayTeam": "Bayern München",
@@ -4260,11 +3911,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Paderborn vs Eintracht Frankfurt",
-                                "2026-11-07",
-                                "09:30"
-                            ],
                             "title": "Paderborn vs Eintracht Frankfurt",
                             "homeTeam": "Paderborn",
                             "awayTeam": "Eintracht Frankfurt",
@@ -4294,11 +3940,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "RB Leipzig vs Augsburg",
-                                "2026-11-07",
-                                "09:30"
-                            ],
                             "title": "RB Leipzig vs Augsburg",
                             "homeTeam": "RB Leipzig",
                             "awayTeam": "Augsburg",
@@ -4328,11 +3969,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Stuttgart vs Werder Bremen",
-                                "2026-11-07",
-                                "12:30"
-                            ],
                             "title": "Stuttgart vs Werder Bremen",
                             "homeTeam": "Stuttgart",
                             "awayTeam": "Werder Bremen",
@@ -4362,11 +3998,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Köln vs Bayer Leverkusen",
-                                "2026-11-08",
-                                "09:30"
-                            ],
                             "title": "Köln vs Bayer Leverkusen",
                             "homeTeam": "Köln",
                             "awayTeam": "Bayer Leverkusen",
@@ -4396,11 +4027,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Freiburg vs Union Berlin",
-                                "2026-11-08",
-                                "11:30"
-                            ],
                             "title": "Freiburg vs Union Berlin",
                             "homeTeam": "Freiburg",
                             "awayTeam": "Union Berlin",
@@ -4430,11 +4056,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Hoffenheim vs Schalke 04",
-                                "2026-11-08",
-                                "13:30"
-                            ],
                             "title": "Hoffenheim vs Schalke 04",
                             "homeTeam": "Hoffenheim",
                             "awayTeam": "Schalke 04",
@@ -4479,11 +4100,6 @@
                     "name": "F1 | GP de Brasil",
                     "events": [
                         {
-                            "_event_key": [
-                                "Entrenamientos #3",
-                                "2026-11-07",
-                                "09:30"
-                            ],
                             "title": "Entrenamientos #3",
                             "homeTeam": "",
                             "awayTeam": "",
@@ -4574,11 +4190,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Cámara On Board - Colapinto",
-                                "2026-11-07",
-                                "09:30"
-                            ],
                             "title": "Cámara On Board vs Colapinto",
                             "homeTeam": "Cámara On Board",
                             "awayTeam": "Colapinto",
@@ -4600,11 +4211,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Clasificación",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "Clasificación",
                             "homeTeam": "",
                             "awayTeam": "",
@@ -4696,11 +4302,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Cámara On Board - Colapinto",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "Cámara On Board vs Colapinto",
                             "homeTeam": "Cámara On Board",
                             "awayTeam": "Colapinto",
@@ -4722,11 +4323,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Carrera",
-                                "2026-11-08",
-                                "12:00"
-                            ],
                             "title": "Carrera",
                             "homeTeam": "",
                             "awayTeam": "",
@@ -4817,11 +4413,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Cámara On Board - Colapinto",
-                                "2026-11-08",
-                                "12:00"
-                            ],
                             "title": "Cámara On Board vs Colapinto",
                             "homeTeam": "Cámara On Board",
                             "awayTeam": "Colapinto",
@@ -4850,11 +4441,6 @@
                     "name": "Super Lig",
                     "events": [
                         {
-                            "_event_key": [
-                                "Galatasaray vs Amed SK",
-                                "2026-11-07",
-                                "11:00"
-                            ],
                             "title": "Galatasaray vs Amed SK",
                             "homeTeam": "Galatasaray",
                             "awayTeam": "Amed SK",
@@ -4876,11 +4462,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Çorum Belediyespor vs Fenerbahçe",
-                                "2026-11-08",
-                                "08:00"
-                            ],
                             "title": "Çorum Belediyespor vs Fenerbahçe",
                             "homeTeam": "Çorum Belediyespor",
                             "awayTeam": "Fenerbahçe",
@@ -4981,11 +4562,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Alanyaspor vs Trabzonspor",
-                                "2026-11-08",
-                                "10:30"
-                            ],
                             "title": "Alanyaspor vs Trabzonspor",
                             "homeTeam": "Alanyaspor",
                             "awayTeam": "Trabzonspor",
@@ -5087,11 +4663,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Beşiktaş vs Gençlerbirliği",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Beşiktaş vs Gençlerbirliği",
                             "homeTeam": "Beşiktaş",
                             "awayTeam": "Gençlerbirliği",
@@ -5122,11 +4693,6 @@
                     "name": "FA Cup",
                     "events": [
                         {
-                            "_event_key": [
-                                "Altrincham vs Notts County",
-                                "2026-11-07",
-                                "12:30"
-                            ],
                             "title": "Altrincham vs Notts County",
                             "homeTeam": "Altrincham",
                             "awayTeam": "Notts County",
@@ -5149,11 +4715,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Peterborough United vs Reading",
-                                "2026-11-07",
-                                "15:00"
-                            ],
                             "title": "Peterborough United vs Reading",
                             "homeTeam": "Peterborough United",
                             "awayTeam": "Reading",
@@ -5176,11 +4737,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Stafford Rangers vs Grimsby Town",
-                                "2026-11-08",
-                                "07:00"
-                            ],
                             "title": "Stafford Rangers vs Grimsby Town",
                             "homeTeam": "Stafford Rangers",
                             "awayTeam": "Grimsby Town",
@@ -5203,11 +4759,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Cray Wanderers vs Stockport County",
-                                "2026-11-08",
-                                "09:15"
-                            ],
                             "title": "Cray Wanderers vs Stockport County",
                             "homeTeam": "Cray Wanderers",
                             "awayTeam": "Stockport County",
@@ -5230,11 +4781,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Oldham Athletic vs Sheffield Wednesday",
-                                "2026-11-08",
-                                "12:15"
-                            ],
                             "title": "Oldham Athletic vs Sheffield Wednesday",
                             "homeTeam": "Oldham Athletic",
                             "awayTeam": "Sheffield Wednesday",
@@ -5264,11 +4810,6 @@
                     "name": "Primera División",
                     "events": [
                         {
-                            "_event_key": [
-                                "La Serena vs Palestino",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "La Serena vs Palestino",
                             "homeTeam": "La Serena",
                             "awayTeam": "Palestino",
@@ -5290,11 +4831,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Everton vs Deportes Concepción",
-                                "2026-11-07",
-                                "15:30"
-                            ],
                             "title": "Everton vs Deportes Concepción",
                             "homeTeam": "Everton",
                             "awayTeam": "Deportes Concepción",
@@ -5316,11 +4852,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Universidad Católica vs Deportes Limache",
-                                "2026-11-08",
-                                "10:30"
-                            ],
                             "title": "Universidad Católica vs Deportes Limache",
                             "homeTeam": "Universidad Católica",
                             "awayTeam": "Deportes Limache",
@@ -5342,11 +4873,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Audax Italiano vs Coquimbo Unido",
-                                "2026-11-08",
-                                "10:30"
-                            ],
                             "title": "Audax Italiano vs Coquimbo Unido",
                             "homeTeam": "Audax Italiano",
                             "awayTeam": "Coquimbo Unido",
@@ -5368,11 +4894,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Ñublense vs Colo-Colo",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Ñublense vs Colo-Colo",
                             "homeTeam": "Ñublense",
                             "awayTeam": "Colo-Colo",
@@ -5394,11 +4915,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Universidad Chile vs Cobresal",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Universidad Chile vs Cobresal",
                             "homeTeam": "Universidad Chile",
                             "awayTeam": "Cobresal",
@@ -5420,11 +4936,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Unión La Calera vs Huachipato",
-                                "2026-11-08",
-                                "15:30"
-                            ],
                             "title": "Unión La Calera vs Huachipato",
                             "homeTeam": "Unión La Calera",
                             "awayTeam": "Huachipato",
@@ -5446,11 +4957,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Univ. Concepción vs O'Higgins",
-                                "2026-11-08",
-                                "18:00"
-                            ],
                             "title": "Univ. Concepción vs O'Higgins",
                             "homeTeam": "Univ. Concepción",
                             "awayTeam": "O'Higgins",
@@ -5480,11 +4986,6 @@
                     "name": "Liga 1",
                     "events": [
                         {
-                            "_event_key": [
-                                "ADT vs Sporting Cristal",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "ADT vs Sporting Cristal",
                             "homeTeam": "ADT",
                             "awayTeam": "Sporting Cristal",
@@ -5521,11 +5022,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "FC Cajamarca vs Alianza Atlético",
-                                "2026-11-07",
-                                "15:30"
-                            ],
                             "title": "FC Cajamarca vs Alianza Atlético",
                             "homeTeam": "FC Cajamarca",
                             "awayTeam": "Alianza Atlético",
@@ -5562,11 +5058,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Melgar vs Juan Pablo II College",
-                                "2026-11-07",
-                                "18:00"
-                            ],
                             "title": "Melgar vs Juan Pablo II College",
                             "homeTeam": "Melgar",
                             "awayTeam": "Juan Pablo II College",
@@ -5603,11 +5094,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Cienciano vs Sport Huancayo",
-                                "2026-11-07",
-                                "20:30"
-                            ],
                             "title": "Cienciano vs Sport Huancayo",
                             "homeTeam": "Cienciano",
                             "awayTeam": "Sport Huancayo",
@@ -5644,11 +5130,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Los Chankas vs Alianza Lima",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Los Chankas vs Alianza Lima",
                             "homeTeam": "Los Chankas",
                             "awayTeam": "Alianza Lima",
@@ -5685,11 +5166,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Sport Boys vs UTC Cajamarca",
-                                "2026-11-08",
-                                "15:30"
-                            ],
                             "title": "Sport Boys vs UTC Cajamarca",
                             "homeTeam": "Sport Boys",
                             "awayTeam": "UTC Cajamarca",
@@ -5725,11 +5201,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Deportivo Garcilaso vs Comerciantes Unidos",
-                                "2026-11-08",
-                                "18:00"
-                            ],
                             "title": "Deportivo Garcilaso vs Comerciantes Unidos",
                             "homeTeam": "Deportivo Garcilaso",
                             "awayTeam": "Comerciantes Unidos",
@@ -5766,11 +5237,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Universitario vs Deportivo Moquegua",
-                                "2026-11-08",
-                                "20:30"
-                            ],
                             "title": "Universitario vs Deportivo Moquegua",
                             "homeTeam": "Universitario",
                             "awayTeam": "Deportivo Moquegua",
@@ -5815,11 +5281,6 @@
                     "name": "Ligue 1",
                     "events": [
                         {
-                            "_event_key": [
-                                "Auxerre vs Paris",
-                                "2026-11-07",
-                                "13:00"
-                            ],
                             "title": "Auxerre vs Paris",
                             "homeTeam": "Auxerre",
                             "awayTeam": "Paris",
@@ -5849,11 +5310,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "PSG vs Troyes",
-                                "2026-11-07",
-                                "14:45"
-                            ],
                             "title": "PSG vs Troyes",
                             "homeTeam": "PSG",
                             "awayTeam": "Troyes",
@@ -5924,11 +5380,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Rennes vs Lille",
-                                "2026-11-08",
-                                "09:00"
-                            ],
                             "title": "Rennes vs Lille",
                             "homeTeam": "Rennes",
                             "awayTeam": "Lille",
@@ -5958,11 +5409,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Le Mans vs Monaco",
-                                "2026-11-08",
-                                "11:15"
-                            ],
                             "title": "Le Mans vs Monaco",
                             "homeTeam": "Le Mans",
                             "awayTeam": "Monaco",
@@ -5992,11 +5438,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Le Havre vs Lorient",
-                                "2026-11-08",
-                                "11:15"
-                            ],
                             "title": "Le Havre vs Lorient",
                             "homeTeam": "Le Havre",
                             "awayTeam": "Lorient",
@@ -6019,11 +5460,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Brest vs Olympique Lyonnais",
-                                "2026-11-08",
-                                "11:15"
-                            ],
                             "title": "Brest vs Olympique Lyonnais",
                             "homeTeam": "Brest",
                             "awayTeam": "Olympique Lyonnais",
@@ -6046,11 +5482,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Angers SCO vs Nice",
-                                "2026-11-08",
-                                "11:15"
-                            ],
                             "title": "Angers SCO vs Nice",
                             "homeTeam": "Angers SCO",
                             "awayTeam": "Nice",
@@ -6072,11 +5503,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Lens vs Olympique Marseille",
-                                "2026-11-08",
-                                "14:45"
-                            ],
                             "title": "Lens vs Olympique Marseille",
                             "homeTeam": "Lens",
                             "awayTeam": "Olympique Marseille",
@@ -6114,11 +5540,6 @@
                     "name": "Primeira Liga",
                     "events": [
                         {
-                            "_event_key": [
-                                "Sporting CP vs Moreirense",
-                                "2026-11-07",
-                                "15:30"
-                            ],
                             "title": "Sporting CP vs Moreirense",
                             "homeTeam": "Sporting CP",
                             "awayTeam": "Moreirense",
@@ -6158,11 +5579,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Vitória Guimarães vs Porto",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Vitória Guimarães vs Porto",
                             "homeTeam": "Vitória Guimarães",
                             "awayTeam": "Porto",
@@ -6201,11 +5617,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Estrela vs Benfica",
-                                "2026-11-08",
-                                "15:30"
-                            ],
                             "title": "Estrela vs Benfica",
                             "homeTeam": "Estrela",
                             "awayTeam": "Benfica",
@@ -6253,11 +5664,6 @@
                     "name": "MLS",
                     "events": [
                         {
-                            "_event_key": [
-                                "Inter Miami vs Charlotte",
-                                "2026-11-07",
-                                "16:00"
-                            ],
                             "title": "Inter Miami vs Charlotte",
                             "homeTeam": "Inter Miami",
                             "awayTeam": "Charlotte",
@@ -6279,11 +5685,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Chicago Fire vs Columbus Crew",
-                                "2026-11-07",
-                                "16:00"
-                            ],
                             "title": "Chicago Fire vs Columbus Crew",
                             "homeTeam": "Chicago Fire",
                             "awayTeam": "Columbus Crew",
@@ -6306,11 +5707,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "New York RB vs Atlanta United",
-                                "2026-11-07",
-                                "16:00"
-                            ],
                             "title": "New York RB vs Atlanta United",
                             "homeTeam": "New York RB",
                             "awayTeam": "Atlanta United",
@@ -6332,11 +5728,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Orlando City SC vs New England",
-                                "2026-11-07",
-                                "16:00"
-                            ],
                             "title": "Orlando City SC vs New England",
                             "homeTeam": "Orlando City SC",
                             "awayTeam": "New England",
@@ -6358,11 +5749,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Real Salt Lake vs LA Galaxy",
-                                "2026-11-07",
-                                "19:00"
-                            ],
                             "title": "Real Salt Lake vs LA Galaxy",
                             "homeTeam": "Real Salt Lake",
                             "awayTeam": "LA Galaxy",
@@ -6385,11 +5771,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "San Diego vs Sporting KC",
-                                "2026-11-07",
-                                "19:00"
-                            ],
                             "title": "San Diego vs Sporting KC",
                             "homeTeam": "San Diego",
                             "awayTeam": "Sporting KC",
@@ -6411,11 +5792,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Seattle Sounders FC vs Los Angeles FC",
-                                "2026-11-07",
-                                "19:00"
-                            ],
                             "title": "Seattle Sounders FC vs Los Angeles FC",
                             "homeTeam": "Seattle Sounders FC",
                             "awayTeam": "Los Angeles FC",
@@ -6445,11 +5821,6 @@
                     "name": "Copa do Brasil",
                     "events": [
                         {
-                            "_event_key": [
-                                "Atlético Mineiro vs Grêmio",
-                                "2026-11-07",
-                                "16:00"
-                            ],
                             "title": "Atlético Mineiro vs Grêmio",
                             "homeTeam": "Atlético Mineiro",
                             "awayTeam": "Grêmio",
@@ -6496,11 +5867,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Vasco da Gama vs Palmeiras",
-                                "2026-11-08",
-                                "15:00"
-                            ],
                             "title": "Vasco da Gama vs Palmeiras",
                             "homeTeam": "Vasco da Gama",
                             "awayTeam": "Palmeiras",
@@ -6564,11 +5930,6 @@
                     "name": "UFC Fight Night",
                     "events": [
                         {
-                            "_event_key": [
-                                "Waldo Cortes Acosta vs Johnny Walker",
-                                "2026-11-07",
-                                "16:00"
-                            ],
                             "title": "Waldo Cortes Acosta vs Johnny Walker",
                             "homeTeam": "Waldo Cortes Acosta",
                             "awayTeam": "Johnny Walker",
@@ -6617,11 +5978,6 @@
                     "name": "Eredivisie",
                     "events": [
                         {
-                            "_event_key": [
-                                "Heerenveen vs Feyenoord",
-                                "2026-11-08",
-                                "06:15"
-                            ],
                             "title": "Heerenveen vs Feyenoord",
                             "homeTeam": "Heerenveen",
                             "awayTeam": "Feyenoord",
@@ -6688,11 +6044,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Twente vs Ajax",
-                                "2026-11-08",
-                                "08:30"
-                            ],
                             "title": "Twente vs Ajax",
                             "homeTeam": "Twente",
                             "awayTeam": "Ajax",
@@ -6755,11 +6106,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Cambuur vs PSV",
-                                "2026-11-08",
-                                "10:45"
-                            ],
                             "title": "Cambuur vs PSV",
                             "homeTeam": "Cambuur",
                             "awayTeam": "PSV",
@@ -6781,11 +6127,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "AZ vs Groningen",
-                                "2026-11-08",
-                                "10:45"
-                            ],
                             "title": "AZ vs Groningen",
                             "homeTeam": "AZ",
                             "awayTeam": "Groningen",
@@ -6814,11 +6155,6 @@
                     "name": "NFL",
                     "events": [
                         {
-                            "_event_key": [
-                                "Bengals vs Falcons",
-                                "2026-11-08",
-                                "09:30"
-                            ],
                             "title": "Bengals vs Falcons",
                             "homeTeam": "Bengals",
                             "awayTeam": "Falcons",
@@ -6876,11 +6212,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Broncos vs Panthers",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Broncos vs Panthers",
                             "homeTeam": "Broncos",
                             "awayTeam": "Panthers",
@@ -6975,11 +6306,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Giants vs Eagles",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Giants vs Eagles",
                             "homeTeam": "Giants",
                             "awayTeam": "Eagles",
@@ -7074,11 +6400,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Cowboys vs Colts",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Cowboys vs Colts",
                             "homeTeam": "Cowboys",
                             "awayTeam": "Colts",
@@ -7101,11 +6422,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Jets vs Chiefs",
-                                "2026-11-08",
-                                "13:00"
-                            ],
                             "title": "Jets vs Chiefs",
                             "homeTeam": "Jets",
                             "awayTeam": "Chiefs",
@@ -7128,11 +6444,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Raiders vs 49ers",
-                                "2026-11-08",
-                                "16:25"
-                            ],
                             "title": "Raiders vs 49ers",
                             "homeTeam": "Raiders",
                             "awayTeam": "49ers",
@@ -7227,11 +6538,6 @@
                             "imageMode": "banner"
                         },
                         {
-                            "_event_key": [
-                                "Cardinals vs Seahawks",
-                                "2026-11-08",
-                                "16:25"
-                            ],
                             "title": "Cardinals vs Seahawks",
                             "homeTeam": "Cardinals",
                             "awayTeam": "Seahawks",
@@ -7325,11 +6631,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Packers vs Patriots",
-                                "2026-11-08",
-                                "16:25"
-                            ],
                             "title": "Packers vs Patriots",
                             "homeTeam": "Packers",
                             "awayTeam": "Patriots",
@@ -7351,11 +6652,6 @@
                             "imageMode": ""
                         },
                         {
-                            "_event_key": [
-                                "Buccaneers vs Bears",
-                                "2026-11-08",
-                                "20:20"
-                            ],
                             "title": "Buccaneers vs Bears",
                             "homeTeam": "Buccaneers",
                             "awayTeam": "Bears",
@@ -7430,11 +6726,6 @@
                     "name": "Superliga de Grecia",
                     "events": [
                         {
-                            "_event_key": [
-                                "Olympiakos Piraeus vs PAOK",
-                                "2026-11-08",
-                                "14:00"
-                            ],
                             "title": "Olympiakos Piraeus vs PAOK",
                             "homeTeam": "Olympiakos Piraeus",
                             "awayTeam": "PAOK",
@@ -7467,6 +6758,5 @@
                 }
             ]
         }
-    ],
-    "updated": "2026-11-08 10:52:39"
+    ]
 }
