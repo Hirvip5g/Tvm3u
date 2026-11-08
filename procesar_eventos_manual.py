@@ -385,13 +385,15 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            # Formato de fecha y hora ISO unificado con zona horaria para compatibilidad total con agenda.json
+            # Formato de fecha y hora ISO unificado de forma estricta
             if date and time_val:
                 hora_limpia = time_val.strip()
                 if len(hora_limpia) == 5:  # Formato "HH:MM"
                     full_time_str = f"{date}T{hora_limpia}:00-05:00"
+                elif len(hora_limpia) == 8:  # Formato "HH:MM:SS"
+                    full_time_str = f"{date}T{hora_limpia}-05:00"
                 else:
-                    full_time_str = f"{date} {hora_limpia}"
+                    full_time_str = f"{date}T{hora_limpia}:00-05:00" if "T" not in hora_limpia else hora_limpia
             else:
                 full_time_str = time_val
 
