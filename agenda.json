@@ -6,128 +6,121 @@
             "icon": "⚽",
             "leagues": [
                 {
+                    "name": "Liga MX",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
+                    "events": [
+                        {
+                            "title": "Querétaro vs Puebla",
+                            "league": "Liga MX",
+                            "code": "LIGAMX",
+                            "time": "2026-11-09T01:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 1,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/tg2fml1784407584.jpg",
+                            "logo": "",
+                            "homeTeam": "Querétaro",
+                            "awayTeam": "Puebla",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1943.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7847.png",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "TUDN US",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone9",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487594-quer%c3%a9taro-vs-puebla"
+                        },
+                        {
+                            "title": "León vs Guadalajara",
+                            "league": "Liga MX",
+                            "code": "LIGAMX",
+                            "time": "2026-11-09T03:10:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 5,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/buf5vu1784405105.jpg",
+                            "logo": "",
+                            "homeTeam": "León",
+                            "awayTeam": "Guadalajara",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1841.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7807.png",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "TUDN US",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487595-le%c3%b3n-vs-cd-guadalajara"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "ligamx"
+                },
+                {
                     "name": "Liga BetPlay",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaco.jpg",
                     "events": [
                         {
-                            "title": "Jaguares de Córdoba vs Atlético Bucaramanga",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-08T22:05:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 1,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/a1pfm11675412468.jpg",
-                            "logo": "",
-                            "homeTeam": "Jaguares de Córdoba",
-                            "awayTeam": "Atlético Bucaramanga",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Win+ Fútbol",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "WIN SPORTS + HD",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "Win Sports",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinsports",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481257-jaguares-de-c%c3%b3rdoba-vs-atl%c3%a9tico-bucaramanga"
-                        },
-                        {
-                            "title": "Deportes Tolima vs Millonarios",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-08T00:10:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 8,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/mtek9h1754335364.jpg",
-                            "logo": "",
-                            "homeTeam": "Deportes Tolima",
-                            "awayTeam": "Millonarios",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Win+ Fútbol",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "WIN SPORTS + HD",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481264-deportes-tolima-vs-millonarios"
-                        },
-                        {
                             "title": "Alianza vs Llaneros",
                             "league": "Liga BetPlay",
                             "code": "COL",
-                            "time": "2026-11-08T02:15:00-05:00",
+                            "time": "2026-11-09T02:15:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 10,
+                            "agendaOrder": 2,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/80djdn1754335499.jpg",
                             "logo": "",
                             "homeTeam": "Alianza",
@@ -187,161 +180,18 @@
                     "leagueId": "ligaco"
                 },
                 {
-                    "name": "Liga Profesional",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaprofesional.jpg",
-                    "events": [
-                        {
-                            "title": "Central Córdoba SdE vs Lanús",
-                            "league": "Liga Profesional",
-                            "code": "AR",
-                            "time": "2026-11-08T23:30:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 5,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/0d1gn81769678329.jpg",
-                            "logo": "",
-                            "homeTeam": "Central Córdoba SdE",
-                            "awayTeam": "Lanús",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TNT Sports Premium",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtntar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398181-central-c%c3%b3rdoba-de-santiago-del-estero-vs-lan%c3%bas"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "ligaprofesional"
-                },
-                {
-                    "name": "Primera División",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/3p98xv1740672448.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligachile.jpg",
-                    "events": [
-                        {
-                            "title": "Univ. Concepción vs O'Higgins",
-                            "league": "Primera División",
-                            "code": "CH",
-                            "time": "2026-11-08T00:00:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 6,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Univ. Concepción",
-                            "awayTeam": "O'Higgins",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TNT Sports Premium",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtntsportscl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": ""
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "ligachile"
-                },
-                {
                     "name": "Liga 1",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
                     "image": "",
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/Liga1.jpg",
                     "events": [
                         {
-                            "title": "Deportivo Garcilaso vs Comerciantes Unidos",
-                            "league": "Liga 1",
-                            "code": "",
-                            "time": "2026-11-08T00:00:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 7,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/g6a32k1784358791.jpg",
-                            "logo": "",
-                            "homeTeam": "Deportivo Garcilaso",
-                            "awayTeam": "Comerciantes Unidos",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Liga 1 Max",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dliga1max",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "LIGA 1 MAX HD",
-                                    "url": "http://38.87.224.19:2220/play/a001/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481755-deportivo-garcilaso-vs-comerciantes-unidos"
-                        },
-                        {
                             "title": "Universitario vs Deportivo Moquegua",
                             "league": "Liga 1",
                             "code": "",
-                            "time": "2026-11-08T02:30:00-05:00",
+                            "time": "2026-11-09T02:30:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 12,
+                            "agendaOrder": 4,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/vio05c1784358788.jpg",
                             "logo": "",
                             "homeTeam": "Universitario",
@@ -389,109 +239,6 @@
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": "Liga1"
-                },
-                {
-                    "name": "Liga MX",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
-                    "events": [
-                        {
-                            "title": "Querétaro vs Puebla",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-11-09T01:00:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 9,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/tg2fml1784407584.jpg",
-                            "logo": "",
-                            "homeTeam": "Querétaro",
-                            "awayTeam": "Puebla",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1943.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7847.png",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TUDN US",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone9",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487594-quer%c3%a9taro-vs-puebla"
-                        },
-                        {
-                            "title": "León vs Guadalajara",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-11-08T03:10:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 13,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/buf5vu1784405105.jpg",
-                            "logo": "",
-                            "homeTeam": "León",
-                            "awayTeam": "Guadalajara",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1841.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7807.png",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TUDN US",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487595-le%c3%b3n-vs-cd-guadalajara"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "ligamx"
                 }
             ]
         },
@@ -507,270 +254,12 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nfl.jpg",
                     "events": [
                         {
-                            "title": "Raiders vs 49ers",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "2026-11-08T22:25:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 2,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/pcylsh1784759902.jpg",
-                            "logo": "",
-                            "homeTeam": "Raiders",
-                            "awayTeam": "49ers",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 5",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
-                                    "clearkey": {
-                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
-                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 5 AR MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MzA1NjQxIiwic2lwIjoiMTg2LjE5LjE0NC41MCIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiZjkwYTJlNmU5ZmI3YTc3ZSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MiIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.3gMABpF5_OEZSFY0r6KUMv_vkw19rWtsi4F8jNi3rVkdeNSawnAR6wUnywdGinuaoXtp98PvA7o8c7YmjuUeSQ==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
-                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MzA1NjQxIiwic2lwIjoiMTg2LjE5LjE0NC41MCIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiZjkwYTJlNmU5ZmI3YTc3ZSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MiIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.3gMABpF5_OEZSFY0r6KUMv_vkw19rWtsi4F8jNi3rVkdeNSawnAR6wUnywdGinuaoXtp98PvA7o8c7YmjuUeSQ==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": {
-                                        "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
-                                        "key": "23129ab5572aeda7607c920655c0dbea"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475505-san-francisco-49ers-vs-las-vegas-raiders"
-                        },
-                        {
-                            "title": "Cardinals vs Seahawks",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "2026-11-08T22:25:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 3,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ztql8u1784759905.jpg",
-                            "logo": "",
-                            "homeTeam": "Cardinals",
-                            "awayTeam": "Seahawks",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 7",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 7 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.ibb.co/LSQFzkw/espn-7B.png?",
-                                    "clearkey": {
-                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
-                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 7 AR MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MzA1NjQxIiwic2lwIjoiMTg2LjE5LjE0NC41MCIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiZjkwYTJlNmU5ZmI3YTc3ZSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MiIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.3gMABpF5_OEZSFY0r6KUMv_vkw19rWtsi4F8jNi3rVkdeNSawnAR6wUnywdGinuaoXtp98PvA7o8c7YmjuUeSQ==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
-                                    "clearkey": {
-                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
-                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox3ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MzA1NjQxIiwic2lwIjoiMTg2LjE5LjE0NC41MCIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiZjkwYTJlNmU5ZmI3YTc3ZSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MiIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.3gMABpF5_OEZSFY0r6KUMv_vkw19rWtsi4F8jNi3rVkdeNSawnAR6wUnywdGinuaoXtp98PvA7o8c7YmjuUeSQ==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
-                                    "clearkey": {
-                                        "keyId": "4629bd0ae30c0e72af111fb948fada1c",
-                                        "key": "7864154c679e769e7f164ba083c8fad3"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 3 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475507-seattle-seahawks-vs-arizona-cardinals"
-                        },
-                        {
-                            "title": "Packers vs Patriots",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "2026-11-08T22:25:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 4,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ysnbcw1784759904.jpg",
-                            "logo": "",
-                            "homeTeam": "Packers",
-                            "awayTeam": "Patriots",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Canal 5 MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Fcanal5-mex.html",
-                                    "type": "iframe",
-                                    "quality": "FHD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475506-new-england-patriots-vs-green-bay-packers"
-                        },
-                        {
                             "title": "Buccaneers vs Bears",
                             "league": "NFL",
                             "code": "NFL",
-                            "time": "2026-11-08T02:20:00-05:00",
+                            "time": "2026-11-09T02:20:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 11,
+                            "agendaOrder": 3,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/msv0va1784759906.jpg",
                             "logo": "",
                             "homeTeam": "Buccaneers",
@@ -859,5 +348,5 @@
             ]
         }
     ],
-    "updated": "2026-11-08 23:30:05"
+    "updated": "2026-11-09 05:36:21"
 }
