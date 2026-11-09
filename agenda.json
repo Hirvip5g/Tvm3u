@@ -6,43 +6,33 @@
             "icon": "⚽",
             "leagues": [
                 {
-                    "name": "Liga MX",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
+                    "name": "LaLiga 2",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/smartbank.jpg",
                     "events": [
                         {
-                            "title": "Querétaro vs Puebla",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-11-09T01:00:00-05:00",
+                            "title": "Sabadell vs Real Sociedad II",
+                            "league": "LaLiga 2",
+                            "code": "",
+                            "time": "2026-11-09T20:30:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 1,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/tg2fml1784407584.jpg",
+                            "image": "",
                             "logo": "",
-                            "homeTeam": "Querétaro",
-                            "awayTeam": "Puebla",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1943.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7847.png",
-                            "imageMode": "banner",
+                            "homeTeam": "Sabadell",
+                            "awayTeam": "Real Sociedad II",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/4033.png",
+                            "awayLogo": "",
+                            "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "TUDN US",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone9",
+                                    "name": "LaLiga TV Hypermotion ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -54,59 +44,12 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487594-quer%c3%a9taro-vs-puebla"
-                        },
-                        {
-                            "title": "León vs Guadalajara",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-11-09T03:10:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 5,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/buf5vu1784405105.jpg",
-                            "logo": "",
-                            "homeTeam": "León",
-                            "awayTeam": "Guadalajara",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1841.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7807.png",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TUDN US",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487595-le%c3%b3n-vs-cd-guadalajara"
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "ligamx"
+                    "leagueId": "smartbank"
                 },
                 {
                     "name": "Liga BetPlay",
@@ -115,16 +58,16 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaco.jpg",
                     "events": [
                         {
-                            "title": "Alianza vs Llaneros",
+                            "title": "Junior vs Cúcuta Deportivo",
                             "league": "Liga BetPlay",
                             "code": "COL",
-                            "time": "2026-11-09T02:15:00-05:00",
+                            "time": "2026-11-09T01:00:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 2,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/80djdn1754335499.jpg",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/odaioz1784787896.jpg",
                             "logo": "",
-                            "homeTeam": "Alianza",
-                            "awayTeam": "Llaneros",
+                            "homeTeam": "Junior",
+                            "awayTeam": "Cúcuta Deportivo",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
@@ -156,89 +99,72 @@
                                     "referer": "",
                                     "origin": "",
                                     "userAgent": ""
-                                },
-                                {
-                                    "name": "Win Sports",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinsports",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481263-alianza-de-valledupar-vs-llaneros"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481258-atl%c3%a9tico-junior-vs-c%c3%bacuta-deportivo"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": "ligaco"
-                },
+                }
+            ]
+        },
+        {
+            "id": "basketball",
+            "name": "Basketball",
+            "icon": "🏀",
+            "leagues": [
                 {
-                    "name": "Liga 1",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
+                    "name": "NBA",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/Liga1.jpg",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nba.jpg",
                     "events": [
                         {
-                            "title": "Universitario vs Deportivo Moquegua",
-                            "league": "Liga 1",
-                            "code": "",
-                            "time": "2026-11-09T02:30:00-05:00",
+                            "title": "Wizards vs Pistons",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-09T01:00:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 4,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/vio05c1784358788.jpg",
+                            "agendaOrder": 3,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/y3qaj01759234176.jpg",
                             "logo": "",
-                            "homeTeam": "Universitario",
-                            "awayTeam": "Deportivo Moquegua",
+                            "homeTeam": "Wizards",
+                            "awayTeam": "Pistons",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Liga 1 Max",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dliga1max",
+                                    "name": "HBO Max",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmax1",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
                                     "channelLogo": ""
-                                },
-                                {
-                                    "name": "LIGA 1 MAX HD",
-                                    "url": "http://38.87.224.19:2220/play/a001/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
                                 }
                             ],
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481748-universitario-vs-deportivo-moquegua"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601813-detroit-pistons-vs-washington-wizards"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "Liga1"
+                    "leagueId": "nba"
                 }
             ]
         },
@@ -254,16 +180,16 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nfl.jpg",
                     "events": [
                         {
-                            "title": "Buccaneers vs Bears",
+                            "title": "Bills vs Vikings",
                             "league": "NFL",
                             "code": "NFL",
-                            "time": "2026-11-09T02:20:00-05:00",
+                            "time": "2026-11-09T02:15:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 3,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/msv0va1784759906.jpg",
+                            "agendaOrder": 4,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/lnf0zw1784759908.jpg",
                             "logo": "",
-                            "homeTeam": "Buccaneers",
-                            "awayTeam": "Bears",
+                            "homeTeam": "Bills",
+                            "awayTeam": "Vikings",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "banner",
@@ -314,8 +240,8 @@
                                     "userAgent": ""
                                 },
                                 {
-                                    "name": "ESPN 2 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
+                                    "name": "ESPN Deportes",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despndeportes",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -324,21 +250,25 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "Universo",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Duniverso",
-                                    "type": "iframe",
+                                    "name": "ESPN DEPORTES HD",
+                                    "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free",
+                                    "type": "embed",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
                                 }
                             ],
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475508-chicago-bears-vs-tampa-bay-buccaneers"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475509-minnesota-vikings-vs-buffalo-bills"
                         }
                     ],
                     "flagCode": "",
@@ -348,5 +278,5 @@
             ]
         }
     ],
-    "updated": "2026-11-09 05:36:21"
+    "updated": "2026-11-09 15:45:17"
 }
