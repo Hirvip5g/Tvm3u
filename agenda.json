@@ -359,16 +359,6 @@
                                     "referer": "https://www.izzigo.tv/webclient/",
                                     "origin": "",
                                     "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
-                                },
-                                {
-                                    "name": "ESPN+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnplus1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
@@ -421,6 +411,16 @@
                                     "referer": "https://www.izzigo.tv/webclient/",
                                     "origin": "",
                                     "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
+                                },
+                                {
+                                    "name": "ESPN+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnplus1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
@@ -656,5 +656,5 @@
             ]
         }
     ],
-    "updated": "2026-11-10 14:37:51"
+    "updated": "2026-11-10 23:02:10"
 }
