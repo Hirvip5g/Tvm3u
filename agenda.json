@@ -15,7 +15,7 @@
                             "title": "Sabadell vs Real Sociedad II",
                             "league": "LaLiga 2",
                             "code": "",
-                            "time": "2026-11-09T20:30:00-05:00",
+                            "time": "2026-11-10T20:30:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 1,
                             "image": "",
@@ -61,7 +61,7 @@
                             "title": "Junior vs Cúcuta Deportivo",
                             "league": "Liga BetPlay",
                             "code": "COL",
-                            "time": "2026-11-09T01:00:00-05:00",
+                            "time": "2026-11-10T01:00:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 2,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/odaioz1784787896.jpg",
@@ -129,7 +129,7 @@
                             "title": "Wizards vs Pistons",
                             "league": "NBA",
                             "code": "NBA",
-                            "time": "2026-11-09T01:00:00-05:00",
+                            "time": "2026-11-10T01:00:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 3,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/y3qaj01759234176.jpg",
@@ -183,7 +183,7 @@
                             "title": "Bills vs Vikings",
                             "league": "NFL",
                             "code": "NFL",
-                            "time": "2026-11-09T02:15:00-05:00",
+                            "time": "2026-11-10T02:15:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 4,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/lnf0zw1784759908.jpg",
@@ -278,5 +278,5 @@
             ]
         }
     ],
-    "updated": "2026-11-09 15:45:17"
+    "updated": "2026-11-10 01:21:52"
 }
