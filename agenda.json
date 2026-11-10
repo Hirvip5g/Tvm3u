@@ -6,23 +6,23 @@
             "icon": "⚽",
             "leagues": [
                 {
-                    "name": "LaLiga 2",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
+                    "name": "UEFA Women's Champions League",
+                    "logo": "",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/smartbank.jpg",
+                    "background": "",
                     "events": [
                         {
-                            "title": "Sabadell vs Real Sociedad II",
-                            "league": "LaLiga 2",
+                            "title": "Real Madrid vs Paris FC",
+                            "league": "UEFA Women's Champions League",
                             "code": "",
-                            "time": "2026-11-10T20:30:00-05:00",
+                            "time": "2026-11-10T18:45:00-05:00",
                             "timezone": "Europe/Madrid",
                             "agendaOrder": 1,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Sabadell",
-                            "awayTeam": "Real Sociedad II",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/4033.png",
+                            "homeTeam": "Real Madrid",
+                            "awayTeam": "Paris FC",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8633.png",
                             "awayLogo": "",
                             "imageMode": "",
                             "duration": 130,
@@ -31,54 +31,8 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "LaLiga TV Hypermotion ES",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": ""
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "smartbank"
-                },
-                {
-                    "name": "Liga BetPlay",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaco.jpg",
-                    "events": [
-                        {
-                            "title": "Junior vs Cúcuta Deportivo",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-10T01:00:00-05:00",
-                            "timezone": "Europe/Madrid",
-                            "agendaOrder": 2,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/odaioz1784787896.jpg",
-                            "logo": "",
-                            "homeTeam": "Junior",
-                            "awayTeam": "Cúcuta Deportivo",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Win+ Fútbol",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
+                                    "name": "ESPN",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -87,9 +41,67 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "WIN SPORTS + HD",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "name": "ESPN FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "b3e4e74ae2080b137e68bbd0ef8a7e05",
+                                        "key": "cb004fb100bd92f23793562891e3236b"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN HD",
+                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0MzA1NjQxIiwic2lwIjoiMTg2LjE5LjE0NC41MCIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiZjkwYTJlNmU5ZmI3YTc3ZSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MiIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.3gMABpF5_OEZSFY0r6KUMv_vkw19rWtsi4F8jNi3rVkdeNSawnAR6wUnywdGinuaoXtp98PvA7o8c7YmjuUeSQ==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "e95fe84b9f73e6655fde711d5c896056",
+                                        "key": "267a0e514deb984803bec43cc607c4cb"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN CO HD",
+                                    "url": "http://209.61.12.132:9000/play/a06z/index.m3u8",
                                     "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN Deportes",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despndeportes",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN DEPORTES HD",
+                                    "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free",
+                                    "type": "embed",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
@@ -104,49 +116,30 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481258-atl%c3%a9tico-junior-vs-c%c3%bacuta-deportivo"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "ligaco"
-                }
-            ]
-        },
-        {
-            "id": "basketball",
-            "name": "Basketball",
-            "icon": "🏀",
-            "leagues": [
-                {
-                    "name": "NBA",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nba.jpg",
-                    "events": [
+                            "awayCountryCode": ""
+                        },
                         {
-                            "title": "Wizards vs Pistons",
-                            "league": "NBA",
-                            "code": "NBA",
-                            "time": "2026-11-10T01:00:00-05:00",
+                            "title": "Häcken Damer vs Chelsea FC",
+                            "league": "UEFA Women's Champions League",
+                            "code": "",
+                            "time": "2026-11-10T18:45:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 3,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/y3qaj01759234176.jpg",
+                            "agendaOrder": 2,
+                            "image": "",
                             "logo": "",
-                            "homeTeam": "Wizards",
-                            "awayTeam": "Pistons",
+                            "homeTeam": "Häcken Damer",
+                            "awayTeam": "Chelsea FC",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 180,
+                            "imageMode": "",
+                            "duration": 130,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "HBO Max",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmax1",
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney1",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -158,42 +151,23 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601813-detroit-pistons-vs-washington-wizards"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "nba"
-                }
-            ]
-        },
-        {
-            "id": "american-football",
-            "name": "American Football",
-            "icon": "🏈",
-            "leagues": [
-                {
-                    "name": "NFL",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/0z0j131793688031.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nfl.jpg",
-                    "events": [
+                            "awayCountryCode": ""
+                        },
                         {
-                            "title": "Bills vs Vikings",
-                            "league": "NFL",
-                            "code": "NFL",
-                            "time": "2026-11-10T02:15:00-05:00",
+                            "title": "Inter Milano vs Manchester City",
+                            "league": "UEFA Women's Champions League",
+                            "code": "",
+                            "time": "2026-11-10T21:00:00-05:00",
                             "timezone": "Europe/Madrid",
-                            "agendaOrder": 4,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/lnf0zw1784759908.jpg",
+                            "agendaOrder": 5,
+                            "image": "",
                             "logo": "",
-                            "homeTeam": "Bills",
-                            "awayTeam": "Vikings",
+                            "homeTeam": "Inter Milano",
+                            "awayTeam": "Manchester City",
                             "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 180,
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8456.png",
+                            "imageMode": "",
+                            "duration": 130,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
@@ -238,7 +212,32 @@
                                     "referer": "",
                                     "origin": "",
                                     "userAgent": ""
-                                },
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "PSG vs Bayern",
+                            "league": "UEFA Women's Champions League",
+                            "code": "",
+                            "time": "2026-11-10T21:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 6,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "PSG",
+                            "awayTeam": "Bayern",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9847.png",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
                                 {
                                     "name": "ESPN Deportes",
                                     "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despndeportes",
@@ -267,16 +266,395 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475509-minnesota-vikings-vs-buffalo-bills"
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Roma vs Servette Chênois Féminin",
+                            "league": "UEFA Women's Champions League",
+                            "code": "",
+                            "time": "2026-11-10T21:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 7,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Roma",
+                            "awayTeam": "Servette Chênois Féminin",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "nfl"
+                    "leagueId": ""
+                },
+                {
+                    "name": "Copa del Rey",
+                    "logo": "",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/copadelrey.jpg",
+                    "events": [
+                        {
+                            "title": "Anaitasuna vs Deportivo Alavés",
+                            "league": "Copa del Rey",
+                            "code": "",
+                            "time": "2026-11-10T19:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 3,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Anaitasuna",
+                            "awayTeam": "Deportivo Alavés",
+                            "homeLogo": "",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/9866.png",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "M+ LaLiga",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmlaliga",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "SKY sports La Liga MUTICALIDAD",
+                                    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+                                    "clearkey": {
+                                        "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+                                        "key": "103ae55c7948ca1d159d6743619d26c4"
+                                    },
+                                    "referer": "https://www.izzigo.tv/webclient/",
+                                    "origin": "",
+                                    "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
+                                },
+                                {
+                                    "name": "ESPN+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnplus1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Tavernes vs Valencia",
+                            "league": "Copa del Rey",
+                            "code": "",
+                            "time": "2026-11-10T21:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 4,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Tavernes",
+                            "awayTeam": "Valencia",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "M+ LaLiga",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmlaliga",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "SKY sports La Liga MUTICALIDAD",
+                                    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+                                    "clearkey": {
+                                        "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+                                        "key": "103ae55c7948ca1d159d6743619d26c4"
+                                    },
+                                    "referer": "https://www.izzigo.tv/webclient/",
+                                    "origin": "",
+                                    "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2"
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "copadelrey"
+                },
+                {
+                    "name": "Copa Colombia",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/copacolombia.jpg",
+                    "events": [
+                        {
+                            "title": "Inter Bogotá vs América de Cali",
+                            "league": "Copa Colombia",
+                            "code": "",
+                            "time": "2026-11-10T00:30:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 8,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Inter Bogotá",
+                            "awayTeam": "América de Cali",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Win+ Fútbol",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "WIN SPORTS + HD",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Once Caldas vs Atlético Nacional",
+                            "league": "Copa Colombia",
+                            "code": "",
+                            "time": "2026-11-10T02:30:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 10,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/d4qvcy1675412456.jpg",
+                            "logo": "",
+                            "homeTeam": "Once Caldas",
+                            "awayTeam": "Atlético Nacional",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Win+ Fútbol",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "WIN SPORTS + HD",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481271-atl%c3%a9tico-nacional-vs-once-caldas"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "copacolombia"
+                }
+            ]
+        },
+        {
+            "id": "basketball",
+            "name": "Basketball",
+            "icon": "🏀",
+            "leagues": [
+                {
+                    "name": "NBA",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nba.jpg",
+                    "events": [
+                        {
+                            "title": "Celtics vs 76ers",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-10T02:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 9,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/k35b3r1759233239.jpg",
+                            "logo": "",
+                            "homeTeam": "Celtics",
+                            "awayTeam": "76ers",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Amazon Prime",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Damazon1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "TNT Sports Premium",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtntar",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601820-philadelphia-76ers-vs-boston-celtics"
+                        },
+                        {
+                            "title": "Thunder vs Trail Blazers",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-10T05:00:00-05:00",
+                            "timezone": "Europe/Madrid",
+                            "agendaOrder": 11,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/uwfrnv1759233453.jpg",
+                            "logo": "",
+                            "homeTeam": "Thunder",
+                            "awayTeam": "Trail Blazers",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "banner",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Amazon Prime",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Damazon2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "TNT Sports Premium",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtntar",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601824-portland-trail-blazers-vs-oklahoma-city-thunder"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "nba"
                 }
             ]
         }
     ],
-    "updated": "2026-11-10 01:21:52"
+    "updated": "2026-11-10 14:37:51"
 }
