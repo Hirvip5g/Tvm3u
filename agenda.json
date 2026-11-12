@@ -7,7 +7,7 @@
             "leagues": [
                 {
                     "name": "Liga de Naciones de la CONCACAF",
-                    "logo": "",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/gwew651790094136.png",
                     "image": "",
                     "background": "",
                     "events": [
@@ -133,7 +133,7 @@
                 },
                 {
                     "name": "Supercopa Argentina",
-                    "logo": "",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/pqaa5t1754306828.png",
                     "image": "",
                     "background": "",
                     "events": [
@@ -218,7 +218,7 @@
                     "name": "Primera División",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/3p98xv1740672448.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligachile.jpg",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/primeradivisión.jpg",
                     "events": [
                         {
                             "title": "Cerro Largo vs Progreso",
@@ -259,13 +259,13 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "ligachile"
+                    "leagueId": "primeradivisión"
                 },
                 {
                     "name": "Liga BetPlay",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligaco.jpg",
+                    "background": "",
                     "events": [
                         {
                             "title": "Deportivo Pasto vs Junior",
@@ -356,7 +356,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "ligaco"
+                    "leagueId": ""
                 },
                 {
                     "name": "Liga de Expansión MX",
@@ -560,5 +560,5 @@
             ]
         }
     ],
-    "updated": "2026-11-12 18:35:32"
+    "updated": "2026-11-12 18:49:33"
 }
