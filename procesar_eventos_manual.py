@@ -17,8 +17,9 @@ OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
 
-# Zona horaria oficial según eventos.js
+# Zonas horarias de origen (Madrid) y destino (Lima)
 ZONA_MADRID = ZoneInfo("Europe/Madrid")
+ZONA_LIMA = ZoneInfo("America/Lima")
 
 class CaseInsensitiveDict(dict):
     def __init__(self, data=None, **kwargs):
@@ -339,9 +340,9 @@ def procesar_agenda():
     sports_map = {}
     order_counter = 1
     
-    # Referencia de fecha/hora inicial en Madrid
+    # Referencia inicial en Madrid para control de saltos de día
     ahora_madrid = datetime.now(ZONA_MADRID)
-    fecha_base = ahora_madrid.date()
+    fecha_base_madrid = ahora_madrid.date()
     hora_anterior = None
 
     if isinstance(raw_data, list):
@@ -354,7 +355,7 @@ def procesar_agenda():
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
             
-            # Extraer hora y minuto numérico para control de saltos de medianoche
+            # Extraer hora y minuto en Madrid
             h, m, s = 0, 0, 0
             if time_val:
                 partes = time_val.split(":")
@@ -362,20 +363,32 @@ def procesar_agenda():
                 m = int(partes[1]) if len(partes) > 1 else 0
                 s = int(partes[2]) if len(partes) > 2 else 0
 
-            # Determinación automática y precisa de la fecha en Europe/Madrid
+            # Determinar fecha en Madrid
             if date_val:
-                fecha_evento = datetime.strptime(date_val, "%Y-%m-%d").date()
+                fecha_madrid = datetime.strptime(date_val, "%Y-%m-%d").date()
             else:
                 if hora_anterior is not None and h < hora_anterior and (hora_anterior - h) >= 6:
-                    fecha_base += timedelta(days=1)
+                    fecha_base_madrid += timedelta(days=1)
                 elif hora_anterior is None and ahora_madrid.hour >= 18 and h < 12:
-                    fecha_base += timedelta(days=1)
+                    fecha_base_madrid += timedelta(days=1)
                 
-                fecha_evento = fecha_base
+                fecha_madrid = fecha_base_madrid
                 if time_val:
                     hora_anterior = h
 
-            date = fecha_evento.strftime("%Y-%m-%d")
+            # 1. Crear el datetime base en Europe/Madrid
+            if time_val:
+                try:
+                    dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, h, m, s, tzinfo=ZONA_MADRID)
+                except Exception:
+                    dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, 0, 0, 0, tzinfo=ZONA_MADRID)
+            else:
+                dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, 0, 0, 0, tzinfo=ZONA_MADRID)
+
+            # 2. Convertir de Europe/Madrid a America/Lima
+            dt_lima = dt_madrid.astimezone(ZONA_LIMA)
+            date = dt_lima.strftime("%Y-%m-%d")
+            full_time_str = dt_lima.isoformat()
 
             league_name = category
             event_title = raw_titulo
@@ -426,20 +439,6 @@ def procesar_agenda():
 
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
-            
-            # Construcción estricta del formato ISO con zona horaria Europe/Madrid
-            if time_val:
-                try:
-                    dt_local = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, h, m, s, tzinfo=ZONA_MADRID)
-                    full_time_str = dt_local.isoformat()
-                except Exception:
-                    full_time_str = f"{date}T{time_val}:00+02:00"
-            else:
-                try:
-                    dt_local = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
-                    full_time_str = dt_local.isoformat()
-                except Exception:
-                    full_time_str = f"{date}T00:00:00+02:00"
 
             if event_key not in events_in_league:
                 events_in_league[event_key] = {
@@ -447,7 +446,7 @@ def procesar_agenda():
                     "league": league_name,
                     "code": code_val if code_val else MAPEO_CODIGOS_LIGA.get(league_name, ""),
                     "time": full_time_str,
-                    "timezone": "Europe/Madrid",
+                    "timezone": "America/Lima",
                     "agendaOrder": order_counter,
                     "image": "",
                     "logo": "",
@@ -521,7 +520,7 @@ def procesar_agenda():
 
     agenda_data = {
         "sports": formatted_sports,
-        "updated": datetime.now(ZONA_MADRID).strftime("%Y-%m-%d %H:%M:%S")
+        "updated": datetime.now(ZONA_LIMA).strftime("%Y-%m-%d %H:%M:%S")
     }
 
     sources_ligas = {}
