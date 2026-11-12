@@ -171,13 +171,21 @@
         "url": "Dutch Eredivisie",
         "aliases": ["Dutch Eredivisie"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Liga de Naciones de la CONCACAF": {
+        "url": "https://www.thesportsdb.com/league/5280-concacaf-nations-league",
+        "aliases": ["CONCACAF Nations League"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Supercopa Argentina": {
+        "url": "https://www.thesportsdb.com/league/5663-argentinian-supercopa-internacional",
+        "aliases": ["Argentinian Supercopa Internacional"]
+    },
+    "Champions League Femenina": {
+        "url": "https://www.thesportsdb.com/league/4889-uefa-womens-champions-league",
+        "aliases": ["UEFA Womens Champions League"]
+    },
+    "Liga de Naciones": {
+        "url": "https://www.thesportsdb.com/league/4490-uefa-nations-league",
+        "aliases": ["UEFA Nations League"]
     },
     "demo": {
         "url": "demo",
