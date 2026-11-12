@@ -5,7 +5,7 @@ import urllib.parse
 import requests
 import unicodedata
 import base64
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 # Configuración de URLs y archivos locales
@@ -17,7 +17,7 @@ OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
 
-# Zona horaria de origen según eventos.js
+# Zona horaria oficial según eventos.js
 ZONA_MADRID = ZoneInfo("Europe/Madrid")
 
 class CaseInsensitiveDict(dict):
@@ -338,20 +338,45 @@ def procesar_agenda():
 
     sports_map = {}
     order_counter = 1
-    fecha_actual_default = datetime.now(ZONA_MADRID).strftime("%Y-%m-%d")
+    
+    # Referencia de fecha/hora inicial en Madrid
+    ahora_madrid = datetime.now(ZONA_MADRID)
+    fecha_base = ahora_madrid.date()
+    hora_anterior = None
 
     if isinstance(raw_data, list):
         for item in raw_data:
             category = item.get("clase", "Fútbol")
             raw_titulo = item.get("titulo", "")
-            time_val = item.get("hora", "")
+            time_val = item.get("hora", "").strip()
             date_val = item.get("fecha", "").strip()
             
-            # Asignar fecha actual en zona horaria de Madrid si no viene especificada
-            date = date_val if date_val else fecha_actual_default
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
             
+            # Extraer hora y minuto numérico para control de saltos de medianoche
+            h, m, s = 0, 0, 0
+            if time_val:
+                partes = time_val.split(":")
+                h = int(partes[0])
+                m = int(partes[1]) if len(partes) > 1 else 0
+                s = int(partes[2]) if len(partes) > 2 else 0
+
+            # Determinación automática y precisa de la fecha en Europe/Madrid
+            if date_val:
+                fecha_evento = datetime.strptime(date_val, "%Y-%m-%d").date()
+            else:
+                if hora_anterior is not None and h < hora_anterior and (hora_anterior - h) >= 6:
+                    fecha_base += timedelta(days=1)
+                elif hora_anterior is None and ahora_madrid.hour >= 18 and h < 12:
+                    fecha_base += timedelta(days=1)
+                
+                fecha_evento = fecha_base
+                if time_val:
+                    hora_anterior = h
+
+            date = fecha_evento.strftime("%Y-%m-%d")
+
             league_name = category
             event_title = raw_titulo
             
@@ -402,24 +427,16 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            # Generación exacta del formato ISO con la compensación correspondiente a Europe/Madrid
+            # Construcción estricta del formato ISO con zona horaria Europe/Madrid
             if time_val:
-                hora_limpia = time_val.strip()
-                if len(hora_limpia) == 5:
-                    time_fmt_str = f"{date} {hora_limpia}:00"
-                elif len(hora_limpia) == 8:
-                    time_fmt_str = f"{date} {hora_limpia}"
-                else:
-                    time_fmt_str = f"{date} {hora_limpia}:00"
-                
                 try:
-                    dt_local = datetime.strptime(time_fmt_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZONA_MADRID)
+                    dt_local = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, h, m, s, tzinfo=ZONA_MADRID)
                     full_time_str = dt_local.isoformat()
                 except Exception:
-                    full_time_str = f"{date}T{hora_limpia}:00+02:00"
+                    full_time_str = f"{date}T{time_val}:00+02:00"
             else:
                 try:
-                    dt_local = datetime.strptime(f"{date} 00:00:00", "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZONA_MADRID)
+                    dt_local = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
                     full_time_str = dt_local.isoformat()
                 except Exception:
                     full_time_str = f"{date}T00:00:00+02:00"
