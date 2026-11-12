@@ -363,7 +363,7 @@ def procesar_agenda():
                 m = int(partes[1]) if len(partes) > 1 else 0
                 s = int(partes[2]) if len(partes) > 2 else 0
 
-            # Determinar fecha en Madrid
+            # Determinar fecha base en Madrid
             if date_val:
                 fecha_madrid = datetime.strptime(date_val, "%Y-%m-%d").date()
             else:
@@ -385,10 +385,14 @@ def procesar_agenda():
             else:
                 dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, 0, 0, 0, tzinfo=ZONA_MADRID)
 
-            # 2. Convertir de Europe/Madrid a America/Lima
+            # 2. Convertir la hora a America/Lima pero MANTENIENDO FIJA la fecha del día original (fecha_madrid)
             dt_lima = dt_madrid.astimezone(ZONA_LIMA)
-            date = dt_lima.strftime("%Y-%m-%d")
-            full_time_str = dt_lima.isoformat()
+            
+            # Forzamos a que la fecha de salida sea la fecha base del evento (sin cambiar de día)
+            date = fecha_madrid.strftime("%Y-%m-%d")
+            
+            # Reconstruimos el string ISO con la hora convertida a Lima pero manteniendo la fecha fija del día
+            full_time_str = f"{date}T{dt_lima.strftime('%H:%M:%S')}{dt_lima.strftime('%z')[:3]}:{dt_lima.strftime('%z')[3:]}"
 
             league_name = category
             event_title = raw_titulo
