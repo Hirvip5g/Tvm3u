@@ -153,6 +153,17 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
 })
 
+MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
+    "Liga MX": "LIGAMX", "MEX": "LIGAMX", "Serie A": "IT", "IT": "IT", "Liga Profesional": "AR", "AR": "AR",
+    "Copa do Brasil": "BRA", "BRA": "BRA", "Liga Colombia": "COL", "Liga BetPlay": "COL", "COL": "COL",
+    "Liga de Expansión MX": "MEX", "Eredivisie": "HOL", "HOL": "HOL", "FA Cup": "ENG",
+    "Bundesliga 2": "ALE", "Premier League": "ENG", "ENG": "ENG", "LaLiga": "ESP", "ES": "ESP",
+    "Ligue 1": "FRA", "FRA": "FRA", "Bundesliga": "ALE", "ALE": "ALE", "Liga Chile": "CH", "CHI": "CH",
+    "Primera División": "CH", "Super Lig": "TUR", "TUR": "TUR", "NWSL": "NWSL",
+    "Primeira Liga": "POR", "POR": "POR", "Superliga Grecia": "GRE", "Superliga de Grecia": "GRE", "GR": "GRE",
+    "Liga Guatemala": "GUA", "NBA": "NBA", "NHL": "NHL", "MotoGP": "MOTOGP", "F1": "F1", "NFL": "NFL"
+})
+
 def limpiar_para_comparar(texto):
     if not texto:
         return ""
