@@ -6,6 +6,7 @@ import requests
 import unicodedata
 import base64
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 # Configuración de URLs y archivos locales
 AGENDA_JS_URL = "https://deportestvhd.me/eventos.js"
@@ -15,6 +16,9 @@ CLUB_JSON = "club.json"
 OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
+
+# Zona horaria de origen según eventos.js
+ZONA_MADRID = ZoneInfo("Europe/Madrid")
 
 class CaseInsensitiveDict(dict):
     def __init__(self, data=None, **kwargs):
@@ -334,7 +338,7 @@ def procesar_agenda():
 
     sports_map = {}
     order_counter = 1
-    fecha_actual_default = datetime.now().strftime("%Y-%m-%d")
+    fecha_actual_default = datetime.now(ZONA_MADRID).strftime("%Y-%m-%d")
 
     if isinstance(raw_data, list):
         for item in raw_data:
@@ -343,7 +347,7 @@ def procesar_agenda():
             time_val = item.get("hora", "")
             date_val = item.get("fecha", "").strip()
             
-            # Asignar fecha actual si no viene especificada en eventos.js
+            # Asignar fecha actual en zona horaria de Madrid si no viene especificada
             date = date_val if date_val else fecha_actual_default
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
@@ -398,17 +402,27 @@ def procesar_agenda():
             event_key = (event_title, date, time_val)
             events_in_league = leagues_in_sport[league_name]["events_map"]
             
-            # Construcción estricta de formato ISO para tiempo
+            # Generación exacta del formato ISO con la compensación correspondiente a Europe/Madrid
             if time_val:
                 hora_limpia = time_val.strip()
-                if len(hora_limpia) == 5:  # HH:MM
-                    full_time_str = f"{date}T{hora_limpia}:00-05:00"
-                elif len(hora_limpia) == 8:  # HH:MM:SS
-                    full_time_str = f"{date}T{hora_limpia}-05:00"
+                if len(hora_limpia) == 5:
+                    time_fmt_str = f"{date} {hora_limpia}:00"
+                elif len(hora_limpia) == 8:
+                    time_fmt_str = f"{date} {hora_limpia}"
                 else:
-                    full_time_str = f"{date}T{hora_limpia}:00-05:00" if "T" not in hora_limpia else hora_limpia
+                    time_fmt_str = f"{date} {hora_limpia}:00"
+                
+                try:
+                    dt_local = datetime.strptime(time_fmt_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZONA_MADRID)
+                    full_time_str = dt_local.isoformat()
+                except Exception:
+                    full_time_str = f"{date}T{hora_limpia}:00+02:00"
             else:
-                full_time_str = f"{date}T00:00:00-05:00"
+                try:
+                    dt_local = datetime.strptime(f"{date} 00:00:00", "%Y-%m-%d %H:%M:%S").replace(tzinfo=ZONA_MADRID)
+                    full_time_str = dt_local.isoformat()
+                except Exception:
+                    full_time_str = f"{date}T00:00:00+02:00"
 
             if event_key not in events_in_league:
                 events_in_league[event_key] = {
@@ -490,7 +504,7 @@ def procesar_agenda():
 
     agenda_data = {
         "sports": formatted_sports,
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        "updated": datetime.now(ZONA_MADRID).strftime("%Y-%m-%d %H:%M:%S")
     }
 
     sources_ligas = {}
