@@ -44,7 +44,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2628116-aruba-vs-martinique"
                         },
                         {
                             "title": "Antigua y Barbuda vs Trinidad y Tobago",
@@ -79,7 +80,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2628117-antigua-and-barbuda-vs-trinidad-and-tobago"
                         },
                         {
                             "title": "Curazao vs Panamá",
@@ -88,13 +90,13 @@
                             "time": "2026-11-12T19:30:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 8,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/rgm3sn1694067412.jpg",
                             "logo": "",
                             "homeTeam": "Curazao",
                             "awayTeam": "Panamá",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -124,7 +126,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2628118-cura%c3%a7ao-vs-panama"
                         }
                     ],
                     "flagCode": "",
@@ -207,7 +210,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2618259-estudiantes-de-la-plata-vs-independiente-rivadavia"
                         }
                     ],
                     "flagCode": "",
@@ -560,5 +564,5 @@
             ]
         }
     ],
-    "updated": "2026-11-12 18:49:33"
+    "updated": "2026-11-12 18:56:53"
 }
