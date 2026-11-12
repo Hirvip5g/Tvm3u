@@ -339,11 +339,6 @@ def procesar_agenda():
 
     sports_map = {}
     order_counter = 1
-    
-    # Referencia inicial en Madrid para control de saltos de día
-    ahora_madrid = datetime.now(ZONA_MADRID)
-    fecha_base_madrid = ahora_madrid.date()
-    hora_anterior = None
 
     if isinstance(raw_data, list):
         for item in raw_data:
@@ -355,7 +350,14 @@ def procesar_agenda():
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
             
-            # Extraer hora y minuto en Madrid
+            # Si el evento tiene una fecha explícita en el JSON, la usamos directamente.
+            # Si no tiene fecha, usamos la fecha actual de Lima como respaldo.
+            if date_val:
+                fecha_evento = datetime.strptime(date_val, "%Y-%m-%d").date()
+            else:
+                fecha_evento = datetime.now(ZONA_LIMA).date()
+
+            # Extraer hora y minuto
             h, m, s = 0, 0, 0
             if time_val:
                 partes = time_val.split(":")
@@ -363,35 +365,22 @@ def procesar_agenda():
                 m = int(partes[1]) if len(partes) > 1 else 0
                 s = int(partes[2]) if len(partes) > 2 else 0
 
-            # Determinar fecha base en Madrid
-            if date_val:
-                fecha_madrid = datetime.strptime(date_val, "%Y-%m-%d").date()
-            else:
-                if hora_anterior is not None and h < hora_anterior and (hora_anterior - h) >= 6:
-                    fecha_base_madrid += timedelta(days=1)
-                elif hora_anterior is None and ahora_madrid.hour >= 18 and h < 12:
-                    fecha_base_madrid += timedelta(days=1)
-                
-                fecha_madrid = fecha_base_madrid
-                if time_val:
-                    hora_anterior = h
-
-            # 1. Crear el datetime base en Europe/Madrid
+            # 1. Creamos el objeto datetime interpretando la hora original como hora de Madrid
             if time_val:
                 try:
-                    dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, h, m, s, tzinfo=ZONA_MADRID)
+                    dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, h, m, s, tzinfo=ZONA_MADRID)
                 except Exception:
-                    dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, 0, 0, 0, tzinfo=ZONA_MADRID)
+                    dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
             else:
-                dt_madrid = datetime(fecha_madrid.year, fecha_madrid.month, fecha_madrid.day, 0, 0, 0, tzinfo=ZONA_MADRID)
+                dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
 
-            # 2. Convertir la hora a America/Lima pero MANTENIENDO FIJA la fecha del día original (fecha_madrid)
+            # 2. Convertimos a la zona horaria de Lima
             dt_lima = dt_madrid.astimezone(ZONA_LIMA)
             
-            # Forzamos a que la fecha de salida sea la fecha base del evento (sin cambiar de día)
-            date = fecha_madrid.strftime("%Y-%m-%d")
+            # 3. Forzamos a que la fecha en el JSON final sea exactamente la fecha del evento original (sin saltos extraños de día)
+            date = fecha_evento.strftime("%Y-%m-%d")
             
-            # Reconstruimos el string ISO con la hora convertida a Lima pero manteniendo la fecha fija del día
+            # Reconstruimos el string ISO con la hora convertida a Lima pero manteniendo la fecha fija del día correcto
             full_time_str = f"{date}T{dt_lima.strftime('%H:%M:%S')}{dt_lima.strftime('%z')[:3]}:{dt_lima.strftime('%z')[3:]}"
 
             league_name = category
