@@ -187,36 +187,92 @@
         "search_name": "Estudiantes de La Plata",
         "aliases": ["Estudiantes de La Plata"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "España": {
+        "search_name": "Spain",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Kazajistán": {
+        "search_name": "Kazakhstan",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Luxemburgo": {
+        "search_name": "Luxembourg",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Azerbaiyán": {
+        "search_name": "Azerbaijan",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Escocia": {
+        "search_name": "Scotland",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Macedonia del Norte": {
+        "search_name": "North Macedonia",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Grecia": {
+        "search_name": "Greece",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Países Bajos": {
+        "search_name": "Netherlands",
+        "aliases": ["DEMO2"]
+    },
+    "Islandia": {
+        "search_name": "Iceland",
+        "aliases": ["DEMO2"]
+    },
+    "Eslovaquia": {
+        "search_name": "Slovakia",
+        "aliases": ["DEMO2"]
+    },
+    "Islas Feroe": {
+        "search_name": "Faroe Islands",
+        "aliases": ["DEMO2"]
+    },
+    "Suiza": {
+        "search_name": "Switzerland",
+        "aliases": ["DEMO2"]
+    },
+    "Alemania": {
+        "search_name": "Germany",
+        "aliases": ["DEMO2"]
+    },
+    "Saint Martin": {
+        "search_name": "St Martin",
+        "aliases": ["DEMO2"]
+    },
+    "Canadá": {
+        "search_name": "Canada",
+        "aliases": ["DEMO2"]
+    },
+    "Singapur": {
+        "search_name": "Singapore",
+        "aliases": ["DEMO2"]
+    },
+    "Emiratos Árabes Unidos": {
+        "search_name": "United Arab Emirates",
+        "aliases": ["DEMO2"]
+    },
+    "Arabia Saudita": {
+        "search_name": "Saudi Arabia",
+        "aliases": ["DEMO2"]
+    },
+    "Corea del Sur": {
+        "search_name": "South Korea",
+        "aliases": ["DEMO2"]
+    },
+    "Perú": {
+        "search_name": "Peru",
+        "aliases": ["DEMO2"]
+    },
+    "Eslovenia": {
+        "search_name": "Slovenia",
+        "aliases": ["DEMO2"]
+    },
+    "Moldavia": {
+        "search_name": "Moldova",
         "aliases": ["DEMO2"]
     },
     "DEMO": {

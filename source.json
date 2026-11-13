@@ -187,25 +187,17 @@
         "url": "https://www.thesportsdb.com/league/4490-uefa-nations-league",
         "aliases": ["UEFA Nations League"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Liga de Naciones de la UEFA": {
+        "url": "https://www.thesportsdb.com/league/4490-uefa-nations-league",
+        "aliases": ["UEFA Nations League"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Liga de Naciones de la CONCACAF": {
+        "url": "https://www.thesportsdb.com/league/5280-concacaf-nations-league",
+        "aliases": ["CONCACAF Nations League"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
-    },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
-    },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Amistoso Internacional": {
+        "url": "https://www.thesportsdb.com/league/4562-international-friendlies",
+        "aliases": ["International Friendlies"]
     },
     "demo": {
         "url": "demo",
