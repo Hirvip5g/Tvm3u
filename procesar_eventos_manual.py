@@ -4,23 +4,16 @@ import re
 import urllib.parse
 import requests
 import unicodedata
-import base64
-import ast
-from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
+from datetime import datetime
 
 # Configuración de URLs y archivos locales
-AGENDA_JS_URL = "https://todo-pelota.st/eventos.js"
+AGENDA_URL = "https://streamxhd.sbs/eventos.json?"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
-CLUB_JSON = "club.json"
+CLUB_JSON = "club.json"  # <-- Nuevo archivo para mapeo y alias de equipos
 OUTPUT_JSON = "agenda.json"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
 BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
-
-# Zonas horarias de origen (Madrid) y destino (Lima)
-ZONA_MADRID = ZoneInfo("Europe/Madrid")
-ZONA_LIMA = ZoneInfo("America/Lima")
 
 class CaseInsensitiveDict(dict):
     def __init__(self, data=None, **kwargs):
@@ -97,7 +90,7 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "genoa": "10233", "fiorentina": "8535", "inter": "8636", "inter de milan": "8636", "parma": "10167",
     "napoli": "9875", "frosinone": "9891",
     "vasco da gama": "10276", "remo": "1626", "são paulo": "10277", "vitória": "7733",
-    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "demo": "demo",
+    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
 })
 
 MAPEO_LIGAS = CaseInsensitiveDict({
@@ -111,21 +104,11 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
     "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
     "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague",
-})
-
-MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
-    "Liga MX": "LIGAMX", "MEX": "LIGAMX", "Serie A": "IT", "IT": "IT", "Liga Profesional": "AR", "AR": "AR",
-    "Copa do Brasil": "BRA", "BRA": "BRA", "Liga Colombia": "COL", "Liga BetPlay": "COL", "COL": "COL",
-    "Liga de Expansión MX": "MEX", "Eredivisie": "HOL", "HOL": "HOL", "FA Cup": "ENG",
-    "Bundesliga 2": "ALE", "Premier League": "ENG", "ENG": "ENG", "LaLiga": "ESP", "ES": "ESP",
-    "Ligue 1": "FRA", "FRA": "FRA", "Bundesliga": "ALE", "ALE": "ALE", "Liga Chile": "CH", "CHI": "CH",
-    "Primera División": "CH", "Super Lig": "TUR", "TUR": "TUR", "NWSL": "NWSL",
-    "Primeira Liga": "POR", "POR": "POR", "Superliga Grecia": "GRE", "Superliga de Grecia": "GRE", "GR": "GRE",
-    "Liga Guatemala": "GUA", "NBA": "NBA", "NHL": "NHL", "MotoGP": "MOTOGP", "F1": "F1", "NFL": "NFL"
+    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague", "Amistoso Internacional": "amistosos", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
 })
 
 def limpiar_para_comparar(texto):
+    """Elimina acentos, tildes y caracteres especiales dejando solo alfanuméricos en minúsculas."""
     if not texto:
         return ""
     texto_norm = unicodedata.normalize('NFD', texto).encode('ascii', 'ignore').decode('utf-8').lower()
@@ -156,9 +139,11 @@ def obtener_datos_liga_thesportsdb(league_input):
         response = requests.get(url, headers=headers, timeout=10)
         if response.status_code == 200:
             html_content = response.text
+            
             match_logo = re.search(r'<meta property="og:image" content="([^"]+)"', html_content)
             if match_logo:
                 league_logo = match_logo.group(1)
+                
             matches = re.findall(r"<a href='(/event/(\d+)-([^']+))'>", html_content)
             for full_path, event_id, event_slug in matches:
                 event_url = f"https://www.thesportsdb.com{full_path}"
@@ -191,6 +176,7 @@ def traducir_sesion(titulo):
     return ""
 
 def obtener_alias_equipo(equipo_nombre, clubs_dict):
+    """Retorna una lista de palabras clave limpias para el equipo basándose en club.json"""
     palabras_clave = [limpiar_para_comparar(equipo_nombre)]
     if not clubs_dict:
         return palabras_clave
@@ -198,6 +184,7 @@ def obtener_alias_equipo(equipo_nombre, clubs_dict):
     nombre_clean = limpiar_para_comparar(equipo_nombre)
     for club_key, info in clubs_dict.items():
         key_clean = limpiar_para_comparar(club_key)
+        
         aliases = info.get("aliases", []) if isinstance(info, dict) else []
         search_name = info.get("search_name", "") if isinstance(info, dict) else ""
         
@@ -213,6 +200,7 @@ def obtener_alias_equipo(equipo_nombre, clubs_dict):
     return list(set(filter(None, palabras_clave)))
 
 def buscar_evento_web(league_name, original_title, home_team, away_team, web_events_dict, clubs_dict):
+    """Busca coincidencia del evento web usando club.json o por sesión y palabras clave en motor"""
     if not web_events_dict:
         return ""
     
@@ -231,9 +219,11 @@ def buscar_evento_web(league_name, original_title, home_team, away_team, web_eve
             
             if sesion_buscada and sesion_buscada in web_slug_clean:
                 puntuacion += 10
+            
             for kw in keywords_extra:
                 if kw and kw in web_slug_clean and kw != sesion_buscada:
                     puntuacion += 5
+                    
             for palabra in titulo_norm.split():
                 if len(palabra) > 3 and palabra in web_slug_clean and palabra != sesion_buscada:
                     puntuacion += 2
@@ -244,6 +234,7 @@ def buscar_evento_web(league_name, original_title, home_team, away_team, web_eve
 
         if mejor_url and max_puntuacion > 0:
             return mejor_url
+            
         return ""
     else:
         home_keywords = obtener_alias_equipo(home_team, clubs_dict)
@@ -251,36 +242,14 @@ def buscar_evento_web(league_name, original_title, home_team, away_team, web_eve
 
         for web_slug, web_url in web_events_dict.items():
             web_slug_clean = limpiar_para_comparar(web_slug)
+            
             match_home = any(kw and kw in web_slug_clean for kw in home_keywords)
             match_away = any(kw and kw in web_slug_clean for kw in away_keywords)
             
             if match_home and match_away:
                 return web_url
+                
     return ""
-
-def obtener_deporte_info(league_name):
-    ln = league_name.lower()
-    if "nba" in ln or "basketball" in ln or "básquetbol" in ln:
-        return "basketball", "Basketball", "🏀"
-    elif "ufc" in ln or "box" in ln or "boxing" in ln or "knockout" in ln:
-        return "boxing", "Boxing", "🥊"
-    elif "nfl" in ln or "football americano" in ln:
-        return "american-football", "American Football", "🏈"
-    elif "f1" in ln or "formula" in ln or "motogp" in ln:
-        return "motor", "Motor", "🏎️"
-    elif "nhl" in ln or "hockey" in ln:
-        return "hockey", "Hockey", "🏒"
-    else:
-        return "football", "Football", "⚽"
-
-def obtener_duracion_por_deporte(sport_id):
-    if sport_id in ["basketball", "american-football", "nfl", "nba"]:
-        return 180
-    elif sport_id in ["hockey", "nhl"]:
-        return 160
-    elif sport_id in ["motor", "f1", "motogp"]:
-        return 150
-    return 130
 
 def procesar_agenda():
     canales_04_dict = {}
@@ -298,6 +267,7 @@ def procesar_agenda():
         except Exception as e:
             print(f"Error al leer {LOCAL_CHANNELS_JSON}: {e}")
 
+    # Cargar club.json si existe
     clubs_dict = {}
     if os.path.exists(CLUB_JSON):
         try:
@@ -307,210 +277,15 @@ def procesar_agenda():
         except Exception as e:
             print(f"Error al leer {CLUB_JSON}: {e}")
 
-    print(f"Descargando script de eventos desde {AGENDA_JS_URL}...")
+    print(f"Descargando JSON manual desde {AGENDA_URL}...")
     try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(AGENDA_JS_URL, headers=headers, timeout=10)
+        response = requests.get(AGENDA_URL, timeout=10)
         if response.status_code != 200:
-            print(f"Error al descargar el archivo JS. Código de estado: {response.status_code}")
             return
-        
-        js_content = response.text
-        match_json = re.search(r'const\s+EVENTOS_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|let|var|\Z)', js_content)
-        if not match_json:
-            match_json = re.search(r'=\s*(\[[\s\S]*\])\s*;?\s*$', js_content)
-            
-        if match_json:
-            json_str = match_json.group(1)
-            try:
-                # Intento 1: Como JSON estándar
-                raw_data = json.loads(json_str)
-            except json.JSONDecodeError:
-                try:
-                    # Intento 2: Corregir claves sin comillas de JavaScript (ej. clase: -> "clase":)
-                    fixed_json_str = re.sub(r'([{\s,])([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', json_str)
-                    raw_data = json.loads(fixed_json_str)
-                except Exception:
-                    # Intento 3: Respaldo con literal_eval por si usa comillas simples
-                    limpio = json_str.replace("true", "True").replace("false", "False").replace("null", "None")
-                    raw_data = ast.literal_eval(limpio)
-        else:
-            print("No se pudo extraer el arreglo JSON de eventos.js con expresiones regulares.")
-            return
-
+        agenda_data = response.json()
     except Exception as e:
-        print(f"Error al procesar eventos.js: {e}")
+        print(f"Error: {e}")
         return
-
-    sports_map = {}
-    order_counter = 1
-
-    if isinstance(raw_data, list):
-        for item in raw_data:
-            category = item.get("clase", "Fútbol")
-            raw_titulo = item.get("titulo", "")
-            time_val = item.get("hora", "").strip()
-            date_val = item.get("fecha", "").strip()
-            
-            status = item.get("status", item.get("estado", ""))
-            code_val = item.get("code", item.get("codigo", ""))
-            
-            if date_val:
-                fecha_evento = datetime.strptime(date_val, "%Y-%m-%d").date()
-            else:
-                fecha_evento = datetime.now(ZONA_LIMA).date()
-
-            h, m, s = 0, 0, 0
-            if time_val:
-                partes = time_val.split(":")
-                h = int(partes[0])
-                m = int(partes[1]) if len(partes) > 1 else 0
-                s = int(partes[2]) if len(partes) > 2 else 0
-
-            if time_val:
-                try:
-                    dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, h, m, s, tzinfo=ZONA_MADRID)
-                except Exception:
-                    dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
-            else:
-                dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
-
-            dt_lima = dt_madrid.astimezone(ZONA_LIMA)
-            date = fecha_evento.strftime("%Y-%m-%d")
-            full_time_str = f"{date}T{dt_lima.strftime('%H:%M:%S')}{dt_lima.strftime('%z')[:3]}:{dt_lima.strftime('%z')[3:]}"
-
-            league_name = category
-            event_title = raw_titulo
-            
-            if ":" in raw_titulo:
-                parts = raw_titulo.split(":", 1)
-                potential_league = parts[0].strip()
-                potential_title = parts[1].strip()
-                
-                codes_directos = ["nfl", "f1", "motogp", "nba", "ufc", "nhl"]
-                if category.lower() in codes_directos:
-                    league_name = category
-                    event_title = potential_title
-                else:
-                    league_name = potential_league
-                    event_title = potential_title
-
-            home_team = ""
-            away_team = ""
-            if " vs " in event_title:
-                h_a = event_title.split(" vs ", 1)
-                home_team = h_a[0].strip()
-                away_team = h_a[1].strip()
-            elif " - " in event_title and not any(kw in event_title.lower() for kw in ["gp", "práctica", "clasificación", "entrenamientos", "carrera"]):
-                h_a = event_title.split(" - ", 1)
-                home_team = h_a[0].strip()
-                away_team = h_a[1].strip()
-
-            sport_id, sport_name, sport_icon = obtener_deporte_info(league_name)
-
-            if sport_id not in sports_map:
-                sports_map[sport_id] = {
-                    "id": sport_id,
-                    "name": sport_name,
-                    "icon": sport_icon,
-                    "leagues_map": {}
-                }
-
-            leagues_in_sport = sports_map[sport_id]["leagues_map"]
-            if league_name not in leagues_in_sport:
-                leagues_in_sport[league_name] = {
-                    "name": league_name,
-                    "logo": "",
-                    "image": "",
-                    "background": "",
-                    "events_map": {}
-                }
-
-            event_key = (event_title, date, time_val)
-            events_in_league = leagues_in_sport[league_name]["events_map"]
-
-            if event_key not in events_in_league:
-                events_in_league[event_key] = {
-                    "title": event_title,
-                    "league": league_name,
-                    "code": code_val if code_val else MAPEO_CODIGOS_LIGA.get(league_name, ""),
-                    "time": full_time_str,
-                    "timezone": "America/Lima",
-                    "agendaOrder": order_counter,
-                    "image": "",
-                    "logo": "",
-                    "homeTeam": home_team,
-                    "awayTeam": away_team,
-                    "homeLogo": "",
-                    "awayLogo": "",
-                    "imageMode": "",
-                    "duration": obtener_duracion_por_deporte(sport_id),
-                    "extraTime": 0,
-                    "status": status,
-                    "note": "",
-                    "servers": [],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "homeCountryCode": "",
-                    "awayCountryCode": ""
-                }
-                order_counter += 1
-
-            canales_raw = item.get("canales", [])
-            for canal in canales_raw:
-                canal_nombre = canal.get("nombre", "").strip()
-                canal_calidad = canal.get("calidad", "")
-                link_enc = canal.get("url", "")
-                
-                link_limpio = link_enc
-                if "?r=" in link_enc:
-                    try:
-                        partes_url = link_enc.split("?r=")
-                        if len(partes_url) > 1:
-                            b64_encoded = partes_url[1].strip()
-                            padding = '=' * (-len(b64_encoded) % 4)
-                            decoded_bytes = base64.b64decode(b64_encoded + padding)
-                            link_limpio = decoded_bytes.decode('utf-8')
-                    except Exception as e:
-                        print(f"Error al decodificar Base64 de {link_enc}: {e}")
-
-                server_entry = {
-                    "name": canal_nombre,
-                    "url": link_limpio,
-                    "type": "iframe",
-                    "quality": canal_calidad,
-                    "active": True,
-                    "languages": [],
-                    "customLanguages": "",
-                    "channelLogo": ""
-                }
-                events_in_league[event_key]["servers"].append(server_entry)
-
-    formatted_sports = []
-    for s_id, s_data in sports_map.items():
-        formatted_leagues = []
-        for l_name, l_data in s_data["leagues_map"].items():
-            formatted_leagues.append({
-                "name": l_data["name"],
-                "logo": l_data["logo"],
-                "image": l_data["image"],
-                "background": l_data["background"],
-                "events": list(l_data["events_map"].values()),
-                "flagCode": "",
-                "flagUrl": "",
-                "leagueId": ""
-            })
-        formatted_sports.append({
-            "id": s_data["id"],
-            "name": s_data["name"],
-            "icon": s_data["icon"],
-            "leagues": formatted_leagues
-        })
-
-    agenda_data = {
-        "sports": formatted_sports,
-        "updated": datetime.now(ZONA_LIMA).strftime("%Y-%m-%d %H:%M:%S")
-    }
 
     sources_ligas = {}
     if os.path.exists(SOURCE_JSON):
@@ -531,7 +306,7 @@ def procesar_agenda():
             league_url = data
             aliases = [league_key.lower()]
 
-        if league_url and league_url != "demo":
+        if league_url:
             print(f"Obteniendo eventos y logo web de TheSportsDB para la liga '{league_key}'...")
             eventos_remotos, league_logo = obtener_datos_liga_thesportsdb(league_url)
             
@@ -599,6 +374,7 @@ def procesar_agenda():
                         event["awayLogo"] = ""
 
                     event_thumb = ""
+                    
                     if web_events:
                         encontrado_url = buscar_evento_web(league_name, original_title, home_team, away_team, web_events, clubs_dict)
                         if encontrado_url:
@@ -624,20 +400,8 @@ def procesar_agenda():
                         if not channel_param:
                             channel_param = query_params.get("stream", [""])[0].strip().lower()
 
-                        server_name = server.get("name", "").strip()
-                        if not server_name:
-                            if channel_param:
-                                server_name = channel_param.replace("-", " ").upper()
-                            else:
-                                path_part = parsed_url.path.split("/")[-1].replace(".html", "").replace(".php", "")
-                                if path_part and path_part != "embedc":
-                                    server_name = path_part.replace("-", " ").upper()
-                                else:
-                                    server_name = "SERVIDOR"
-
                         iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
                         server_copy = dict(server)
-                        server_copy["name"] = server_name
                         server_copy["url"] = iframe_url
                         server_copy["type"] = "iframe"
                         nuevos_servidores.append(server_copy)
@@ -645,7 +409,7 @@ def procesar_agenda():
                         if channel_param and channel_param in canales_04_dict:
                             for canal_info in canales_04_dict[channel_param]:
                                 nuevos_servidores.append({
-                                    "name": canal_info.get("canal", server_name),
+                                    "name": canal_info.get("canal", server.get("name", channel_param.upper())),
                                     "url": canal_info.get("url", ""),
                                     "type": canal_info.get("tipo", "clearkey"),
                                     "quality": server.get("quality", ""),
@@ -660,6 +424,9 @@ def procesar_agenda():
                                 })
 
                     event["servers"] = nuevos_servidores
+
+    if "updated" not in agenda_data or not agenda_data["updated"]:
+        agenda_data["updated"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(agenda_data, f, ensure_ascii=False, indent=4)
