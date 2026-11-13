@@ -5,6 +5,7 @@ import urllib.parse
 import requests
 import unicodedata
 import base64
+import ast
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -96,7 +97,7 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "genoa": "10233", "fiorentina": "8535", "inter": "8636", "inter de milan": "8636", "parma": "10167",
     "napoli": "9875", "frosinone": "9891",
     "vasco da gama": "10276", "remo": "1626", "são paulo": "10277", "vitória": "7733",
-    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
+    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "demo": "demo",
 })
 
 MAPEO_LIGAS = CaseInsensitiveDict({
@@ -110,7 +111,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
     "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
     "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
+    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague",
 })
 
 MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
@@ -308,46 +309,33 @@ def procesar_agenda():
 
     print(f"Descargando script de eventos desde {AGENDA_JS_URL}...")
     try:
-      headers = {"User-Agent": "Mozilla/5.0"}
-      response = requests.get(AGENDA_JS_URL, headers=headers, timeout=10)
-      if response.status_code != 200:
-        print(
-            f"Error al descargar el archivo JS. Código de estado:"
-            f" {response.status_code}"
-        )
-        return
-
-      js_content = response.text
-      match_json = re.search(
-          r"const\s+EVENTOS_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|let|var|\Z)",
-          js_content,
-      )
-      if not match_json:
-        match_json = re.search(r"=\s*(\[[\s\S]*\])\s*;?\s*$", js_content)
-
-      if match_json:
-        json_str = match_json.group(1)
-        try:
-          # Intento 1: Como JSON estándar (comillas dobles)
-          raw_data = json.loads(json_str)
-        except json.JSONDecodeError:
-          # Intento 2: Si usa comillas simples o formato de diccionario de Python
-          limpio = (
-              json_str.replace("true", "True")
-              .replace("false", "False")
-              .replace("null", "None")
-          )
-          raw_data = ast.literal_eval(limpio)
-      else:
-        print(
-            "No se pudo extraer el arreglo JSON de eventos.js con expresiones"
-            " regulares."
-        )
-        return
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(AGENDA_JS_URL, headers=headers, timeout=10)
+        if response.status_code != 200:
+            print(f"Error al descargar el archivo JS. Código de estado: {response.status_code}")
+            return
+        
+        js_content = response.text
+        match_json = re.search(r'const\s+EVENTOS_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|let|var|\Z)', js_content)
+        if not match_json:
+            match_json = re.search(r'=\s*(\[[\s\S]*\])\s*;?\s*$', js_content)
+            
+        if match_json:
+            json_str = match_json.group(1)
+            try:
+                # Intento 1: Como JSON estándar
+                raw_data = json.loads(json_str)
+            except json.JSONDecodeError:
+                # Intento 2: Como respaldo por si el JS usa comillas simples
+                limpio = json_str.replace("true", "True").replace("false", "False").replace("null", "None")
+                raw_data = ast.literal_eval(limpio)
+        else:
+            print("No se pudo extraer el arreglo JSON de eventos.js con expresiones regulares.")
+            return
 
     except Exception as e:
-      print(f"Error al procesar eventos.js: {e}")
-      return
+        print(f"Error al procesar eventos.js: {e}")
+        return
 
     sports_map = {}
     order_counter = 1
@@ -362,14 +350,11 @@ def procesar_agenda():
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
             
-            # Si el evento tiene una fecha explícita en el JSON, la usamos directamente.
-            # Si no tiene fecha, usamos la fecha actual de Lima como respaldo.
             if date_val:
                 fecha_evento = datetime.strptime(date_val, "%Y-%m-%d").date()
             else:
                 fecha_evento = datetime.now(ZONA_LIMA).date()
 
-            # Extraer hora y minuto
             h, m, s = 0, 0, 0
             if time_val:
                 partes = time_val.split(":")
@@ -377,7 +362,6 @@ def procesar_agenda():
                 m = int(partes[1]) if len(partes) > 1 else 0
                 s = int(partes[2]) if len(partes) > 2 else 0
 
-            # 1. Creamos el objeto datetime interpretando la hora original como hora de Madrid
             if time_val:
                 try:
                     dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, h, m, s, tzinfo=ZONA_MADRID)
@@ -386,13 +370,8 @@ def procesar_agenda():
             else:
                 dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
 
-            # 2. Convertimos a la zona horaria de Lima
             dt_lima = dt_madrid.astimezone(ZONA_LIMA)
-            
-            # 3. Forzamos a que la fecha en el JSON final sea exactamente la fecha del evento original (sin saltos extraños de día)
             date = fecha_evento.strftime("%Y-%m-%d")
-            
-            # Reconstruimos el string ISO con la hora convertida a Lima pero manteniendo la fecha fija del día correcto
             full_time_str = f"{date}T{dt_lima.strftime('%H:%M:%S')}{dt_lima.strftime('%z')[:3]}:{dt_lima.strftime('%z')[3:]}"
 
             league_name = category
