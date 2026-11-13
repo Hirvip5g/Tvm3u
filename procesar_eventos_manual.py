@@ -326,9 +326,14 @@ def procesar_agenda():
                 # Intento 1: Como JSON estándar
                 raw_data = json.loads(json_str)
             except json.JSONDecodeError:
-                # Intento 2: Como respaldo por si el JS usa comillas simples
-                limpio = json_str.replace("true", "True").replace("false", "False").replace("null", "None")
-                raw_data = ast.literal_eval(limpio)
+                try:
+                    # Intento 2: Corregir claves sin comillas de JavaScript (ej. clase: -> "clase":)
+                    fixed_json_str = re.sub(r'([{\s,])([a-zA-Z_][a-zA-Z0-9_]*)\s*:', r'\1"\2":', json_str)
+                    raw_data = json.loads(fixed_json_str)
+                except Exception:
+                    # Intento 3: Respaldo con literal_eval por si usa comillas simples
+                    limpio = json_str.replace("true", "True").replace("false", "False").replace("null", "None")
+                    raw_data = ast.literal_eval(limpio)
         else:
             print("No se pudo extraer el arreglo JSON de eventos.js con expresiones regulares.")
             return
