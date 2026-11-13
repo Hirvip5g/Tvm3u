@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 # Configuración de URLs y archivos locales
-AGENDA_JS_URL = "https://deportestvhd.me/eventos.js"
+AGENDA_JS_URL = "https://todo-pelota.st/eventos.js"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
 CLUB_JSON = "club.json"
@@ -110,7 +110,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
     "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
     "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
+    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
 })
 
 MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
