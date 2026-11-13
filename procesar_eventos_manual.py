@@ -308,27 +308,46 @@ def procesar_agenda():
 
     print(f"Descargando script de eventos desde {AGENDA_JS_URL}...")
     try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(AGENDA_JS_URL, headers=headers, timeout=10)
-        if response.status_code != 200:
-            print(f"Error al descargar el archivo JS. Código de estado: {response.status_code}")
-            return
-        
-        js_content = response.text
-        match_json = re.search(r'const\s+EVENTOS_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|let|var|\Z)', js_content)
-        if not match_json:
-            match_json = re.search(r'=\s*(\[[\s\S]*\])\s*;?\s*$', js_content)
-            
-        if match_json:
-            json_str = match_json.group(1)
-            raw_data = json.loads(json_str)
-        else:
-            print("No se pudo extraer el arreglo JSON de eventos.js con expresiones regulares.")
-            return
+      headers = {"User-Agent": "Mozilla/5.0"}
+      response = requests.get(AGENDA_JS_URL, headers=headers, timeout=10)
+      if response.status_code != 200:
+        print(
+            f"Error al descargar el archivo JS. Código de estado:"
+            f" {response.status_code}"
+        )
+        return
+
+      js_content = response.text
+      match_json = re.search(
+          r"const\s+EVENTOS_DATA\s*=\s*(\[[\s\S]*?\]);\s*(?:const|let|var|\Z)",
+          js_content,
+      )
+      if not match_json:
+        match_json = re.search(r"=\s*(\[[\s\S]*\])\s*;?\s*$", js_content)
+
+      if match_json:
+        json_str = match_json.group(1)
+        try:
+          # Intento 1: Como JSON estándar (comillas dobles)
+          raw_data = json.loads(json_str)
+        except json.JSONDecodeError:
+          # Intento 2: Si usa comillas simples o formato de diccionario de Python
+          limpio = (
+              json_str.replace("true", "True")
+              .replace("false", "False")
+              .replace("null", "None")
+          )
+          raw_data = ast.literal_eval(limpio)
+      else:
+        print(
+            "No se pudo extraer el arreglo JSON de eventos.js con expresiones"
+            " regulares."
+        )
+        return
 
     except Exception as e:
-        print(f"Error al procesar eventos.js: {e}")
-        return
+      print(f"Error al procesar eventos.js: {e}")
+      return
 
     sports_map = {}
     order_counter = 1
