@@ -283,20 +283,68 @@
         "search_name": "Independiente Santa Fe",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Hungría": {
+        "search_name": "Hungary",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Noruega": {
+        "search_name": "Norway",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "Gales": {
+        "search_name": "Wales",
         "aliases": ["DEMO2"]
     },
-    "DEMO": {
-        "search_name": "DEMO",
+    "República de Irlanda": {
+        "search_name": "Ireland",
+        "aliases": ["DEMO2"]
+    },
+    "Suecia": {
+        "search_name": "Sweden",
+        "aliases": ["DEMO2"]
+    },
+    "Irlanda del Norte": {
+        "search_name": "N.Ireland",
+        "aliases": ["DEMO2"]
+    },
+    "Ucrania": {
+        "search_name": "Ukraine",
+        "aliases": ["DEMO2"]
+    },
+    "Rumanía": {
+        "search_name": "Romania",
+        "aliases": ["DEMO2"]
+    },
+    "Polonia": {
+        "search_name": "Poland",
+        "aliases": ["DEMO2"]
+    },
+    "Dinamarca": {
+        "search_name": "Denmark",
+        "aliases": ["DEMO2"]
+    },
+    "Japón": {
+        "search_name": "Japan",
+        "aliases": ["DEMO2"]
+    },
+    "Brasil": {
+        "search_name": "Brazil",
+        "aliases": ["DEMO2"]
+    },
+    "Real Sociedad II": {
+        "search_name": "Real Sociedad 2",
+        "aliases": ["DEMO2"]
+    },
+    "Sporting Gijón": {
+        "search_name": "Sporting de Gijón",
+        "aliases": ["DEMO2"]
+    },
+    "Fortaleza CEIF": {
+        "search_name": "Fortaleza FC",
+        "aliases": ["DEMO2"]
+    },
+    "San Vicente / Granadinas": {
+        "search_name": "St Vincent and the Grenadines",
         "aliases": ["DEMO2"]
     },
     "DEMO": {
