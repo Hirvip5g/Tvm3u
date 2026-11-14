@@ -101,13 +101,13 @@
                             "time": "2026-11-14T10:15:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 5,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/muc81d1755421134.jpg",
                             "logo": "",
                             "homeTeam": "Real Sociedad II",
                             "awayTeam": "Sporting Gijón",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -127,7 +127,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505859-real-sociedad-b-vs-sporting-de-gij%c3%b3n"
                         },
                         {
                             "title": "Mallorca vs Córdoba",
@@ -2027,5 +2028,5 @@
             ]
         }
     ],
-    "updated": "2026-11-14 06:18:10"
+    "updated": "2026-11-14 06:24:27"
 }
