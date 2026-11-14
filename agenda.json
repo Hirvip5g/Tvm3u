@@ -1349,13 +1349,13 @@
                             "time": "2026-11-14T19:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 34,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/0cbdlb1694067432.jpg",
                             "logo": "",
                             "homeTeam": "San Vicente / Granadinas",
                             "awayTeam": "Belice",
                             "homeLogo": "",
                             "awayLogo": "",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1375,7 +1375,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2608435-st-vincent-and-the-grenadines-vs-belize"
                         },
                         {
                             "title": "Jamaica vs México",
@@ -1641,7 +1642,7 @@
                 },
                 {
                     "name": "Copa Argentina",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/pqaa5t1754306828.png",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/welbig1655924428.png",
                     "image": "",
                     "background": "",
                     "events": [
@@ -1652,13 +1653,13 @@
                             "time": "2026-11-14T17:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 29,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/2dymc01791004826.jpg",
                             "logo": "",
                             "homeTeam": "Banfield",
                             "awayTeam": "Boca Juniors",
                             "homeLogo": "",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/90006.png",
-                            "imageMode": "",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -1695,7 +1696,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2611378-banfield-vs-boca-juniors"
                         }
                     ],
                     "flagCode": "",
@@ -2028,5 +2030,5 @@
             ]
         }
     ],
-    "updated": "2026-11-14 06:24:27"
+    "updated": "2026-11-14 06:29:28"
 }
