@@ -215,9 +215,9 @@
         "url": "https://www.thesportsdb.com/league/5858-chilean-copa-de-la-liga",
         "aliases": ["Chilean Copa de la Liga"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Copa Argentina": {
+        "url": "https://www.thesportsdb.com/league/4500-copa-argentina",
+        "aliases": ["Copa Argentina"]
     },
     "demo": {
         "url": "demo",
