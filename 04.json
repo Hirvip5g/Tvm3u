@@ -712,5 +712,19 @@
     "referer": "https://www.primevideo.com/",
     "origin": "https://www.primevideo.com",
     "url": "https://cache2.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd"
+  },
+  {
+    "canal": "LA 1 FHD",
+    "channel": "la1es.html",
+    "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+    "grupo": "Deportes",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+      "key": "ae008f1e47e6567fe4201a6ff8f1ae54"
+    },
+    "referer": "https://www.primevideo.com/",
+    "origin": "https://www.primevideo.com",
+    "url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd"
   }
 ]
