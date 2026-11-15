@@ -1,27 +1,182 @@
 {
     "sports": [
         {
-            "id": "boxing",
-            "name": "Boxing",
-            "icon": "🥊",
+            "id": "football",
+            "name": "Football",
+            "icon": "⚽",
             "leagues": [
                 {
-                    "name": "UFC",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/bewnz31717531281.png",
+                    "name": "LaLiga 2",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/r7u6821688425700.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ufc.jpg",
+                    "background": "",
                     "events": [
                         {
-                            "title": "Ciryl Gane vs Josh Hokit",
-                            "league": "UFC",
+                            "title": "Tenerife vs Ceuta",
+                            "league": "LaLiga 2",
                             "code": "",
-                            "time": "2026-11-14T16:00:00-05:00",
+                            "time": "2026-11-15T08:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 1,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Ciryl Gane",
-                            "awayTeam": "Josh Hokit",
+                            "homeTeam": "Tenerife",
+                            "awayTeam": "Ceuta",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/utuqys1420503958.png/medium",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/357259.png",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "LaLiga TV Hypermotion ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505854-tenerife-vs-ceuta"
+                        },
+                        {
+                            "title": "Granada vs Las Palmas",
+                            "league": "LaLiga 2",
+                            "code": "",
+                            "time": "2026-11-15T10:15:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 5,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/iysxsm1755421019.jpg",
+                            "logo": "",
+                            "homeTeam": "Granada",
+                            "awayTeam": "Las Palmas",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/f9iss11677472689.png/medium",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8306.png",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "LaLiga TV Hypermotion ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505852-granada-vs-las-palmas"
+                        },
+                        {
+                            "title": "Eibar vs Cádiz",
+                            "league": "LaLiga 2",
+                            "code": "",
+                            "time": "2026-11-15T12:30:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 9,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ltikqz1755421307.jpg",
+                            "logo": "",
+                            "homeTeam": "Eibar",
+                            "awayTeam": "Cádiz",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/hccive1680933599.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/e2phzp1639408503.png/medium",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "LaLiga TV Hypermotion ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505851-eibar-vs-c%c3%a1diz"
+                        },
+                        {
+                            "title": "Eldense vs Sabadell",
+                            "league": "LaLiga 2",
+                            "code": "",
+                            "time": "2026-11-15T12:30:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 10,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Eldense",
+                            "awayTeam": "Sabadell",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8288.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/4033.png",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "LaLiga TV Hypermotion 2 ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505860-eldense-vs-sabadell"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": ""
+                },
+                {
+                    "name": "Liga de Naciones de la UEFA",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/cwsp321698386224.png",
+                    "image": "",
+                    "background": "",
+                    "events": [
+                        {
+                            "title": "Chipre vs Montenegro",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T09:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 2,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Chipre",
+                            "awayTeam": "Montenegro",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "",
@@ -31,8 +186,8 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Paramount+ - Español",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount1",
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney1",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -41,8 +196,8 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "Paramount+ - Portugues",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount2",
+                                    "name": "ESPN CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn1cl",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -51,8 +206,524 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "Paramount+ - Ingles",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount3",
+                                    "name": "ESPN",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "b3e4e74ae2080b137e68bbd0ef8a7e05",
+                                        "key": "cb004fb100bd92f23793562891e3236b"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN HD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "e95fe84b9f73e6655fde711d5c896056",
+                                        "key": "267a0e514deb984803bec43cc607c4cb"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN CO HD",
+                                    "url": "http://209.61.12.132:9000/play/a06z/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Letonia vs Armenia",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T09:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 3,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Letonia",
+                            "awayTeam": "Armenia",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Fox Soccer Plus",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxsoccerplus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Bielorrusia vs Albania",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T12:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 7,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Bielorrusia",
+                            "awayTeam": "Albania",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney3",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 2 CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 2",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 2 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
+                                        "key": "6d15568e1dab59e7202ae12e71505185"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 2 CO HD",
+                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "Fox Soccer Plus",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxsoccerplus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Finlandia vs San Marino",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T12:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 8,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Finlandia",
+                            "awayTeam": "San Marino",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney4",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "SporTV BR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dsportv1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "España vs Inglaterra",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T14:45:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 17,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "España",
+                            "awayTeam": "Inglaterra",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "La 1 ES",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Fla1es.html",
+                                    "type": "iframe",
+                                    "quality": "FHD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney7",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn1cl",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "b3e4e74ae2080b137e68bbd0ef8a7e05",
+                                        "key": "cb004fb100bd92f23793562891e3236b"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN HD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "e95fe84b9f73e6655fde711d5c896056",
+                                        "key": "267a0e514deb984803bec43cc607c4cb"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN CO HD",
+                                    "url": "http://209.61.12.132:9000/play/a06z/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "SporTV BR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dsportv1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Francia vs Turquía",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T14:45:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 18,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Francia",
+                            "awayTeam": "Turquía",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney8",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Bélgica vs Italia",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T14:45:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 19,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Bélgica",
+                            "awayTeam": "Italia",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney9",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 7",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 7 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/LSQFzkw/espn-7B.png?",
+                                    "clearkey": {
+                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
+                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 7 AR MUTICALIDAD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
+                                    "clearkey": {
+                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
+                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Croacia vs República Checa",
+                            "league": "Liga de Naciones de la UEFA",
+                            "code": "",
+                            "time": "2026-11-15T14:45:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 20,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Croacia",
+                            "awayTeam": "República Checa",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney10",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Fox Soccer Plus",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxsoccerplus",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -69,43 +740,36 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "ufc"
-                }
-            ]
-        },
-        {
-            "id": "football",
-            "name": "Football",
-            "icon": "⚽",
-            "leagues": [
+                    "leagueId": ""
+                },
                 {
-                    "name": "Brasileirão",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
+                    "name": "Serie C",
+                    "logo": "",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/brasileirão.jpg",
+                    "background": "",
                     "events": [
                         {
-                            "title": "Chapecoense vs Vasco da Gama",
-                            "league": "Brasileirão",
+                            "title": "Ravenna vs Forlì",
+                            "league": "Serie C",
                             "code": "",
-                            "time": "2026-11-14T18:30:00-05:00",
+                            "time": "2026-11-15T11:30:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 2,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/661o4k1769683489.jpg",
+                            "agendaOrder": 6,
+                            "image": "",
                             "logo": "",
-                            "homeTeam": "Chapecoense",
-                            "awayTeam": "Vasco da Gama",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png/medium",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10276.png",
-                            "imageMode": "banner",
+                            "homeTeam": "Ravenna",
+                            "awayTeam": "Forlì",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Premiere BR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dpremiere1",
+                                    "name": "DSports CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddsportscl",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -114,18 +778,105 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "PREMIERE CLUBES 🇧🇷",
-                                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+                                    "name": "DSports",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddsports",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "DSports Global",
+                                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
                                     "type": "clearkey",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": "",
+                                    "channelLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
                                     "clearkey": {
-                                        "keyId": "56b79c1782b30e6b6fc973b0e8fd4104",
-                                        "key": "fa38aaa865a57eda7c77444697ba8ed3"
+                                        "keyId": "f8b207c10f3f76aeba32a360ec52b9e4",
+                                        "key": "afad49d20eb39670e93e371c1d669921"
                                     },
+                                    "referer": "https://www.primevideo.com/",
+                                    "origin": "",
+                                    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)"
+                                },
+                                {
+                                    "name": "DSPORTS ARG MUTICALIDAD",
+                                    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+                                    "clearkey": {
+                                        "keyId": "4f4c3a9912ea752e88f4497864a1bc8b",
+                                        "key": "278128004fe8c6ffb2cd2a0c154a241a"
+                                    },
+                                    "referer": "https://www.primevideo.com/",
+                                    "origin": "",
+                                    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": ""
+                },
+                {
+                    "name": "Liga 1",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/Liga1.jpg",
+                    "events": [
+                        {
+                            "title": "Comerciantes Unidos vs Sport Boys",
+                            "league": "Liga 1",
+                            "code": "",
+                            "time": "2026-11-15T13:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 11,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/lgq2zu1784358793.jpg",
+                            "logo": "",
+                            "homeTeam": "Comerciantes Unidos",
+                            "awayTeam": "Sport Boys",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umrof11768234590.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/uybvv01580040173.png/medium",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Liga 1 Max",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dliga1max",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "LIGA 1 MAX HD",
+                                    "url": "http://38.87.224.19:2220/play/a001/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
                                     "referer": "",
                                     "origin": "",
                                     "userAgent": ""
@@ -135,32 +886,21 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398393-chapecoense-vs-vasco-da-gama"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "brasileirão"
-                },
-                {
-                    "name": "Liga de Naciones de la CONCACAF",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/gwew651790094136.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/cafnationsleague.jpg",
-                    "events": [
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481761-comerciantes-unidos-vs-sport-boys"
+                        },
                         {
-                            "title": "San Vicente / Granadinas vs Belice",
-                            "league": "Liga de Naciones de la CONCACAF",
+                            "title": "Juan Pablo II College vs Deportivo Garcilaso",
+                            "league": "Liga 1",
                             "code": "",
-                            "time": "2026-11-14T19:00:00-05:00",
+                            "time": "2026-11-15T15:15:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 3,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/0cbdlb1694067432.jpg",
+                            "agendaOrder": 21,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/9gfy9p1771925068.jpg",
                             "logo": "",
-                            "homeTeam": "San Vicente / Granadinas",
-                            "awayTeam": "Belice",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ok8hqd1728750207.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ijxlzb1600954411.png/medium",
+                            "homeTeam": "Juan Pablo II College",
+                            "awayTeam": "Deportivo Garcilaso",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/zj9efi1730672606.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/me11g41690449129.png/medium",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -168,8 +908,69 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Fox Soccer Plus",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxsoccerplus",
+                                    "name": "Liga 1 Max",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dliga1max",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "LIGA 1 MAX HD",
+                                    "url": "http://38.87.224.19:2220/play/a001/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481764-juan-pablo-ii-college-vs-deportivo-garcilaso"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "Liga1"
+                },
+                {
+                    "name": "Liga de Expansión MX",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/2h0yz01615330546.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/expamx.jpg",
+                    "events": [
+                        {
+                            "title": "Leones Negros UdeG vs Atlético Morelia",
+                            "league": "Liga de Expansión MX",
+                            "code": "MEX",
+                            "time": "2026-11-15T13:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 12,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Leones Negros UdeG",
+                            "awayTeam": "Atlético Morelia",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/134622.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/134190.png",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney5",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -182,21 +983,32 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2608435-st-vincent-and-the-grenadines-vs-belize"
-                        },
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627361-leones-negros-udeg-vs-atl%c3%a9tico-morelia"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "expamx"
+                },
+                {
+                    "name": "Primera División",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/3p98xv1740672448.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/primeradivisión.jpg",
+                    "events": [
                         {
-                            "title": "Jamaica vs México",
-                            "league": "Liga de Naciones de la CONCACAF",
-                            "code": "",
-                            "time": "2026-11-14T20:00:00-05:00",
+                            "title": "Danubio vs Liverpool",
+                            "league": "Primera División",
+                            "code": "CH",
+                            "time": "2026-11-15T14:30:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 4,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/oe2rr31655292020.jpg",
+                            "agendaOrder": 16,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/fucwfh1677579601.jpg",
                             "logo": "",
-                            "homeTeam": "Jamaica",
-                            "awayTeam": "México",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/v6mk4r1594321722.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3rmosi1748525208.png/medium",
+                            "homeTeam": "Danubio",
+                            "awayTeam": "Liverpool",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/vtryqv1473541135.png/medium",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8650.png",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -204,28 +1016,91 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Canal 5 MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Fcanal5-mex.html",
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney6",
                                     "type": "iframe",
-                                    "quality": "FHD",
+                                    "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
                                     "channelLogo": ""
-                                },
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2626420-danubio-vs-liverpool-montevideo"
+                        },
+                        {
+                            "title": "Defensor Sporting vs Peñarol",
+                            "league": "Primera División",
+                            "code": "CH",
+                            "time": "2026-11-15T18:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 27,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/gya0201602437815.jpg",
+                            "logo": "",
+                            "homeTeam": "Defensor Sporting",
+                            "awayTeam": "Peñarol",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/dx13rd1703003044.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/uuwpux1473541171.png/medium",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
                                 {
-                                    "name": "Claro Sports",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Fclarosports.html",
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney11",
                                     "type": "iframe",
-                                    "quality": "FHD",
+                                    "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
                                     "channelLogo": ""
-                                },
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2626421-defensor-sporting-vs-pe%c3%b1arol"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "primeradivisión"
+                },
+                {
+                    "name": "Torneo BetPlay",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/l2h1ao1615832028.png",
+                    "image": "",
+                    "background": "",
+                    "events": [
+                        {
+                            "title": "Envigado vs Unión Magdalena",
+                            "league": "Torneo BetPlay",
+                            "code": "",
+                            "time": "2026-11-15T15:50:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 22,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/48iphd1784787913.jpg",
+                            "logo": "",
+                            "homeTeam": "Envigado",
+                            "awayTeam": "Unión Magdalena",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/h1x0ic1629122571.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/i1fl6p1677602554.png/medium",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
                                 {
-                                    "name": "Azteca 7",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dazteca7",
+                                    "name": "Win+ Fútbol",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -234,8 +1109,236 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "AZTECA 7 MUTICALIDAD",
-                                    "url": "https://live1-ott.izzigo.tv/out/u/dash/CDMX1/AZTECA-7-HD/dash/AZTECA-7-HD.mpd",
+                                    "name": "WIN SPORTS + HD",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627514-envigado-vs-uni%c3%b3n-magdalena"
+                        },
+                        {
+                            "title": "Tigres vs Real Cundinamarca",
+                            "league": "Torneo BetPlay",
+                            "code": "",
+                            "time": "2026-11-15T18:05:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 29,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/eo6b4e1784787967.jpg",
+                            "logo": "",
+                            "homeTeam": "Tigres",
+                            "awayTeam": "Real Cundinamarca",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8561.png",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3c46781721453110.png/medium",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Win+ Fútbol",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "WIN SPORTS + HD",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2624068-tigres-fc-vs-real-cundinamarca"
+                        },
+                        {
+                            "title": "Deportes Quindío vs Real Cartagena",
+                            "league": "Torneo BetPlay",
+                            "code": "",
+                            "time": "2026-11-15T20:10:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 31,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/pn9adi1675412703.jpg",
+                            "logo": "",
+                            "homeTeam": "Deportes Quindío",
+                            "awayTeam": "Real Cartagena",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/dw28nd1778086348.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/1galb31615832205.png/medium",
+                            "imageMode": "banner",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Win+ Fútbol",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "WIN SPORTS + HD",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2624069-deportes-quind%c3%ado-vs-real-cartagena"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": ""
+                },
+                {
+                    "name": "Liga de Naciones de la CONCACAF",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/gwew651790094136.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/cafnationsleague.jpg",
+                    "events": [
+                        {
+                            "title": "Panamá vs Curazao",
+                            "league": "Liga de Naciones de la CONCACAF",
+                            "code": "",
+                            "time": "2026-11-15T18:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 26,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Panamá",
+                            "awayTeam": "Curazao",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/asp2ck1715849700.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/itygvb1600955363.png/medium",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "VIX+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dvix1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "TUDN US",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Fox Sports 2 US",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2usa",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2628124-panama-vs-cura%c3%a7ao"
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "cafnationsleague"
+                },
+                {
+                    "name": "Liga MX Femenil",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/f3ut8v1645305794.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
+                    "events": [
+                        {
+                            "title": "Monterrey vs Pachuca",
+                            "league": "Liga MX Femenil",
+                            "code": "",
+                            "time": "2026-11-15T20:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 30,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Monterrey",
+                            "awayTeam": "Pachuca",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7849.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7848.png",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "TUDN MX",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnmx",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "TUDN MX MUTICALIDAD",
+                                    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd",
                                     "type": "clearkey",
                                     "quality": "HD",
                                     "active": true,
@@ -243,13 +1346,39 @@
                                     "customLanguages": "",
                                     "channelLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
                                     "clearkey": {
-                                        "keyId": "29f2aeb97a908466177c56fc28fe083f",
-                                        "key": "2cde091f1e4675c82d65498bd6ba0e65"
+                                        "keyId": "763ce1ebcaf23502c8cf357c6ef423e1",
+                                        "key": "0c5e6c0820a1ea28753721db00272411"
                                     },
                                     "referer": "https://www.primevideo.com/",
                                     "origin": "",
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
-                                },
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627198-monterrey-femenil-vs-pachuca-femenil"
+                        },
+                        {
+                            "title": "Toluca vs América",
+                            "league": "Liga MX Femenil",
+                            "code": "",
+                            "time": "2026-11-15T22:10:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 33,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Toluca",
+                            "awayTeam": "América",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/6618.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/6576.png",
+                            "imageMode": "",
+                            "duration": 130,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
                                 {
                                     "name": "TUDN MX",
                                     "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnmx",
@@ -292,93 +1421,88 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2628123-jamaica-vs-mexico"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627199-toluca-femenil-vs-am%c3%a9rica-femenil"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "cafnationsleague"
-                },
+                    "leagueId": "ligamx"
+                }
+            ]
+        },
+        {
+            "id": "american-football",
+            "name": "American Football",
+            "icon": "🏈",
+            "leagues": [
                 {
-                    "name": "Liga de Expansión MX",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/2h0yz01615330546.png",
+                    "name": "NFL",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/0z0j131793688031.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/expamx.jpg",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nfl.jpg",
                     "events": [
                         {
-                            "title": "CA La Paz vs Piratas",
-                            "league": "Liga de Expansión MX",
-                            "code": "MEX",
-                            "time": "2026-11-14T22:00:00-05:00",
+                            "title": "Patriots vs Lions",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T09:30:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 6,
-                            "image": "",
+                            "agendaOrder": 4,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ar27vo1784759911.jpg",
                             "logo": "",
-                            "homeTeam": "CA La Paz",
-                            "awayTeam": "Piratas",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/146384.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/156156.png",
-                            "imageMode": "",
-                            "duration": 130,
+                            "homeTeam": "Patriots",
+                            "awayTeam": "Lions",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/lgsgkr1546168257.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xtwxyt1421431860.png/medium",
+                            "imageMode": "banner",
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney13",
+                                    "name": "ESPN 4",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn4",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
                                     "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": ""
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "expamx"
-                },
-                {
-                    "name": "Liga MX Femenil",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/f3ut8v1645305794.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
-                    "events": [
-                        {
-                            "title": "Guadalajara vs Juárez",
-                            "league": "Liga MX Femenil",
-                            "code": "",
-                            "time": "2026-11-14T22:06:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 7,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Guadalajara",
-                            "awayTeam": "Juárez",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7807.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/649424.png",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
+                                },
                                 {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone3",
-                                    "type": "iframe",
+                                    "name": "ESPN 4 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.mpd?",
+                                    "type": "clearkey",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": ""
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "54a2c11085c315ed6ff85c340a86095d",
+                                        "key": "5f0d10cf4a5c7e22e286b7e8cb4e79f4"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 4 AR MUTICALIDAD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/1fnQ2Sfy/ESPN-4-Sur.png",
+                                    "clearkey": {
+                                        "keyId": "d02981e6faeacef49c90fdb053ab641d",
+                                        "key": "645e13624e933841b1ea35cda1b55bd1"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
                                 },
                                 {
                                     "name": "FOX Deportes",
@@ -395,12 +1519,468 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627197-cd-guadalajara-femenil-vs-ju%c3%a1rez-femenil"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475511-detroit-lions-vs-new-england-patriots"
+                        },
+                        {
+                            "title": "Vikings vs Packers",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T13:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 13,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/cks22i1784759916.jpg",
+                            "logo": "",
+                            "homeTeam": "Vikings",
+                            "awayTeam": "Packers",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/uwbfw01784719173.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/nyp3ev1784722510.png/medium",
+                            "imageMode": "banner",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 5",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 5 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
+                                    "clearkey": {
+                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
+                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 5 AR MUTICALIDAD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
+                                    "clearkey": {
+                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
+                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475514-green-bay-packers-vs-minnesota-vikings"
+                        },
+                        {
+                            "title": "Chiefs vs Falcons",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T13:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 14,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ttuotg1784759913.jpg",
+                            "logo": "",
+                            "homeTeam": "Chiefs",
+                            "awayTeam": "Falcons",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/9ucfd41784714178.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/n58gp51784720929.png/medium",
+                            "imageMode": "banner",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 6",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn6",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 6 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/CsyhPz4/espn-6B.png?",
+                                    "clearkey": {
+                                        "keyId": "f5836382452cdca1e1c8bf8b9a713534",
+                                        "key": "7d261930c3309ed2b06d2abb34a64410"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 6 AR MUTICALIDAD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/dk8AYkV.png",
+                                    "clearkey": {
+                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
+                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475512-atlanta-falcons-vs-kansas-city-chiefs"
+                        },
+                        {
+                            "title": "Bills vs Jets",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T13:00:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 15,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/91er6r1784759923.jpg",
+                            "logo": "",
+                            "homeTeam": "Bills",
+                            "awayTeam": "Jets",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/6bnwoc1784751677.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j4r1tn1784714823.png/medium",
+                            "imageMode": "banner",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone3",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475518-new-york-jets-vs-buffalo-bills"
+                        },
+                        {
+                            "title": "Rams vs Cardinals",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T16:05:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 23,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/e2cyud1784759926.jpg",
+                            "logo": "",
+                            "homeTeam": "Rams",
+                            "awayTeam": "Cardinals",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/i1g1wg1784712239.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ojw15x1784721865.png/medium",
+                            "imageMode": "banner",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone4",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 6",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn6",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 6 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/CsyhPz4/espn-6B.png?",
+                                    "clearkey": {
+                                        "keyId": "f5836382452cdca1e1c8bf8b9a713534",
+                                        "key": "7d261930c3309ed2b06d2abb34a64410"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 6 AR MUTICALIDAD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/dk8AYkV.png",
+                                    "clearkey": {
+                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
+                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475520-arizona-cardinals-vs-los-angeles-rams"
+                        },
+                        {
+                            "title": "Seahawks vs Jets",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T16:05:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 24,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Seahawks",
+                            "awayTeam": "Jets",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "Fox ONE",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone5",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "49ers vs Cowboys",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T16:25:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 25,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "49ers",
+                            "awayTeam": "Cowboys",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 5",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 5 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.ibb.co/6bvjxGP/espn-5B.png",
+                                    "clearkey": {
+                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
+                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
+                                    },
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 5 AR MUTICALIDAD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NjUwNDMwIiwic2lwIjoiMTg2LjE1OC4yMjguNDAiLCJwYXRoIjoiL2xpdmUvYzZlZHMvVE5UX1Nwb3J0c19IRC9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjU0MzBmMWE4NTgxNTIyOWUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.hN3PvhgWFn_29n3PFOhi5hjQLRSyCCOT-f5WIp17WnWq0_SehCLWgeqJ7NIv1VH1MfHktAbNwnMCfErsJ6UptA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
+                                    "clearkey": {
+                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
+                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
+                        },
+                        {
+                            "title": "Steelers vs Bengals",
+                            "league": "NFL",
+                            "code": "NFL",
+                            "time": "2026-11-15T20:20:00-05:00",
+                            "timezone": "America/Lima",
+                            "agendaOrder": 32,
+                            "image": "",
+                            "logo": "",
+                            "homeTeam": "Steelers",
+                            "awayTeam": "Bengals",
+                            "homeLogo": "",
+                            "awayLogo": "",
+                            "imageMode": "",
+                            "duration": 180,
+                            "extraTime": 0,
+                            "status": "",
+                            "note": "",
+                            "servers": [
+                                {
+                                    "name": "ESPN 2",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN 2 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
+                                    "type": "clearkey",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+                                    "clearkey": {
+                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
+                                        "key": "6d15568e1dab59e7202ae12e71505185"
+                                    },
+                                    "referer": "https://portal.app.flow.com.ar",
+                                    "origin": "https://portal.app.flow.com.ar",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 2 CO HD",
+                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
+                                    "type": "m3u8",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
+                                    "clearkey": null,
+                                    "referer": "",
+                                    "origin": "",
+                                    "userAgent": ""
+                                },
+                                {
+                                    "name": "Universo",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Duniverso",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                }
+                            ],
+                            "flagCode": "",
+                            "flagUrl": "",
+                            "homeCountryCode": "",
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "ligamx"
+                    "leagueId": "nfl"
                 }
             ]
         },
@@ -416,18 +1996,18 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nba.jpg",
                     "events": [
                         {
-                            "title": "Pistons vs Heat",
+                            "title": "Mavericks vs Celtics",
                             "league": "NBA",
                             "code": "NBA",
-                            "time": "2026-11-14T20:00:00-05:00",
+                            "time": "2026-11-15T18:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 5,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/maqryt1759234478.jpg",
+                            "agendaOrder": 28,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/hp5llj1759234458.jpg",
                             "logo": "",
-                            "homeTeam": "Pistons",
-                            "awayTeam": "Heat",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png/medium",
+                            "homeTeam": "Mavericks",
+                            "awayTeam": "Celtics",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png/medium",
                             "imageMode": "banner",
                             "duration": 180,
                             "extraTime": 0,
@@ -435,8 +2015,8 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney12",
+                                    "name": "Amazon Prime",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Damazon1",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -449,7 +2029,7 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601851-miami-heat-vs-detroit-pistons"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601857-boston-celtics-vs-dallas-mavericks"
                         }
                     ],
                     "flagCode": "",
@@ -459,5 +2039,5 @@
             ]
         }
     ],
-    "updated": "2026-11-14 21:40:45"
+    "updated": "2026-11-15 00:44:43"
 }
