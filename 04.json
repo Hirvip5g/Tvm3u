@@ -42,6 +42,20 @@
         "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NzY4MTkzIiwic2lwIjoiMjAwLjE4OS4xOS4yMjEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiNzk0Yjg2NThlYjVkY2VlNSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.T9IUy1RYtqiOGxvT2_3rxeHtQeNnt1V6TZgG3h-yaNQNEr3xJEJWpMUU_7S7isUJe80QtEfD6SGkMP8WJY29dg==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd"
     },
     {
+    "canal": "ESPN 2 HD",
+    "channel": "espn2",
+    "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+    "grupo": "Deportes",
+    "tipo": "clearkey",
+    "clearkey": {
+      "keyId": "0d820100144772fed9f38b83650fa7e1",
+      "key": "ded8cc47b29b0eb0b0a87df22e721847"
+    },
+    "referer": "https://portal.app.flow.com.ar",
+    "origin": "https://portal.app.flow.com.ar",
+    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NzY4MTkzIiwic2lwIjoiMjAwLjE4OS4xOS4yMjEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiNzk0Yjg2NThlYjVkY2VlNSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.T9IUy1RYtqiOGxvT2_3rxeHtQeNnt1V6TZgG3h-yaNQNEr3xJEJWpMUU_7S7isUJe80QtEfD6SGkMP8WJY29dg==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd"
+  },
+    {
         "canal": "ESPN 2 FHD",
         "channel": "espn2",
         "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
