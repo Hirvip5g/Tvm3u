@@ -634,6 +634,14 @@ def procesar_agenda():
                         if not event.get("awayLogo"):
                             event["awayLogo"] = web_away_logo or buscar_imagen(away_team)
 
+                    # 0. Re-indexamos canales_04_dict por su nombre visible (canal) para comparaciones directas
+                    canales_04_por_nombre = {}
+                    for k_04, lista_canales in canales_04_dict.items():
+                        for c_info in lista_canales:
+                            c_nombre_raw = c_info.get("canal", "").strip()
+                            if c_nombre_raw:
+                                canales_04_por_nombre[c_nombre_raw.lower()] = c_info
+
                     nuevos_servidores = []
                     for server in event.get("servers", []):
                         server_url = server.get("url", "")
@@ -658,37 +666,32 @@ def procesar_agenda():
                                 else:
                                     server_name = "SERVIDOR"
 
-                        # 1. Buscamos primero si existe coincidencia EXACTA de nombre con 04.json
-                        canal_exacto_04 = None
-                        for k_04, lista_canales in canales_04_dict.items():
-                            for c_info in lista_canales:
-                                c_nombre = c_info.get("canal", "").strip()
-                                # Comparamos si el nombre es exactamente igual (case-insensitive o estricto según prefieras)
-                                if server_name_lower == c_nombre.lower() or channel_param_lower == c_nombre.lower():
-                                    canal_exacto_04 = c_info
-                                    break
-                            if canal_exacto_04:
-                                break
+                        # 1. Verificamos si hay coincidencia EXACTA de nombre con 04.json (ej: "La 1 ES")
+                        match_exacto_04 = None
+                        if server_name_lower in canales_04_por_nombre:
+                            match_exacto_04 = canales_04_por_nombre[server_name_lower]
+                        elif channel_param_lower in canales_04_por_nombre:
+                            match_exacto_04 = canales_04_por_nombre[channel_param_lower]
 
-                        # 2. Aplicamos la regla:
-                        if canal_exacto_04:
-                            # Si hay coincidencia exacta de nombre, COLOCAMOS SOLO EL DE 04.JSON
+                        # 2. Aplicamos la regla solicitada:
+                        if match_exacto_04:
+                            # Si los nombres son exactamente iguales, COLOCAMOS SOLO EL DE 04.JSON (reemplazo total)
                             nuevos_servidores.append({
-                                "name": canal_exacto_04.get("canal", server_name),
-                                "url": canal_exacto_04.get("url", ""),
-                                "type": canal_exacto_04.get("tipo", "clearkey"),
+                                "name": match_exacto_04.get("canal", server_name),
+                                "url": match_exacto_04.get("url", ""),
+                                "type": match_exacto_04.get("tipo", "clearkey"),
                                 "quality": server.get("quality", ""),
                                 "active": True,
                                 "languages": server.get("languages", []),
                                 "customLanguages": server.get("customLanguages", ""),
-                                "channelLogo": canal_exacto_04.get("logo", server.get("channelLogo", "")),
-                                "clearkey": canal_exacto_04.get("clearkey", None),
-                                "referer": canal_exacto_04.get("referer", ""),
-                                "origin": canal_exacto_04.get("origin", ""),
-                                "userAgent": canal_exacto_04.get("userAgent", "")
+                                "channelLogo": match_exacto_04.get("logo", server.get("channelLogo", "")),
+                                "clearkey": match_exacto_04.get("clearkey", None),
+                                "referer": match_exacto_04.get("referer", ""),
+                                "origin": match_exacto_04.get("origin", ""),
+                                "userAgent": match_exacto_04.get("userAgent", "")
                             })
                         else:
-                            # Si NO son exactamente iguales (ej. La 1 ES vs La 1 HD), COLOCAMOS AMBOS:
+                            # Si NO son exactamente iguales, COLOCAMOS AMBOS:
                             # Primero el iframe original de la web
                             iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
                             server_copy = dict(server)
@@ -697,31 +700,31 @@ def procesar_agenda():
                             server_copy["type"] = "iframe"
                             nuevos_servidores.append(server_copy)
 
-                            # Y buscamos si por parámetro u otra coincidencia general se puede agregar el de 04.json
-                            canal_encontrado_04 = None
+                            # Y buscamos si existe alguna coincidencia secundaria por ID de channel en 04.json para agregarla también
+                            canal_secundario_04 = None
                             for k_04, lista_canales in canales_04_dict.items():
                                 for c_info in lista_canales:
                                     c_channel = c_info.get("channel", "").strip().lower()
                                     if server_name_lower == c_channel or channel_param_lower == c_channel:
-                                        canal_encontrado_04 = c_info
+                                        canal_secundario_04 = c_info
                                         break
-                                if canal_encontrado_04:
+                                if canal_secundario_04:
                                     break
 
-                            if canal_encontrado_04:
+                            if canal_secundario_04:
                                 nuevos_servidores.append({
-                                    "name": canal_encontrado_04.get("canal", server_name),
-                                    "url": canal_encontrado_04.get("url", ""),
-                                    "type": canal_encontrado_04.get("tipo", "clearkey"),
+                                    "name": canal_secundario_04.get("canal", server_name),
+                                    "url": canal_secundario_04.get("url", ""),
+                                    "type": canal_secundario_04.get("tipo", "clearkey"),
                                     "quality": server.get("quality", ""),
                                     "active": True,
                                     "languages": server.get("languages", []),
                                     "customLanguages": server.get("customLanguages", ""),
-                                    "channelLogo": canal_encontrado_04.get("logo", server.get("channelLogo", "")),
-                                    "clearkey": canal_encontrado_04.get("clearkey", None),
-                                    "referer": canal_encontrado_04.get("referer", ""),
-                                    "origin": canal_encontrado_04.get("origin", ""),
-                                    "userAgent": canal_encontrado_04.get("userAgent", "")
+                                    "channelLogo": canal_secundario_04.get("logo", server.get("channelLogo", "")),
+                                    "clearkey": canal_secundario_04.get("clearkey", None),
+                                    "referer": canal_secundario_04.get("referer", ""),
+                                    "origin": canal_secundario_04.get("origin", ""),
+                                    "userAgent": canal_secundario_04.get("userAgent", "")
                                 })
                             elif channel_param and channel_param in canales_04_dict:
                                 for canal_info in canales_04_dict[channel_param]:
