@@ -1,74 +1,27 @@
 {
     "sports": [
         {
-            "id": "football",
-            "name": "Football",
-            "icon": "⚽",
+            "id": "boxing",
+            "name": "Boxing",
+            "icon": "🥊",
             "leagues": [
                 {
-                    "name": "LaLiga 2",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/r7u6821688425700.png",
+                    "name": "UFC",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/bewnz31717531281.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ufc.jpg",
                     "events": [
                         {
-                            "title": "Real Oviedo vs Girona",
-                            "league": "LaLiga 2",
+                            "title": "Ciryl Gane vs Josh Hokit",
+                            "league": "UFC",
                             "code": "",
-                            "time": "2026-11-14T15:00:00-05:00",
+                            "time": "2026-11-14T16:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 1,
                             "image": "",
                             "logo": "",
-                            "homeTeam": "Real Oviedo",
-                            "awayTeam": "Girona",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/135455.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7732.png",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "LaLiga TV Hypermotion ES",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dhyper1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505853-real-oviedo-vs-girona"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
-                {
-                    "name": "Liga BetPlay",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Multipantalla",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 2,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "",
-                            "awayTeam": "",
+                            "homeTeam": "Ciryl Gane",
+                            "awayTeam": "Josh Hokit",
                             "homeLogo": "",
                             "awayLogo": "",
                             "imageMode": "",
@@ -78,8 +31,28 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Win Sports",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinsports",
+                                    "name": "Paramount+ - Español",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Paramount+ - Portugues",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount2",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "Paramount+ - Ingles",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount3",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -92,20 +65,38 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": ""
-                        },
+                        }
+                    ],
+                    "flagCode": "",
+                    "flagUrl": "",
+                    "leagueId": "ufc"
+                }
+            ]
+        },
+        {
+            "id": "football",
+            "name": "Football",
+            "icon": "⚽",
+            "leagues": [
+                {
+                    "name": "Brasileirão",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
+                    "image": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/brasileirão.jpg",
+                    "events": [
                         {
-                            "title": "Millonarios vs Alianza",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
+                            "title": "Chapecoense vs Vasco da Gama",
+                            "league": "Brasileirão",
+                            "code": "",
+                            "time": "2026-11-14T18:30:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 3,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/tjl19p1784787897.jpg",
+                            "agendaOrder": 2,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/661o4k1769683489.jpg",
                             "logo": "",
-                            "homeTeam": "Millonarios",
-                            "awayTeam": "Alianza",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeTeam": "Chapecoense",
+                            "awayTeam": "Vasco da Gama",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png/medium",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10276.png",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -113,8 +104,8 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Win+ Fútbol",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
+                                    "name": "Premiere BR",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dpremiere1",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -123,15 +114,18 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "WIN SPORTS + HD",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
-                                    "type": "m3u8",
+                                    "name": "PREMIERE CLUBES 🇧🇷",
+                                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+                                    "type": "clearkey",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/tu-logo/logo.png",
-                                    "clearkey": null,
+                                    "channelLogo": "",
+                                    "clearkey": {
+                                        "keyId": "56b79c1782b30e6b6fc973b0e8fd4104",
+                                        "key": "fa38aaa865a57eda7c77444697ba8ed3"
+                                    },
                                     "referer": "",
                                     "origin": "",
                                     "userAgent": ""
@@ -141,228 +135,12 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481266-millonarios-vs-alianza-de-valledupar"
-                        },
-                        {
-                            "title": "Rionegro Águilas vs Medellín",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 4,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/5ud5xq1784787900.jpg",
-                            "logo": "",
-                            "homeTeam": "Rionegro Águilas",
-                            "awayTeam": "Medellín",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WinPlay",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwin1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481272-rionegro-%c3%81guilas-vs-independiente-medell%c3%adn"
-                        },
-                        {
-                            "title": "Atlético Nacional vs Once Caldas",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 5,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/d4qvcy1675412456.jpg",
-                            "logo": "",
-                            "homeTeam": "Atlético Nacional",
-                            "awayTeam": "Once Caldas",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WinPlay",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwin2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481271-atl%c3%a9tico-nacional-vs-once-caldas"
-                        },
-                        {
-                            "title": "Atlético Bucaramanga vs Fortaleza CEIF",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 6,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/islv9g1784787898.jpg",
-                            "logo": "",
-                            "homeTeam": "Atlético Bucaramanga",
-                            "awayTeam": "Fortaleza CEIF",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WinPlay",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwin3",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481269-atl%c3%a9tico-bucaramanga-vs-fortaleza-fc"
-                        },
-                        {
-                            "title": "Cúcuta Deportivo vs Jaguares de Córdoba",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 7,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/eto8ur1784787901.jpg",
-                            "logo": "",
-                            "homeTeam": "Cúcuta Deportivo",
-                            "awayTeam": "Jaguares de Córdoba",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WinPlay",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwin4",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481275-c%c3%bacuta-deportivo-vs-jaguares-de-c%c3%b3rdoba"
-                        },
-                        {
-                            "title": "Deportivo Cali vs Deportes Tolima",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 8,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/thskrd1678436126.jpg",
-                            "logo": "",
-                            "homeTeam": "Deportivo Cali",
-                            "awayTeam": "Deportes Tolima",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WinPlay",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwin5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481268-deportivo-cali-vs-deportes-tolima"
-                        },
-                        {
-                            "title": "Deportivo Pereira vs América de Cali",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-14T15:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 9,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/3mk9zn1675412630.jpg",
-                            "logo": "",
-                            "homeTeam": "Deportivo Pereira",
-                            "awayTeam": "América de Cali",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "WinPlay",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwin6",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481273-deportivo-pereira-vs-am%c3%a9rica-de-cali"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398393-chapecoense-vs-vasco-da-gama"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "brasileirão"
                 },
                 {
                     "name": "Liga de Naciones de la CONCACAF",
@@ -371,73 +149,18 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/cafnationsleague.jpg",
                     "events": [
                         {
-                            "title": "Haití vs EE. UU.",
-                            "league": "Liga de Naciones de la CONCACAF",
-                            "code": "",
-                            "time": "2026-11-14T16:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 11,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Haití",
-                            "awayTeam": "EE. UU.",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/140175.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/134514.png",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "VIX+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dvix1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Telemundo",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtelemundo",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Universo",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Duniverso",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": ""
-                        },
-                        {
                             "title": "San Vicente / Granadinas vs Belice",
                             "league": "Liga de Naciones de la CONCACAF",
                             "code": "",
                             "time": "2026-11-14T19:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 19,
+                            "agendaOrder": 3,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/0cbdlb1694067432.jpg",
                             "logo": "",
                             "homeTeam": "San Vicente / Granadinas",
                             "awayTeam": "Belice",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ok8hqd1728750207.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ijxlzb1600954411.png/medium",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -467,13 +190,13 @@
                             "code": "",
                             "time": "2026-11-14T20:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 20,
+                            "agendaOrder": 4,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/oe2rr31655292020.jpg",
                             "logo": "",
                             "homeTeam": "Jamaica",
                             "awayTeam": "México",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/v6mk4r1594321722.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3rmosi1748525208.png/medium",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -577,33 +300,33 @@
                     "leagueId": "cafnationsleague"
                 },
                 {
-                    "name": "Brasileirão",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
+                    "name": "Liga de Expansión MX",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/2h0yz01615330546.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/brasileirão.jpg",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/expamx.jpg",
                     "events": [
                         {
-                            "title": "Mirassol vs Atlético Mineiro",
-                            "league": "Brasileirão",
-                            "code": "",
-                            "time": "2026-11-14T16:30:00-05:00",
+                            "title": "CA La Paz vs Piratas",
+                            "league": "Liga de Expansión MX",
+                            "code": "MEX",
+                            "time": "2026-11-14T22:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 12,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/nutxi41769684192.jpg",
+                            "agendaOrder": 6,
+                            "image": "",
                             "logo": "",
-                            "homeTeam": "Mirassol",
-                            "awayTeam": "Atlético Mineiro",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
+                            "homeTeam": "CA La Paz",
+                            "awayTeam": "Piratas",
+                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/146384.png",
+                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/156156.png",
+                            "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Amazon Prime",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Damazon1",
+                                    "name": "Disney+",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney13",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -615,207 +338,12 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398536-mirassol-vs-atl%c3%a9tico-mineiro"
-                        },
-                        {
-                            "title": "Chapecoense vs Vasco da Gama",
-                            "league": "Brasileirão",
-                            "code": "",
-                            "time": "2026-11-14T18:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 18,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/661o4k1769683489.jpg",
-                            "logo": "",
-                            "homeTeam": "Chapecoense",
-                            "awayTeam": "Vasco da Gama",
-                            "homeLogo": "",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/10276.png",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Premiere BR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dpremiere1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "PREMIERE CLUBES 🇧🇷",
-                                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "",
-                                    "clearkey": {
-                                        "keyId": "56b79c1782b30e6b6fc973b0e8fd4104",
-                                        "key": "fa38aaa865a57eda7c77444697ba8ed3"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398393-chapecoense-vs-vasco-da-gama"
+                            "awayCountryCode": ""
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "brasileirão"
-                },
-                {
-                    "name": "Copa de la Liga",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/pvva0s1774278525.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/copadelaliga.jpg",
-                    "events": [
-                        {
-                            "title": "Coquimbo Unido vs O'Higgins",
-                            "league": "Copa de la Liga",
-                            "code": "",
-                            "time": "2026-11-14T16:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 13,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/jf1ku71784607260.jpg",
-                            "logo": "",
-                            "homeTeam": "Coquimbo Unido",
-                            "awayTeam": "O'Higgins",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "MAX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmax1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2529312-coquimbo-unido-vs-ohiggins"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "copadelaliga"
-                },
-                {
-                    "name": "Copa Argentina",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/welbig1655924428.png",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Banfield vs Boca Juniors",
-                            "league": "Copa Argentina",
-                            "code": "",
-                            "time": "2026-11-14T17:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 14,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/2dymc01791004826.jpg",
-                            "logo": "",
-                            "homeTeam": "Banfield",
-                            "awayTeam": "Boca Juniors",
-                            "homeLogo": "",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/90006.png",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TyC Sports",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtyc",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2611378-banfield-vs-boca-juniors"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
-                {
-                    "name": "Liga MX",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
-                    "events": [
-                        {
-                            "title": "Querétaro vs Monterrey",
-                            "league": "Liga MX",
-                            "code": "LIGAMX",
-                            "time": "2026-11-14T18:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 15,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/f7264a1784407578.jpg",
-                            "logo": "",
-                            "homeTeam": "Querétaro",
-                            "awayTeam": "Monterrey",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1943.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/7849.png",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2487508-quer%c3%a9taro-vs-monterrey"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "ligamx"
+                    "leagueId": "expamx"
                 },
                 {
                     "name": "Liga MX Femenil",
@@ -824,58 +352,12 @@
                     "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ligamx.jpg",
                     "events": [
                         {
-                            "title": "Tigres UANL vs Pumas UNAM",
-                            "league": "Liga MX Femenil",
-                            "code": "",
-                            "time": "2026-11-14T18:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 16,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Tigres UANL",
-                            "awayTeam": "Pumas UNAM",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/8561.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/1946.png",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Deportes",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxdeportes",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627196-tigres-uanl-femenil-vs-pumas-unam-femenil"
-                        },
-                        {
                             "title": "Guadalajara vs Juárez",
                             "league": "Liga MX Femenil",
                             "code": "",
                             "time": "2026-11-14T22:06:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 23,
+                            "agendaOrder": 7,
                             "image": "",
                             "logo": "",
                             "homeTeam": "Guadalajara",
@@ -919,172 +401,6 @@
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": "ligamx"
-                },
-                {
-                    "name": "Primera División",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/3p98xv1740672448.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/primeradivisión.jpg",
-                    "events": [
-                        {
-                            "title": "Nacional vs Albion",
-                            "league": "Primera División",
-                            "code": "CH",
-                            "time": "2026-11-14T18:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 17,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Nacional",
-                            "awayTeam": "Albion",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/135364.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/141805.png",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney11",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2626419-nacional-montevideo-vs-albion"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "primeradivisión"
-                },
-                {
-                    "name": "Liga de Expansión MX",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/2h0yz01615330546.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/expamx.jpg",
-                    "events": [
-                        {
-                            "title": "CA La Paz vs Piratas",
-                            "league": "Liga de Expansión MX",
-                            "code": "MEX",
-                            "time": "2026-11-14T22:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 22,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "CA La Paz",
-                            "awayTeam": "Piratas",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/146384.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/156156.png",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney13",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": ""
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "expamx"
-                }
-            ]
-        },
-        {
-            "id": "boxing",
-            "name": "Boxing",
-            "icon": "🥊",
-            "leagues": [
-                {
-                    "name": "UFC",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/bewnz31717531281.png",
-                    "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/ufc.jpg",
-                    "events": [
-                        {
-                            "title": "Ciryl Gane vs Josh Hokit",
-                            "league": "UFC",
-                            "code": "",
-                            "time": "2026-11-14T16:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 10,
-                            "image": "",
-                            "logo": "",
-                            "homeTeam": "Ciryl Gane",
-                            "awayTeam": "Josh Hokit",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Paramount+ - Español",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Paramount+ - Portugues",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Paramount+ - Ingles",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dparamount3",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": ""
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": "ufc"
                 }
             ]
         },
@@ -1105,13 +421,13 @@
                             "code": "NBA",
                             "time": "2026-11-14T20:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 21,
+                            "agendaOrder": 5,
                             "image": "https://r2.thesportsdb.com/images/media/event/thumb/maqryt1759234478.jpg",
                             "logo": "",
                             "homeTeam": "Pistons",
                             "awayTeam": "Heat",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png/medium",
                             "imageMode": "banner",
                             "duration": 180,
                             "extraTime": 0,
@@ -1143,5 +459,5 @@
             ]
         }
     ],
-    "updated": "2026-11-14 20:03:10"
+    "updated": "2026-11-14 21:40:45"
 }
