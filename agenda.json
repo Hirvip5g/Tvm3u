@@ -757,23 +757,6 @@
                                     "languages": [],
                                     "customLanguages": "",
                                     "channelLogo": ""
-                                },
-                                {
-                                    "name": "TyC Sports FHD MUTICALIDAD",
-                                    "url": "https://edge-live22-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0NzY4NDAzIiwic2lwIjoiMTkxLjcuMTA5LjE4MiIsInBhdGgiOiIvbGl2ZS9jN2Vkcy9CcmF2b1RWL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiYmE4ZjAxNmEzNTQyNDY4YSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMjAxLjIzNS42Ni4xMjIiLCJhdWQiOiIzNTIiLCJzb3VyY2VzIjpbODUsMTQ0LDIxMCw4Niw4OF19.8HM0uyzfXIwQciZ3MwfeuDTojIobU-X_LpApVVNAF0SPnER0EMy-6dLzekBTBaQcc8J0bwQXh0hDvVp9sWlztg==/live/c7eds/TyCSport/SA_Live_dash_enc_wl/TyCSport.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://geo.edge.pontiscloud.com:9002/images/1981/CH_LOGO/400/400/0/0/42832369072861.png",
-                                    "clearkey": {
-                                        "keyId": "0b1e6825350fa1bc0032f8f36287e006",
-                                        "key": "11fc540a4539d18f91cd403a5ed42284"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
                                 }
                             ],
                             "flagCode": "",
@@ -1160,5 +1143,5 @@
             ]
         }
     ],
-    "updated": "2026-11-14 17:10:20"
+    "updated": "2026-11-14 20:03:10"
 }
