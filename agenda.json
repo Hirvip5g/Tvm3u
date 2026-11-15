@@ -9,7 +9,7 @@
                     "name": "LaLiga 2",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/r7u6821688425700.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/smartbank.jpg",
                     "events": [
                         {
                             "title": "Tenerife vs Ceuta",
@@ -158,7 +158,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "smartbank"
                 },
                 {
                     "name": "Liga de Naciones de la UEFA",
@@ -752,7 +752,7 @@
                 },
                 {
                     "name": "Serie C",
-                    "logo": "",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/eerhwz1753593645.png",
                     "image": "",
                     "background": "",
                     "events": [
@@ -763,13 +763,13 @@
                             "time": "2026-11-15T11:30:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 6,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/eqhy9y1787395080.jpg",
                             "logo": "",
                             "homeTeam": "Ravenna",
                             "awayTeam": "Forlì",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/l80c6j1724118398.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ejzu3d1657633345.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -833,7 +833,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2556514-ravenna-vs-forl%c3%ac"
                         }
                     ],
                     "flagCode": "",
@@ -2047,5 +2048,5 @@
             ]
         }
     ],
-    "updated": "2026-11-15 06:17:37"
+    "updated": "2026-11-15 06:25:46"
 }
