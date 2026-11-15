@@ -96,7 +96,7 @@ MAPEO_EQUIPOS = CaseInsensitiveDict({
     "genoa": "10233", "fiorentina": "8535", "inter": "8636", "inter de milan": "8636", "parma": "10167",
     "napoli": "9875", "frosinone": "9891",
     "vasco da gama": "10276", "remo": "1626", "são paulo": "10277", "vitória": "7733",
-    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "Colo-Colo": "137724", "Racing Club": "135170", "Perú": "136162", "Bolivia": "136470", "Saint Martin": "140288", "El Salvador": "140174", "Guatemala": "140260", "Canadá": "140073", "Real Oviedo": "135455", "Central Español": "141806", "Boston River": "136051", "Deportivo Maldonado": "138816", "Cerro": "135363", "Nacional": "135364", "Albion": "141805", "Haití": "140175", "EE. UU.": "134514", "CA La Paz": "146384", "Piratas": "156156", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
+    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "Colo-Colo": "137724", "Racing Club": "135170", "Perú": "136162", "Bolivia": "136470", "Saint Martin": "140288", "El Salvador": "140174", "Guatemala": "140260", "Canadá": "140073", "Real Oviedo": "135455", "Central Español": "141806", "Boston River": "136051", "Deportivo Maldonado": "138816", "Cerro": "135363", "Nacional": "135364", "Albion": "141805", "Haití": "140175", "EE. UU.": "134514", "CA La Paz": "146384", "Piratas": "156156"
 })
 
 MAPEO_LIGAS = CaseInsensitiveDict({
@@ -110,7 +110,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
     "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
     "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo", "demo": "demo",
+    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague"
 })
 
 MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
@@ -150,6 +150,7 @@ def obtener_datos_liga_thesportsdb(league_input):
         
     eventos_dict = {}
     league_logo = ""
+    logos_equipos_web = {} # Diccionario para almacenar los logos extraídos de la web del evento (homeLogo, awayLogo)
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers, timeout=10)
@@ -167,17 +168,32 @@ def obtener_datos_liga_thesportsdb(league_input):
         print(f"Error al obtener datos web de TheSportsDB para {url}: {e}")
     return eventos_dict, league_logo
 
-def obtener_thumb_de_evento_web(event_url):
+def obtener_detalles_de_evento_web(event_url):
+    """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB si están disponibles."""
+    thumb = ""
+    home_logo_web = ""
+    away_logo_web = ""
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(event_url, headers=headers, timeout=5)
         if response.status_code == 200:
-            match = re.search(r'<meta property="og:image" content="([^"]+)"', response.text)
-            if match:
-                return match.group(1)
+            html = response.text
+            # Extraer thumb
+            match_thumb = re.search(r'<meta property="og:image" content="([^"]+)"', html)
+            if match_thumb:
+                thumb = match_thumb.group(1)
+            
+            # Buscar logos de equipos utilizando el patrón provisto en la tabla HTML de la página del evento
+            # Ejemplo: <img src='https://r2.thesportsdb.com/images/media/team/badge/...png/medium' ... alt='home team badge'/>
+            matches_badges = re.findall(r"src='(https://r2\.thesportsdb.com/images/media/team/badge/[^']+)'", html)
+            if len(matches_badges) >= 2:
+                home_logo_web = matches_badges[0]
+                away_logo_web = matches_badges[1]
+            elif len(matches_badges) == 1:
+                home_logo_web = matches_badges[0]
     except Exception as e:
-        print(f"Error al extraer la imagen del evento web {event_url}: {e}")
-    return ""
+        print(f"Error al extraer detalles del evento web {event_url}: {e}")
+    return thumb, home_logo_web, away_logo_web
 
 def traducir_sesion(titulo):
     t = titulo.lower()
@@ -343,14 +359,11 @@ def procesar_agenda():
             status = item.get("status", item.get("estado", ""))
             code_val = item.get("code", item.get("codigo", ""))
             
-            # Si el evento tiene una fecha explícita en el JSON, la usamos directamente.
-            # Si no tiene fecha, usamos la fecha actual de Lima como respaldo.
             if date_val:
                 fecha_evento = datetime.strptime(date_val, "%Y-%m-%d").date()
             else:
                 fecha_evento = datetime.now(ZONA_LIMA).date()
 
-            # Extraer hora y minuto
             h, m, s = 0, 0, 0
             if time_val:
                 partes = time_val.split(":")
@@ -358,7 +371,6 @@ def procesar_agenda():
                 m = int(partes[1]) if len(partes) > 1 else 0
                 s = int(partes[2]) if len(partes) > 2 else 0
 
-            # 1. Creamos el objeto datetime interpretando la hora original como hora de Madrid
             if time_val:
                 try:
                     dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, h, m, s, tzinfo=ZONA_MADRID)
@@ -367,13 +379,9 @@ def procesar_agenda():
             else:
                 dt_madrid = datetime(fecha_evento.year, fecha_evento.month, fecha_evento.day, 0, 0, 0, tzinfo=ZONA_MADRID)
 
-            # 2. Convertimos a la zona horaria de Lima
             dt_lima = dt_madrid.astimezone(ZONA_LIMA)
-            
-            # 3. Forzamos a que la fecha en el JSON final sea exactamente la fecha del evento original (sin saltos extraños de día)
             date = fecha_evento.strftime("%Y-%m-%d")
             
-            # Reconstruimos el string ISO con la hora convertida a Lima pero manteniendo la fecha fija del día correcto
             full_time_str = f"{date}T{dt_lima.strftime('%H:%M:%S')}{dt_lima.strftime('%z')[:3]}:{dt_lima.strftime('%z')[3:]}"
 
             league_name = category
@@ -596,20 +604,35 @@ def procesar_agenda():
                         event["awayLogo"] = ""
 
                     event_thumb = ""
+                    web_home_logo = ""
+                    web_away_logo = ""
+
                     if web_events:
                         encontrado_url = buscar_evento_web(league_name, original_title, home_team, away_team, web_events, clubs_dict)
                         if encontrado_url:
                             event["sourceEventUrl"] = encontrado_url
-                            imagen_web = obtener_thumb_de_evento_web(encontrado_url)
+                            imagen_web, h_logo_web, a_logo_web = obtener_detalles_de_evento_web(encontrado_url)
                             if imagen_web and "android-icon" not in imagen_web and "/ico/" not in imagen_web:
                                 event_thumb = imagen_web
+                            if h_logo_web:
+                                web_home_logo = h_logo_web
+                            if a_logo_web:
+                                web_away_logo = a_logo_web
 
+                    # Manejo de Thumb / Imagen
                     if event_thumb:
                         event["image"] = event_thumb
                         event["imageMode"] = "banner"
                     else:
                         event["image"] = ""
                         event["imageMode"] = ""
+
+                    # Si no encuentra thumb, buscamos y asignamos los logos de equipos directamente en homeLogo y awayLogo
+                    if is_match:
+                        if not event.get("homeLogo"):
+                            event["homeLogo"] = web_home_logo or buscar_imagen(home_team)
+                        if not event.get("awayLogo"):
+                            event["awayLogo"] = web_away_logo or buscar_imagen(away_team)
 
                     nuevos_servidores = []
                     for server in event.get("servers", []):
