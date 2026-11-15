@@ -219,9 +219,9 @@
         "url": "https://www.thesportsdb.com/league/4500-copa-argentina",
         "aliases": ["Copa Argentina"]
     },
-    "demo": {
-        "url": "demo",
-        "aliases": ["demo"]
+    "Serie C": {
+        "url": "https://www.thesportsdb.com/league/5339-italian-serie-c-girone-b",
+        "aliases": ["Italian Serie C Girone B"]
     },
     "demo": {
         "url": "demo",

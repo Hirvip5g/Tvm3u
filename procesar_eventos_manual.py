@@ -103,7 +103,7 @@ MAPEO_LIGAS = CaseInsensitiveDict({
     "LaLiga": "laliga", "Premier League": "premier", "Serie A": "seriea",
     "Bundesliga": "bundesliga", "Ligue 1": "ligue1", "UEFA Champions League": "ucl",
     "Copa Libertadores": "libertadores", "Championship": "championship", "Liga 1": "Liga1",
-    "LaLiga SmartBank": "smartbank", "Liga Ecuador": "ligaecuador", "Liga Profesional": "ligaprofesional",
+    "LaLiga 2": "smartbank", "Liga Ecuador": "ligaecuador", "Liga Profesional": "ligaprofesional",
     "Liga Uruguay": "ligauruguay", "MLB": "mlb", "Liga Paraguay": "ligaparaguay",
     "Brasileirão": "brasileirão", "NBA Pretemporada": "nba", "Copa de la Liga": "copadelaliga",
     "Liga MX": "ligamx", "Liga MX Femenil": "ligamx", "Liga de Expansión MX": "expamx", "MLS": "mls", "Super Lig": "superlig",
