@@ -173,13 +173,13 @@
                             "time": "2026-11-15T09:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 2,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/n787ng1786994476.jpg",
                             "logo": "",
                             "homeTeam": "Chipre",
                             "awayTeam": "Montenegro",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/g3slx61589798705.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/dywswx1552859263.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -267,7 +267,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442843-cyprus-vs-montenegro"
                         },
                         {
                             "title": "Letonia vs Armenia",
@@ -276,13 +277,13 @@
                             "time": "2026-11-15T09:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 3,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/z8n1uv1786994477.jpg",
                             "logo": "",
                             "homeTeam": "Letonia",
                             "awayTeam": "Armenia",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3zoyfk1692679699.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/8gcur81705941637.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -312,7 +313,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2475310-latvia-vs-armenia"
                         },
                         {
                             "title": "Bielorrusia vs Albania",
@@ -321,13 +323,13 @@
                             "time": "2026-11-15T12:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 7,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/yumsnx1786994479.jpg",
                             "logo": "",
                             "homeTeam": "Bielorrusia",
                             "awayTeam": "Albania",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/bz4o2m1552857077.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/vonacg1717365654.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -408,7 +410,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442844-belarus-vs-albania"
                         },
                         {
                             "title": "Finlandia vs San Marino",
@@ -417,13 +420,13 @@
                             "time": "2026-11-15T12:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 8,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/3ti3zg1786994481.jpg",
                             "logo": "",
                             "homeTeam": "Finlandia",
                             "awayTeam": "San Marino",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/wgvfd21730303889.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/vfvy3j1626192199.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -453,7 +456,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442845-finland-vs-san-marino"
                         },
                         {
                             "title": "España vs Inglaterra",
@@ -462,13 +466,13 @@
                             "time": "2026-11-15T14:45:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 17,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/rkggdq1786994485.jpg",
                             "logo": "",
                             "homeTeam": "España",
                             "awayTeam": "Inglaterra",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -576,7 +580,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442848-spain-vs-england"
                         },
                         {
                             "title": "Francia vs Turquía",
@@ -585,13 +590,13 @@
                             "time": "2026-11-15T14:45:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 18,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/n6czj81786994482.jpg",
                             "logo": "",
                             "homeTeam": "Francia",
                             "awayTeam": "Turquía",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ejx5za1788198941.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/vhi9951794738535.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -611,7 +616,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442846-france-vs-turkey"
                         },
                         {
                             "title": "Bélgica vs Italia",
@@ -620,13 +626,13 @@
                             "time": "2026-11-15T14:45:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 19,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/j3da271786994484.jpg",
                             "logo": "",
                             "homeTeam": "Bélgica",
                             "awayTeam": "Italia",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/8xlvxv1592062265.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/fxijcp1726167035.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -690,7 +696,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442847-belgium-vs-italy"
                         },
                         {
                             "title": "Croacia vs República Checa",
@@ -699,13 +706,13 @@
                             "time": "2026-11-15T14:45:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 20,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/0ocspm1786994487.jpg",
                             "logo": "",
                             "homeTeam": "Croacia",
                             "awayTeam": "República Checa",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/84cfeg1789271106.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/1o0cx31654205806.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -735,7 +742,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442849-croatia-vs-czech-republic"
                         }
                     ],
                     "flagCode": "",
@@ -2039,5 +2047,5 @@
             ]
         }
     ],
-    "updated": "2026-11-15 00:44:43"
+    "updated": "2026-11-15 06:17:37"
 }
