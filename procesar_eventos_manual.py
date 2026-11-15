@@ -634,13 +634,16 @@ def procesar_agenda():
                         if not event.get("awayLogo"):
                             event["awayLogo"] = web_away_logo or buscar_imagen(away_team)
 
-                    # 0. Re-indexamos canales_04_dict por su nombre visible (canal) para comparaciones directas
+                    # 0. Re-indexamos canales_04_dict tanto por nombre visible (canal) como por parámetro de ruta (channel)
                     canales_04_por_nombre = {}
                     for k_04, lista_canales in canales_04_dict.items():
                         for c_info in lista_canales:
                             c_nombre_raw = c_info.get("canal", "").strip()
+                            c_channel_raw = c_info.get("channel", "").strip()
                             if c_nombre_raw:
                                 canales_04_por_nombre[c_nombre_raw.lower()] = c_info
+                            if c_channel_raw:
+                                canales_04_por_nombre[c_channel_raw.lower()] = c_info
 
                     nuevos_servidores = []
                     for server in event.get("servers", []):
@@ -652,35 +655,37 @@ def procesar_agenda():
                         if not channel_param:
                             channel_param = query_params.get("stream", [""])[0].strip().lower()
 
+                        # Si no hay parámetro en query, extraemos el último segmento de la ruta (ej: la1es.html)
+                        if not channel_param and parsed_url.path:
+                            path_part = parsed_url.path.split("/")[-1].strip().lower()
+                            if path_part and path_part != "embedc":
+                                channel_param = path_part
+
                         server_name = server.get("name", "").strip()
                         server_name_lower = server_name.lower()
                         channel_param_lower = channel_param.lower()
 
                         if not server_name:
                             if channel_param:
-                                server_name = channel_param.replace("-", " ").upper()
+                                server_name = channel_param.replace("-", " ").replace(".html", "").upper()
                             else:
-                                path_part = parsed_url.path.split("/")[-1].replace(".html", "").replace(".php", "")
-                                if path_part and path_part != "embedc":
-                                    server_name = path_part.replace("-", " ").upper()
-                                else:
-                                    server_name = "SERVIDOR"
+                                server_name = "SERVIDOR"
 
-                        # 1. Verificamos si hay coincidencia EXACTA de nombre con 04.json (ej: "La 1 ES")
+                        # 1. Verificamos si hay coincidencia exacta por nombre de canal o por identificador de ruta en 04.json
                         match_exacto_04 = None
                         if server_name_lower in canales_04_por_nombre:
                             match_exacto_04 = canales_04_por_nombre[server_name_lower]
                         elif channel_param_lower in canales_04_por_nombre:
                             match_exacto_04 = canales_04_por_nombre[channel_param_lower]
 
-                        # 2. Aplicamos la regla solicitada:
+                        # 2. Aplicamos el reemplazo total si existe en 04.json
                         if match_exacto_04:
-                            # Si los nombres son exactamente iguales, COLOCAMOS SOLO EL DE 04.JSON (reemplazo total)
+                            # Reemplazo total: Solo se inserta el canal directo de 04.json, omitiendo por completo el iframe de la web
                             nuevos_servidores.append({
                                 "name": match_exacto_04.get("canal", server_name),
                                 "url": match_exacto_04.get("url", ""),
                                 "type": match_exacto_04.get("tipo", "clearkey"),
-                                "quality": server.get("quality", ""),
+                                "quality": server.get("quality", "HD"),
                                 "active": True,
                                 "languages": server.get("languages", []),
                                 "customLanguages": server.get("customLanguages", ""),
@@ -691,57 +696,13 @@ def procesar_agenda():
                                 "userAgent": match_exacto_04.get("userAgent", "")
                             })
                         else:
-                            # Si NO son exactamente iguales, COLOCAMOS AMBOS:
-                            # Primero el iframe original de la web
+                            # Si NO coincide con 04.json, mantenemos el comportamiento por defecto (iframe de la web)
                             iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
                             server_copy = dict(server)
                             server_copy["name"] = server_name
                             server_copy["url"] = iframe_url
                             server_copy["type"] = "iframe"
                             nuevos_servidores.append(server_copy)
-
-                            # Y buscamos si existe alguna coincidencia secundaria por ID de channel en 04.json para agregarla también
-                            canal_secundario_04 = None
-                            for k_04, lista_canales in canales_04_dict.items():
-                                for c_info in lista_canales:
-                                    c_channel = c_info.get("channel", "").strip().lower()
-                                    if server_name_lower == c_channel or channel_param_lower == c_channel:
-                                        canal_secundario_04 = c_info
-                                        break
-                                if canal_secundario_04:
-                                    break
-
-                            if canal_secundario_04:
-                                nuevos_servidores.append({
-                                    "name": canal_secundario_04.get("canal", server_name),
-                                    "url": canal_secundario_04.get("url", ""),
-                                    "type": canal_secundario_04.get("tipo", "clearkey"),
-                                    "quality": server.get("quality", ""),
-                                    "active": True,
-                                    "languages": server.get("languages", []),
-                                    "customLanguages": server.get("customLanguages", ""),
-                                    "channelLogo": canal_secundario_04.get("logo", server.get("channelLogo", "")),
-                                    "clearkey": canal_secundario_04.get("clearkey", None),
-                                    "referer": canal_secundario_04.get("referer", ""),
-                                    "origin": canal_secundario_04.get("origin", ""),
-                                    "userAgent": canal_secundario_04.get("userAgent", "")
-                                })
-                            elif channel_param and channel_param in canales_04_dict:
-                                for canal_info in canales_04_dict[channel_param]:
-                                    nuevos_servidores.append({
-                                        "name": canal_info.get("canal", server_name),
-                                        "url": canal_info.get("url", ""),
-                                        "type": canal_info.get("tipo", "clearkey"),
-                                        "quality": server.get("quality", ""),
-                                        "active": True,
-                                        "languages": server.get("languages", []),
-                                        "customLanguages": server.get("customLanguages", ""),
-                                        "channelLogo": canal_info.get("logo", server.get("channelLogo", "")),
-                                        "clearkey": canal_info.get("clearkey", None),
-                                        "referer": canal_info.get("referer", ""),
-                                        "origin": canal_info.get("origin", ""),
-                                        "userAgent": canal_info.get("userAgent", "")
-                                    })
 
                     event["servers"] = nuevos_servidores
 
