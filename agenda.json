@@ -91,13 +91,13 @@
                             "time": "2026-11-16T10:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 2,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/m13ogv1786994488.jpg",
                             "logo": "",
                             "homeTeam": "Kazajstán",
                             "awayTeam": "Eslovaquia",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/h3wfj01552944956.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/njbw8n1717365638.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -171,7 +171,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442850-kazakhstan-vs-slovakia"
                         },
                         {
                             "title": "Islandia vs Luxemburgo",
@@ -357,13 +358,13 @@
                             "time": "2026-11-16T12:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 5,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/8rwgql1786994493.jpg",
                             "logo": "",
                             "homeTeam": "Lituania",
                             "awayTeam": "Liechtenstein",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ukapsd1689197167.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4o0nlh1591970494.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -393,7 +394,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2442853-lithuania-vs-liechtenstein"
                         },
                         {
                             "title": "Alemania vs Países Bajos",
@@ -813,13 +815,13 @@
                             "time": "2026-11-16T13:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 6,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/ev9nep1771925049.jpg",
                             "logo": "",
                             "homeTeam": "UTC Cajamarca",
                             "awayTeam": "Los Chankas",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ea4ez01580040095.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/rc0rvv1706347088.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -853,7 +855,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2481757-universidad-t%c3%a9cnica-de-cajamarca-vs-los-chankas"
                         },
                         {
                             "title": "Cusco vs ADT",
@@ -1195,7 +1198,7 @@
                             "logo": "",
                             "homeTeam": "Albacete",
                             "awayTeam": "Celta de Vigo II",
-                            "homeLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/17oqja1616436316.png/medium",
                             "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/vigo2.png",
                             "imageMode": "",
                             "duration": 130,
@@ -1234,7 +1237,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2505856-albacete-vs-celta-fortuna"
                         }
                     ],
                     "flagCode": "",
@@ -1481,5 +1485,5 @@
             ]
         }
     ],
-    "updated": "2026-11-16 10:19:58"
+    "updated": "2026-11-16 11:05:11"
 }
