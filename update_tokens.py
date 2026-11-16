@@ -21,7 +21,7 @@ def fetch_html_content(url):
 def extract_tokens_from_html(html_content):
     """
     Extrae un diccionario de mapeo {cdn_name: token} desde el array 'mt' en el HTML.
-    Ejemplo: {'edge-live22-sl': 'tok_eyJhbG...', ...}
+    Ejemplo: {'edge-live23-sl': 'tok_eyJhbG...', ...}
     """
     tokens_map = {}
     
@@ -38,7 +38,7 @@ def replace_token_in_url(url, new_token):
     """
     Reemplaza únicamente la sección del token en una URL de CDN estilo Flow/Edge 
     sin tocar la estructura restante de la URL.
-    Ejemplo de URL: https://edge-live22-sl.cvattv.com.ar/tok_VIEJOTOKEN/live/...
+    Ejemplo de URL: https://edge-live23-sl.cvattv.com.ar/tok_VIEJOTOKEN/live/...
     """
     if not url or "cvattv.com.ar" not in url:
         return url
