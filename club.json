@@ -163,54 +163,6 @@
         "search_name": "Central Córdoba de Santiago del Estero",
         "aliases": ["Central Córdoba de Santiago del Estero"]
     },
-    "Real Soacha Cundinamarca": {
-        "search_name": "Real Cundinamarca",
-        "aliases": ["Real Cundinamarca"]
-    },
-    "Chipre": {
-        "search_name": "Cyprus",
-        "aliases": ["DEMO2"]
-    },
-    "Turquía": {
-        "search_name": "Turkey",
-        "aliases": ["DEMO2"]
-    },
-    "Belgium": {
-        "search_name": "Bélgica",
-        "aliases": ["DEMO2"]
-    },
-    "Bielorrusia": {
-        "search_name": "Belarus",
-        "aliases": ["DEMO2"]
-    },
-    "Letonia": {
-        "search_name": "Latvia",
-        "aliases": ["DEMO2"]
-    },
-    "Finlandia": {
-        "search_name": "Finland",
-        "aliases": ["DEMO2"]
-    },
-    "Francia": {
-        "search_name": "France",
-        "aliases": ["DEMO2"]
-    },
-    "Italia": {
-        "search_name": "Italy",
-        "aliases": ["DEMO2"]
-    },
-    "Inglaterra": {
-        "search_name": "England",
-        "aliases": ["DEMO2"]
-    },
-    "Croacia": {
-        "search_name": "Croatia",
-        "aliases": ["DEMO2"]
-    },
-    "República Checa": {
-        "search_name": "Czech Republic",
-        "aliases": ["DEMO2"]
-    },
     "Curazao": {
         "search_name": "Curaçao",
         "aliases": ["Curaçao"]
@@ -323,6 +275,14 @@
         "search_name": "Moldova",
         "aliases": ["DEMO2"]
     },
+    "Inter Bogotá": {
+        "search_name": "Internacional de Bogotá",
+        "aliases": ["DEMO2"]
+    },
+    "Santa Fe": {
+        "search_name": "Independiente Santa Fe",
+        "aliases": ["DEMO2"]
+    },
     "Hungría": {
         "search_name": "Hungary",
         "aliases": ["DEMO2"]
@@ -369,6 +329,94 @@
     },
     "Brasil": {
         "search_name": "Brazil",
+        "aliases": ["DEMO2"]
+    },
+    "Real Sociedad II": {
+        "search_name": "Real Sociedad B",
+        "aliases": ["DEMO2"]
+    },
+    "Sporting Gijón": {
+        "search_name": "Sporting de Gijón",
+        "aliases": ["DEMO2"]
+    },
+    "Fortaleza CEIF": {
+        "search_name": "Fortaleza FC",
+        "aliases": ["DEMO2"]
+    },
+    "San Vicente / Granadinas": {
+        "search_name": "St Vincent and the Grenadines",
+        "aliases": ["DEMO2"]
+    },
+    "Belice": {
+        "search_name": "Belize",
+        "aliases": ["DEMO2"]
+    },
+    "Kazajstán": {
+        "search_name": "Kazakhstan",
+        "aliases": ["DEMO2"]
+    },
+    "Eslovaquia": {
+        "search_name": "Slovakia",
+        "aliases": ["DEMO2"]
+    },
+    "Lituania": {
+        "search_name": "Lithuania",
+        "aliases": ["DEMO2"]
+    },
+    "Liechtenstein": {
+        "search_name": "Liechtenstein",
+        "aliases": ["DEMO2"]
+    },
+    "UTC Cajamarca": {
+        "search_name": "Universidad Técnica de Cajamarca",
+        "aliases": ["DEMO2"]
+    },
+    "Celta de Vigo II": {
+        "search_name": "Celta Fortuna",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
+        "aliases": ["DEMO2"]
+    },
+    "DEMO": {
+        "search_name": "DEMO",
         "aliases": ["DEMO2"]
     },
     "DEMO": {
