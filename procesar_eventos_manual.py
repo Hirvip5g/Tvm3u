@@ -169,7 +169,7 @@ def obtener_datos_liga_thesportsdb(league_input):
     return eventos_dict, league_logo
 
 def obtener_detalles_de_evento_web(event_url):
-    """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB de forma robusta."""
+    """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB."""
     thumb = ""
     home_logo_web = ""
     away_logo_web = ""
@@ -179,15 +179,18 @@ def obtener_detalles_de_evento_web(event_url):
         if response.status_code == 200:
             html = response.text
             
-            # 1. Extraer el Thumb buscando el enlace o la imagen dentro de la sección de Thumb
-            match_thumb = re.search(r'images/media/event/thumb/[^"\']+\.jpg', html)
+            # 1. Extraer el Thumb de la etiqueta Open Graph og:image de manera segura
+            match_thumb = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', html)
             if match_thumb:
-                # Reconstruimos la URL absoluta hacia el archivo de imagen original o en tamaño medium
-                path_thumb = match_thumb.group(0)
-                thumb = f"https://r2.thesportsdb.com/{path_thumb}"
+                thumb = match_thumb.group(1)
+            else:
+                # Fallback alternativo buscando la ruta del thumb en el cuerpo
+                match_alt_thumb = re.search(r'images/media/event/thumb/[^"\']+\.jpg', html)
+                if match_alt_thumb:
+                    thumb = f"https://r2.thesportsdb.com/{match_alt_thumb.group(0)}"
             
-            # 2. Buscar logos de equipos soportando comillas dobles o simples en el atributo src
-            matches_badges = re.findall(r'src=["\'](https://r2\.thesportsdb.com/images/media/team/badge/[^"\']+)["\']', html)
+            # 2. Buscar logos de equipos dentro de la tabla principal de insignias (soporta comillas dobles o simples y sufijos /medium)
+            matches_badges = re.findall(r'src=["\'](https://r2\.thesportsdb.com/images/media/team/badge/[^"\']+\.png(?:/[a-z]+)?)["\']', html)
             if len(matches_badges) >= 2:
                 home_logo_web = matches_badges[0]
                 away_logo_web = matches_badges[1]
