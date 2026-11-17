@@ -57,8 +57,8 @@
                             "logo": "",
                             "homeTeam": "Chile",
                             "awayTeam": "Colombia",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/5xjsy41591988732.png",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4ymyku1691180081.png",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -129,8 +129,8 @@
                             "logo": "",
                             "homeTeam": "Argentina",
                             "awayTeam": "Costa Rica",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3zplhu1726167477.png",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/bss90a1637840151.png",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -238,8 +238,8 @@
                             "logo": "",
                             "homeTeam": "Ecuador",
                             "awayTeam": "Bolivia",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/47wv2y1591989301.png",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4q6qfm1736571383.png",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -273,8 +273,8 @@
                             "logo": "",
                             "homeTeam": "Uruguay",
                             "awayTeam": "República Dominicana",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/6vjbr11726167756.png",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/tnvu6e1774758597.png",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -355,8 +355,8 @@
                             "logo": "",
                             "homeTeam": "EE. UU.",
                             "awayTeam": "Haití",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/21f0oi1597948195.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/gml8wx1598135302.png/medium",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -377,7 +377,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2628128-usa-vs-haiti"
                         },
                         {
                             "title": "Guayana Francesa vs San Vicente / Granadinas",
@@ -386,13 +387,13 @@
                             "time": "2026-11-17T19:00:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 17,
-                            "image": "",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/bl0mio1694067421.jpg",
                             "logo": "",
                             "homeTeam": "Guayana Francesa",
                             "awayTeam": "San Vicente / Granadinas",
-                            "homeLogo": "",
-                            "awayLogo": "",
-                            "imageMode": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/cj10ax1600962180.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ok8hqd1728750207.png/medium",
+                            "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
                             "status": "",
@@ -412,7 +413,8 @@
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
-                            "awayCountryCode": ""
+                            "awayCountryCode": "",
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2608436-french-guiana-vs-st-vincent-and-the-grenadines"
                         },
                         {
                             "title": "El Salvador vs Saint Martin",
@@ -1141,7 +1143,7 @@
                     "name": "Copa Colombia",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://i.ibb.co/Z6NNN7Pw/copacolombia.jpg",
                     "events": [
                         {
                             "title": "Atlético Nacional vs Once Caldas",
@@ -1245,7 +1247,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "seriea"
                 }
             ]
         },
@@ -1360,5 +1362,5 @@
             ]
         }
     ],
-    "updated": "2026-11-17 11:51:01"
+    "updated": "2026-11-17 12:07:12"
 }
