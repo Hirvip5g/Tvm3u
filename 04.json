@@ -48,12 +48,11 @@
     "grupo": "Deportes",
     "tipo": "clearkey",
     "clearkey": {
-      "keyId": "e95fe84b9f73e6655fde711d5c896056",
-      "key": "267a0e514deb984803bec43cc607c4cb"
+      "keyId": "606d3b409c063e56b5e2be3ea2226080",
+      "key": "bc68305fdf7067d9e23785374dedc145"
     },
     "referer": "https://gtdtv.gtd.cl/",
-    "origin": "https://gtdtv.gtd.cl",
-    "url": "https://tv-mgmt.gtd.cl/bpk-tv/ESPN2/default/index.mpd"
+    "origin": "https://a19095b072504a86808dd0be541a700f.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1104/1104_ESPN_ARGENTINA_HD_DASH/manifest.mpd"
   },
   {
     "canal": "ESPN 2 HD",
