@@ -13,9 +13,9 @@ AGENDA_JS_URL = "https://deportestvhd.me/eventos.js"
 LOCAL_CHANNELS_JSON = "04.json"
 SOURCE_JSON = "source.json"
 CLUB_JSON = "club.json"
+EQUIPOS_JSON = "equipos.json"
+LIGAS_JSON = "ligas.json"
 OUTPUT_JSON = "agenda.json"
-BASE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm"
-BASE_LEAGUE_IMG_URL = "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm"
 
 # Zonas horarias de origen (Madrid) y destino (Lima)
 ZONA_MADRID = ZoneInfo("Europe/Madrid")
@@ -59,60 +59,6 @@ class CaseInsensitiveDict(dict):
             for k in F:
                 super().__setitem__(self._normalize(k), F[k])
 
-MAPEO_EQUIPOS = CaseInsensitiveDict({
-    "puebla": "7847", "club puebla": "7847", "leon": "1841", "club León": "1841",
-    "tigres": "8561", "tigres uanl": "8561", "toluca": "6618", "fc juarez": "649424",
-    "juarez": "649424", "tijuana": "162418", "xolos": "162418", "queretaro": "1943",
-    "queretaro fc": "1943", "atlante": "1942", "atlas": "6577", "chivas": "7807",
-    "chivas guadalajara": "7807", "guadalajara": "7807", "cf america": "6576",
-    "america": "6576", "club america": "6576", "monterrey": "7849", "rayados": "7849",
-    "atletico de san luis": "6358", "atletico san luis": "6358", "san luis": "6358",
-    "santos laguna": "7857", "pachuca": "7848", "necaxa": "1842", "pumas": "1946",
-    "pumas unam": "1946", "cruz azul": "6578",
-    "malaga": "9864", "espanyol": "8558", "rayo vallecano": "8370", "athletic club": "8315",
-    "athletic bilbao": "8315", "deportivo alaves": "9866", "alaves": "9866",
-    "atletico madrid": "9906", "atletico de madrid": "9906", "barcelona": "8634",
-    "fc barcelona": "8634", "getafe": "8305", "real madrid": "8633", "villarreal": "10205",
-    "elche": "10268", "celta vigo": "9910", "celta de vigo": "9910", "celta": "9910",
-    "real sociedad": "8560", "deportivo a coruna": "9783", "real betis": "8603",
-    "betis": "8603", "osasuna": "8371", "mallorca": "8661", "las palmas": "8306",
-    "sevilla": "8302", "levante": "8581", "racing santander": "8696", "ceuta": "357259",
-    "sabadell": "4033", "eldense": "8288", "cordoba": "7869", "girona": "7732",
-    "arsenal": "9825", "leeds united": "8463", "aston villa": "10252", "brentford": "9937",
-    "sunderland": "8472", "brighton & hove albion": "10204", "chelsea": "8455",
-    "ipswich town": "9902", "fulham": "9879", "manchester united": "10260",
-    "tottenham hotspur": "8586", "tottenham": "8586", "crystal palace": "9826",
-    "nottingham forest": "10203", "hull city": "8667", "everton": "8668",
-    "liverpool": "8650", "manchester city": "8456", "afc bournemouth": "8678",
-    "bournemouth": "8678", "newcastle united": "10261",
-    "borussia dortmund": "9789", "werder bremen": "8697", "paderborn": "8460",
-    "stuttgart": "10269", "hoffenheim": "8226", "hamburger sv": "9790",
-    "augsburg": "8406", "bayern munchen": "9823", "mainz 05": "9905",
-    "bayer leverkusen": "8178", "union berlin": "8149", "elversberg": "8232",
-    "rb leipzig": "178475", "eintracht frankfurt": "9810",
-    "lens": "8588", "olympique lyonnais": "9748", "lille": "8639", "le havre": "9746",
-    "lorient": "8689", "paris": "6379", "brest": "8521", "angers sco": "8121",
-    "psg": "9847", "le mans": "8682", "monaco": "9829", "toulouse": "9941",
-    "genoa": "10233", "fiorentina": "8535", "inter": "8636", "inter de milan": "8636", "parma": "10167",
-    "napoli": "9875", "frosinone": "9891",
-    "vasco da gama": "10276", "remo": "1626", "são paulo": "10277", "vitória": "7733",
-    "boca juniors": "90006", "river plate": "90015", "Slavia Praha": "1901", "Al Qadisiya": "1902", "Fenerbahçe": "1903", "Sabah": "Sabah", "Deportivo La Coruña": "lacoruña", "Celta de Vigo II": "vigo2", "hamburg": "9790", "Durango": "durango", "Lyon": "133713", "Corea del Norte": "153610", "Japón": "153609", "Martinica": "140278", "Aruba": "140264", "Antigua y Barbuda": "140263", "Trinidad y Tobago": "140176", "Progreso": "138815", "Cerro Largo": "138817", "Estudiantes LP": "135160", "Independiente Rivadavia": "137777", "Atlético Morelia": "134190", "Leones Negros UdeG": "134622", "Colo-Colo": "137724", "Racing Club": "135170", "Perú": "136162", "Bolivia": "136470", "Saint Martin": "140288", "El Salvador": "140174", "Guatemala": "140260", "Canadá": "140073", "Real Oviedo": "135455", "Central Español": "141806", "Boston River": "136051", "Deportivo Maldonado": "138816", "Cerro": "135363", "Nacional": "135364", "Albion": "141805", "Haití": "140175", "EE. UU.": "134514", "CA La Paz": "146384", "Piratas": "156156"
-})
-
-MAPEO_LIGAS = CaseInsensitiveDict({
-    "LaLiga": "laliga", "Premier League": "premier", "Serie A": "seriea",
-    "Bundesliga": "bundesliga", "Ligue 1": "ligue1", "UEFA Champions League": "ucl",
-    "Copa Libertadores": "libertadores", "Championship": "championship", "Liga 1": "Liga1",
-    "LaLiga 2": "smartbank", "Liga Ecuador": "ligaecuador", "Liga Profesional": "ligaprofesional",
-    "Liga Uruguay": "ligauruguay", "MLB": "mlb", "Liga Paraguay": "ligaparaguay",
-    "Brasileirão": "brasileirão", "NBA Pretemporada": "nba", "Copa de la Liga": "copadelaliga",
-    "Liga MX": "ligamx", "Liga MX Femenil": "ligamx", "Liga de Expansión MX": "expamx", "MLS": "mls", "Super Lig": "superlig",
-    "Eredivisie": "eredivisie", "Liga Colombia": "ligaco", "NFL": "nfl", "UFC": "ufc",
-    "Saudi Pro League": "saudiproleague", "Primeira Liga": "primeiraligap", "NBA": "nba",
-    "NHL": "nhl", "Liga Chile": "ligachile", "MotoGP": "motogp",
-    "Copa del Rey": "copadelrey", "Copa Ecuador": "copaecuador", "Copa de Brasil": "copadebrasil", "Messi Cup U16": "nessicupu16", "Copa Colombia": "copacolombia", "AFC Champions League Elite": "championsarabe", "Primera División": "primeradivisión", "UEFA Conference League": "ueafaconferenceleague", "UEFA Europa League": "ueafeuropaleague", "ESPN KnockOut - BXSTRS": "espnknockout", "ATP": "atp", "Fútbol Sala": "futbolsala", "F1": "f1", "Champions League Femenina": "championsleaguefemenina", "Torneo de Reserva": "torneodereserva", "Liga de Naciones": "nationsleague", "Liga de Naciones de la CONCACAF": "cafnationsleague"
-})
-
 MAPEO_CODIGOS_LIGA = CaseInsensitiveDict({
     "Liga MX": "LIGAMX", "MEX": "LIGAMX", "Serie A": "IT", "IT": "IT", "Liga Profesional": "AR", "AR": "AR",
     "Copa do Brasil": "BRA", "BRA": "BRA", "Liga Colombia": "COL", "Liga BetPlay": "COL", "COL": "COL",
@@ -135,11 +81,11 @@ def limpiar_nombre_equipo(nombre, liga_nombre=""):
         return ""
     return nombre.strip()
 
-def buscar_imagen(equipo_val):
+def buscar_imagen(equipo_val, equipos_dict):
     if not equipo_val:
         return ""
-    if equipo_val in MAPEO_EQUIPOS:
-        return f"{BASE_IMG_URL}/{MAPEO_EQUIPOS[equipo_val]}.png"
+    if equipo_val in equipos_dict:
+        return equipos_dict[equipo_val]
     return ""
 
 def obtener_datos_liga_thesportsdb(league_input):
@@ -159,7 +105,6 @@ def obtener_datos_liga_thesportsdb(league_input):
             if match_logo:
                 league_logo = match_logo.group(1)
             
-            # CORREGIDO: Soporta comillas dobles o simples y atributos flexibles
             matches = re.findall(r'<a\s+href=["\'](/event/(\d+)-([^"\']+))["\']', html_content)
             for full_path, event_id, event_slug in matches:
                 event_url = f"https://www.thesportsdb.com{full_path}"
@@ -170,7 +115,6 @@ def obtener_datos_liga_thesportsdb(league_input):
     return eventos_dict, league_logo
 
 def obtener_detalles_de_evento_web(event_url):
-    """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB."""
     thumb = ""
     home_logo_web = ""
     away_logo_web = ""
@@ -179,20 +123,16 @@ def obtener_detalles_de_evento_web(event_url):
         response = requests.get(event_url, headers=headers, timeout=5)
         if response.status_code == 200:
             html = response.text
-            
-            # 1. Extraer el Thumb de la etiqueta og:image de la cabecera
             match_thumb = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', html)
             if match_thumb:
                 thumb = match_thumb.group(1)
             
-            # 2. Buscar logos de equipos en la tabla principal
             matches_badges = re.findall(r'src=["\'](https://r2\.thesportsdb.com/images/media/team/badge/[^"\']+\.png(?:/[a-z]+)?)["\']', html)
             if len(matches_badges) >= 2:
                 home_logo_web = matches_badges[0]
                 away_logo_web = matches_badges[1]
             elif len(matches_badges) == 1:
                 home_logo_web = matches_badges[0]
-                
     except Exception as e:
         print(f"Error al extraer detalles del evento web {event_url}: {e}")
     return thumb, home_logo_web, away_logo_web
@@ -300,6 +240,28 @@ def obtener_duracion_por_deporte(sport_id):
     return 130
 
 def procesar_agenda():
+    # Cargar equipos.json con manejo de mayúsculas/minúsculas en claves
+    equipos_dict = CaseInsensitiveDict()
+    if os.path.exists(EQUIPOS_JSON):
+        try:
+            with open(EQUIPOS_JSON, "r", encoding="utf-8") as f:
+                raw_eq = json.load(f)
+                equipos_dict.update(raw_eq)
+            print(f"Cargado {EQUIPOS_JSON} correctamente.")
+        except Exception as e:
+            print(f"Error al leer {EQUIPOS_JSON}: {e}")
+
+    # Cargar ligas.json con manejo de mayúsculas/minúsculas en claves
+    ligas_dict = CaseInsensitiveDict()
+    if os.path.exists(LIGAS_JSON):
+        try:
+            with open(LIGAS_JSON, "r", encoding="utf-8") as f:
+                raw_lg = json.load(f)
+                ligas_dict.update(raw_lg)
+            print(f"Cargado {LIGAS_JSON} correctamente.")
+        except Exception as e:
+            print(f"Error al leer {LIGAS_JSON}: {e}")
+
     canales_04_dict = {}
     if os.path.exists(LOCAL_CHANNELS_JSON):
         try:
@@ -555,11 +517,13 @@ def procesar_agenda():
         for sport in agenda_data["sports"]:
             for league in sport.get("leagues", []):
                 league_name = league.get("name", "")
-                league_id = MAPEO_LIGAS.get(league_name, "")
-                league["leagueId"] = league_id
-
-                if not league.get("background") and league_id:
-                    league["background"] = f"{BASE_LEAGUE_IMG_URL}/{league_id}.jpg"
+                
+                # Asignación de leagueId y background desde ligas.json
+                liga_info = ligas_dict.get(league_name, {})
+                if isinstance(liga_info, dict):
+                    league["leagueId"] = liga_info.get("leagueId", "")
+                    if not league.get("background"):
+                        league["background"] = liga_info.get("background", "")
 
                 web_events = {}
                 league_logo_web = ""
@@ -592,8 +556,8 @@ def procesar_agenda():
                         event["homeTeam"] = home_team
                         event["awayTeam"] = away_team
                         event["title"] = f"{home_team} vs {away_team}"
-                        event["homeLogo"] = event.get("homeLogo") or buscar_imagen(home_team)
-                        event["awayLogo"] = event.get("awayLogo") or buscar_imagen(away_team)
+                        event["homeLogo"] = event.get("homeLogo") or buscar_imagen(home_team, equipos_dict)
+                        event["awayLogo"] = event.get("awayLogo") or buscar_imagen(away_team, equipos_dict)
                     else:
                         home_team = ""
                         away_team = ""
@@ -621,7 +585,6 @@ def procesar_agenda():
                             if a_logo_web:
                                 web_away_logo = a_logo_web
 
-                    # Manejo de Thumb / Imagen
                     if event_thumb:
                         event["image"] = event_thumb
                         event["imageMode"] = "banner"
@@ -629,77 +592,12 @@ def procesar_agenda():
                         event["image"] = ""
                         event["imageMode"] = ""
 
-                    # Si no encuentra thumb, buscamos y asignamos los logos de equipos directamente en homeLogo y awayLogo
                     if is_match:
                         if not event.get("homeLogo"):
-                            event["homeLogo"] = web_home_logo or buscar_imagen(home_team)
+                            event["homeLogo"] = web_home_logo or buscar_imagen(home_team, equipos_dict)
                         if not event.get("awayLogo"):
-                            event["awayLogo"] = web_away_logo or buscar_imagen(away_team)
+                            event["awayLogo"] = web_away_logo or buscar_imagen(away_team, equipos_dict)
 
-                    nuevos_servidores = []
-                    for server in event.get("servers", []):
-                        server_url = server.get("url", "")
-                        parsed_url = urllib.parse.urlparse(server_url)
-                        query_params = urllib.parse.parse_qs(parsed_url.query)
-                        
-                        channel_param = query_params.get("channel", [""])[0].strip().lower()
-                        if not channel_param:
-                            channel_param = query_params.get("stream", [""])[0].strip().lower()
-
-                        server_name = server.get("name", "").strip()
-                        server_name_lower = server_name.lower()
-                        channel_param_lower = channel_param.lower()
-
-                        if not server_name:
-                            if channel_param:
-                                server_name = channel_param.replace("-", " ").upper()
-                            else:
-                                path_part = parsed_url.path.split("/")[-1].replace(".html", "").replace(".php", "")
-                                if path_part and path_part != "embedc":
-                                    server_name = path_part.replace("-", " ").upper()
-                                else:
-                                    server_name = "SERVIDOR"
-
-                        # 1. Buscamos primero si existe coincidencia EXACTA de nombre con 04.json
-                        canal_exacto_04 = None
-                        for k_04, lista_canales in canales_04_dict.items():
-                            for c_info in lista_canales:
-                                c_nombre = c_info.get("canal", "").strip()
-                                # Comparamos si el nombre es exactamente igual (case-insensitive o estricto según prefieras)
-                                if server_name_lower == c_nombre.lower() or channel_param_lower == c_nombre.lower():
-                                    canal_exacto_04 = c_info
-                                    break
-                            if canal_exacto_04:
-                                break
-
-                        # 2. Aplicamos la regla:
-                        if canal_exacto_04:
-                            # Si hay coincidencia exacta de nombre, COLOCAMOS SOLO EL DE 04.JSON
-                            nuevos_servidores.append({
-                                "name": canal_exacto_04.get("canal", server_name),
-                                "url": canal_exacto_04.get("url", ""),
-                                "type": canal_exacto_04.get("tipo", "clearkey"),
-                                "quality": server.get("quality", ""),
-                                "active": True,
-                                "languages": server.get("languages", []),
-                                "customLanguages": server.get("customLanguages", ""),
-                                "channelLogo": canal_exacto_04.get("logo", server.get("channelLogo", "")),
-                                "clearkey": canal_exacto_04.get("clearkey", None),
-                                "referer": canal_exacto_04.get("referer", ""),
-                                "origin": canal_exacto_04.get("origin", ""),
-                                "userAgent": canal_exacto_04.get("userAgent", "")
-                            })
-                        else:
-                            # Si NO son exactamente iguales (ej. La 1 ES vs La 1 HD), COLOCAMOS AMBOS:
-                            # Primero el iframe original de la web
-                            iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
-                            server_copy = dict(server)
-                            server_copy["name"] = server_name
-                            server_copy["url"] = iframe_url
-                            server_copy["type"] = "iframe"
-                            nuevos_servidores.append(server_copy)
-
-                            # 0. Re-indexamos canales_04_dict por nombre visible exacto para búsquedas directas
                     canales_04_por_nombre = {}
                     for k_04, lista_canales in canales_04_dict.items():
                         for c_info in lista_canales:
@@ -731,14 +629,11 @@ def procesar_agenda():
                                 else:
                                     server_name = "SERVIDOR"
 
-                        # 1. Verificamos si hay coincidencia EXACTA de nombre de canal con 04.json
                         canal_exacto_04 = None
                         if server_name_lower in canales_04_por_nombre:
                             canal_exacto_04 = canales_04_por_nombre[server_name_lower]
 
-                        # 2. Aplicamos la regla:
                         if canal_exacto_04:
-                            # Coincidencia exacta de nombre: Reemplazo total con el canal de 04.json
                             nuevos_servidores.append({
                                 "name": canal_exacto_04.get("canal", server_name),
                                 "url": canal_exacto_04.get("url", ""),
@@ -754,7 +649,6 @@ def procesar_agenda():
                                 "userAgent": canal_exacto_04.get("userAgent", "")
                             })
                         else:
-                            # Si NO coincide exactamente el nombre, colocamos el iframe original de la web
                             iframe_url = f"https://pruevon.blogspot.com/2026/04/embedc.html?r={urllib.parse.quote(server_url, safe='')}"
                             server_copy = dict(server)
                             server_copy["name"] = server_name
@@ -762,15 +656,10 @@ def procesar_agenda():
                             server_copy["type"] = "iframe"
                             nuevos_servidores.append(server_copy)
 
-                            # 3. BUSCAMOS TODAS LAS COINCIDENCIAS POR ID (channel_param o server_name) EN 04.JSON
-                            # En lugar de usar 'break', recorremos la lista completa para añadir TODOS los canales asociados (ej. ESPN FHD y ESPN HD)
                             canales_encontrados_lista = []
-                            
-                            # Buscar por channel_param directo en el diccionario agrupado
                             if channel_param in canales_04_dict:
                                 canales_encontrados_lista.extend(canales_04_dict[channel_param])
                             
-                            # Buscar de forma global por si el channel viene mapeado en otra llave o coincide el nombre corto
                             for k_04, lista_canales in canales_04_dict.items():
                                 for c_info in lista_canales:
                                     c_channel = c_info.get("channel", "").strip().lower()
@@ -778,7 +667,6 @@ def procesar_agenda():
                                         if c_info not in canales_encontrados_lista:
                                             canales_encontrados_lista.append(c_info)
 
-                            # Añadimos CADA uno de los canales encontrados a la lista de servidores
                             for canal_info in canales_encontrados_lista:
                                 nuevos_servidores.append({
                                     "name": canal_info.get("canal", server_name),

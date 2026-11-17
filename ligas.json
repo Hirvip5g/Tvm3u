@@ -1,0 +1,14 @@
+{
+  "LaLiga": {
+    "leagueId": "laliga",
+    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/laliga.jpg"
+  },
+  "Premier League": {
+    "leagueId": "premier",
+    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/premier.jpg"
+  },
+  "Serie A": {
+    "leagueId": "seriea",
+    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/seriea.jpg"
+  }
+}
