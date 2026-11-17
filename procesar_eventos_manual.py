@@ -168,8 +168,8 @@ def obtener_datos_liga_thesportsdb(league_input):
         print(f"Error al obtener datos web de TheSportsDB para {url}: {e}")
     return eventos_dict, league_logo
 
-def obtener_detalles_de_evento_web(event_url):
-    """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB si están disponibles."""
+def def obtener_detalles_de_evento_web(event_url):
+    """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB de forma robusta."""
     thumb = ""
     home_logo_web = ""
     away_logo_web = ""
@@ -178,19 +178,22 @@ def obtener_detalles_de_evento_web(event_url):
         response = requests.get(event_url, headers=headers, timeout=5)
         if response.status_code == 200:
             html = response.text
-            # Extraer thumb
-            match_thumb = re.search(r'<meta property="og:image" content="([^"]+)"', html)
-            if match_thumb:
-                thumb = match_thumb.group(1)
             
-            # Buscar logos de equipos utilizando el patrón provisto en la tabla HTML de la página del evento
-            # Ejemplo: <img src='https://r2.thesportsdb.com/images/media/team/badge/...png/medium' ... alt='home team badge'/>
-            matches_badges = re.findall(r"src='(https://r2\.thesportsdb.com/images/media/team/badge/[^']+)'", html)
+            # 1. Extraer el Thumb buscando el enlace o la imagen dentro de la sección de Thumb
+            match_thumb = re.search(r'images/media/event/thumb/[^"\']+\.jpg', html)
+            if match_thumb:
+                # Reconstruimos la URL absoluta hacia el archivo de imagen original o en tamaño medium
+                path_thumb = match_thumb.group(0)
+                thumb = f"https://r2.thesportsdb.com/{path_thumb}"
+            
+            # 2. Buscar logos de equipos soportando comillas dobles o simples en el atributo src
+            matches_badges = re.findall(r'src=["\'](https://r2\.thesportsdb.com/images/media/team/badge/[^"\']+)["\']', html)
             if len(matches_badges) >= 2:
                 home_logo_web = matches_badges[0]
                 away_logo_web = matches_badges[1]
             elif len(matches_badges) == 1:
                 home_logo_web = matches_badges[0]
+                
     except Exception as e:
         print(f"Error al extraer detalles del evento web {event_url}: {e}")
     return thumb, home_logo_web, away_logo_web
