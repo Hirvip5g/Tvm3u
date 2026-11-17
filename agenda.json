@@ -239,7 +239,7 @@
                             "homeTeam": "Ecuador",
                             "awayTeam": "Bolivia",
                             "homeLogo": "",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/136470.png",
+                            "awayLogo": "",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -306,7 +306,7 @@
                     "name": "Liga de Naciones de la CONCACAF",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/gwew651790094136.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/cafnationsleague.jpg",
+                    "background": "",
                     "events": [
                         {
                             "title": "St. Kitts and Nevis vs Bonaire",
@@ -355,8 +355,8 @@
                             "logo": "",
                             "homeTeam": "EE. UU.",
                             "awayTeam": "Haití",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/134514.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/140175.png",
+                            "homeLogo": "",
+                            "awayLogo": "",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -425,8 +425,8 @@
                             "logo": "",
                             "homeTeam": "El Salvador",
                             "awayTeam": "Saint Martin",
-                            "homeLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/140174.png",
-                            "awayLogo": "https://raw.githubusercontent.com/Hirvip5g/Vix/refs/heads/main/assets/equipos_fm/140288.png",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/gjc22e1598134820.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/0l8n3j1718413842.png/medium",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -633,7 +633,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "cafnationsleague"
+                    "leagueId": ""
                 },
                 {
                     "name": "Liga de Naciones de la UEFA",
@@ -1141,7 +1141,7 @@
                     "name": "Copa Colombia",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/copacolombia.jpg",
+                    "background": "",
                     "events": [
                         {
                             "title": "Atlético Nacional vs Once Caldas",
@@ -1245,7 +1245,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "copacolombia"
+                    "leagueId": ""
                 }
             ]
         },
@@ -1258,7 +1258,7 @@
                     "name": "NBA",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
                     "image": "",
-                    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/nba.jpg",
+                    "background": "",
                     "events": [
                         {
                             "title": "Pistons vs Spurs",
@@ -1355,10 +1355,10 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": "nba"
+                    "leagueId": ""
                 }
             ]
         }
     ],
-    "updated": "2026-11-17 10:45:22"
+    "updated": "2026-11-17 11:43:48"
 }
