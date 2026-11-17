@@ -168,7 +168,7 @@ def obtener_datos_liga_thesportsdb(league_input):
         print(f"Error al obtener datos web de TheSportsDB para {url}: {e}")
     return eventos_dict, league_logo
 
-def def obtener_detalles_de_evento_web(event_url):
+def obtener_detalles_de_evento_web(event_url):
     """Extrae el thumb y los logos de los equipos desde el HTML del evento web de TheSportsDB de forma robusta."""
     thumb = ""
     home_logo_web = ""
