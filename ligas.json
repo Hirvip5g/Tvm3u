@@ -7,8 +7,96 @@
     "leagueId": "premier",
     "background": "https://i.ibb.co/x8X1Bh1w/amistosos.jpg"
   },
-  "Serie A": {
+  "Copa Colombia": {
     "leagueId": "seriea",
-    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/seriea.jpg"
+    "background": "https://i.ibb.co/Z6NNN7Pw/copacolombia.jpg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
+  },
+  "nameliga": {
+    "leagueId": "name",
+    "background": "urlimg"
   }
 }
