@@ -9,7 +9,7 @@
                     "name": "Amistoso Internacional",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/gb18781565430778.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://i.ibb.co/x8X1Bh1w/amistosos.jpg",
                     "events": [
                         {
                             "title": "Rusia vs Venezuela",
@@ -22,8 +22,8 @@
                             "logo": "",
                             "homeTeam": "Rusia",
                             "awayTeam": "Venezuela",
-                            "homeLogo": "",
-                            "awayLogo": "",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/nz50i51689197440.png",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/x167yg1690791367.png",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -300,13 +300,13 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "premier"
                 },
                 {
                     "name": "Liga de Naciones de la CONCACAF",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/gwew651790094136.png",
                     "image": "",
-                    "background": "",
+                    "background": "https://i.ibb.co/rfvcxcCM/nationsleague.jpg",
                     "events": [
                         {
                             "title": "St. Kitts and Nevis vs Bonaire",
@@ -633,7 +633,7 @@
                     ],
                     "flagCode": "",
                     "flagUrl": "",
-                    "leagueId": ""
+                    "leagueId": "laliga"
                 },
                 {
                     "name": "Liga de Naciones de la UEFA",
@@ -1360,5 +1360,5 @@
             ]
         }
     ],
-    "updated": "2026-11-17 11:43:48"
+    "updated": "2026-11-17 11:51:01"
 }
