@@ -1,11 +1,11 @@
 {
-  "LaLiga": {
+  "Liga de Naciones de la CONCACAF": {
     "leagueId": "laliga",
-    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/laliga.jpg"
+    "background": "https://i.ibb.co/rfvcxcCM/nationsleague.jpg"
   },
-  "Premier League": {
+  "Amistoso Internacional": {
     "leagueId": "premier",
-    "background": "https://raw.githubusercontent.com/Hirvip5g/Vix/main/assets/ligas_fm/premier.jpg"
+    "background": "https://i.ibb.co/x8X1Bh1w/amistosos.jpg"
   },
   "Serie A": {
     "leagueId": "seriea",
