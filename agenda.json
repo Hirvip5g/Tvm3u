@@ -101,6 +101,16 @@
                                     "languages": [],
                                     "customLanguages": "",
                                     "channelLogo": ""
+                                },
+                                {
+                                    "name": "Nación Deportes 1",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dnacion_deportes1",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
@@ -237,8 +247,8 @@
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Eventos",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Deventos2",
+                                    "name": "Nación Deportes 2",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dnacion_deportes2",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -1350,5 +1360,5 @@
             ]
         }
     ],
-    "updated": "2026-11-17 10:06:21"
+    "updated": "2026-11-17 10:10:35"
 }
