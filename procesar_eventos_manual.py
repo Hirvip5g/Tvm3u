@@ -150,7 +150,6 @@ def obtener_datos_liga_thesportsdb(league_input):
         
     eventos_dict = {}
     league_logo = ""
-    logos_equipos_web = {} # Diccionario para almacenar los logos extraídos de la web del evento (homeLogo, awayLogo)
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers, timeout=10)
@@ -159,7 +158,9 @@ def obtener_datos_liga_thesportsdb(league_input):
             match_logo = re.search(r'<meta property="og:image" content="([^"]+)"', html_content)
             if match_logo:
                 league_logo = match_logo.group(1)
-            matches = re.findall(r"<a href='(/event/(\d+)-([^']+))'>", html_content)
+            
+            # CORREGIDO: Soporta comillas dobles o simples y atributos flexibles
+            matches = re.findall(r'<a\s+href=["\'](/event/(\d+)-([^"\']+))["\']', html_content)
             for full_path, event_id, event_slug in matches:
                 event_url = f"https://www.thesportsdb.com{full_path}"
                 clean_slug = urllib.parse.unquote(event_slug)
@@ -179,17 +180,12 @@ def obtener_detalles_de_evento_web(event_url):
         if response.status_code == 200:
             html = response.text
             
-            # 1. Extraer el Thumb de la etiqueta Open Graph og:image de manera segura
+            # 1. Extraer el Thumb de la etiqueta og:image de la cabecera
             match_thumb = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', html)
             if match_thumb:
                 thumb = match_thumb.group(1)
-            else:
-                # Fallback alternativo buscando la ruta del thumb en el cuerpo
-                match_alt_thumb = re.search(r'images/media/event/thumb/[^"\']+\.jpg', html)
-                if match_alt_thumb:
-                    thumb = f"https://r2.thesportsdb.com/{match_alt_thumb.group(0)}"
             
-            # 2. Buscar logos de equipos dentro de la tabla principal de insignias (soporta comillas dobles o simples y sufijos /medium)
+            # 2. Buscar logos de equipos en la tabla principal
             matches_badges = re.findall(r'src=["\'](https://r2\.thesportsdb.com/images/media/team/badge/[^"\']+\.png(?:/[a-z]+)?)["\']', html)
             if len(matches_badges) >= 2:
                 home_logo_web = matches_badges[0]
