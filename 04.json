@@ -1,1663 +1,1663 @@
 [
-  {
-    "canal": "ESPN AR MUTICALIDAD",
-    "channel": "espnar",
-    "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "d079ffa3757e8335611fc48be6ba47ff",
-      "key": "05059d1cb21b6708a55e9c26fb38e2f3"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd"
-  },
-  {
-    "canal": "ESPN FHD",
-    "channel": "espn",
-    "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "b3e4e74ae2080b137e68bbd0ef8a7e05",
-      "key": "cb004fb100bd92f23793562891e3236b"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?"
-  },
-  {
-    "canal": "ESPN PY HD",
-    "channel": "espn",
-    "logo": "http://res.cloudinary.com/doj39auqi/image/upload/v1684343656/cxuieragbu4epuhxo7in.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "e95fe84b9f73e6655fde711d5c896056",
-      "key": "267a0e514deb984803bec43cc607c4cb"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd"
-  },
-  {
-    "canal": "ESPN CL HD",
-    "channel": "espn",
-    "logo": "http://res.cloudinary.com/doj39auqi/image/upload/v1684343656/cxuieragbu4epuhxo7in.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "606d3b409c063e56b5e2be3ea2226080",
-      "key": "bc68305fdf7067d9e23785374dedc145"
-    },
-    "referer": "https://gtdtv.gtd.cl/",
-    "origin": "https://a19095b072504a86808dd0be541a700f.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1104/1104_ESPN_ARGENTINA_HD_DASH/manifest.mpd"
-  },
-  {
-    "canal": "ESPN 2 HD",
-    "channel": "espn2",
-    "logo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "0d820100144772fed9f38b83650fa7e1",
-      "key": "ded8cc47b29b0eb0b0a87df22e721847"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd"
-  },
-  {
-    "canal": "ESPN 2 FHD",
-    "channel": "espn2",
-    "logo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/ESPN2.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
-      "key": "6d15568e1dab59e7202ae12e71505185"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?"
-  },
-  {
-    "canal": "ESPN 3 FHD",
-    "channel": "espn3",
-    "logo": "https://i.postimg.cc/0MCLmw7Z/ESPN-3-Argentina.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "8a60d7889ff126ee1895335e92254f8e",
-      "key": "de1b0ce19fa804a1c473eb8ef2d5cf6d"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.mpd?"
-  },
-  {
-    "canal": "ESPN 4 FHD",
-    "channel": "espn4",
-    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "54a2c11085c315ed6ff85c340a86095d",
-      "key": "5f0d10cf4a5c7e22e286b7e8cb4e79f4"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.mpd?"
-  },
-  {
-    "canal": "ESPN 5 FHD",
-    "channel": "espn5",
-    "logo": "https://i.imgur.com/eBYBgnn.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
-        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
-    },
-    "referer": "",
-    "origin": "",
-    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?"
-},
-{
-    "canal": "ESPN 6 FHD",
-    "channel": "espn6",
-    "logo": "https://i.imgur.com/dk8AYkV.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-        "keyId": "f5836382452cdca1e1c8bf8b9a713534",
-        "key": "7d261930c3309ed2b06d2abb34a64410"
-    },
-    "referer": "",
-    "origin": "",
-    "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.mpd?"
-},
-{
-    "canal": "ESPN 7 FHD",
-    "channel": "espn7",
-    "logo": "https://i.imgur.com/bWrggk0.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-        "keyId": "98ea1e32227adcd3618baac2bbf36814",
-        "key": "72a03a09d33e412f14a9bfa4ef24b542"
-    },
-    "referer": "",
-    "origin": "",
-    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?"
-},
-  {
-  "canal": "ESPN CO HD",
-  "channel": "espn",
-  "logo": "https://r2.thesportsdb.com/images/media/channel/logo/mq2tu41660762188.png",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "http://209.61.12.132:9000/play/a06z/index.m3u8"
-  },
-{
-  "canal": "ESPN 2 CO HD",
-  "channel": "espn2",
-  "logo": "https://r2.thesportsdb.com/images/media/channel/logo/pvvydr1660761581.png",
-  "grupo": "Deportes",
-  "tipo": "m3u8",
-  "url": "http://190.60.48.151:8010/play/a09l/index.m3u8"
-},
-  {
-    "canal": "ESPN 2 AR MUTICALIDAD",
-    "channel": "espn2ar",
-    "logo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "e6eab53cf8ea962b999c59c298596a65",
-      "key": "10c103ae76f99620d66fa75f2c03302a"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd"
-  },
-  {
-    "canal": "ESPN 3 AR MUTICALIDAD",
-    "channel": "espn3",
-    "logo": "https://i.postimg.cc/0MCLmw7Z/ESPN-3-Argentina.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "deeed0f44c6b45e064f4d5064486e821",
-      "key": "bf89ceeb93564ddc603ba6afd8c9266a"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd"
-  },
-  {
-    "canal": "ESPN 4 AR MUTICALIDAD",
-    "channel": "espn4",
-    "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "d02981e6faeacef49c90fdb053ab641d",
-      "key": "645e13624e933841b1ea35cda1b55bd1"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd"
-  },
-  {
-    "canal": "ESPN 5 AR MUTICALIDAD",
-    "channel": "espn5",
-    "logo": "https://i.imgur.com/eBYBgnn.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
-      "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd"
-  },
-  {
-    "canal": "ESPN 6 AR MUTICALIDAD",
-    "channel": "espn6",
-    "logo": "https://i.imgur.com/dk8AYkV.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "fdac9b45f19959b848f498c8efe15d12",
-      "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd"
-  },
-  {
-    "canal": "ESPN 7 AR MUTICALIDAD",
-    "channel": "espn7",
-    "logo": "https://i.imgur.com/bWrggk0.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "fdac9b45f19959b848f498c8efe15d12",
-      "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd"
-  },
-  {
-    "canal": "DSports FHD",
-    "channel": "dsports",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-    "grupo": "DEPORTES",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "f8b207c10f3f76aeba32a360ec52b9e4",
-      "key": "afad49d20eb39670e93e371c1d669921"
-    },
-    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd"
-  },
-  {
-    "canal": "DSPORTS ARG FHD",
-    "channel": "dsportsar",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-    "grupo": "DEPORTES",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "4f4c3a9912ea752e88f4497864a1bc8b",
-      "key": "278128004fe8c6ffb2cd2a0c154a241a"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd"
-  },
-  {
-    "canal": "DSPORTS 2 HD MUTICALIDAD",
-    "channel": "dsports2",
-    "logo": "https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png",
-    "grupo": "DEPORTES",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
-      "key": "ea07b87acdf2e45be824cde4a1cf3504"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd"
-  },
-  {
-    "canal": "DSports + MUTICALIDAD",
-    "channel": "dsportsplus",
-    "logo": "https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png",
-    "grupo": "DEPORTES",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "83f81c4cc1443991543de4e22eea7586",
-      "key": "ddfd7ca653d6f35543d8edb3c688e20f"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd"
-  },
-  {
-    "canal": "SKY sports La Liga MUTICALIDAD",
-    "channel": "daznlaliga",
-    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
-    "grupo": "Deportes",
-    "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2",
-    "referer": "https://www.izzigo.tv/webclient/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
-      "key": "103ae55c7948ca1d159d6743619d26c4"
-    },
-    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd"
-  },
-  {
-    "canal": "SKY sports La Liga MUTICALIDAD",
-    "channel": "mlaliga",
-    "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
-    "grupo": "Deportes",
-    "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2",
-    "referer": "https://www.izzigo.tv/webclient/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
-      "key": "103ae55c7948ca1d159d6743619d26c4"
-    },
-    "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd"
-  },
-  {
-    "canal": "CAZÉTV 🇧🇷",
-    "channel": "cazetv",
-    "logo": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-0.png",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "34475edab991ad5e92548aebd710410a",
-      "key": "501b209cccd323ac00bf5ac15b406cb4"
-    },
-    "url": "https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd"
-  },
-  {
-    "canal": "CAZÉTV 2 🇧🇷",
-    "channel": "cazetv",
-    "logo": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-0.png",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "0a29e3b7dc26ced80114da99266ea636",
-      "key": "9f1e4034545fed90b5ce7a8f8925e621"
-    },
-    "url": "https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash-sd/enc/iy79zu8tb9/out/v1/e86df8b45c0f452daf49ca6e3d27103e/cenc-sd.mpd"
-  },
-  {
-    "canal": "SPORTV 1 🇧🇷",
-    "channel": "sportv1",
-    "logo": "https://i.ibb.co/NKs6v0v/sportv.png",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "51c0ef23b17297e5c01cd7f36dd0a6ce",
-      "key": "8823f713ba6fdb9bbe0a2ad82d309a4b"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd"
-  },
-  {
-    "canal": "SPORTV 2 🇧🇷",
-    "channel": "sportv2",
-    "logo": "https://i.ibb.co/L6MdcHL/sportv2.png",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "3de028eafb3b2caffec03be1c1c818b3",
-      "key": "8fbdd8a9ae6748696bb13e547bb093fc"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd"
-  },
-  {
-    "canal": "SPORTV 3 🇧🇷",
-    "channel": "sportv3",
-    "logo": "https://i.ibb.co/db4L078/sportv3.png",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "902e5ec0e3d05e665daa32fc23f4f59e",
-      "key": "7b2322a273843921a43e2c61dac7cae3"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd"
-  },
-  {
-    "canal": "PREMIERE 1 🇧🇷",
-    "channel": "premiere1",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "56b79c1782b30e6b6fc973b0e8fd4104",
-      "key": "fa38aaa865a57eda7c77444697ba8ed3"
-    },
-    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd"
-  },
-  {
-    "canal": "PREMIER 2 🇧🇷",
-    "channel": "premiere2",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "9dc40460c93087aea84d6315f08ecb64",
-      "key": "f69c8d4624fddff4ca89bd0b31bdc4a7"
-    },
-    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd"
-  },
-  {
-    "canal": "PREMIER 3 🇧🇷",
-    "channel": "premiere3",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "d23f7433798a652a7d4f6791d9e1036c",
-      "key": "4942eebd598b5727c5cc484cc62b52e8"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd"
-  },
-  {
-    "canal": "PREMIER 4 🇧🇷",
-    "channel": "premiere4",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "e23365c2ad97870c871712b73f0d6195",
-      "key": "58709c714320bb862dbd07270df81c94"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd"
-  },
-  {
-    "canal": "PREMIER 5 🇧🇷",
-    "channel": "premiere5",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "332f62eb3cae824e98a4124da29a7d31",
-      "key": "d1698cda3d040f9051125a61745b596b"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase"
-  },
-  {
-    "canal": "PREMIER 6 🇧🇷",
-    "channel": "premiere6",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "561baa89676c89c1d047e1852ba01c09",
-      "key": "a8c157826dfdf1299a329b77e2ab6a1a"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/k1mql3yg4r/out/v1/898067f362a5444bbe42d7568430ca14/cenc-sd.mpd"
-  },
-  {
-    "canal": "PREMIER 7 🇧🇷",
-    "channel": "premiere7",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes Brasil",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "9ee352aac7ed8ee1cb42cfdf322b1cb0",
-      "key": "053d635fc90e175881bef26cd29f371e"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/kqftwsvdgz/out/v1/9f866bc326d241aa9d470c52654a7bf9/cenc-sd.mpd"
-  },
-  {
-    "canal": "FOX Sports MUTICALIDAD",
-    "channel": "fox1ar",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-ar.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "37730b00a5f92084c47a8129e84559f3",
-      "key": "a2e20a45a057ff4e7c0bc2ad49e6f3e5"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd"
-  },
-  {
-    "canal": "FOX Sports 2 MUTICALIDAD",
-    "channel": "fox2ar",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
-      "key": "23129ab5572aeda7607c920655c0dbea"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd"
-  },
-  {
-    "canal": "FOX Sports 3 MUTICALIDAD",
-    "channel": "fox3ar",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "4629bd0ae30c0e72af111fb948fada1c",
-      "key": "7864154c679e769e7f164ba083c8fad3"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd"
-  },
-  {
-    "canal": "FOX Sports 1 HD",
-    "channel": "foxar",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports1/playlist.m3u8"
-  },
-  {
-    "canal": "FOX Sports 2 HD",
-    "channel": "fox2ar",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
-  },
-  {
-    "canal": "FOX Sports 3 HD",
-    "channel": "fox3ar",
-    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8"
-  },
-  {
-    "canal": "TNT SPORTS HD",
-    "channel": "tntsports",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "http://190.7.19.206:8098/play/a0pu/index.m3u8"
-  },
-  {
-    "canal": "TNT Sports Premium FHD MUTICALIDAD",
-    "channel": "tntsports",
-    "logo": "https://i.postimg.cc/WbsZGtb2/Fondo_Oscuro.png",
-    "grupo": "Fútbol Argentino",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "9fb56301bc7687baf0b1a61def9a007a",
-      "key": "947d2294ba67256827e8e97f267e71e0"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd"
-  },
-  {
-    "canal": "ESPN Premium FHD MUTICALIDAD",
-    "channel": "espnpremium",
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
-    "grupo": "Fútbol Argentino",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "c502892e037a9f34827147b2b24e42cf",
-      "key": "2531bd34bec6c0e8fa4e07aedb261ade"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd"
-  },
-  {
-    "canal": "ESPN Premium HD",
-    "channel": "espnpremium",
-    "userAgent": "APPMOVIL-e4ff1c8cc00f29e8",
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "http://190.7.19.206:8098/play/a0nx/index.m3u8"
-  },
-  {
-    "canal": "TyC Sports FHD MUTICALIDAD",
-    "channel": "tyc",
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1981/CH_LOGO/400/400/0/0/42832369072861.png",
-    "grupo": "Deportes",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "0b1e6825350fa1bc0032f8f36287e006",
-      "key": "11fc540a4539d18f91cd403a5ed42284"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c7eds/TyCSport/SA_Live_dash_enc_wl/TyCSport.mpd"
-  },
-  {
-    "canal": "TUDN MX FHD",
-    "channel": "tudnmx",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "DEPORTES",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "763ce1ebcaf23502c8cf357c6ef423e1",
-      "key": "0c5e6c0820a1ea28753721db00272411"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd"
-  },
-  {
-  "canal": "TUDN US FHD",
-  "channel": "tudnus",
-  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "Deportes",
-    "tipo": "m3u8",
-  "url": "https://tkx.mp.lura.live/rest/v2/mcp/video/univision-tudn?anvack=8Q6d5qd2lubv3MRhZrh9xmoPC9Xzo64n"
-  },
-  {
-    "canal": "CANAL 5 MX FHD",
-    "channel": "canal5mx",
-    "logo": "https://i.ibb.co/V310Z0q/canal5.png",
-    "grupo": "DEPORTES",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "d695093ea3e66d75a4d213a3e2cbf360",
-      "key": "01be3f645e89a067d2786c295f68dde4"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd"
-  },
-  {
-    "canal": "AZTECA 7 MUTICALIDAD",
-    "channel": "azteca7",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Logo_Azteca_7_2011.svg/1280px-Logo_Azteca_7_2011.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "DEPORTES",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "9850bd2ac5d9089ce920ca127e67aa57",
-      "key": "8561d5b02983577886cf1f40aed3a8fe"
-    },
-    "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ep2x5rkrf5/out/v1/4e18b1b6cb5a48e19b5062e782008c4e/cenc.mpd"
-  },
-  {
-    "canal": "FOX DEPORTES MUTICALIDAD",
-    "channel": "fox_deportes_usa",
-    "logo": "https://i.ibb.co/qkfX5Wc/FOX-Deportes.png",
-    "grupo": "DEPORTES",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "d1a163914db8ffad2c3e94f979896a0d",
-      "key": "9728800a3959aafdd5b0bcfbf3768811"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd"
-  },
-  {
-  "canal": "LIGA 1 MAX HD",
-  "channel": "liga1max",
-  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/L1MAX-LOGO.svg/3840px-L1MAX-LOGO.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-  "grupo": "Deportes",
-  "tipo": "m3u8",
-  "url": "http://38.87.224.19:2220/play/a001/index.m3u8"
-},
-{
-  "canal": "Telefe HD",
-  "channel": "telefe",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
-  "grupo": "Argentina",
-  "tipo": "m3u8",
-  "url": "http://38.87.224.19:2220/play/a04b/index.m3u8"
-},
-{
-  "canal": "WIN SPORTS + HD",
-  "channel": "winplus",
-  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/3840px-Win_Sports%2B_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-  "grupo": "Deportes",
-  "tipo": "m3u8",
-  "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8"
-},
-{
-  "canal": "ESPN DEPORTES HD",
-  "channel": "espndeportes",
-  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/3840px-ESPN_Deportes.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-  "grupo": "Deportes",
-  "tipo": "embed",
-  "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free"
-},
-{
-  "canal": "Liga 1 Max Peru",
-  "channel": "l1max",
-  "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/L1MAX-LOGO.svg/3840px-L1MAX-LOGO.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-  "grupo": "Deportes",
-  "tipo": "m3u8",
-  "url": "https://cablered.iptvperu.tv:1936/cablered/liga1max.stream/playlist.m3u8"
-},
-{
-    "canal": "Liga SmartBank FHD",
-    "channel": "hyper1",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSui1HW0mx4SVFhqbI5A-WQl2dtJGD8qNCVg7YxMp6UMQ&s=10",
-    "grupo": "España",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "a88617e904504ee291f49f0e60a51d49",
-      "key": "17f92d59fde3b6d2bf4ffb48e8ca720a"
-    },
-    "referer": "https://www.primevideo.com/",
-    "origin": "https://www.primevideo.com",
-    "url": "https://cache2.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd"
-  },
-  {
-    "canal": "Liga SmartBank 2 FHD",
-    "channel": "hyper2",
-    "logo": "https://www.movistarplus.es/recorte/m-DP/canal/MLIGS2.png",
-    "grupo": "España",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "5fc8da8b94c447468ffe392157f8c75e",
-      "key": "333b934fdde4c1ee87e7f1c5dac4cb8f"
-    },
-    "referer": "https://www.primevideo.com/",
-    "origin": "https://www.primevideo.com",
-    "url": "https://cache2.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd"
-  },
-  {
-    "canal": "La 1 ES",
-    "channel": "la1es.html",
-    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/3840px-Logo_La_1.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "grupo": "España",
-    "tipo": "clearkey",
-    "clearkey": {
-      "keyId": "745cd6ec34a58f2f7ac2af35dc3da6d2",
-      "key": "ae008f1e47e6567fe4201a6ff8f1ae54"
-    },
-    "referer": "https://www.primevideo.com/",
-    "origin": "https://www.primevideo.com",
-    "url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/100/CH_LOGO/800/542/0/0/228799490721.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "026db28a966b1d022cbeaa8816e5525b",
-      "key": "ed3f885f288102d9de178bdef3b7e451"
-    },
-    "url": "https://live1-ott.izzigo.tv/7/out/u/dash/HBO-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbo"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/101/CH_LOGO/800/542/0/0/36093751072127.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO 2",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "8cee93949588075725a6b3528a415ae1",
-      "key": "ab2bf64ff3a054e56527bce95c909f82"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO2-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbo2"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/800/542/0/0/7354519807335.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO Family",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "230a6cfa5e7fd4665b15b6ddccb96459",
-      "key": "939c3f61b9fb213518e49c24eceeab85"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-FAMILY-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbofamily"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/800/542/0/0/61157416071448.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO Mundi",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "96b2370bdcc9acb6caa0cfd5aa35dcf4",
-      "key": "b732a02918aa32e739e43952db768cc6"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-MUNDI-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbomundi"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/800/542/0/0/10237380072165.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO Plus",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "bcf21b0b685df69510b2709f18befd17",
-      "key": "19f88216f52de21149cda28c301f5d96"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-PLUS-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hboplus"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/800/542/0/0/68908128073927.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO Pop",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "04ab4cefd27bf2635261fa714af883d6",
-      "key": "5a1282ee809826b9b2a5636970730da6"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-POP-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbopop"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/800/542/0/0/3657655307500.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO Signature",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "cbda1cb384558d8ec6fd3cc3841bad87",
-      "key": "0eba590cffc565ed48ee61970c8bf2dc"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-SIGNATURE-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbosignature"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/800/542/0/0/6041444607334.png",
-    "grupo": "Cine & Series",
-    "canal": "HBO Xtreme",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "abf304290bec7c982e706b1fae592aea",
-      "key": "73e1d01cc86bb88c184fbca31292977f"
-    },
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-XTREME-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hboxtreme"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/46/CH_LOGO/800/542/0/0/53485573073445.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinecanal",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "5e87d24ed7b54576895548ffa65eab1d",
-      "key": "1e5d7c9e67248af38e48ec56d2241507"
-    },
-    "url": "https://live1-ott.izzigo.tv/14/out/u/dash/CINECANAL-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "cinecanal"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/47/CH_LOGO/800/542/0/0/60951863073142.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinemax",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "fa6d1b52dd986d8faab9cca6adb8874b",
-      "key": "6022259ba9edb1fe66b4507b51e1c12f"
-    },
-    "url": "https://live1-ott.izzigo.tv/15/out/u/dash/CINEMAX-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "cinemax"
-  },
-  {
-    "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/CINEMAX_WEST_WHITE_1920x1080_f._SL800_FMpng_.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinemax West",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "clearkey": {
-      "keyId": "bf813dc4a32e0e9bcbce4446a65f4b12",
-      "key": "eb9973b1a30c76812aa7ca8864b6a3c1"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/zewdvsfpre/out/v1/d65e537877cc4112b8fd88c6210f39da/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "cinemaxwest"
-  },
-  {
-    "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/CINEMAX_EAST_WHITE_1920x1080_f._SL800_FMpng_.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinemax East",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "clearkey": {
-      "keyId": "3a5fc143bea61aa94eee0479933d5e72",
-      "key": "8a365e8c3e2b8efdbcaab16d07c3b929"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/rckhgp0mdp/out/v1/3952b81ea31d45b38372b128371301d2/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "cinemaxeast"
-  },
-  {
-    "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/cinemax-action._SL800_FMpng_.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinemax Action",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "clearkey": {
-      "keyId": "136a75130b82cdf89cb5f05d739b663f",
-      "key": "0ef360ff75bb11b7f0982a86b86d39ae"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/995zvakyej/out/v1/3fa049c0afea4a83bb5f508f1859f160/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "cinemaxaction"
-  },
-  {
-    "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/cinemax-classics._SL800_FMpng_.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinemax Classics",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "clearkey": {
-      "keyId": "81a74ef0cf71e28d5d9bc55d5fd7921a",
-      "key": "884e89f90a9f5cbaaa5c2a451e1d8f86"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/yfo5p7nmtt/out/v1/fdce98358ffb47c9b6314feb9cfeda3f/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "cinemaxclassics"
-  },
-  {
-    "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/cinemax-hits._SL800_FMpng_.png",
-    "grupo": "Cine & Series",
-    "canal": "Cinemax Hits",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "clearkey": {
-      "keyId": "046c374a3db594dfb32cba86d2e4f72f",
-      "key": "04c00a6ed0fc4ce37841210a42eeeb35"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/bw5g1vx3k9/out/v1/6913f190498b44c8a705e91728401769/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "cinemaxhits"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/862/CH_LOGO/320/320/0/0/33860159072069.png",
-    "grupo": "Cine & Series",
-    "canal": "Comedy Central",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "2a61b7a7912064acc62a06a6ae22ac5c",
-      "key": "5bfb374d644703550f0637532bca0491"
-    },
-    "url": "https://live1-ott.izzigo.tv/12/out/u/dash/COMEDY-CENTRAL-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "comedycentral"
-  },
-  {
-    "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Distrito_Comedia._SL800_FMpng_.png",
-    "grupo": "Cine & Series",
-    "canal": "Distrito Comedia",
-    "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
-    "referer": "https://www.primevideo.com/",
-    "clearkey": {
-      "keyId": "2c73635de48c1033f60965175563af02",
-      "key": "ac71c079e88f068aad80e947bac1b494"
-    },
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/jainwiiq5g/out/v1/1094f5319566443cb6a9000810384a1a/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "distritocomedia"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/55/CH_LOGO/800/542/0/0/77211152071862.png",
-    "grupo": "Cine & Series",
-    "canal": "AXN",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "976d703cb95202a808972c722544fae1",
-      "key": "562775b170402c6e2309ff69b9e48e82"
-    },
-    "url": "https://live1-ott.izzigo.tv/13/out/u/dash/AXN-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "axn"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/97/CH_LOGO/800/542/0/0/35224800072040.png?worldtv2",
-    "grupo": "Cine & Series",
-    "canal": "FX",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "8ce1ec3e2402a170cbe13b79ce9bb30f",
-      "key": "82fdcfde32cc02673547e58b50e2b5ae"
-    },
-    "url": "https://live1-ott.izzigo.tv/13/out/u/dash/FX-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "fx"
-  },
-  {
-    "logo": "https://i.postimg.cc/vTK3N70T/sony-channel.png",
-    "grupo": "Cine & Series",
-    "canal": "Sony Channel",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "47b8d1118047c47ff9d794fca6c9997a",
-      "key": "97af829b2dd037fb85550b85b0757685"
-    },
-    "url": "https://live1-ott.izzigo.tv/13/out/u/dash/SONY-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "sonychannel"
-  },
-  {
-    "logo": "https://i.ibb.co/HFpZ6CC/sony-movies.png",
-    "grupo": "Cine & Series",
-    "canal": "Sony Movies",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "d6c0b2a5a6d7aa72f6f76f3607364cea",
-      "key": "29772b450393146e8d1b56107f5163a2"
-    },
-    "url": "https://live1-ott.izzigo.tv/14/out/u/dash/SONY-MOVIES-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "sonymovies"
-  },
-  {
-    "logo": "https://i.postimg.cc/yNPgTC2x/space-hd.png",
-    "grupo": "Cine & Series",
-    "canal": "SPACE",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "010c457d967d5aa2c57c727fdddc5ed3",
-      "key": "5e214c17052cc48416e676ff712e19f3"
-    },
-    "url": "https://live1-ott.izzigo.tv/6/out/u/dash/SPACE-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "space"
-  },
-  {
-    "logo": "https://i.postimg.cc/5NP3RrN2/tnt.png",
-    "grupo": "Cine & Series",
-    "canal": "TNT",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "37971d47c9e64d7584058efcfdc424b3",
-      "key": "9944ecda48ef3d6325ccf89ab32bef83"
-    },
-    "url": "https://live1-ott.izzigo.tv/6/out/u/dash/TNT-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "tnt"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/117/CH_LOGO/320/320/0/0/18783550073421.png|worldtv2",
-    "grupo": "Cine & Series",
-    "canal": "TNT Series",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "8c7c3c7a05812a5245d64c0eced08a41",
-      "key": "e56c4dedfa6c51f617cc7c9d2d61f7a8"
-    },
-    "url": "https://live1-ott.izzigo.tv/11/out/u/dash/TNT-SERIES-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "tntseries"
-  },
-  {
-    "logo": "https://i.postimg.cc/GpZq6zN8/universal-tv.jpg",
-    "grupo": "Cine & Series",
-    "canal": "UNIVERSAL TV",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "4a2ba796015a9636a16d8642df61b78c",
-      "key": "4a5fbd582e55d6077b33b1bf3395c3ff"
-    },
-    "url": "https://live1-ott.izzigo.tv/7/out/u/dash/UNIVERSAL-CHANNEL-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "universaltv"
-  },
-  {
-    "logo": "https://i.ibb.co/s9JprFc/unnamed-7.jpg",
-    "grupo": "Cine & Series",
-    "canal": "Studio Universal",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "6ee0c3f640563291985fe0366dceed65",
-      "key": "20dcfcd030c4baa0e0a731619e1a0187"
-    },
-    "url": "https://live1-ott.izzigo.tv/7/out/u/dash/STUDIO-UNIVERSAL-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "studiouniversal"
-  },
-  {
-    "logo": "https://i.ibb.co/s1yPj71/worldtv2.png",
-    "grupo": "Cine & Series",
-    "canal": "Golden",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "bc0e4c7dfb10d483357572000180cca5",
-      "key": "247351382fcd721f2872c4bda15c5245"
-    },
-    "url": "https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-SD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "golden"
-  },
-  {
-    "logo": "https://i.ibb.co/BTjfF3p/golden-multiplex.png",
-    "grupo": "Cine & Series",
-    "canal": "Golden Multiplex",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "f23601997bc024ea96b6b9d1e2b8b3fc",
-      "key": "521a2cfdd3f649a9543422dc41fa4ca0"
-    },
-    "url": "https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-MULTIPLEX/default.mpd",
-    "tipo": "clearkey",
-    "channel": "goldenmultiplex"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/315/CH_LOGO/800/542/0/0/86179590071069.png",
-    "grupo": "Cine & Series",
-    "canal": "Golden Edge",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "98aa90cb620b972a0d0d66a51cdaca56",
-      "key": "6e8bd53378356ed7f5103d91efb5e54e"
-    },
-    "url": "https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-EDGE-SD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "goldenedge"
-  },
-  {
-    "logo": "https://i.postimg.cc/J4hMqVDX/golden-plus.png",
-    "grupo": "Cine & Series",
-    "canal": "Golden Plus",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "3555824ee6a09d671a2362f37f5a39b9",
-      "key": "f240e5b5e8a27ca8550f23a553451a90"
-    },
-    "url": "https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-PLUS-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "goldenplus"
-  },
-  {
-    "logo": "https://i.ibb.co/6D60Brn/golden-premier.png",
-    "grupo": "Cine & Series",
-    "canal": "Golden Premier",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "34fa35c8323c11cbb83cb381be55bd64",
-      "key": "02ccc6ae07d997bdbd8b97865d69bb35"
-    },
-    "url": "https://live1-ott.izzigo.tv/12/out/u/dash/GOLDEN-PREMIER-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "goldenpremier"
-  },
-  {
-    "logo": "https://i.postimg.cc/DZFK4t3Q/golden-premier-2.png",
-    "grupo": "Cine & Series",
-    "canal": "Golden Premier 2",
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "clearkey": {
-      "keyId": "717324c2c4e6694baddacfd5fbd3a20f",
-      "key": "aacbecfb7f1da441a420a582400102da"
-    },
-    "url": "https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-PREMIER-2HR-HD/default.mpd",
-    "tipo": "clearkey",
-    "channel": "goldenpremier2"
-  },
-  {
-    "logo": "https://i.ibb.co/VjjgVWW/hbo.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO",
-    "clearkey": {
-      "keyId": "b059cdbfc787a32f57fbcb6e52dbc0a0",
-      "key": "50648d7806624eb8d53fb2aecc8b1af1"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c4eds/HBOHD/SA_Live_dash_enc_wl/HBOHD.mpd",
-    "tipo": "clearkey",
-    "channel": "hbo"
-  },
-  {
-    "logo": "https://i.postimg.cc/hP2f012C/HBO.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO 🇲🇽",
-    "clearkey": {
-      "keyId": "026db28a966b1d022cbeaa8816e5525b",
-      "key": "ed3f885f288102d9de178bdef3b7e451"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/7/out/u/dash/HBO-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbo"
-  },
-  {
-    "logo": "https://github.com/masterentertainment/listas/blob/main/logos/HBO2P.png?raw=true",
-    "grupo": "HBO x Universal",
-    "canal": "HBO 2",
-    "clearkey": {
-      "keyId": "91bd6f829d06498c21e212acf1c5fa07",
-      "key": "148a358284689e40b22074c244c535da"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_2/SA_Live_dash_enc/HBO_2.mpd",
-    "tipo": "clearkey",
-    "channel": "hbo2"
-  },
-  {
-    "logo": "https://github.com/masterentertainment/listas/blob/main/logos/HBO2P.png?raw=true",
-    "grupo": "HBO x Universal",
-    "canal": "HBO 2 🇲🇽",
-    "clearkey": {
-      "keyId": "8cee93949588075725a6b3528a415ae1",
-      "key": "ab2bf64ff3a054e56527bce95c909f82"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO2-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbo2"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/160/160/0/0/10237380072165.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Plus",
-    "clearkey": {
-      "keyId": "c1c780647a98d46c3e5867cf204d129a",
-      "key": "006d44f02be55c28f34b9106d79a82a9"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_Plus/SA_Live_dash_enc/HBO_Plus.mpd",
-    "tipo": "clearkey",
-    "channel": "hboplus"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/160/160/0/0/10237380072165.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Plus 🇲🇽",
-    "clearkey": {
-      "keyId": "bcf21b0b685df69510b2709f18befd17",
-      "key": "19f88216f52de21149cda28c301f5d96"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-PLUS-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hboplus"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/160/160/0/0/7354519807335.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Family",
-    "clearkey": {
-      "keyId": "9768f423e5121ded23637f54245506a2",
-      "key": "abd28dce83c82d26d5953b416db0e52a"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_Family/SA_Live_dash_enc/HBO_Family.mpd",
-    "tipo": "clearkey",
-    "channel": "hbofamily"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/160/160/0/0/7354519807335.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Family 🇲🇽",
-    "clearkey": {
-      "keyId": "230a6cfa5e7fd4665b15b6ddccb96459",
-      "key": "939c3f61b9fb213518e49c24eceeab85"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-FAMILY-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbofamily"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/160/160/0/0/61157416071448.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Mundi",
-    "clearkey": {
-      "keyId": "56fc145492109590d82cf8f60c55d4f5",
-      "key": "c713241579436e0d5fe2480b6eb7b1fd"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_Mundi/SA_Live_dash_enc/HBO_Mundi.mpd",
-    "tipo": "clearkey",
-    "channel": "hbomundi"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/160/160/0/0/61157416071448.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Mundi 🇲🇽",
-    "clearkey": {
-      "keyId": "96b2370bdcc9acb6caa0cfd5aa35dcf4",
-      "key": "b732a02918aa32e739e43952db768cc6"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-MUNDI-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbomundi"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Signature",
-    "clearkey": {
-      "keyId": "4918d3bf399a237e8ee065eb3ebf7327",
-      "key": "747179296ae370e9b8746a09904b5385"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_Signature/SA_Live_dash_enc/HBO_Signature.mpd",
-    "tipo": "clearkey",
-    "channel": "hbosignature"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Signature FHD",
-    "clearkey": {
-      "keyId": "4918d3bf399a237e8ee065eb3ebf7327",
-      "key": "747179296ae370e9b8746a09904b5385"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_Signature/SA_Live_dash_enc_wl/HBO_Signature.mpd",
-    "tipo": "clearkey",
-    "channel": "hbosignaturefhd"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Signature 🇲🇽",
-    "clearkey": {
-      "keyId": "cbda1cb384558d8ec6fd3cc3841bad87",
-      "key": "0eba590cffc565ed48ee61970c8bf2dc"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-SIGNATURE-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbosignature"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/160/160/0/0/68908128073927.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Pop",
-    "clearkey": {
-      "keyId": "782be6aa05e2e53f1f0769ac21335975",
-      "key": "bc54efe24ebc6127dee264704cdd543b"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c7eds/HBO_POP/SA_Live_dash_enc/HBO_POP.mpd",
-    "tipo": "clearkey",
-    "channel": "hbopop"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/160/160/0/0/68908128073927.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Pop 🇲🇽",
-    "clearkey": {
-      "keyId": "04ab4cefd27bf2635261fa714af883d6",
-      "key": "5a1282ee809826b9b2a5636970730da6"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-POP-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hbopop"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/160/160/0/0/6041444607334.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Xtreme",
-    "clearkey": {
-      "keyId": "b1c518c4859b1eac1ac409dd7a712155",
-      "key": "d9ae29d636e14074da10360765ee4cb5"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/HBO_Extreme/SA_Live_dash_enc/HBO_Extreme.mpd",
-    "tipo": "clearkey",
-    "channel": "hboxtreme"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/160/160/0/0/6041444607334.png",
-    "grupo": "HBO x Universal",
-    "canal": "HBO Xtreme 🇲🇽",
-    "clearkey": {
-      "keyId": "abf304290bec7c982e706b1fae592aea",
-      "key": "73e1d01cc86bb88c184fbca31292977f"
-    },
-    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-    "referer": "https://www.izzigo.tv/",
-    "origin": "https://www.izzigo.tv",
-    "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-XTREME-HD-H265/default.mpd",
-    "tipo": "clearkey",
-    "channel": "hboxtreme"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/41/CH_LOGO/800/542/0/0/9929073907327.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal TV",
-    "clearkey": {
-      "keyId": "e0bb7db70deee6be9b881a5bd1af6453",
-      "key": "88c72f8626a9d7a9ca222fed62e1e6af"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/Universal_Channel_HD/SA_Live_dash_enc/Universal_Channel_HD.mpd",
-    "tipo": "clearkey",
-    "channel": "universaltv"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/160/160/0/0/62685863076950.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Premiere",
-    "clearkey": {
-      "keyId": "909eb7589305cd00e1b6827fadd74411",
-      "key": "43a9e55701369434df4892240d9741c2"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/Universal_Premiere/SA_Live_dash_enc/Universal_Premiere.mpd",
-    "tipo": "clearkey",
-    "channel": "universalpremiere"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/800/542/0/0/62685863076950.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Premiere opc2",
-    "clearkey": {
-      "keyId": "https",
-      "key": "//archive.org/download/hb7bfh.f/HB7%2524b%2524Fh%25C2%25B7F%2524/t.me/teleplay24"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://unipluslivedash.akamaized.net/universalpremiert0/manifest.mpd",
-    "tipo": "clearkey",
-    "channel": "universalpremiereopc2"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/800/542/0/0/62685863076950.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Premiere Oeste",
-    "clearkey": {
-      "keyId": "547c1e15b8e93f1077d34f77a7ab018f",
-      "key": "ba3f1a0580b46e371a6b02ef2ab2304f"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/ciqsqqxp8g/out/v1/e9283351f50849a8ab602a894772649f/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "universalpremiereoeste"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/160/160/0/0/21817888076947.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Cinema",
-    "clearkey": {
-      "keyId": "6c2ba2a391c2edc5a2990841c5c30636",
-      "key": "892061b87f07c6d816f234a1328c3420"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/Universal_Cinema/SA_Live_dash_enc/Universal_Cinema.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcinema"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/800/542/0/0/21817888076947.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Cinema opc2",
-    "clearkey": {
-      "keyId": "https",
-      "key": "//archive.org/download/hb7bfh.f/HB7%2524b%2524Fh%25C2%25B7F%2524/t.me/worldtv6"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://unipluslivedash.akamaized.net/universalcinemat0/manifest.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcinemaopc2"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/800/542/0/0/21817888076947.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Cinema Oeste",
-    "clearkey": {
-      "keyId": "be1597d0eb3b71cb21b8e8a55230874d",
-      "key": "0295a763fca3851258af5901907bf0b1"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/eishhvjuuz/out/v1/92b27f5cd5244bba8071fcd0d09be067/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcinemaoeste"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1283/CH_LOGO/160/160/0/0/94843453076948.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Comedy",
-    "clearkey": {
-      "keyId": "1b517ae7d7f99219f56dd4a84e15b81c",
-      "key": "339c4e668547d83c35c32e97a0a1453e"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/Universal_Comedy/SA_Live_dash_enc/Universal_Comedy.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcomedy"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1283/CH_LOGO/800/542/0/0/94843453076948.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Comedy opc2",
-    "clearkey": {
-      "keyId": "9fd8daa507b4c58f414f1d007cf0eccf",
-      "key": "062672eb7346a690feab6c84a8de9dce"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/pfpdcsvoyd/out/v1/1bb43614ccd348fd8b9cc4d4fc5be059/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcomedyopc2"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1284/CH_LOGO/160/160/0/0/34307524076949.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Crime",
-    "clearkey": {
-      "keyId": "d8a2142b66d54b58165973e137bef4f0",
-      "key": "f30900beab737d0f39b543e58344ba2f"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar/",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/universal_Crime/SA_Live_dash_enc/universal_Crime.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcrime"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1284/CH_LOGO/800/542/0/0/34307524076949.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Crime opc2",
-    "clearkey": {
-      "keyId": "cfc6790cbc2bc791b05c4f8f8126f5b5",
-      "key": "b1c5b3c9a8ddc4badf5f49f8a989cf77"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/xuvkx1kkfl/out/v1/6a977f46a77b4a03a1e55db484c1695a/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "universalcrimeopc2"
-  },
-  {
-    "logo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/UNIRE.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Reality",
-    "clearkey": {
-      "keyId": "8ebb9535d7a19a2876a1d150fe613c88",
-      "key": "c1ad609a9831f56126f3c76ffbc4ca04"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/Universal_Reality/SA_Live_dash_enc/Universal_Reality.mpd",
-    "tipo": "clearkey",
-    "channel": "universalreality"
-  },
-  {
-    "logo": "https://geo.edge.pontiscloud.com:9002/images/1281/CH_LOGO/800/542/0/0/16370616076951.png",
-    "grupo": "HBO x Universal",
-    "canal": "Universal Reality opc2",
-    "clearkey": {
-      "keyId": "6824642c08bd3cdb6c08404a894287f9",
-      "key": "081aab1fb4e8da70e21bb906e704e5d6"
-    },
-    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
-    "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/tezhlmgs1w/out/v1/362fef2b778b4531b4e0dd3db6acf805/cenc.mpd",
-    "tipo": "clearkey",
-    "channel": "universalrealityopc2"
-  },
-  {
-    "logo": "https://i.postimg.cc/PrmQzBjx/Fondo_oscuro.png",
-    "grupo": "HBO x Universal",
-    "canal": "Studio Universal",
-    "clearkey": {
-      "keyId": "dbe5d9ce01740076fdc95cbc0253b9ee",
-      "key": "d8a8ef434bffae80e45e203f6f7f4988"
-    },
-    "referer": "https://portal.app.flow.com.ar",
-    "origin": "https://portal.app.flow.com.ar",
-    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0OTE0MDA4Iiwic2lwIjoiMTkwLjEzOS40MS4yMzEiLCJwYXRoIjoiL2xpdmUvYzZlZHMvQ2FuYWxfZGVfbGFfY2l1ZGFkL1NBX0xpdmVfZGFzaF9lbmNfLyIsInNlc3Npb25fY2RuX2lkIjoiM2ExNDQyOWFlYzI5NzE2MSIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTgxLjEyLjM2LjE1MCIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.bimo7fMuJwz5ckDzgTAgxuLMLFPE7o0kMNtx6ApDuIi1MbHMbSTX8304_mz8fIhGeJ7_1w1z8P9N_oATfds14w==/live/c6eds/Studio_Universal/SA_Live_dash_enc/Studio_Universal.mpd",
-    "tipo": "clearkey",
-    "channel": "studiouniversal"
-  }
+    {
+        "canal": "ESPN AR MUTICALIDAD",
+        "channel": "espnar",
+        "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "d079ffa3757e8335611fc48be6ba47ff",
+            "key": "05059d1cb21b6708a55e9c26fb38e2f3"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd"
+    },
+    {
+        "canal": "ESPN FHD",
+        "channel": "espn",
+        "logo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "b3e4e74ae2080b137e68bbd0ef8a7e05",
+            "key": "cb004fb100bd92f23793562891e3236b"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?"
+    },
+    {
+        "canal": "ESPN PY HD",
+        "channel": "espn",
+        "logo": "http://res.cloudinary.com/doj39auqi/image/upload/v1684343656/cxuieragbu4epuhxo7in.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "e95fe84b9f73e6655fde711d5c896056",
+            "key": "267a0e514deb984803bec43cc607c4cb"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd"
+    },
+    {
+        "canal": "ESPN CL HD",
+        "channel": "espn",
+        "logo": "http://res.cloudinary.com/doj39auqi/image/upload/v1684343656/cxuieragbu4epuhxo7in.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "606d3b409c063e56b5e2be3ea2226080",
+            "key": "bc68305fdf7067d9e23785374dedc145"
+        },
+        "referer": "https://gtdtv.gtd.cl/",
+        "origin": "https://a19095b072504a86808dd0be541a700f.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1104/1104_ESPN_ARGENTINA_HD_DASH/manifest.mpd"
+    },
+    {
+        "canal": "ESPN 2 HD",
+        "channel": "espn2",
+        "logo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "0d820100144772fed9f38b83650fa7e1",
+            "key": "ded8cc47b29b0eb0b0a87df22e721847"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd"
+    },
+    {
+        "canal": "ESPN 2 FHD",
+        "channel": "espn2",
+        "logo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/ESPN2.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
+            "key": "6d15568e1dab59e7202ae12e71505185"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?"
+    },
+    {
+        "canal": "ESPN 3 FHD",
+        "channel": "espn3",
+        "logo": "https://i.postimg.cc/0MCLmw7Z/ESPN-3-Argentina.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "8a60d7889ff126ee1895335e92254f8e",
+            "key": "de1b0ce19fa804a1c473eb8ef2d5cf6d"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.mpd?"
+    },
+    {
+        "canal": "ESPN 4 FHD",
+        "channel": "espn4",
+        "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "54a2c11085c315ed6ff85c340a86095d",
+            "key": "5f0d10cf4a5c7e22e286b7e8cb4e79f4"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.mpd?"
+    },
+    {
+        "canal": "ESPN 5 FHD",
+        "channel": "espn5",
+        "logo": "https://i.imgur.com/eBYBgnn.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "4e126297fc7af35c736bdffe98eecaaa",
+            "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
+        },
+        "referer": "",
+        "origin": "",
+        "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?"
+    },
+    {
+        "canal": "ESPN 6 FHD",
+        "channel": "espn6",
+        "logo": "https://i.imgur.com/dk8AYkV.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "f5836382452cdca1e1c8bf8b9a713534",
+            "key": "7d261930c3309ed2b06d2abb34a64410"
+        },
+        "referer": "",
+        "origin": "",
+        "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.mpd?"
+    },
+    {
+        "canal": "ESPN 7 FHD",
+        "channel": "espn7",
+        "logo": "https://i.imgur.com/bWrggk0.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "98ea1e32227adcd3618baac2bbf36814",
+            "key": "72a03a09d33e412f14a9bfa4ef24b542"
+        },
+        "referer": "",
+        "origin": "",
+        "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?"
+    },
+    {
+        "canal": "ESPN CO HD",
+        "channel": "espn",
+        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/mq2tu41660762188.png",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "http://209.61.12.132:9000/play/a06z/index.m3u8"
+    },
+    {
+        "canal": "ESPN 2 CO HD",
+        "channel": "espn2",
+        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/pvvydr1660761581.png",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "http://190.60.48.151:8010/play/a09l/index.m3u8"
+    },
+    {
+        "canal": "ESPN 2 AR MUTICALIDAD",
+        "channel": "espn2ar",
+        "logo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "e6eab53cf8ea962b999c59c298596a65",
+            "key": "10c103ae76f99620d66fa75f2c03302a"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd"
+    },
+    {
+        "canal": "ESPN 3 AR MUTICALIDAD",
+        "channel": "espn3",
+        "logo": "https://i.postimg.cc/0MCLmw7Z/ESPN-3-Argentina.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "deeed0f44c6b45e064f4d5064486e821",
+            "key": "bf89ceeb93564ddc603ba6afd8c9266a"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd"
+    },
+    {
+        "canal": "ESPN 4 AR MUTICALIDAD",
+        "channel": "espn4",
+        "logo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "d02981e6faeacef49c90fdb053ab641d",
+            "key": "645e13624e933841b1ea35cda1b55bd1"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd"
+    },
+    {
+        "canal": "ESPN 5 AR MUTICALIDAD",
+        "channel": "espn5",
+        "logo": "https://i.imgur.com/eBYBgnn.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
+            "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd"
+    },
+    {
+        "canal": "ESPN 6 AR MUTICALIDAD",
+        "channel": "espn6",
+        "logo": "https://i.imgur.com/dk8AYkV.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "fdac9b45f19959b848f498c8efe15d12",
+            "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd"
+    },
+    {
+        "canal": "ESPN 7 AR MUTICALIDAD",
+        "channel": "espn7",
+        "logo": "https://i.imgur.com/bWrggk0.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "fdac9b45f19959b848f498c8efe15d12",
+            "key": "c2a6e7acabc370ef792ffacc5e2610a9"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd"
+    },
+    {
+        "canal": "DSports FHD",
+        "channel": "dsports",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+        "grupo": "DEPORTES",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "f8b207c10f3f76aeba32a360ec52b9e4",
+            "key": "afad49d20eb39670e93e371c1d669921"
+        },
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd"
+    },
+    {
+        "canal": "DSPORTS ARG FHD",
+        "channel": "dsportsar",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
+        "grupo": "DEPORTES",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "4f4c3a9912ea752e88f4497864a1bc8b",
+            "key": "278128004fe8c6ffb2cd2a0c154a241a"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd"
+    },
+    {
+        "canal": "DSPORTS 2 HD MUTICALIDAD",
+        "channel": "dsports2",
+        "logo": "https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png",
+        "grupo": "DEPORTES",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
+            "key": "ea07b87acdf2e45be824cde4a1cf3504"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd"
+    },
+    {
+        "canal": "DSports + MUTICALIDAD",
+        "channel": "dsportsplus",
+        "logo": "https://d18o29lhcg4kda.cloudfront.net/fit-in/1440x1080/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_1440x1080.png",
+        "grupo": "DEPORTES",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "83f81c4cc1443991543de4e22eea7586",
+            "key": "ddfd7ca653d6f35543d8edb3c688e20f"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd"
+    },
+    {
+        "canal": "SKY sports La Liga MUTICALIDAD",
+        "channel": "daznlaliga",
+        "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+        "grupo": "Deportes",
+        "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2",
+        "referer": "https://www.izzigo.tv/webclient/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+            "key": "103ae55c7948ca1d159d6743619d26c4"
+        },
+        "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd"
+    },
+    {
+        "canal": "SKY sports La Liga MUTICALIDAD",
+        "channel": "mlaliga",
+        "logo": "https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/deportes/CHskysportslaliga.png",
+        "grupo": "Deportes",
+        "userAgent": "izzigo/11.5.1(18)_prd izzigo ahh (Linux;Android 16) AndroidXMedia3/1.0.2",
+        "referer": "https://www.izzigo.tv/webclient/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+            "key": "103ae55c7948ca1d159d6743619d26c4"
+        },
+        "url": "https://live3-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd"
+    },
+    {
+        "canal": "CAZÉTV 🇧🇷",
+        "channel": "cazetv",
+        "logo": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-0.png",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "34475edab991ad5e92548aebd710410a",
+            "key": "501b209cccd323ac00bf5ac15b406cb4"
+        },
+        "url": "https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd"
+    },
+    {
+        "canal": "CAZÉTV 2 🇧🇷",
+        "channel": "cazetv",
+        "logo": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-0.png",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "0a29e3b7dc26ced80114da99266ea636",
+            "key": "9f1e4034545fed90b5ce7a8f8925e621"
+        },
+        "url": "https://a12aivottepl-a.akamaihd.net/gru-nitro/live/clients/dash-sd/enc/iy79zu8tb9/out/v1/e86df8b45c0f452daf49ca6e3d27103e/cenc-sd.mpd"
+    },
+    {
+        "canal": "SPORTV 1 🇧🇷",
+        "channel": "sportv1",
+        "logo": "https://i.ibb.co/NKs6v0v/sportv.png",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "51c0ef23b17297e5c01cd7f36dd0a6ce",
+            "key": "8823f713ba6fdb9bbe0a2ad82d309a4b"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd"
+    },
+    {
+        "canal": "SPORTV 2 🇧🇷",
+        "channel": "sportv2",
+        "logo": "https://i.ibb.co/L6MdcHL/sportv2.png",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "3de028eafb3b2caffec03be1c1c818b3",
+            "key": "8fbdd8a9ae6748696bb13e547bb093fc"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd"
+    },
+    {
+        "canal": "SPORTV 3 🇧🇷",
+        "channel": "sportv3",
+        "logo": "https://i.ibb.co/db4L078/sportv3.png",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "902e5ec0e3d05e665daa32fc23f4f59e",
+            "key": "7b2322a273843921a43e2c61dac7cae3"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd"
+    },
+    {
+        "canal": "PREMIERE 1 🇧🇷",
+        "channel": "premiere1",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "56b79c1782b30e6b6fc973b0e8fd4104",
+            "key": "fa38aaa865a57eda7c77444697ba8ed3"
+        },
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd"
+    },
+    {
+        "canal": "PREMIER 2 🇧🇷",
+        "channel": "premiere2",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "9dc40460c93087aea84d6315f08ecb64",
+            "key": "f69c8d4624fddff4ca89bd0b31bdc4a7"
+        },
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd"
+    },
+    {
+        "canal": "PREMIER 3 🇧🇷",
+        "channel": "premiere3",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "d23f7433798a652a7d4f6791d9e1036c",
+            "key": "4942eebd598b5727c5cc484cc62b52e8"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd"
+    },
+    {
+        "canal": "PREMIER 4 🇧🇷",
+        "channel": "premiere4",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "e23365c2ad97870c871712b73f0d6195",
+            "key": "58709c714320bb862dbd07270df81c94"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd"
+    },
+    {
+        "canal": "PREMIER 5 🇧🇷",
+        "channel": "premiere5",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "332f62eb3cae824e98a4124da29a7d31",
+            "key": "d1698cda3d040f9051125a61745b596b"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase"
+    },
+    {
+        "canal": "PREMIER 6 🇧🇷",
+        "channel": "premiere6",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "561baa89676c89c1d047e1852ba01c09",
+            "key": "a8c157826dfdf1299a329b77e2ab6a1a"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/k1mql3yg4r/out/v1/898067f362a5444bbe42d7568430ca14/cenc-sd.mpd"
+    },
+    {
+        "canal": "PREMIER 7 🇧🇷",
+        "channel": "premiere7",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes Brasil",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "9ee352aac7ed8ee1cb42cfdf322b1cb0",
+            "key": "053d635fc90e175881bef26cd29f371e"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/kqftwsvdgz/out/v1/9f866bc326d241aa9d470c52654a7bf9/cenc-sd.mpd"
+    },
+    {
+        "canal": "FOX Sports MUTICALIDAD",
+        "channel": "fox1ar",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-ar.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "37730b00a5f92084c47a8129e84559f3",
+            "key": "a2e20a45a057ff4e7c0bc2ad49e6f3e5"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd"
+    },
+    {
+        "canal": "FOX Sports 2 MUTICALIDAD",
+        "channel": "fox2ar",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
+            "key": "23129ab5572aeda7607c920655c0dbea"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd"
+    },
+    {
+        "canal": "FOX Sports 3 MUTICALIDAD",
+        "channel": "fox3ar",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-3-ar.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "4629bd0ae30c0e72af111fb948fada1c",
+            "key": "7864154c679e769e7f164ba083c8fad3"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd"
+    },
+    {
+        "canal": "FOX Sports 1 HD",
+        "channel": "foxar",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports1/playlist.m3u8"
+    },
+    {
+        "canal": "FOX Sports 2 HD",
+        "channel": "fox2ar",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8"
+    },
+    {
+        "canal": "FOX Sports 3 HD",
+        "channel": "fox3ar",
+        "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports3/playlist.m3u8"
+    },
+    {
+        "canal": "TNT SPORTS HD",
+        "channel": "tntsports",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "http://190.7.19.206:8098/play/a0pu/index.m3u8"
+    },
+    {
+        "canal": "TNT Sports Premium FHD MUTICALIDAD",
+        "channel": "tntsports",
+        "logo": "https://i.postimg.cc/WbsZGtb2/Fondo_Oscuro.png",
+        "grupo": "Fútbol Argentino",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "9fb56301bc7687baf0b1a61def9a007a",
+            "key": "947d2294ba67256827e8e97f267e71e0"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/TNT_Sports_HD/SA_Live_dash_enc_wl/TNT_Sports_HD.mpd"
+    },
+    {
+        "canal": "ESPN Premium FHD MUTICALIDAD",
+        "channel": "espnpremium",
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
+        "grupo": "Fútbol Argentino",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "c502892e037a9f34827147b2b24e42cf",
+            "key": "2531bd34bec6c0e8fa4e07aedb261ade"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd"
+    },
+    {
+        "canal": "ESPN Premium HD",
+        "channel": "espnpremium",
+        "userAgent": "APPMOVIL-e4ff1c8cc00f29e8",
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "http://190.7.19.206:8098/play/a0nx/index.m3u8"
+    },
+    {
+        "canal": "TyC Sports FHD MUTICALIDAD",
+        "channel": "tyc",
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1981/CH_LOGO/400/400/0/0/42832369072861.png",
+        "grupo": "Deportes",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "0b1e6825350fa1bc0032f8f36287e006",
+            "key": "11fc540a4539d18f91cd403a5ed42284"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c7eds/TyCSport/SA_Live_dash_enc_wl/TyCSport.mpd"
+    },
+    {
+        "canal": "TUDN MX FHD",
+        "channel": "tudnmx",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "DEPORTES",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "763ce1ebcaf23502c8cf357c6ef423e1",
+            "key": "0c5e6c0820a1ea28753721db00272411"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/26hxutyti4/out/v1/c7064d5b251a4564b53e0854426b9c8f/cenc.mpd"
+    },
+    {
+        "canal": "TUDN US FHD",
+        "channel": "tudnus",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "https://tkx.mp.lura.live/rest/v2/mcp/video/univision-tudn?anvack=8Q6d5qd2lubv3MRhZrh9xmoPC9Xzo64n"
+    },
+    {
+        "canal": "CANAL 5 MX FHD",
+        "channel": "canal5mx",
+        "logo": "https://i.ibb.co/V310Z0q/canal5.png",
+        "grupo": "DEPORTES",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "d695093ea3e66d75a4d213a3e2cbf360",
+            "key": "01be3f645e89a067d2786c295f68dde4"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd"
+    },
+    {
+        "canal": "AZTECA 7 MUTICALIDAD",
+        "channel": "azteca7",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Logo_Azteca_7_2011.svg/1280px-Logo_Azteca_7_2011.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "DEPORTES",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "9850bd2ac5d9089ce920ca127e67aa57",
+            "key": "8561d5b02983577886cf1f40aed3a8fe"
+        },
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ep2x5rkrf5/out/v1/4e18b1b6cb5a48e19b5062e782008c4e/cenc.mpd"
+    },
+    {
+        "canal": "FOX DEPORTES MUTICALIDAD",
+        "channel": "fox_deportes_usa",
+        "logo": "https://i.ibb.co/qkfX5Wc/FOX-Deportes.png",
+        "grupo": "DEPORTES",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "d1a163914db8ffad2c3e94f979896a0d",
+            "key": "9728800a3959aafdd5b0bcfbf3768811"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd"
+    },
+    {
+        "canal": "LIGA 1 MAX HD",
+        "channel": "liga1max",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/L1MAX-LOGO.svg/3840px-L1MAX-LOGO.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "http://38.87.224.19:2220/play/a001/index.m3u8"
+    },
+    {
+        "canal": "Telefe HD",
+        "channel": "telefe",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original",
+        "grupo": "Argentina",
+        "tipo": "m3u8",
+        "url": "http://38.87.224.19:2220/play/a04b/index.m3u8"
+    },
+    {
+        "canal": "WIN SPORTS + HD",
+        "channel": "winplus",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/3840px-Win_Sports%2B_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8"
+    },
+    {
+        "canal": "ESPN DEPORTES HD",
+        "channel": "espndeportes",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/3840px-ESPN_Deportes.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes",
+        "tipo": "embed",
+        "url": "https://cdnlivetv.tv/api/v1/channels/player/?name=ESPN%20Deportes&code=us&user=cdnlivetv&plan=free"
+    },
+    {
+        "canal": "Liga 1 Max Peru",
+        "channel": "l1max",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/L1MAX-LOGO.svg/3840px-L1MAX-LOGO.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "Deportes",
+        "tipo": "m3u8",
+        "url": "https://cablered.iptvperu.tv:1936/cablered/liga1max.stream/playlist.m3u8"
+    },
+    {
+        "canal": "Liga SmartBank FHD",
+        "channel": "hyper1",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSui1HW0mx4SVFhqbI5A-WQl2dtJGD8qNCVg7YxMp6UMQ&s=10",
+        "grupo": "España",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "a88617e904504ee291f49f0e60a51d49",
+            "key": "17f92d59fde3b6d2bf4ffb48e8ca720a"
+        },
+        "referer": "https://www.primevideo.com/",
+        "origin": "https://www.primevideo.com",
+        "url": "https://cache2.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd"
+    },
+    {
+        "canal": "Liga SmartBank 2 FHD",
+        "channel": "hyper2",
+        "logo": "https://www.movistarplus.es/recorte/m-DP/canal/MLIGS2.png",
+        "grupo": "España",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "5fc8da8b94c447468ffe392157f8c75e",
+            "key": "333b934fdde4c1ee87e7f1c5dac4cb8f"
+        },
+        "referer": "https://www.primevideo.com/",
+        "origin": "https://www.primevideo.com",
+        "url": "https://cache2.zapitv.com/live/eds_c2/HYPERMOTION2/dash_live_ez/HYPERMOTION2.mpd"
+    },
+    {
+        "canal": "La 1 ES",
+        "channel": "la1es.html",
+        "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/3840px-Logo_La_1.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+        "grupo": "España",
+        "tipo": "clearkey",
+        "clearkey": {
+            "keyId": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+            "key": "ae008f1e47e6567fe4201a6ff8f1ae54"
+        },
+        "referer": "https://www.primevideo.com/",
+        "origin": "https://www.primevideo.com",
+        "url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/100/CH_LOGO/800/542/0/0/228799490721.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "026db28a966b1d022cbeaa8816e5525b",
+            "key": "ed3f885f288102d9de178bdef3b7e451"
+        },
+        "url": "https://live1-ott.izzigo.tv/7/out/u/dash/HBO-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbo"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/101/CH_LOGO/800/542/0/0/36093751072127.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO 2",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "8cee93949588075725a6b3528a415ae1",
+            "key": "ab2bf64ff3a054e56527bce95c909f82"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO2-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbo2"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/800/542/0/0/7354519807335.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO Family",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "230a6cfa5e7fd4665b15b6ddccb96459",
+            "key": "939c3f61b9fb213518e49c24eceeab85"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-FAMILY-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbofamily"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/800/542/0/0/61157416071448.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO Mundi",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "96b2370bdcc9acb6caa0cfd5aa35dcf4",
+            "key": "b732a02918aa32e739e43952db768cc6"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-MUNDI-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbomundi"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/800/542/0/0/10237380072165.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO Plus",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "bcf21b0b685df69510b2709f18befd17",
+            "key": "19f88216f52de21149cda28c301f5d96"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-PLUS-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hboplus"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/800/542/0/0/68908128073927.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO Pop",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "04ab4cefd27bf2635261fa714af883d6",
+            "key": "5a1282ee809826b9b2a5636970730da6"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-POP-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbopop"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/800/542/0/0/3657655307500.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO Signature",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "cbda1cb384558d8ec6fd3cc3841bad87",
+            "key": "0eba590cffc565ed48ee61970c8bf2dc"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-SIGNATURE-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbosignature"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/800/542/0/0/6041444607334.png",
+        "grupo": "Cine & Series",
+        "canal": "HBO Xtreme",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "abf304290bec7c982e706b1fae592aea",
+            "key": "73e1d01cc86bb88c184fbca31292977f"
+        },
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-XTREME-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hboxtreme"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/46/CH_LOGO/800/542/0/0/53485573073445.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinecanal",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "5e87d24ed7b54576895548ffa65eab1d",
+            "key": "1e5d7c9e67248af38e48ec56d2241507"
+        },
+        "url": "https://live1-ott.izzigo.tv/14/out/u/dash/CINECANAL-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "cinecanal"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/47/CH_LOGO/800/542/0/0/60951863073142.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinemax",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "fa6d1b52dd986d8faab9cca6adb8874b",
+            "key": "6022259ba9edb1fe66b4507b51e1c12f"
+        },
+        "url": "https://live1-ott.izzigo.tv/15/out/u/dash/CINEMAX-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "cinemax"
+    },
+    {
+        "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/CINEMAX_WEST_WHITE_1920x1080_f._SL800_FMpng_.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinemax West",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "clearkey": {
+            "keyId": "bf813dc4a32e0e9bcbce4446a65f4b12",
+            "key": "eb9973b1a30c76812aa7ca8864b6a3c1"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/zewdvsfpre/out/v1/d65e537877cc4112b8fd88c6210f39da/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "cinemaxwest"
+    },
+    {
+        "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/CINEMAX_EAST_WHITE_1920x1080_f._SL800_FMpng_.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinemax East",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "clearkey": {
+            "keyId": "3a5fc143bea61aa94eee0479933d5e72",
+            "key": "8a365e8c3e2b8efdbcaab16d07c3b929"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/rckhgp0mdp/out/v1/3952b81ea31d45b38372b128371301d2/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "cinemaxeast"
+    },
+    {
+        "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/cinemax-action._SL800_FMpng_.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinemax Action",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "clearkey": {
+            "keyId": "136a75130b82cdf89cb5f05d739b663f",
+            "key": "0ef360ff75bb11b7f0982a86b86d39ae"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/995zvakyej/out/v1/3fa049c0afea4a83bb5f508f1859f160/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "cinemaxaction"
+    },
+    {
+        "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/cinemax-classics._SL800_FMpng_.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinemax Classics",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "clearkey": {
+            "keyId": "81a74ef0cf71e28d5d9bc55d5fd7921a",
+            "key": "884e89f90a9f5cbaaa5c2a451e1d8f86"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/yfo5p7nmtt/out/v1/fdce98358ffb47c9b6314feb9cfeda3f/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "cinemaxclassics"
+    },
+    {
+        "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/cinemax-hits._SL800_FMpng_.png",
+        "grupo": "Cine & Series",
+        "canal": "Cinemax Hits",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "clearkey": {
+            "keyId": "046c374a3db594dfb32cba86d2e4f72f",
+            "key": "04c00a6ed0fc4ce37841210a42eeeb35"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/bw5g1vx3k9/out/v1/6913f190498b44c8a705e91728401769/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "cinemaxhits"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/862/CH_LOGO/320/320/0/0/33860159072069.png",
+        "grupo": "Cine & Series",
+        "canal": "Comedy Central",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "2a61b7a7912064acc62a06a6ae22ac5c",
+            "key": "5bfb374d644703550f0637532bca0491"
+        },
+        "url": "https://live1-ott.izzigo.tv/12/out/u/dash/COMEDY-CENTRAL-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "comedycentral"
+    },
+    {
+        "logo": "https://m.media-amazon.com/images/G/01/digital/video/Linear_Clean_Slate/Distrito_Comedia._SL800_FMpng_.png",
+        "grupo": "Cine & Series",
+        "canal": "Distrito Comedia",
+        "userAgent": "AivAndroidPlayer/1.0 (AndroidDevice)",
+        "referer": "https://www.primevideo.com/",
+        "clearkey": {
+            "keyId": "2c73635de48c1033f60965175563af02",
+            "key": "ac71c079e88f068aad80e947bac1b494"
+        },
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/jainwiiq5g/out/v1/1094f5319566443cb6a9000810384a1a/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "distritocomedia"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/55/CH_LOGO/800/542/0/0/77211152071862.png",
+        "grupo": "Cine & Series",
+        "canal": "AXN",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "976d703cb95202a808972c722544fae1",
+            "key": "562775b170402c6e2309ff69b9e48e82"
+        },
+        "url": "https://live1-ott.izzigo.tv/13/out/u/dash/AXN-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "axn"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/97/CH_LOGO/800/542/0/0/35224800072040.png?worldtv2",
+        "grupo": "Cine & Series",
+        "canal": "FX",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "8ce1ec3e2402a170cbe13b79ce9bb30f",
+            "key": "82fdcfde32cc02673547e58b50e2b5ae"
+        },
+        "url": "https://live1-ott.izzigo.tv/13/out/u/dash/FX-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "fx"
+    },
+    {
+        "logo": "https://i.postimg.cc/vTK3N70T/sony-channel.png",
+        "grupo": "Cine & Series",
+        "canal": "Sony Channel",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "47b8d1118047c47ff9d794fca6c9997a",
+            "key": "97af829b2dd037fb85550b85b0757685"
+        },
+        "url": "https://live1-ott.izzigo.tv/13/out/u/dash/SONY-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "sonychannel"
+    },
+    {
+        "logo": "https://i.ibb.co/HFpZ6CC/sony-movies.png",
+        "grupo": "Cine & Series",
+        "canal": "Sony Movies",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "d6c0b2a5a6d7aa72f6f76f3607364cea",
+            "key": "29772b450393146e8d1b56107f5163a2"
+        },
+        "url": "https://live1-ott.izzigo.tv/14/out/u/dash/SONY-MOVIES-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "sonymovies"
+    },
+    {
+        "logo": "https://i.postimg.cc/yNPgTC2x/space-hd.png",
+        "grupo": "Cine & Series",
+        "canal": "SPACE",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "010c457d967d5aa2c57c727fdddc5ed3",
+            "key": "5e214c17052cc48416e676ff712e19f3"
+        },
+        "url": "https://live1-ott.izzigo.tv/6/out/u/dash/SPACE-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "space"
+    },
+    {
+        "logo": "https://i.postimg.cc/5NP3RrN2/tnt.png",
+        "grupo": "Cine & Series",
+        "canal": "TNT",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "37971d47c9e64d7584058efcfdc424b3",
+            "key": "9944ecda48ef3d6325ccf89ab32bef83"
+        },
+        "url": "https://live1-ott.izzigo.tv/6/out/u/dash/TNT-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "tnt"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/117/CH_LOGO/320/320/0/0/18783550073421.png|worldtv2",
+        "grupo": "Cine & Series",
+        "canal": "TNT Series",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "8c7c3c7a05812a5245d64c0eced08a41",
+            "key": "e56c4dedfa6c51f617cc7c9d2d61f7a8"
+        },
+        "url": "https://live1-ott.izzigo.tv/11/out/u/dash/TNT-SERIES-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "tntseries"
+    },
+    {
+        "logo": "https://i.postimg.cc/GpZq6zN8/universal-tv.jpg",
+        "grupo": "Cine & Series",
+        "canal": "UNIVERSAL TV",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "4a2ba796015a9636a16d8642df61b78c",
+            "key": "4a5fbd582e55d6077b33b1bf3395c3ff"
+        },
+        "url": "https://live1-ott.izzigo.tv/7/out/u/dash/UNIVERSAL-CHANNEL-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "universaltv"
+    },
+    {
+        "logo": "https://i.ibb.co/s9JprFc/unnamed-7.jpg",
+        "grupo": "Cine & Series",
+        "canal": "Studio Universal",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "6ee0c3f640563291985fe0366dceed65",
+            "key": "20dcfcd030c4baa0e0a731619e1a0187"
+        },
+        "url": "https://live1-ott.izzigo.tv/7/out/u/dash/STUDIO-UNIVERSAL-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "studiouniversal"
+    },
+    {
+        "logo": "https://i.ibb.co/s1yPj71/worldtv2.png",
+        "grupo": "Cine & Series",
+        "canal": "Golden",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "bc0e4c7dfb10d483357572000180cca5",
+            "key": "247351382fcd721f2872c4bda15c5245"
+        },
+        "url": "https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-SD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "golden"
+    },
+    {
+        "logo": "https://i.ibb.co/BTjfF3p/golden-multiplex.png",
+        "grupo": "Cine & Series",
+        "canal": "Golden Multiplex",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "f23601997bc024ea96b6b9d1e2b8b3fc",
+            "key": "521a2cfdd3f649a9543422dc41fa4ca0"
+        },
+        "url": "https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-MULTIPLEX/default.mpd",
+        "tipo": "clearkey",
+        "channel": "goldenmultiplex"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/315/CH_LOGO/800/542/0/0/86179590071069.png",
+        "grupo": "Cine & Series",
+        "canal": "Golden Edge",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "98aa90cb620b972a0d0d66a51cdaca56",
+            "key": "6e8bd53378356ed7f5103d91efb5e54e"
+        },
+        "url": "https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-EDGE-SD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "goldenedge"
+    },
+    {
+        "logo": "https://i.postimg.cc/J4hMqVDX/golden-plus.png",
+        "grupo": "Cine & Series",
+        "canal": "Golden Plus",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "3555824ee6a09d671a2362f37f5a39b9",
+            "key": "f240e5b5e8a27ca8550f23a553451a90"
+        },
+        "url": "https://live1-ott.izzigo.tv/14/out/u/dash/GOLDEN-PLUS-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "goldenplus"
+    },
+    {
+        "logo": "https://i.ibb.co/6D60Brn/golden-premier.png",
+        "grupo": "Cine & Series",
+        "canal": "Golden Premier",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "34fa35c8323c11cbb83cb381be55bd64",
+            "key": "02ccc6ae07d997bdbd8b97865d69bb35"
+        },
+        "url": "https://live1-ott.izzigo.tv/12/out/u/dash/GOLDEN-PREMIER-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "goldenpremier"
+    },
+    {
+        "logo": "https://i.postimg.cc/DZFK4t3Q/golden-premier-2.png",
+        "grupo": "Cine & Series",
+        "canal": "Golden Premier 2",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "clearkey": {
+            "keyId": "717324c2c4e6694baddacfd5fbd3a20f",
+            "key": "aacbecfb7f1da441a420a582400102da"
+        },
+        "url": "https://live1-ott.izzigo.tv/13/out/u/dash/GOLDEN-PREMIER-2HR-HD/default.mpd",
+        "tipo": "clearkey",
+        "channel": "goldenpremier2"
+    },
+    {
+        "logo": "https://i.ibb.co/VjjgVWW/hbo.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO",
+        "clearkey": {
+            "keyId": "b059cdbfc787a32f57fbcb6e52dbc0a0",
+            "key": "50648d7806624eb8d53fb2aecc8b1af1"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c4eds/HBOHD/SA_Live_dash_enc_wl/HBOHD.mpd",
+        "tipo": "clearkey",
+        "channel": "hbo"
+    },
+    {
+        "logo": "https://i.postimg.cc/hP2f012C/HBO.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO 🇲🇽",
+        "clearkey": {
+            "keyId": "026db28a966b1d022cbeaa8816e5525b",
+            "key": "ed3f885f288102d9de178bdef3b7e451"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/7/out/u/dash/HBO-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbo"
+    },
+    {
+        "logo": "https://github.com/masterentertainment/listas/blob/main/logos/HBO2P.png?raw=true",
+        "grupo": "HBO x Universal",
+        "canal": "HBO 2",
+        "clearkey": {
+            "keyId": "91bd6f829d06498c21e212acf1c5fa07",
+            "key": "148a358284689e40b22074c244c535da"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_2/SA_Live_dash_enc/HBO_2.mpd",
+        "tipo": "clearkey",
+        "channel": "hbo2"
+    },
+    {
+        "logo": "https://github.com/masterentertainment/listas/blob/main/logos/HBO2P.png?raw=true",
+        "grupo": "HBO x Universal",
+        "canal": "HBO 2 🇲🇽",
+        "clearkey": {
+            "keyId": "8cee93949588075725a6b3528a415ae1",
+            "key": "ab2bf64ff3a054e56527bce95c909f82"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO2-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbo2"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/160/160/0/0/10237380072165.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Plus",
+        "clearkey": {
+            "keyId": "c1c780647a98d46c3e5867cf204d129a",
+            "key": "006d44f02be55c28f34b9106d79a82a9"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_Plus/SA_Live_dash_enc/HBO_Plus.mpd",
+        "tipo": "clearkey",
+        "channel": "hboplus"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/124/CH_LOGO/160/160/0/0/10237380072165.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Plus 🇲🇽",
+        "clearkey": {
+            "keyId": "bcf21b0b685df69510b2709f18befd17",
+            "key": "19f88216f52de21149cda28c301f5d96"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-PLUS-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hboplus"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/160/160/0/0/7354519807335.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Family",
+        "clearkey": {
+            "keyId": "9768f423e5121ded23637f54245506a2",
+            "key": "abd28dce83c82d26d5953b416db0e52a"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_Family/SA_Live_dash_enc/HBO_Family.mpd",
+        "tipo": "clearkey",
+        "channel": "hbofamily"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/102/CH_LOGO/160/160/0/0/7354519807335.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Family 🇲🇽",
+        "clearkey": {
+            "keyId": "230a6cfa5e7fd4665b15b6ddccb96459",
+            "key": "939c3f61b9fb213518e49c24eceeab85"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-FAMILY-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbofamily"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/160/160/0/0/61157416071448.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Mundi",
+        "clearkey": {
+            "keyId": "56fc145492109590d82cf8f60c55d4f5",
+            "key": "c713241579436e0d5fe2480b6eb7b1fd"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_Mundi/SA_Live_dash_enc/HBO_Mundi.mpd",
+        "tipo": "clearkey",
+        "channel": "hbomundi"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/107/CH_LOGO/160/160/0/0/61157416071448.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Mundi 🇲🇽",
+        "clearkey": {
+            "keyId": "96b2370bdcc9acb6caa0cfd5aa35dcf4",
+            "key": "b732a02918aa32e739e43952db768cc6"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-MUNDI-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbomundi"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Signature",
+        "clearkey": {
+            "keyId": "4918d3bf399a237e8ee065eb3ebf7327",
+            "key": "747179296ae370e9b8746a09904b5385"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_Signature/SA_Live_dash_enc/HBO_Signature.mpd",
+        "tipo": "clearkey",
+        "channel": "hbosignature"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Signature FHD",
+        "clearkey": {
+            "keyId": "4918d3bf399a237e8ee065eb3ebf7327",
+            "key": "747179296ae370e9b8746a09904b5385"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_Signature/SA_Live_dash_enc_wl/HBO_Signature.mpd",
+        "tipo": "clearkey",
+        "channel": "hbosignaturefhd"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/49/CH_LOGO/160/160/0/0/3657655307500.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Signature 🇲🇽",
+        "clearkey": {
+            "keyId": "cbda1cb384558d8ec6fd3cc3841bad87",
+            "key": "0eba590cffc565ed48ee61970c8bf2dc"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-SIGNATURE-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbosignature"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/160/160/0/0/68908128073927.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Pop",
+        "clearkey": {
+            "keyId": "782be6aa05e2e53f1f0769ac21335975",
+            "key": "bc54efe24ebc6127dee264704cdd543b"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c7eds/HBO_POP/SA_Live_dash_enc/HBO_POP.mpd",
+        "tipo": "clearkey",
+        "channel": "hbopop"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/109/CH_LOGO/160/160/0/0/68908128073927.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Pop 🇲🇽",
+        "clearkey": {
+            "keyId": "04ab4cefd27bf2635261fa714af883d6",
+            "key": "5a1282ee809826b9b2a5636970730da6"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-POP-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hbopop"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/160/160/0/0/6041444607334.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Xtreme",
+        "clearkey": {
+            "keyId": "b1c518c4859b1eac1ac409dd7a712155",
+            "key": "d9ae29d636e14074da10360765ee4cb5"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/HBO_Extreme/SA_Live_dash_enc/HBO_Extreme.mpd",
+        "tipo": "clearkey",
+        "channel": "hboxtreme"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/108/CH_LOGO/160/160/0/0/6041444607334.png",
+        "grupo": "HBO x Universal",
+        "canal": "HBO Xtreme 🇲🇽",
+        "clearkey": {
+            "keyId": "abf304290bec7c982e706b1fae592aea",
+            "key": "73e1d01cc86bb88c184fbca31292977f"
+        },
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "referer": "https://www.izzigo.tv/",
+        "origin": "https://www.izzigo.tv",
+        "url": "https://live1-ott.izzigo.tv/8/out/u/dash/HBO-XTREME-HD-H265/default.mpd",
+        "tipo": "clearkey",
+        "channel": "hboxtreme"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/41/CH_LOGO/800/542/0/0/9929073907327.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal TV",
+        "clearkey": {
+            "keyId": "e0bb7db70deee6be9b881a5bd1af6453",
+            "key": "88c72f8626a9d7a9ca222fed62e1e6af"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/Universal_Channel_HD/SA_Live_dash_enc/Universal_Channel_HD.mpd",
+        "tipo": "clearkey",
+        "channel": "universaltv"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/160/160/0/0/62685863076950.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Premiere",
+        "clearkey": {
+            "keyId": "909eb7589305cd00e1b6827fadd74411",
+            "key": "43a9e55701369434df4892240d9741c2"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/Universal_Premiere/SA_Live_dash_enc/Universal_Premiere.mpd",
+        "tipo": "clearkey",
+        "channel": "universalpremiere"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/800/542/0/0/62685863076950.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Premiere opc2",
+        "clearkey": {
+            "keyId": "https",
+            "key": "//archive.org/download/hb7bfh.f/HB7%2524b%2524Fh%25C2%25B7F%2524/t.me/teleplay24"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://unipluslivedash.akamaized.net/universalpremiert0/manifest.mpd",
+        "tipo": "clearkey",
+        "channel": "universalpremiereopc2"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1285/CH_LOGO/800/542/0/0/62685863076950.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Premiere Oeste",
+        "clearkey": {
+            "keyId": "547c1e15b8e93f1077d34f77a7ab018f",
+            "key": "ba3f1a0580b46e371a6b02ef2ab2304f"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/ciqsqqxp8g/out/v1/e9283351f50849a8ab602a894772649f/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "universalpremiereoeste"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/160/160/0/0/21817888076947.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Cinema",
+        "clearkey": {
+            "keyId": "6c2ba2a391c2edc5a2990841c5c30636",
+            "key": "892061b87f07c6d816f234a1328c3420"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/Universal_Cinema/SA_Live_dash_enc/Universal_Cinema.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcinema"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/800/542/0/0/21817888076947.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Cinema opc2",
+        "clearkey": {
+            "keyId": "https",
+            "key": "//archive.org/download/hb7bfh.f/HB7%2524b%2524Fh%25C2%25B7F%2524/t.me/worldtv6"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://unipluslivedash.akamaized.net/universalcinemat0/manifest.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcinemaopc2"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1282/CH_LOGO/800/542/0/0/21817888076947.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Cinema Oeste",
+        "clearkey": {
+            "keyId": "be1597d0eb3b71cb21b8e8a55230874d",
+            "key": "0295a763fca3851258af5901907bf0b1"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/eishhvjuuz/out/v1/92b27f5cd5244bba8071fcd0d09be067/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcinemaoeste"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1283/CH_LOGO/160/160/0/0/94843453076948.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Comedy",
+        "clearkey": {
+            "keyId": "1b517ae7d7f99219f56dd4a84e15b81c",
+            "key": "339c4e668547d83c35c32e97a0a1453e"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/Universal_Comedy/SA_Live_dash_enc/Universal_Comedy.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcomedy"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1283/CH_LOGO/800/542/0/0/94843453076948.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Comedy opc2",
+        "clearkey": {
+            "keyId": "9fd8daa507b4c58f414f1d007cf0eccf",
+            "key": "062672eb7346a690feab6c84a8de9dce"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/pfpdcsvoyd/out/v1/1bb43614ccd348fd8b9cc4d4fc5be059/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcomedyopc2"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1284/CH_LOGO/160/160/0/0/34307524076949.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Crime",
+        "clearkey": {
+            "keyId": "d8a2142b66d54b58165973e137bef4f0",
+            "key": "f30900beab737d0f39b543e58344ba2f"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar/",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/universal_Crime/SA_Live_dash_enc/universal_Crime.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcrime"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1284/CH_LOGO/800/542/0/0/34307524076949.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Crime opc2",
+        "clearkey": {
+            "keyId": "cfc6790cbc2bc791b05c4f8f8126f5b5",
+            "key": "b1c5b3c9a8ddc4badf5f49f8a989cf77"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/xuvkx1kkfl/out/v1/6a977f46a77b4a03a1e55db484c1695a/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "universalcrimeopc2"
+    },
+    {
+        "logo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/UNIRE.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Reality",
+        "clearkey": {
+            "keyId": "8ebb9535d7a19a2876a1d150fe613c88",
+            "key": "c1ad609a9831f56126f3c76ffbc4ca04"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/Universal_Reality/SA_Live_dash_enc/Universal_Reality.mpd",
+        "tipo": "clearkey",
+        "channel": "universalreality"
+    },
+    {
+        "logo": "https://geo.edge.pontiscloud.com:9002/images/1281/CH_LOGO/800/542/0/0/16370616076951.png",
+        "grupo": "HBO x Universal",
+        "canal": "Universal Reality opc2",
+        "clearkey": {
+            "keyId": "6824642c08bd3cdb6c08404a894287f9",
+            "key": "081aab1fb4e8da70e21bb906e704e5d6"
+        },
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "url": "https://netskrt.live.pv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/tezhlmgs1w/out/v1/362fef2b778b4531b4e0dd3db6acf805/cenc.mpd",
+        "tipo": "clearkey",
+        "channel": "universalrealityopc2"
+    },
+    {
+        "logo": "https://i.postimg.cc/PrmQzBjx/Fondo_oscuro.png",
+        "grupo": "HBO x Universal",
+        "canal": "Studio Universal",
+        "clearkey": {
+            "keyId": "dbe5d9ce01740076fdc95cbc0253b9ee",
+            "key": "d8a8ef434bffae80e45e203f6f7f4988"
+        },
+        "referer": "https://portal.app.flow.com.ar",
+        "origin": "https://portal.app.flow.com.ar",
+        "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1MDk0ODgxIiwic2lwIjoiODQuMjMzLjIzNC4xOTUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvTmlja19Kci9TQV9MaXZlX2Rhc2hfZW5jXy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjA5MWE3ZDAxNDA3NTM3M2MiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE2IiwiYXVkIjoiMzUzIiwic291cmNlcyI6Wzg1LDE0NCwyMTAsODYsODhdfQ==.oA5G1R7BgRLSEKEB957AwcPz79lrMgxfeiHbyCludFOYHoMbay1cOF83ARKHXVuDOV4kGP71SEtOij71ZYrAvA==/live/c6eds/Studio_Universal/SA_Live_dash_enc/Studio_Universal.mpd",
+        "tipo": "clearkey",
+        "channel": "studiouniversal"
+    }
 ]
