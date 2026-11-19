@@ -38,7 +38,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add agenda.json .eventos_hash.txt .ultima_actualizacion_dia.txt || true
+          git add agenda.json || true
+          git add .eventos_hash.txt || true
+          git add .ultima_actualizacion_dia.txt || true
           git commit -m "Agenda actualizada (máx. 1 vez al día)" || exit 0
           git pull --rebase origin main
           git push origin main
