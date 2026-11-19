@@ -1,9 +1,9 @@
 name: Actualizar Agenda Automática
 
 on:
-  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # Se ejecuta automáticamente cada 6 horas
+    - cron: '0 */6 * * *'
 
 permissions:
   contents: write
@@ -21,22 +21,24 @@ jobs:
           python-version: '3.x'
 
       - name: Instalar dependencias
-        run: pip install requests
+        run: pip install requests pyrebase4 beautifulsoup4
 
       - name: Procesar Agenda
         env:
-          AGENDA_URL: ${{ secrets.AGENDA_URL }}
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+          FIREBASE_DATABASE_URL: ${{ secrets.FIREBASE_DATABASE_URL }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+          FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
         run: python procesar_eventos_manual.py
 
       - name: Guardar cambios en GitHub
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add agenda.json
-          git commit -m "Agenda actualizada automáticamente" || exit 0
-          
-          # Actualiza el repositorio local trayendo los cambios remotos y aplicando los tuyos encima
+          git add agenda.json .eventos_hash.txt .ultima_actualizacion_dia.txt || true
+          git commit -m "Agenda actualizada (máx. 1 vez al día)" || exit 0
           git pull --rebase origin main
-          
-          # Envía los cambios a la rama main de forma explícita
           git push origin main
