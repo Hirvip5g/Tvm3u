@@ -2,7 +2,7 @@ import os
 import requests
 
 # URL de la página protegida que deseas extraer
-URL = "https://ns1-app.competenciadeportiva.com/play/event/636f6d2e6465706f726167656e64612e6563/17954277492290SRD/1BczO3P"
+URL = "https://ns1-app.competenciadeportiva.com/play/event/636f6d2e6465706f726167656e64612e6563/179542774920K4M/1WneZt4"
 
 # Cabeceras necesarias para simular el WebView de la app oficial
 HEADERS = {
