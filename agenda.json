@@ -1,206 +1,35 @@
 {
     "sports": [
         {
-            "id": "football",
-            "name": "Football",
-            "icon": "⚽",
+            "id": "basketball",
+            "name": "Basketball",
+            "icon": "🏀",
             "leagues": [
                 {
-                    "name": "UEFA Champions League",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/facv1u1742998896.png",
+                    "name": "NBA",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
                     "image": "",
                     "background": "",
                     "events": [
                         {
-                            "title": "Lille vs Bayern München",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
+                            "title": "Timberwolves vs Thunder",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-26T19:30:00-05:00",
                             "timezone": "America/Lima",
                             "agendaOrder": 1,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/wtj1cs1787915593.jpg",
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/r9s12x1759234552.jpg",
                             "logo": "",
-                            "homeTeam": "Lille",
-                            "awayTeam": "Bayern München",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/2giize1534005340.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/01ogkh1716960412.png/medium",
+                            "homeTeam": "Timberwolves",
+                            "awayTeam": "Thunder",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png/medium",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney3",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "HBO Max",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmax2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "b3e4e74ae2080b137e68bbd0ef8a7e05",
-                                        "key": "cb004fb100bd92f23793562891e3236b"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN PY HD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c4eds/ESPN_UY/SA_Live_dash_enc/ESPN_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "http://res.cloudinary.com/doj39auqi/image/upload/v1684343656/cxuieragbu4epuhxo7in.png",
-                                    "clearkey": {
-                                        "keyId": "e95fe84b9f73e6655fde711d5c896056",
-                                        "key": "267a0e514deb984803bec43cc607c4cb"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN CL HD",
-                                    "url": "",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "http://res.cloudinary.com/doj39auqi/image/upload/v1684343656/cxuieragbu4epuhxo7in.png",
-                                    "clearkey": {
-                                        "keyId": "606d3b409c063e56b5e2be3ea2226080",
-                                        "key": "bc68305fdf7067d9e23785374dedc145"
-                                    },
-                                    "referer": "https://gtdtv.gtd.cl/",
-                                    "origin": "https://a19095b072504a86808dd0be541a700f.mediatailor.us-east-1.amazonaws.com/v1/dash/dffceb859a31f14d0ed059ef6b4e2e4d850e60b1/live_1104/1104_ESPN_ARGENTINA_HD_DASH/manifest.mpd",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN CO HD",
-                                    "url": "http://209.61.12.132:9000/play/a06z/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://r2.thesportsdb.com/images/media/channel/logo/mq2tu41660762188.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 5 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594555-lille-vs-bayern-munich"
-                        },
-                        {
-                            "title": "Club Brugge vs Liverpool",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 2,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/rattkj1787915673.jpg",
-                            "logo": "",
-                            "homeTeam": "Club Brugge",
-                            "awayTeam": "Liverpool",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/mz8y0q1771129880.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/kfaher1737969724.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TNT Sports 2 UK",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Ftnt2uk.html",
-                                    "type": "iframe",
-                                    "quality": "FHD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney4",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
                                 {
                                     "name": "ESPN 2",
                                     "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
@@ -260,8 +89,8 @@
                                     "userAgent": ""
                                 },
                                 {
-                                    "name": "FOX Sports AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox1ar",
+                                    "name": "ESPN 2 CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -270,51 +99,44 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "FOX Sports MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
-                                    "type": "clearkey",
+                                    "name": "ESPN MX",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnmx",
+                                    "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-ar.png",
-                                    "clearkey": {
-                                        "keyId": "37730b00a5f92084c47a8129e84559f3",
-                                        "key": "a2e20a45a057ff4e7c0bc2ad49e6f3e5"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
+                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594643-club-brugge-vs-liverpool"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601929-oklahoma-city-thunder-vs-minnesota-timberwolves"
                         },
                         {
-                            "title": "Atlético Madrid vs Viking",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
+                            "title": "Spurs vs Trail Blazers",
+                            "league": "NBA",
+                            "code": "NBA",
+                            "time": "2026-11-26T22:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 3,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/zy8x3b1787915655.jpg",
+                            "agendaOrder": 4,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/a9zplw1759233417.jpg",
                             "logo": "",
-                            "homeTeam": "Atlético Madrid",
-                            "awayTeam": "Viking",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/9mzq961590148192.png/medium",
+                            "homeTeam": "Spurs",
+                            "awayTeam": "Trail Blazers",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png/medium",
                             "imageMode": "banner",
-                            "duration": 130,
+                            "duration": 180,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney5",
+                                    "name": "ESPN 2",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -323,82 +145,8 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone3",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 3 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal3.php%3Fchannel%3Despn3cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 3",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn3",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 3 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/0MCLmw7Z/ESPN-3-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "8a60d7889ff126ee1895335e92254f8e",
-                                        "key": "de1b0ce19fa804a1c473eb8ef2d5cf6d"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 3 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/0MCLmw7Z/ESPN-3-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "deeed0f44c6b45e064f4d5064486e821",
-                                        "key": "bf89ceeb93564ddc603ba6afd8c9266a"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 2 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
+                                    "name": "ESPN 2 HD",
+                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd",
                                     "type": "clearkey",
                                     "quality": "HD",
                                     "active": true,
@@ -406,881 +154,83 @@
                                     "customLanguages": "",
                                     "channelLogo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
                                     "clearkey": {
-                                        "keyId": "e6eab53cf8ea962b999c59c298596a65",
-                                        "key": "10c103ae76f99620d66fa75f2c03302a"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594622-atl%c3%a9tico-madrid-vs-viking"
-                        },
-                        {
-                            "title": "Inter vs Stuttgart",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 4,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/4m4mz71787915647.jpg",
-                            "logo": "",
-                            "homeTeam": "Inter",
-                            "awayTeam": "Stuttgart",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ryhu6d1617113103.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yppyux1473454085.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney6",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "HBO Max",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmax3",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 4",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn4",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 4 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
-                                    "clearkey": {
-                                        "keyId": "54a2c11085c315ed6ff85c340a86095d",
-                                        "key": "5f0d10cf4a5c7e22e286b7e8cb4e79f4"
+                                        "keyId": "0d820100144772fed9f38b83650fa7e1",
+                                        "key": "ded8cc47b29b0eb0b0a87df22e721847"
                                     },
                                     "referer": "https://portal.app.flow.com.ar",
                                     "origin": "https://portal.app.flow.com.ar",
                                     "userAgent": ""
                                 },
                                 {
-                                    "name": "ESPN 4 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c3eds/ESPNHD/SA_Live_dash_enc/ESPNHD.mpd",
+                                    "name": "ESPN 2 FHD",
+                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
                                     "type": "clearkey",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": "https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png",
+                                    "channelLogo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/ESPN2.png",
                                     "clearkey": {
-                                        "keyId": "d02981e6faeacef49c90fdb053ab641d",
-                                        "key": "645e13624e933841b1ea35cda1b55bd1"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594612-inter-milan-vs-stuttgart"
-                        },
-                        {
-                            "title": "PSG vs Roma",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 5,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/bitk7j1787915596.jpg",
-                            "logo": "",
-                            "homeTeam": "PSG",
-                            "awayTeam": "Roma",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/rwqrrq1473504808.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/jwro2s1760820674.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TNT Sports 4 UK",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Ftnt4uk.html",
-                                    "type": "iframe",
-                                    "quality": "FHD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney7",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone4",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
-                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 5 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
-                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
+                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
+                                        "key": "6d15568e1dab59e7202ae12e71505185"
                                     },
                                     "referer": "https://portal.app.flow.com.ar",
                                     "origin": "https://portal.app.flow.com.ar",
                                     "userAgent": ""
                                 },
                                 {
-                                    "name": "ESPN CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn1cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/T5YBc3cB/ESPN-1-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "d079ffa3757e8335611fc48be6ba47ff",
-                                        "key": "05059d1cb21b6708a55e9c26fb38e2f3"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "TUDN US",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dtudnus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "TUDN US FHD",
-                                    "url": "https://tkx.mp.lura.live/rest/v2/mcp/video/univision-tudn?anvack=8Q6d5qd2lubv3MRhZrh9xmoPC9Xzo64n",
+                                    "name": "ESPN 2 CO HD",
+                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
                                     "type": "m3u8",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/1280px-TUDN_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+                                    "channelLogo": "https://r2.thesportsdb.com/images/media/channel/logo/pvvydr1660761581.png",
                                     "clearkey": null,
                                     "referer": "",
                                     "origin": "",
                                     "userAgent": ""
+                                },
+                                {
+                                    "name": "ESPN 2 CL",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
+                                },
+                                {
+                                    "name": "ESPN MX",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnmx",
+                                    "type": "iframe",
+                                    "quality": "HD",
+                                    "active": true,
+                                    "languages": [],
+                                    "customLanguages": "",
+                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594559-paris-saint-germain-vs-roma"
-                        },
-                        {
-                            "title": "Shakhtar Donetsk vs Fenerbahçe",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 6,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/qcxerr1787915668.jpg",
-                            "logo": "",
-                            "homeTeam": "Shakhtar Donetsk",
-                            "awayTeam": "Fenerbahçe",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/sqrxsr1421791799.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/twxxvs1448199691.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney8",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Fox ONE",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfoxone5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 6",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn6",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 6 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/dk8AYkV.png",
-                                    "clearkey": {
-                                        "keyId": "f5836382452cdca1e1c8bf8b9a713534",
-                                        "key": "7d261930c3309ed2b06d2abb34a64410"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 6 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c7eds/FoxSports3_UY/SA_Live_dash_enc/FoxSports3_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/dk8AYkV.png",
-                                    "clearkey": {
-                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
-                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594638-shakhtar-donetsk-vs-fenerbah%c3%a7e"
-                        },
-                        {
-                            "title": "Sporting CP vs Manchester United",
-                            "league": "UEFA Champions League",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 7,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/p0772b1787915629.jpg",
-                            "logo": "",
-                            "homeTeam": "Sporting CP",
-                            "awayTeam": "Manchester United",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/5hiuk71783137875.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xzqdr11517660252.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "TNT Sports 1 UK",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fchannel%2Ftnt1uk.html",
-                                    "type": "iframe",
-                                    "quality": "FHD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney9",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "HBO Max",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dmax4",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 7",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn7",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 7 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
-                                    "clearkey": {
-                                        "keyId": "98ea1e32227adcd3618baac2bbf36814",
-                                        "key": "72a03a09d33e412f14a9bfa4ef24b542"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 7 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c7eds/FoxSports2_UY/SA_Live_dash_enc/FoxSports2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/bWrggk0.png",
-                                    "clearkey": {
-                                        "keyId": "fdac9b45f19959b848f498c8efe15d12",
-                                        "key": "c2a6e7acabc370ef792ffacc5e2610a9"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 AR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfox2ar",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": {
-                                        "keyId": "1b0ab680ef94a1842185fa78a830cbd7",
-                                        "key": "23129ab5572aeda7607c920655c0dbea"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "FOX Sports 2 HD",
-                                    "url": "https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2594595-sporting-cp-vs-manchester-united"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601934-portland-trail-blazers-vs-san-antonio-spurs"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": ""
-                },
-                {
-                    "name": "Championship",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/ty5a681688770169.png",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Stoke City vs Millwall",
-                            "league": "Championship",
-                            "code": "",
-                            "time": "2026-11-25T15:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 8,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/orrwfy1782468112.jpg",
-                            "logo": "",
-                            "homeTeam": "Stoke City",
-                            "awayTeam": "Millwall",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/lz89v21781718914.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/5p1z5k1537208888.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney10",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2501452-stoke-city-vs-millwall"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
-                {
-                    "name": "Brasileirão",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Atlético Mineiro vs Corinthians",
-                            "league": "Brasileirão",
-                            "code": "",
-                            "time": "2026-11-25T18:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 10,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/h07dc61769684213.jpg",
-                            "logo": "",
-                            "homeTeam": "Atlético Mineiro",
-                            "awayTeam": "Corinthians",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/x5lixs1743742872.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Premiere BR",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dpremiere1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "PREMIERE 1 🇧🇷",
-                                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/3840px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-                                    "clearkey": {
-                                        "keyId": "56b79c1782b30e6b6fc973b0e8fd4104",
-                                        "key": "fa38aaa865a57eda7c77444697ba8ed3"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2398542-atl%c3%a9tico-mineiro-vs-corinthians"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
-                {
-                    "name": "Liga BetPlay",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Santa Fe vs Once Caldas",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-25T18:20:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 11,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/rbr6451675412652.jpg",
-                            "logo": "",
-                            "homeTeam": "Santa Fe",
-                            "awayTeam": "Once Caldas",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/16vs771629122765.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/nuh9kd1778085916.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Win+ Fútbol",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "WIN SPORTS + HD",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/3840px-Win_Sports%2B_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2630140-independiente-santa-fe-vs-once-caldas"
-                        },
-                        {
-                            "title": "Atlético Nacional vs Medellín",
-                            "league": "Liga BetPlay",
-                            "code": "COL",
-                            "time": "2026-11-25T20:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 15,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/52jld41784787887.jpg",
-                            "logo": "",
-                            "homeTeam": "Atlético Nacional",
-                            "awayTeam": "Medellín",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/efl4o41576157720.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/mzezh31783226830.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Win+ Fútbol",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "WIN SPORTS + HD",
-                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/3840px-Win_Sports%2B_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2630141-atl%c3%a9tico-nacional-vs-independiente-medell%c3%adn"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
-                {
-                    "name": "Liga Profesional",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png",
-                    "image": "",
-                    "background": "",
-                    "events": [
-                        {
-                            "title": "Boca Juniors vs Independiente Rivadavia",
-                            "league": "Liga Profesional",
-                            "code": "AR",
-                            "time": "2026-11-25T19:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 12,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/cz31th1795509923.jpg",
-                            "logo": "",
-                            "homeTeam": "Boca Juniors",
-                            "awayTeam": "Independiente Rivadavia",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/qgzi2b1769406125.png/medium",
-                            "imageMode": "banner",
-                            "duration": 130,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "Disney+",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Ddisney11",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN Premium",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnpremium",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN Premium FHD MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_wl/Fox_Sports_Premiun_HD.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
-                                    "clearkey": {
-                                        "keyId": "c502892e037a9f34827147b2b24e42cf",
-                                        "key": "2531bd34bec6c0e8fa4e07aedb261ade"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN Premium HD",
-                                    "url": "http://190.7.19.206:8098/play/a0nx/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://geo.edge.pontiscloud.com:9002/images/120/CH_LOGO/160/160/0/0/50191211073985.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": "APPMOVIL-e4ff1c8cc00f29e8"
-                                },
-                                {
-                                    "name": "Fanatiz",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dfanatiz1",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn5",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 5 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "4e126297fc7af35c736bdffe98eecaaa",
-                                        "key": "fdb0091cf67d9c596dbfb07cf6f4c8f5"
-                                    },
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 5 AR MUTICALIDAD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c7eds/ESPN4/SA_Live_dash_enc/ESPN4.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.imgur.com/eBYBgnn.png",
-                                    "clearkey": {
-                                        "keyId": "cf626de3cadd9bfaf0b85c06aafd2cd0",
-                                        "key": "bc2aa7d9e6354e4979ee62b0ec5595c5"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2627821-boca-juniors-vs-independiente-rivadavia"
-                        }
-                    ],
-                    "flagCode": "",
-                    "flagUrl": "",
-                    "leagueId": ""
-                },
+                }
+            ]
+        },
+        {
+            "id": "football",
+            "name": "Football",
+            "icon": "⚽",
+            "leagues": [
                 {
                     "name": "Liga MX",
                     "logo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
@@ -1291,15 +241,15 @@
                             "title": "Toluca vs Atlas",
                             "league": "Liga MX",
                             "code": "LIGAMX",
-                            "time": "2026-11-25T20:00:00-05:00",
+                            "time": "2026-11-26T20:00:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 14,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/l4oetk1784405041.jpg",
+                            "agendaOrder": 2,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/3dfq211601923115.jpg",
                             "logo": "",
                             "homeTeam": "Toluca",
                             "awayTeam": "Atlas",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/y64wy91523913186.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/svvyvw1473541813.png/medium",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/svvyvw1473541813.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/y64wy91523913186.png/medium",
                             "imageMode": "banner",
                             "duration": 130,
                             "extraTime": 0,
@@ -1409,21 +359,21 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2631051-toluca-vs-atlas"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2631056-atlas-vs-toluca"
                         },
                         {
                             "title": "Monterrey vs América",
                             "league": "Liga MX",
                             "code": "LIGAMX",
-                            "time": "2026-11-25T22:10:00-05:00",
+                            "time": "2026-11-26T22:10:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 17,
+                            "agendaOrder": 5,
                             "image": "",
                             "logo": "",
                             "homeTeam": "Monterrey",
                             "awayTeam": "América",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yglj911721542561.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/amy1xs1581857392.png/medium",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/amy1xs1581857392.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yglj911721542561.png/medium",
                             "imageMode": "",
                             "duration": 130,
                             "extraTime": 0,
@@ -1496,48 +446,41 @@
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2631052-monterrey-vs-am%c3%a9rica"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2631057-am%c3%a9rica-vs-monterrey"
                         }
                     ],
                     "flagCode": "",
                     "flagUrl": "",
                     "leagueId": ""
-                }
-            ]
-        },
-        {
-            "id": "basketball",
-            "name": "Basketball",
-            "icon": "🏀",
-            "leagues": [
+                },
                 {
-                    "name": "NBA",
-                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/frdjqy1536585083.png",
+                    "name": "Liga BetPlay",
+                    "logo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
                     "image": "",
                     "background": "",
                     "events": [
                         {
-                            "title": "Heat vs 76ers",
-                            "league": "NBA",
-                            "code": "NBA",
-                            "time": "2026-11-25T17:00:00-05:00",
+                            "title": "Atlético Nacional vs Medellín",
+                            "league": "Liga BetPlay",
+                            "code": "COL",
+                            "time": "2026-11-26T20:30:00-05:00",
                             "timezone": "America/Lima",
-                            "agendaOrder": 9,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/cfahr71759234366.jpg",
+                            "agendaOrder": 3,
+                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/52jld41784787887.jpg",
                             "logo": "",
-                            "homeTeam": "Heat",
-                            "awayTeam": "76ers",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png/medium",
+                            "homeTeam": "Atlético Nacional",
+                            "awayTeam": "Medellín",
+                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/efl4o41576157720.png/medium",
+                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/mzezh31783226830.png/medium",
                             "imageMode": "banner",
-                            "duration": 180,
+                            "duration": 130,
                             "extraTime": 0,
                             "status": "",
                             "note": "",
                             "servers": [
                                 {
-                                    "name": "ESPN 2",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
+                                    "name": "Win+ Fútbol",
+                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Dwinplus",
                                     "type": "iframe",
                                     "quality": "HD",
                                     "active": true,
@@ -1546,287 +489,25 @@
                                     "channelLogo": ""
                                 },
                                 {
-                                    "name": "ESPN 2 HD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "0d820100144772fed9f38b83650fa7e1",
-                                        "key": "ded8cc47b29b0eb0b0a87df22e721847"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/ESPN2.png",
-                                    "clearkey": {
-                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
-                                        "key": "6d15568e1dab59e7202ae12e71505185"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CO HD",
-                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
+                                    "name": "WIN SPORTS + HD",
+                                    "url": "http://181.78.84.78:8910/play/a0gr/index.m3u8",
                                     "type": "m3u8",
                                     "quality": "HD",
                                     "active": true,
                                     "languages": [],
                                     "customLanguages": "",
-                                    "channelLogo": "https://r2.thesportsdb.com/images/media/channel/logo/pvvydr1660761581.png",
+                                    "channelLogo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Win_Sports%2B_logo.svg/3840px-Win_Sports%2B_logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
                                     "clearkey": null,
                                     "referer": "",
                                     "origin": "",
                                     "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnmx",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
                                 }
                             ],
                             "flagCode": "",
                             "flagUrl": "",
                             "homeCountryCode": "",
                             "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601926-philadelphia-76ers-vs-miami-heat"
-                        },
-                        {
-                            "title": "Timberwolves vs Thunder",
-                            "league": "NBA",
-                            "code": "NBA",
-                            "time": "2026-11-25T19:30:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 13,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/r9s12x1759234552.jpg",
-                            "logo": "",
-                            "homeTeam": "Timberwolves",
-                            "awayTeam": "Thunder",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png/medium",
-                            "imageMode": "banner",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 2",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 2 HD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "0d820100144772fed9f38b83650fa7e1",
-                                        "key": "ded8cc47b29b0eb0b0a87df22e721847"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/ESPN2.png",
-                                    "clearkey": {
-                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
-                                        "key": "6d15568e1dab59e7202ae12e71505185"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CO HD",
-                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://r2.thesportsdb.com/images/media/channel/logo/pvvydr1660761581.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnmx",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601929-oklahoma-city-thunder-vs-minnesota-timberwolves"
-                        },
-                        {
-                            "title": "Spurs vs Trail Blazers",
-                            "league": "NBA",
-                            "code": "NBA",
-                            "time": "2026-11-25T22:00:00-05:00",
-                            "timezone": "America/Lima",
-                            "agendaOrder": 16,
-                            "image": "https://r2.thesportsdb.com/images/media/event/thumb/a9zplw1759233417.jpg",
-                            "logo": "",
-                            "homeTeam": "Spurs",
-                            "awayTeam": "Trail Blazers",
-                            "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png/medium",
-                            "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png/medium",
-                            "imageMode": "banner",
-                            "duration": 180,
-                            "extraTime": 0,
-                            "status": "",
-                            "note": "",
-                            "servers": [
-                                {
-                                    "name": "ESPN 2",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN 2 HD",
-                                    "url": "https://edge-live23-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk1Nzg5MjkzIiwic2lwIjoiODQuMjMzLjIzNC4yMDUiLCJwYXRoIjoiL2xpdmUvYzZlZHMvSU5DQUFfVHYvU0FfTGl2ZV9kYXNoX2VuY18vIiwic2Vzc2lvbl9jZG5faWQiOiJiY2ZiYmQ4MmE1MDIwZTRmIiwic2Vzc2lvbl9pZCI6IiIsImNsaWVudF9pZCI6IiIsImRldmljZV9pZCI6IiIsIm1heF9zZXNzaW9ucyI6MCwic2Vzc2lvbl9kdXJhdGlvbiI6MCwidXJsIjoiaHR0cHM6Ly8yMDEuMjM1LjY2LjExNSIsImF1ZCI6IjM1MyIsInNvdXJjZXMiOls4NSwxNDQsMjEwLDg2LDg4XX0=.DU9nKg5_GiIAQ-kM-7tV-4aPfRO_h6N2a9yUb4HzSFCv2U8KjTUSpy6vrY_DDVDnHH4HpNZIPYt3ukYJCv6ciA==/live/c4eds/ESPN2_UY/SA_Live_dash_enc/ESPN2_UY.mpd",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://i.postimg.cc/D4yRcwg2/ESPN-2-Argentina.png",
-                                    "clearkey": {
-                                        "keyId": "0d820100144772fed9f38b83650fa7e1",
-                                        "key": "ded8cc47b29b0eb0b0a87df22e721847"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 FHD",
-                                    "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.mpd?",
-                                    "type": "clearkey",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://raw.githubusercontent.com/masterentertainment/listas/refs/heads/main/logos/ESPN2.png",
-                                    "clearkey": {
-                                        "keyId": "a81ee4a694fecd6aa8a682e5024b313c",
-                                        "key": "6d15568e1dab59e7202ae12e71505185"
-                                    },
-                                    "referer": "https://portal.app.flow.com.ar",
-                                    "origin": "https://portal.app.flow.com.ar",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CO HD",
-                                    "url": "http://190.60.48.151:8010/play/a09l/index.m3u8",
-                                    "type": "m3u8",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": "https://r2.thesportsdb.com/images/media/channel/logo/pvvydr1660761581.png",
-                                    "clearkey": null,
-                                    "referer": "",
-                                    "origin": "",
-                                    "userAgent": ""
-                                },
-                                {
-                                    "name": "ESPN 2 CL",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despn2cl",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                },
-                                {
-                                    "name": "ESPN MX",
-                                    "url": "https://pruevon.blogspot.com/2026/04/embedc.html?r=https%3A%2F%2Fstreamx723.sbs%2Fglobal1.php%3Fchannel%3Despnmx",
-                                    "type": "iframe",
-                                    "quality": "HD",
-                                    "active": true,
-                                    "languages": [],
-                                    "customLanguages": "",
-                                    "channelLogo": ""
-                                }
-                            ],
-                            "flagCode": "",
-                            "flagUrl": "",
-                            "homeCountryCode": "",
-                            "awayCountryCode": "",
-                            "sourceEventUrl": "https://www.thesportsdb.com/event/2601934-portland-trail-blazers-vs-san-antonio-spurs"
+                            "sourceEventUrl": "https://www.thesportsdb.com/event/2630141-atl%c3%a9tico-nacional-vs-independiente-medell%c3%adn"
                         }
                     ],
                     "flagCode": "",
@@ -1836,5 +517,5 @@
             ]
         }
     ],
-    "updated": "2026-11-25 16:26:02"
+    "updated": "2026-11-26 02:41:34"
 }
